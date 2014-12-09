@@ -49,10 +49,8 @@ In scenario 1:
 * MetadataUrl must exist, and it's URL element must be a valid URL and it must resolve to a valid XML document with
    a valid gmd:MD_Metadata element as the root element. This MD_Metadata element must describe an INSPIRE View Service
    (according the the MD tests), and it's distributionInfo/\*/transferOptions/\*/onLine/\*/linkage must contain
-   a URL reference to the WMS service Capabilities document under validation. This URL needs to be resolved in
-   order to check that it return a capabilities document with the same MetadataURL as the original Capabilities document. Note that
-   the URLs used for fetching the Capabilities documents, the contained OnlineResource addresses of the WMS operations or other
-   contents of the capabilities documents do not have to match.
+   a URL reference to a WMS service Capabilities document. This URL needs to be resolved in
+   order to check that it returns a capabilities document with the same MetadataURL as the original Capabilities document. Note that the URLs used for fetching the Capabilities documents, the contained OnlineResource addresses of the WMS operations or other contents of the capabilities documents do not have to match. Note 2: the INSPIRE language request parameters in the compared metadata record URLs must be ignored in the comparison. 
 
 In scenario 2:
 

@@ -1,4 +1,4 @@
-# A.20.IR20.temporal.reference.node
+# A.20.IR20.dates.node
 
 **Purpose**: To be compliant with the INSPIRE Metadata Regulation INS MD and with ISO 19115 one of following dates shall be used: date of publication, date of last revision, or the date of creation. Date of last revision is preferred. The date shall be expressed in conformity with the INS MD.
 

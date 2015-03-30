@@ -9,7 +9,7 @@
 **Test method**
 
 * Check if there is a GetMap node in the Request section 
-* If yes, check if there is one Format node in the GetMap section with the value 'image/png' and and one with the value 'image/gif'.
+* If yes, check if there is one Format node in the GetMap section with the value 'image/png' or one with the value 'image/gif'.
 
 **Reference(s)**: 
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.2.2

@@ -1,6 +1,6 @@
-# A.29.IR29.metadata.data.node
+# A.13.IR18.keywords.node
 
-**Purpose**: As the Metadata Date is not supported by ISO 19128 – WMS 1.3.0, an extension shall be used to map this to an element within an element. The date shall be expressed in conformity with the INS MD.
+**Purpose**: The keywords shall be mapped to the capabilities extension and within an element.
 
 **Prerequisites**
 
@@ -9,10 +9,11 @@
 
 **Test method**
 
-* Check if there is a MetadataDate node in the ExtendedCapabilities section.
+* Check if there are a Keyword node and a MandatoryKeyword node in the ExtendedCapabilities section.
 
-**Reference(s)**: 
-* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.16
+
+**Reference(s)**:
+* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.7
 
 **Notes**
 
@@ -22,5 +23,6 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-MetadataDate <a name="MetadataDate"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataDate
+Keyword <a name="Keyword"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:Keyword
+MandatoryKeyword <a name="MandatoryKeyword"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:MandatoryKeyword
 ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities

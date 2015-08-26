@@ -1,6 +1,6 @@
-# A.28.IR28.metadata.pointofcontact.node
+# A.24.IR29.metadata.data.node
 
-**Purpose**: Since only one wms:ContactInformation element is allowed in ISO 19128 – WMS 1.3.0 (to which Responsible Organisation is mapped), an extension shall be used to map this to an element within an element.
+**Purpose**: As the Metadata Date is not supported by ISO 19128 – WMS 1.3.0, an extension shall be used to map this to an element within an element. The date shall be expressed in conformity with the INS MD.
 
 **Prerequisites**
 
@@ -9,10 +9,10 @@
 
 **Test method**
 
-* Check if there is a MetadataPointOfContact node in the ExtendedCapabilities section.
+* Check if there is a MetadataDate node in the ExtendedCapabilities section.
 
-**Reference(s)**: 
-* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.15
+**Reference(s)**:
+* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.16
 
 **Notes**
 
@@ -22,5 +22,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-MetadataPointOfContact <a name="MetadataPointOfContact"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataPointOfContact
+MetadataDate <a name="MetadataDate"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataDate
 ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities

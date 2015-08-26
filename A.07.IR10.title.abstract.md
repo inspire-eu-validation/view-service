@@ -1,6 +1,6 @@
-# A.35.IR35.layer.keywordlist.node
+# A.07.IR10.title.abstract
 
-**Purpose**: Keywords shall be mapped to the wms:KeywordList element.
+**Purpose**: A View Service must contain a non-empty Title and Abstract to fulfill the INSPIRE Metadata requirements for Resource Title, Resource Abstract and Spatial Resolution.
 
 **Prerequisites**
 
@@ -8,10 +8,10 @@
 
 **Test method**
 
-* Check if there is a KeywordList node in each Layer section.
+TODO
 
-**Reference(s)**: 
-* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.4.3
+**Reference(s)**:
+* [TG VS](README.md#ref_TG_VS), Requirement 10, Chapter 4.2.3.3.1
 
 **Notes**
 
@@ -21,5 +21,3 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-KeywordList <a name="KeywordList"></a> | /WMS_Capabilities/Capability/Layer/KeywordList
-Layer <a name="Layer"></a> | /WMS_Capabilities/Capability/Layer

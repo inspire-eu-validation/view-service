@@ -1,4 +1,4 @@
-# A.46.IR46.style.node
+# A.34.IR46.style.node
 
 **Purpose**: Style shall be mapped to the wms:Style element. The humanreadable name shall be mapped to the wms:Title element and the Unique Identifier shall be mapped to the wms:Name element.
 
@@ -11,7 +11,7 @@
 * Check if there is a Title node and a Name node with a Unique Identifier in each Style section.
 
 
-**Reference(s)**: 
+**Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.4.8
 * IR Annex III, Part A, Chapter 2.2.4
 

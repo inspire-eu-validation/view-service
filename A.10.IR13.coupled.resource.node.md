@@ -1,4 +1,4 @@
-# A.13.IR13.coupled.resource.node
+# A.10.IR13.coupled.resource.node
 
 **Purpose**: Coupled Resource shall be mapped to the elements of the Layer elements of the service capabilities. If linkage to the data sets or series on which the service operates are available, then the linkage to these resources shall be provided as stated by the INSPIRE Metadata Technical Guidance INS MDTG.
 
@@ -8,11 +8,11 @@
 
 **Test method**
 
-* Check if there is a MetadataURL node for each layer. 
-* If yes, check if the href in the OnlineResource node of the MetadatURL section is a valid link.
+* Check if there is a MetadataURL node for each layer.
+* If yes, check if the href in the OnlineResource node of the MetadataURL section is a valid link.
 
 
-**Reference(s)**: 
+**Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.5
 
 **Notes**

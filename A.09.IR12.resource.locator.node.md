@@ -1,6 +1,6 @@
-# A.11.IR11.resource.type.node
+# A.09.IR12.resource.locator.node
 
-**Purpose**: Within the scope defined by the INSPIRE directive the value of the Resource Type shall be fixed to service for spatial data services. As the Resource Type is not supported by ISO 19128 – WMS 1.3.0, an extension shall be used to map this to an element within an element.
+**Purpose**: An extension shall be used to map Resource Locator to an element within an element.
 
 **Prerequisites**
 
@@ -9,11 +9,11 @@
 
 **Test method**
 
-* First check if there is a ResourceType node in the ExtendedCapabilities section
-* If yes, check that it is set to 'service'.
+* Check if there is a ResourceLocator node in the ExtendedCapabilities section.
 
-**Reference(s)**: 
-* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.3
+
+**Reference(s)**:
+* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.4
 
 **Notes**
 
@@ -23,5 +23,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-ResourceType <a name="ResourceType"></a>   | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResourceType
+ResourceLocator <a name="ResourceLocator"></a>   | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:Conformity/inspire_common:Specification/inspire_common:ResourceLocator/inspire_common:URL
 ExtendedCapabilities <a name="ExtendedCapabilities"></a>   | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities

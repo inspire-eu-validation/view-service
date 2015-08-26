@@ -1,6 +1,6 @@
-# A.33.IR33.layer.title.node
+# A.30.IR35.layer.keywordlist.node
 
-**Purpose**: Layer title is mapped with wms:Title. The harmonised title of a layer for an INSPIRE spatial data theme is defined by INS DS and shall be subject to multilingualism (translations shall appear in each mono-lingual capabilities localised documents).
+**Purpose**: Keywords shall be mapped to the wms:KeywordList element.
 
 **Prerequisites**
 
@@ -8,10 +8,10 @@
 
 **Test method**
 
-* Check if there is a Title node in each Layer section.
+* Check if there is a KeywordList node in each Layer section.
 
-**Reference(s)**: 
-* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.4.1
+**Reference(s)**:
+* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.4.3
 
 **Notes**
 
@@ -21,5 +21,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Title <a name="Title"></a> | /WMS_Capabilities/Capability/Layer/Title
+KeywordList <a name="KeywordList"></a> | /WMS_Capabilities/Capability/Layer/KeywordList
 Layer <a name="Layer"></a> | /WMS_Capabilities/Capability/Layer

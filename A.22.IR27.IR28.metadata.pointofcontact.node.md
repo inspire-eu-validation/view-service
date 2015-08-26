@@ -1,4 +1,4 @@
-# A.27.IR27.metadata.pointofcontact.details.node
+# A.22.IR27.metadata.pointofcontact.details.node
 
 **Purpose**: INSPIRE is more demanding than ISO 19115 by mandating both the name of the organisation, and a contact e-mail address. The role of the responsible party serving as a metadata point of contact is out of scope of the Metadata Regulation INS MD, but this property is mandated by ISO 19115. Its value shall be defaulted to “pointOfContact”.
 
@@ -9,10 +9,10 @@
 
 **Test method**
 
-* Check if there is a MetadataPointOfContact node in the ExtendedCapabilities section. 
+* Check if there is a MetadataPointOfContact node in the ExtendedCapabilities section.
 * If yes, check if there is a OrganisationName node and a EmailAddress node in the MetadataPointOfContact section.
 
-**Reference(s)**: 
+**Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.15
 
 **Notes**

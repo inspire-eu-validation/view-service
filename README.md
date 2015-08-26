@@ -29,14 +29,14 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 6      | INSPIRE MetadataURL element | [A.04.IR06.metadataURL.node](A.04.IR06.metadataURL.node.md) | |
 | 7      | Use WMS + INSPIRE extended capabilities  | Test bound to specific requirements | n/a |
 | 8      | Language section in Extended capabilities | [A.06.IR08.language.node](A.06.IR08.language.node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 9      | View Service Metadata in Discovery Service | n/a |  [IR NS](#ref_IR_NS), Annex III, Chapter 4. |
+| 9      | View Service Metadata in Discovery Service | Not testable |  [IR NS](#ref_IR_NS), Annex III, Chapter 4. |
 | 10     | Mapping of service metadata elements | [A.05](A.05.extended.capabilities.elements.node.md), [A.07](A.07.IR10.title.abstract.md), [A.08](A.08.IR11.resource.type.node.md), [A.09](A.09.IR12.resource.locator.node.md), [A.10](A.10.IR12.coupled.resource.node.md), [A.11](A.11.IR14.metadata.record.node.md), [A.12](A.12.IR15.spatialdataservicetype.node.md), [A.13](A.13.IR18.keywords.node.md), [A.14](A.14.IR19.geographicboundingbox.node.md), [A.15](A.15.IR20.dates.node.md), [A.16](A.16.IR21.temporal.reference.node.md), [A.17](A.17.IR22.conformity.degree.node.md), [A.18](A.18.IR23.conformity.node.md), [A.19](A.19.IR24.fees.node.md), [A.20](A.20.IR25.contactpersonprimary.node.md), [A.21](A.21.IR26.contactposition.node.md), [A.22](A.22.IR27.IR28.metadata.pointofcontact.node.md), [A.24](A.24.IR29.metadata.date.node.md) | [IR MD](#ref_IR_MD), Part B |
 | 11     | ResourceType element | [A.08.IR11.resource.type.node](A.08.IR11.resource.type.node.md) | |
 | 12     | ResourceLocator element | [A.09.IR12.resource.locator.node](A.09.IR12.resource.locator.node.md) | |
 | 13     | MetadataURL for each layer | [A.10.IR13.coupled.resource.node](A.10.IR12.resource.locator.node.md) | |
 | 14     | MetadataURL resolvable to MD record | [A.11.IR14.metadata.record.node](A.11.IR14.metadata.record.node.md) | |
 | 15     | SpatialDataServiceType element | [A.12.IR15.spatialdataservicetype.node](A.12.IR15.spatialdataservicetype.node.md) | |
-| 16     | Classification of Spatial data Services keyword | | |
+| 16     | Classification of Spatial Data Services keyword | | |
 | 17     | Additional keywords | | |
 | 18     | MD keywords | [A.13.IR18.keywords.node](A.13.IR18.keywords.node.md) | |
 | 19     | Geographic Bounding Box | [A.14.IR19.geographicboundingbox.node](A.14.IR19.geographicboundingbox.node.md) | |
@@ -81,7 +81,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 58     | GetMap: TRANSPARENT parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
 | 59     | GetMap: EXCEPTIONS parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
 | 60     | Link View Service: scoping | Not testable | |
-| 61     | Service metadata in Discovery Service | Discovery Service ATS | |
+| 61     | Service metadata in Discovery Service |  Not testable | |
 | 62     | Cascading layers in collated capabilities | Not testable | |
 | 63     | Cascaded layers to include "cascaded" attribute | Not testable | |
 | 64     | The value of the "cascaded" attribute indicates cascading level | Not testable | |

@@ -159,7 +159,7 @@ This Conformance Class contains the following tests. The "scenario" column of th
 | [A.32.IR38.layer.identifier.node](A.32.IR38.layer.identifier.node.md) | All | Draft |
 | [A.33.IR38.layer.authority.url.node](A.33.IR38.layer.authority.url.node.md) | All | Draft |
 | [A.34.IR46.style.node](A.34.IR46.style.node.md) | All | Draft |
-| [A.35.IR39.harmonized.layer.name](A.35.IR39.harmonized.layer.name.md) | All | Missing |
+| [A.35.IR39.harmonized.layer.name](A.35.IR39.harmonized.layer.name.md) | All | Ready for review |
 | [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | All | Missing |
 | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Missing |
 | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Missing |

@@ -22,7 +22,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | Req#   | Description                          | Covered by test(s)                 | IR reference(s)                  |
 | ------ | ------------------------------------ | ---------------------------------- | -------------------------------- |
 | 1      | Scoping: ISO 19128 + INSPIRE ext.    | n/a                                | n/a                              |
-| 2      | WMS basic conformance class          | OGC WMS 1.3.0. "WMS basic" CC ATS, [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)  | n/a  |
+| 2      | WMS basic conformance class          | OGC WMS 1.3.0. A.1.2 Basic WMS Server, [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)  | n/a  |
 | 3      | GetCapabilities, GetMap              | OGC WMS 1.3.0. "WMS basic" CC ATS  | n/a |
 | 4      | INSPIRE ExtendedCapabilities         | [A.02.IR04.extended.capabilities.node](A.02.IR04.extended.capabilities.node.md) | n/a |
 | 5      | GetCapabilities request parameters   | OGC WMS 1.3.0. "WMS basic" CC ATS,  | [IR NS](#ref_IR_NS), Annex III, Chapter 2.1.1 |
@@ -36,8 +36,8 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 13     | MetadataURL for each layer | [A.10.IR13.coupled.resource.node](A.10.IR12.resource.locator.node.md) | |
 | 14     | MetadataURL resolvable to MD record | [A.11.IR14.metadata.record.node](A.11.IR14.metadata.record.node.md) | |
 | 15     | SpatialDataServiceType element | [A.12.IR15.spatialdataservicetype.node](A.12.IR15.spatialdataservicetype.node.md) | |
-| 16     | Classification of Spatial Data Services keyword | | |
-| 17     | Additional keywords | | |
+| 16     | Classification of Spatial Data Services keyword | [A.39.IR16.spacial.data.service.keyword](A.39.IR16.spacial.data.service.keyword.md) | |
+| 17     | Additional keywords | Not testable | |
 | 18     | MD keywords | [A.13.IR18.keywords.node](A.13.IR18.keywords.node.md) | |
 | 19     | Geographic Bounding Box | [A.14.IR19.geographicboundingbox.node](A.14.IR19.geographicboundingbox.node.md) | |
 | 20     | Temporal reference dates | [A.15.IR20.dates.node](A.15.IR20.dates.node.md) | |
@@ -70,16 +70,16 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 47     | Layer legend by LegendURL element | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | |
 | 48     | Layer Dimension elements | Not testable | |
 | 49     | Category layers | Not testable | |
-| 50     | GetMap: VERSION parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
-| 51     | GetMap: REQUEST parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
-| 52     | GetMap: LAYERS parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
-| 53     | GetMap: STYLES parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
-| 54     | GetMap: CRS parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
-| 55     | GetMap: BBOX parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
-| 56     | GetMap: WIDTH & HEIGHT parameters | OGC WMS 1.3.0. "WMS basic" CC ATS | |
-| 57     | GetMap: FORMAT parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
-| 58     | GetMap: TRANSPARENT parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
-| 59     | GetMap: EXCEPTIONS parameter | OGC WMS 1.3.0. "WMS basic" CC ATS | |
+| 50     | GetMap: VERSION parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
+| 51     | GetMap: REQUEST parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
+| 52     | GetMap: LAYERS parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
+| 53     | GetMap: STYLES parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
+| 54     | GetMap: CRS parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
+| 55     | GetMap: BBOX parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
+| 56     | GetMap: WIDTH & HEIGHT parameters | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
+| 57     | GetMap: FORMAT parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
+| 58     | GetMap: TRANSPARENT parameter | OGC WMS ATS: 1.3.0. A.1.1.3 GetMap request | |
+| 59     | GetMap: EXCEPTIONS parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
 | 60     | Link View Service: scoping | Not testable | |
 | 61     | Service metadata in Discovery Service |  Not testable | |
 | 62     | Cascading layers in collated capabilities | Not testable | |
@@ -87,12 +87,12 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 64     | The value of the "cascaded" attribute indicates cascading level | Not testable | |
 | 65     | Transparency & background for collated layers | Not testable | |
 | 66     | List of supported languages | [A.06.IR08.language.node](A.06.IR08.language.node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 67     | Client may select the language | | |
-| 68     | GetCapabilities: LANGUAGE parameter | | |
-| 69     | GetCapabilities: default language | | |
-| 70     | ResponseLanguage element | [A.06.IR08.language.node](A.06.IR08.language.node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
+| 67     | Client may select the language | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | |
+| 68     | GetCapabilities: LANGUAGE parameter | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | |
+| 69     | GetCapabilities: default language | [A.41.IR69.default.language](A.41.IR69.default.language.md) | |
+| 70     | ResponseLanguage element | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
 | 71     | SupportedLanguages and DefaultLanguage elements | [A.06.IR08.language.node](A.06.IR08.language.node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 72     | ExtendedCapabilities XML Schema | | |
+| 72     | ExtendedCapabilities XML Schema | [A.02.IR04.extended.capabilities.node](A.02.IR04.extended.capabilities.node.md) | |
 | 73     | GetMap: Portrayal requiring localized rendering | Not testable | |
 
 ## Two scenarios for providing the service metadata
@@ -163,6 +163,9 @@ This Conformance Class contains the following tests. The "scenario" column of th
 | [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | All | Missing |
 | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Missing |
 | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Missing |
+| [A.39.IR16.spacial.data.service.keyword](A.39.IR16.spacial.data.service.keyword.md) | All | Missing |
+| [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | All | Missing |
+| [A.41.IR69.default.language](A.41.IR69.default.language.md) | All | Missing |'
 
 ## Open issues
 

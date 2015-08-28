@@ -23,7 +23,7 @@ For each [Layer element](#layer) provided by the service according to it's Servi
 * If in the end each of the layers is either skipped or passed, the test passes.
 * If there are more than one layer with the [MetadataURL element](#metadata) pointing to the same INSPIRE metadata record, the [Name element](#name) of only one of them needs to match one of the harmonised layer names in order for the test to pass for all of those layers.
 
-**Reference(s)**: [IR IOP](README.md#ref_IR_IOP), [TG VS](README.md#ref_TG_VS), chapters 5.2.3.3.4.5 and 5.2.3.3.4.6
+**Reference(s)**: [IR IOP](README.md#ref_IR_IOP) Article 14; [TG VS](README.md#ref_TG_VS), chapters 5.2.3.3.4.5 and 5.2.3.3.4.6
 
 **Test type**: Automated
 

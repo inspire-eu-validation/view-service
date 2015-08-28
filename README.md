@@ -13,6 +13,7 @@ Abstract Test Suite for INSPIRE View Services Technical Guidance ISO 19128 Profi
 | TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of INSPIRE View Services 3.11](http://inspire.jrc.ec.europa.eu/documents/Network_Services/TechnicalGuidance_ViewServices_v3.11.pdf)
 | IR NS <a name="ref_IR_NS"></a>   | [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN)
 | IR MD <a name="ref_IR_MD"></a>   | [COMMISSION REGULATION (EC) No 1205/2008 of 3 December 2008 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards metadata](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:326:0012:0030:EN:PDF)
+| IR IOP <a name="ref_IR_IOP"><a/> | [COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L:2010:323:FULL&from=EN)
 | WMS <a name="ref_WMS"></a>     | [OpenGIS Web Map Service (WMS) Implementation Specification, version 1.3.0](http://portal.opengeospatial.org/files/?artifact_id=14416)
 
 ## TG Requirement coverage
@@ -59,7 +60,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 36     | Layer Bounding Box | [A.31.IR36.layer.bbox.node](A.31.IR36.layer.bbox.node.md) | |
 | 37     | Unique Resource Indentifier (layer origin) | Not testable | |
 | 38     | AuthorityURL & Indentifier | [A.32.IR38.layer.identifier.node](A.32.IR38.layer.identifier.node.md), [A.33.IR38.layer.authority.url.node](A.33.IR38.layer.authority.url.node.md) | |
-| 39     | Harmonized layer name | [A.35.IR39.harmonized.layer.name](A.35.IR39.harmonized.layer.name.md) | |
+| 39     | Harmonised layer name | [A.35.IR39.harmonised.layer.name](A.35.IR39.harmonised.layer.name.md) | [IR IOP](#ref_IR_IOP), Article 14 |
 | 40     | Coordinate Reference Systems | [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | |
 | 41     | Style composed of title and identifier | [A.34.IR46.style.node](A.34.IR46.style.node.md) | |
 | 42     | inspire_common:default style | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | |
@@ -127,8 +128,14 @@ The the case of scenario 1, the the metadata record referred to by the `inspire_
 
 This Conformance Class contains the following tests. The "scenario" column of the test table below indicates if the tests are to be applied in service metadata validation scenarios 1, 2 or all (see above).
 
+The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 specification](#ref_WMS) (Annex A).
+
 | Identifier                                                                          | Scenario(s) | Status   |
 | ----------------------------------------------------------------------------------- | -------- | -------- |
+| WMS.A.1.2.1 Version negotiation | All | Final |
+| WMS.A.1.2.2 Request parameter rules | All | Final |
+| WMS.A.1.2.3 GetCapabilities response | All | Final |
+| WMS.A.1.2.4 GetMap response | All | Final |
 | [A.02.IR04.extended.capabilities.node](A.02.IR04.extended.capabilities.node.md) | All | Draft |
 | [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md) | All | Draft |
 | [A.04.IR06.metadataURL.node](A.04.IR06.metadataURL.node.md) | 1 only | Draft |
@@ -159,13 +166,13 @@ This Conformance Class contains the following tests. The "scenario" column of th
 | [A.32.IR38.layer.identifier.node](A.32.IR38.layer.identifier.node.md) | All | Draft |
 | [A.33.IR38.layer.authority.url.node](A.33.IR38.layer.authority.url.node.md) | All | Draft |
 | [A.34.IR46.style.node](A.34.IR46.style.node.md) | All | Draft |
-| [A.35.IR39.harmonized.layer.name](A.35.IR39.harmonized.layer.name.md) | All | Ready for review |
+| [A.35.IR39.harmonised.layer.name](A.35.IR39.harmonised.layer.name.md) | All | Ready for review |
 | [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | All | Missing |
 | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Missing |
 | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Missing |
 | [A.39.IR16.spacial.data.service.keyword](A.39.IR16.spacial.data.service.keyword.md) | All | Missing |
 | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | All | Missing |
-| [A.41.IR69.default.language](A.41.IR69.default.language.md) | All | Missing |'
+| [A.41.IR69.default.language](A.41.IR69.default.language.md) | All | Missing |
 
 ## Open issues
 

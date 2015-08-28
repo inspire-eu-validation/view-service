@@ -177,7 +177,7 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
-wms            | http://www.opengis.net/wms <b>(default namespace)</b>
+wms            | http://www.opengis.net/wms
 xlink          | http://www.w3.org/1999/xlink
 gmd            | http://www.isotc211.org/2005/gmd
 inspire_vs     | http://inspire.ec.europa.eu/schemas/inspire_vs/1.0

@@ -71,16 +71,16 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 47     | Layer legend by LegendURL element | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | |
 | 48     | Layer Dimension elements | Not testable | |
 | 49     | Category layers | Not testable | |
-| 50     | GetMap: VERSION parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
-| 51     | GetMap: REQUEST parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
-| 52     | GetMap: LAYERS parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
-| 53     | GetMap: STYLES parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
-| 54     | GetMap: CRS parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
-| 55     | GetMap: BBOX parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
-| 56     | GetMap: WIDTH & HEIGHT parameters | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
-| 57     | GetMap: FORMAT parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
-| 58     | GetMap: TRANSPARENT parameter | OGC WMS ATS: 1.3.0. A.1.1.3 GetMap request | |
-| 59     | GetMap: EXCEPTIONS parameter | OGC WMS 1.3.0. ATS: A.1.1.3 GetMap request | |
+| 50     | GetMap: VERSION parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
+| 51     | GetMap: REQUEST parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
+| 52     | GetMap: LAYERS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
+| 53     | GetMap: STYLES parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
+| 54     | GetMap: CRS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
+| 55     | GetMap: BBOX parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
+| 56     | GetMap: WIDTH & HEIGHT parameters | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
+| 57     | GetMap: FORMAT parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
+| 58     | GetMap: TRANSPARENT parameter | OGC WMS ATS: 1.3.0. A.1.2.4 GetMap response | |
+| 59     | GetMap: EXCEPTIONS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 60     | Link View Service: scoping | Not testable | |
 | 61     | Service metadata in Discovery Service |  Not testable | |
 | 62     | Cascading layers in collated capabilities | Not testable | |

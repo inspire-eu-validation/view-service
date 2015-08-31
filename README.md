@@ -37,7 +37,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 13     | MetadataURL for each layer | [A.10.IR13.coupled.resource.node](A.10.IR12.resource.locator.node.md) | |
 | 14     | MetadataURL resolvable to MD record | [A.11.IR14.metadata.record.node](A.11.IR14.metadata.record.node.md) | |
 | 15     | SpatialDataServiceType element | [A.12.IR15.spatialdataservicetype.node](A.12.IR15.spatialdataservicetype.node.md) | |
-| 16     | Classification of Spatial Data Services keyword | [A.39.IR16.spacial.data.service.keyword](A.39.IR16.spacial.data.service.keyword.md) | |
+| 16     | Classification of Spatial Data Services keyword | [A.39.IR16.spatial.data.service.keyword](A.39.IR16.spatial.data.service.keyword.md) | |
 | 17     | Additional keywords | Not testable | |
 | 18     | MD keywords | [A.13.IR18.keywords.node](A.13.IR18.keywords.node.md) | |
 | 19     | Geographic Bounding Box | [A.14.IR19.geographicboundingbox.node](A.14.IR19.geographicboundingbox.node.md) | |
@@ -65,7 +65,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 41     | Style composed of title and identifier | [A.34.IR46.style.node](A.34.IR46.style.node.md) | |
 | 42     | inspire_common:default style | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | |
 | 43     | GCM fallback style | Not testable | |
-| 44     | inspire_common:default is the default layer Style | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | |
+| 44     | inspire_common:default is the default layer Style | Not testable | |
 | 45     | Layer legend for each style+language combination | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | |
 | 46     | Style by wms:Style element | [A.34.IR46.style.node](A.34.IR37.style.node.md) | |
 | 47     | Layer legend by LegendURL element | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | |
@@ -167,10 +167,10 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [A.33.IR38.layer.authority.url.node](A.33.IR38.layer.authority.url.node.md) | All | Draft |
 | [A.34.IR46.style.node](A.34.IR46.style.node.md) | All | Draft |
 | [A.35.IR39.harmonised.layer.name](A.35.IR39.harmonised.layer.name.md) | All | Ready for review |
-| [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | All | Missing |
+| [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | All | Ready for review |
 | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Missing |
 | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Missing |
-| [A.39.IR16.spacial.data.service.keyword](A.39.IR16.spacial.data.service.keyword.md) | All | Missing |
+| [A.39.IR16.spatial.data.service.keyword](A.39.IR16.spatial.data.service.keyword.md) | All | Missing |
 | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | All | Missing |
 | [A.41.IR69.default.language](A.41.IR69.default.language.md) | All | Missing |
 

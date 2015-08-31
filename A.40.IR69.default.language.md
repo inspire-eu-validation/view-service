@@ -2,6 +2,10 @@
 
 **Purpose**: One or two sentences inlined here: Why this test is necessary?
 
+**Prerequisites**
+
+* [A.03.IR05.schema.validation](# A.03.IR05.schema.validation.md)
+
 **Test method**
 
 A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:

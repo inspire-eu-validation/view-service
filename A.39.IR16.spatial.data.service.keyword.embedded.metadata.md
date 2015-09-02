@@ -1,4 +1,4 @@
-# A.41.IR16.spatial.data.service.keyword.embedded.metadata
+# A.39.IR16.spatial.data.service.keyword.embedded.metadata
 
 **Purpose**: The INSPIRE Metadata Regulation [INS MD] mandates that in the case of spatial data services at least
 one keyword from the "Classification of Spatial data Services" (Part D.4 from INS MD] shall be provided.

@@ -37,7 +37,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 13     | MetadataURL for each layer | [A.10.IR13.coupled.resource.node](A.10.IR12.resource.locator.node.md) | |
 | 14     | MetadataURL resolvable to MD record | [A.11.IR14.metadata.record.node](A.11.IR14.metadata.record.node.md) | |
 | 15     | SpatialDataServiceType element | [A.12.IR15.spatialdataservicetype.node](A.12.IR15.spatialdataservicetype.node.md) | |
-| 16     | Classification of Spatial Data Services keyword | [A.39.IR16.spatial.data.service.keyword](A.39.IR16.spatial.data.service.keyword.md) | |
+| 16     | Classification of Spatial Data Services keyword | [A.39.IR16.spatial.data.service.keyword.embedded.metadata](A.39.IR16.spatial.data.service.keyword.embedded.metadata.md) | |
 | 17     | Additional keywords | Not testable | |
 | 18     | MD keywords | [A.13.IR18.keywords.node](A.13.IR18.keywords.node.md) | |
 | 19     | Geographic Bounding Box | [A.14.IR19.geographicboundingbox.node](A.14.IR19.geographicboundingbox.node.md) | |
@@ -170,13 +170,14 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | All | Ready for review |
 | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Ready for review |
 | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Ready for review |
-| [A.39.IR16.spatial.data.service.keyword](A.39.IR16.spatial.data.service.keyword.md) | All | Missing |
+| [A.39.IR16.spatial.data.service.keyword.embedded.metadata](A.39.IR16.spatial.data.service.keyword.embedded.metadata.md) | 2 only | Ready for Review |
 | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | All | Missing |
 | [A.41.IR69.default.language](A.41.IR69.default.language.md) | All | Missing |
 
 ## Open issues
 
 * The requirement 6 for providing a link to the INSPIRE MetadataURL is limited to service metadata scenario 1. However, the requirement 9 states that the View Service metadata must be included in an INSPIRE Discovery regardless of the chosen scenario. Also the Requirements 60 & 61 state that the Link View Service operation is realized by using a Discovery Service. Thus it would make sense that the MetadataURL element if the Service in the ExtendedCapabilities would be mandatory in both scenarios.
+* Should the mandatory keyword from the "Classification of Spatial data Services" be also given as wms:Keyword in the Capabilities document under wms:WMS_Capabilities/wms:Service/wms:KeywordList in addition to the ExtendedCapabilities (scenario 2) or in the referenced service metadata record (scenario 1)?
 
 ## XML namespace prefixes <a name="namespaces"></a>
 

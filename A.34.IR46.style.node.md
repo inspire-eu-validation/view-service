@@ -1,6 +1,6 @@
 # A.34.IR46.style.node
 
-**Purpose**: Style shall be mapped to the wms:Style element. The humanreadable name shall be mapped to the wms:Title element and the Unique Identifier shall be mapped to the wms:Name element.
+**Purpose**: Style shall be mapped to the wms:Style element. The human readable name shall be mapped to the wms:Title element and the Unique Identifier shall be mapped to the wms:Name element.
 
 **Prerequisites**
 

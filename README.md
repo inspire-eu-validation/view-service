@@ -168,8 +168,8 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [A.34.IR46.style.node](A.34.IR46.style.node.md) | All | Draft |
 | [A.35.IR39.harmonised.layer.name](A.35.IR39.harmonised.layer.name.md) | All | Ready for review |
 | [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | All | Ready for review |
-| [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Missing |
-| [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Missing |
+| [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Ready for review |
+| [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Ready for review |
 | [A.39.IR16.spatial.data.service.keyword](A.39.IR16.spatial.data.service.keyword.md) | All | Missing |
 | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | All | Missing |
 | [A.41.IR69.default.language](A.41.IR69.default.language.md) | All | Missing |

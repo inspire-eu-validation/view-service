@@ -9,7 +9,7 @@
 
 **Test method**
 
-* Check if all mandataory [ISO 19128 metadata elements](see [TG VS](README.md#ref_TG_VS), Table 3) exist in the ExtendedCapabilities section.
+* Check if all mandatory [ISO 19128 metadata elements](see [TG VS](README.md#ref_TG_VS), Table 3) exist in the ExtendedCapabilities section.
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1

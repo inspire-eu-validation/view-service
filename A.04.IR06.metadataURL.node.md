@@ -10,7 +10,7 @@
 **Test method**
 
 * First check if the metadata URL node exists in the ExtendedCapabilities section and validates against the [ISO metadata schema](http://www.isotc211.org/2005/gmd/gmd.xsd).
-* If no metadata URL is given then all mandataory [ISO 19128 metadata elements](see [TG VS](README.md#ref_TG_VS), Table 3) must exist in the ExtendedCapabilities section.
+* If no metadata URL is given then all mandatory [ISO 19128 metadata elements](see [TG VS](README.md#ref_TG_VS), Table 3) must exist in the ExtendedCapabilities section.
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1

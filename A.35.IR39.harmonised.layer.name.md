@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [A.03.IR05.schema.validation](# A.03.IR05.schema.validation.md)
+* [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
 
 **Test method**
 

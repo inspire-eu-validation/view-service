@@ -89,7 +89,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 64     | The value of the "cascaded" attribute indicates cascading level | Not testable | |
 | 65     | Transparency & background for collated layers | Not testable | |
 | 66     | List of supported languages | [A.06.IR08.language.node](A.06.IR08.language.node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 67     | Client may select the language | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | |
+| 67     | Client may select the language | [A.40.IR67.IR68.language.affects.capabilities](A.40.IR67.IR68.language.affects.capabilities.md) | |
 | 68     | GetCapabilities: LANGUAGE parameter | [A.40.IR67.IR68.language.affects.capabilities](A.40.IR67.IR68.language.affects.capabilities.md) | |
 | 69     | GetCapabilities: default language | [A.41.IR69.default.language](A.41.IR69.default.language.md) | |
 | 70     | ResponseLanguage element | [A.40.IR67.IR68.language.affects.capabilities](A.40.IR67.IR68.language.affects.capabilities.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |

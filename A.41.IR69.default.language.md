@@ -1,26 +1,30 @@
 # A.41.IR69.default.language
 
-**Purpose**: One or two sentences inlined here: Why this test is necessary?
+**Purpose**: The default language for the service must be provided in order the user to be able to know which
+language can be expected to be used if the capabilities document when no language is explicitly requested.
 
 **Prerequisites**
 
 * [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
+* [A.06.IR08.language.node](A.06.IR08.language.node.md)
 
 **Test method**
 
-A paragraph of the for describing the test flow. Use bullets or any markdown formatting as necessary:
+* Let the value of [GetCapabilities OnlineResource](#getcap-href) be ```getcapabilities-url```.
+* Let the [DefaultLanguage code](#default-language) be ```lang-code```.
+* Create a GetCapabilities HTTP request by adding the parameters ```SERVICE=WMS```, ```REQUEST=GetCapabilities```, ```VERSION=1.3.0``` to the ```getcapabilities-url```.
+* Execute the request. If the returned resource can be parsed as a valid XML document and if the document passes tests [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md) and [A.06.IR08.language.node](A.06.IR08.language.node.md):
+  * Check that the [ResponseLanguage code](#response-language) equals the ```lang-code```. If it does pass the test.
+* Otherwise fail the test.
 
-* Use the XPath abbreviations as links in the text: [ExtendedCapabilities](#extendedCapabilities) must exist...
-* Step 2,...
+**Reference(s)**:
 
-**Reference(s)**: References to the referred documents. We should agree on abbreviations and collect them as a table in [README.md](README.md)
+* [TG VS](README.md#ref_TG_VS), chapter 4.3.1
+* [TG MD](README.md#ref_TG_MD), chapter 2.2.7
 
-**Test type**: Automated or Manual
+**Test type**: Automated
 
 **Notes**
-
-Any additional notes. We can also use this for open questions during drafting.
-
 
 ## Contextual XPath references
 
@@ -28,4 +32,6 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-ExtendedCapabilities <a name="extendedCapabilities"></a>   | /wms:WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities[1]
+DefaultLanguage code <a name="default-language"></a>   | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities[1]/inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
+ResponseLanguage code <a name="response-language"></a>   | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities[1]/inspire_common:ResponseLanguage/inspire_common:Language
+GetCapabilities OnlineResource <a name="getcap-href"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Request/wms:GetCapabilities/wms:DCPType/wms:HTTP/(wms:Get&#124;wms:Post)[1]/wms:OnlineResource/@xlink:href

@@ -173,7 +173,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Ready for review |
 | [A.39.IR16.spatial.data.service.keyword.embedded.metadata](A.39.IR16.spatial.data.service.keyword.embedded.metadata.md) | 2 only | Ready for Review |
 | [A.40.IR67.IR68.language.affects.capabilities](A.40.IR67.IR68.language.affects.capabilities.md) | All | Ready for review |
-| [A.41.IR69.default.language](A.41.IR69.default.language.md) | All | Missing |
+| [A.41.IR69.default.language](A.41.IR69.default.language.md) | All | Ready for review |
 
 ## Open issues
 

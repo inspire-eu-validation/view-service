@@ -13,6 +13,7 @@ Abstract Test Suite for INSPIRE View Services Technical Guidance ISO 19128 Profi
 | TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of INSPIRE View Services 3.11](http://inspire.jrc.ec.europa.eu/documents/Network_Services/TechnicalGuidance_ViewServices_v3.11.pdf)
 | IR NS <a name="ref_IR_NS"></a>   | [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN)
 | IR MD <a name="ref_IR_MD"></a>   | [COMMISSION REGULATION (EC) No 1205/2008 of 3 December 2008 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards metadata](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:326:0012:0030:EN:PDF)
+| TG MD <a name="ref_TG_MD"></a> | [INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119](http://inspire.ec.europa.eu/documents/Metadata/MD_IR_and_ISO_20131029.pdf)
 | IR IOP <a name="ref_IR_IOP"><a/> | [COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L:2010:323:FULL&from=EN)
 | WMS <a name="ref_WMS"></a>     | [OpenGIS Web Map Service (WMS) Implementation Specification, version 1.3.0](http://portal.opengeospatial.org/files/?artifact_id=14416)
 
@@ -89,7 +90,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 65     | Transparency & background for collated layers | Not testable | |
 | 66     | List of supported languages | [A.06.IR08.language.node](A.06.IR08.language.node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
 | 67     | Client may select the language | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | |
-| 68     | GetCapabilities: LANGUAGE parameter | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | |
+| 68     | GetCapabilities: LANGUAGE parameter | [A.40.IR67.IR68.language.affects.capabilities](A.40.IR67.IR68.language.affects.capabilities.md) | |
 | 69     | GetCapabilities: default language | [A.41.IR69.default.language](A.41.IR69.default.language.md) | |
 | 70     | ResponseLanguage element | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
 | 71     | SupportedLanguages and DefaultLanguage elements | [A.06.IR08.language.node](A.06.IR08.language.node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
@@ -171,7 +172,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Ready for review |
 | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Ready for review |
 | [A.39.IR16.spatial.data.service.keyword.embedded.metadata](A.39.IR16.spatial.data.service.keyword.embedded.metadata.md) | 2 only | Ready for Review |
-| [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | All | Missing |
+| [A.40.IR67.IR68.language.affects.capabilities](A.40.IR67.IR68.language.affects.capabilities.md) | All | Ready for review |
 | [A.41.IR69.default.language](A.41.IR69.default.language.md) | All | Missing |
 
 ## Open issues

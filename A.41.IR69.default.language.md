@@ -1,10 +1,10 @@
-# A.40.IR69.default.language
+# A.41.IR69.default.language
 
 **Purpose**: One or two sentences inlined here: Why this test is necessary?
 
 **Prerequisites**
 
-* [A.03.IR05.schema.validation](# A.03.IR05.schema.validation.md)
+* [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
 
 **Test method**
 

@@ -15,6 +15,9 @@ Check that there exists at least one [MandatoryKeyword element](#ext-mandatory-k
 
 **Reference(s)**
 
+* [TG VS](README.md#ref_TG_VS), chapter 4.2.3.3.1.7 Keyword
+* [IR MD](README.md#ref_IR_MD), Annex, Part B.3 Keyword
+
 **Test type**: Automated
 
 **Notes**

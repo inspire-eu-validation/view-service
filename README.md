@@ -92,7 +92,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 67     | Client may select the language | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | |
 | 68     | GetCapabilities: LANGUAGE parameter | [A.40.IR67.IR68.language.affects.capabilities](A.40.IR67.IR68.language.affects.capabilities.md) | |
 | 69     | GetCapabilities: default language | [A.41.IR69.default.language](A.41.IR69.default.language.md) | |
-| 70     | ResponseLanguage element | [A.40.IR67.language.affects.capabilities](A.40.IR67.language.affects.capabilities.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
+| 70     | ResponseLanguage element | [A.40.IR67.IR68.language.affects.capabilities](A.40.IR67.IR68.language.affects.capabilities.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
 | 71     | SupportedLanguages and DefaultLanguage elements | [A.06.IR08.language.node](A.06.IR08.language.node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
 | 72     | ExtendedCapabilities XML Schema | [A.02.IR04.extended.capabilities.node](A.02.IR04.extended.capabilities.node.md) | |
 | 73     | GetMap: Portrayal requiring localized rendering | Not testable | |

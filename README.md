@@ -3,7 +3,7 @@ ats-view-wms
 
 Abstract Test Suite for INSPIRE View Services Technical Guidance ISO 19128 Profile (OGC Web Map Service 1.3.0)
 
-*Note*: This ATS is in draft stage, none of the tests have an official INSPIRE MIG approval.
+*Note*: This ATS is in Ready for review stage, none of the tests have an official INSPIRE MIG approval.
 
 ## External document references
 
@@ -137,36 +137,36 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | WMS.A.1.2.2 Request parameter rules | All | Final |
 | WMS.A.1.2.3 GetCapabilities response | All | Final |
 | WMS.A.1.2.4 GetMap response | All | Final |
-| [A.02.IR04.extended.capabilities.node](A.02.IR04.extended.capabilities.node.md) | All | Draft |
-| [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md) | All | Draft |
-| [A.04.IR06.metadataURL.node](A.04.IR06.metadataURL.node.md) | 1 only | Draft |
-| [A.05.IR07.extended.capabilities.elements.node](A.05.extended.capabilities.elements.node.md) | 2 only | Draft |
-| [A.06.IR08.language.node](A.06.IR08.language.node.md) | All | Draft |
-| [A.07.IR10.title.abstract](A.07.IR10.title.abstract.md) | All | Draft |
-| [A.08.IR11.resource.type.node](A.08.IR11.resource.type.node.md) | 2 only | Draft |
-| [A.09.IR12.resource.locator.node](A.09.IR12.resource.locator.node.md) | 2 only | Draft |
-| [A.10.IR13.coupled.resource.node](A.10.IR12.coupled.resource.node.md) | All | Draft |
-| [A.11.IR14.metadata.record.node](A.11.IR14.metadata.record.node.md) | All | Draft |
-| [A.12.IR15.spatialdataservicetype.node](A.12.IR15.spatialdataservicetype.node.md) | 2 only | Draft |
-| [A.13.IR18.keywords.node](A.13.IR18.keywords.node.md) | 2 only | Draft |
-| [A.14.IR19.geographicboundingbox.node](A.14.IR19.geographicboundingbox.node.md) | All | Draft |
-| [A.15.IR20.dates.node](A.15.IR20.dates.node.md) | 2 only | Draft |
-| [A.16.IR21.temporal.reference.node](A.16.IR21.temporal.reference.node.md) |  2 only | Draft |
-| [A.17.IR22.conformity.degree.node](A.17.IR22.conformity.degree.node.md) | 2 only | Draft |
-| [A.18.IR23.conformity.node](A.18.IR23.conformity.node.md) | 2 only | Draft |
-| [A.19.IR24.fees.node](A.19.IR24.fees.node.md) | All | Draft |
-| [A.20.IR25.contactpersonprimary.node](A.20.IR25.contactpersonprimary.node.md) | All | Draft |
-| [A.21.IR26.contactposition.node](A.21.IR26.contactposition.node.md) | All | Draft |
-| [A.22.IR27.IR28.metadata.pointofcontact.node](A.22.IR27.IR28.metadata.pointofcontact.node.md) | 2 only | Draft |
-| [A.24.IR29.metadata.date.node](A.24.IR29.metadata.date.node.md) | 2 only | Draft |
-| [A.26.IR31.getmap.format.node](A.26.IR31.getmap.format.node.md) | All | Draft |
-| [A.28.IR33.layer.title.node](A.28.IR33.layer.title.node.md) | All | Draft |
-| [A.29.IR34.layer.abstract.node](A.29.IR34.layer.abstract.node.md) | All | Draft |
-| [A.30.IR35.layer.keywordlist.node](A.30.IR35.layer.keywordlist.node.md) | All | Draft |
-| [A.31.IR36.layer.bbox.node](A.31.IR36.layer.bbox.node.md) | All | Draft |
-| [A.32.IR38.layer.identifier.node](A.32.IR38.layer.identifier.node.md) | All | Draft |
-| [A.33.IR38.layer.authority.url.node](A.33.IR38.layer.authority.url.node.md) | All | Draft |
-| [A.34.IR46.style.node](A.34.IR46.style.node.md) | All | Draft |
+| [A.02.IR04.extended.capabilities.node](A.02.IR04.extended.capabilities.node.md) | All | Ready for review |
+| [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md) | All | Ready for review |
+| [A.04.IR06.metadataURL.node](A.04.IR06.metadataURL.node.md) | 1 only | Ready for review |
+| [A.05.IR07.extended.capabilities.elements.node](A.05.extended.capabilities.elements.node.md) | 2 only | Ready for review |
+| [A.06.IR08.language.node](A.06.IR08.language.node.md) | All | Ready for review |
+| [A.07.IR10.title.abstract](A.07.IR10.title.abstract.md) | All | Ready for review |
+| [A.08.IR11.resource.type.node](A.08.IR11.resource.type.node.md) | 2 only | Ready for review |
+| [A.09.IR12.resource.locator.node](A.09.IR12.resource.locator.node.md) | 2 only | Ready for review |
+| [A.10.IR13.coupled.resource.node](A.10.IR12.coupled.resource.node.md) | All | Ready for review |
+| [A.11.IR14.metadata.record.node](A.11.IR14.metadata.record.node.md) | All | Ready for review |
+| [A.12.IR15.spatialdataservicetype.node](A.12.IR15.spatialdataservicetype.node.md) | 2 only | Ready for review |
+| [A.13.IR18.keywords.node](A.13.IR18.keywords.node.md) | 2 only | Ready for review |
+| [A.14.IR19.geographicboundingbox.node](A.14.IR19.geographicboundingbox.node.md) | All | Ready for review |
+| [A.15.IR20.dates.node](A.15.IR20.dates.node.md) | 2 only | Ready for review |
+| [A.16.IR21.temporal.reference.node](A.16.IR21.temporal.reference.node.md) |  2 only | Ready for review |
+| [A.17.IR22.conformity.degree.node](A.17.IR22.conformity.degree.node.md) | 2 only | Ready for review|
+| [A.18.IR23.conformity.node](A.18.IR23.conformity.node.md) | 2 only | Ready for review |
+| [A.19.IR24.fees.node](A.19.IR24.fees.node.md) | All | Ready for review |
+| [A.20.IR25.contactpersonprimary.node](A.20.IR25.contactpersonprimary.node.md) | All | Ready for review |
+| [A.21.IR26.contactposition.node](A.21.IR26.contactposition.node.md) | All | Ready for review|
+| [A.22.IR27.IR28.metadata.pointofcontact.node](A.22.IR27.IR28.metadata.pointofcontact.node.md) | 2 only | Ready for review |
+| [A.24.IR29.metadata.date.node](A.24.IR29.metadata.date.node.md) | 2 only | Ready for review |
+| [A.26.IR31.getmap.format.node](A.26.IR31.getmap.format.node.md) | All | Ready for review |
+| [A.28.IR33.layer.title.node](A.28.IR33.layer.title.node.md) | All | Ready for review |
+| [A.29.IR34.layer.abstract.node](A.29.IR34.layer.abstract.node.md) | All | Ready for review |
+| [A.30.IR35.layer.keywordlist.node](A.30.IR35.layer.keywordlist.node.md) | All | Ready for review |
+| [A.31.IR36.layer.bbox.node](A.31.IR36.layer.bbox.node.md) | All | Ready for review |
+| [A.32.IR38.layer.identifier.node](A.32.IR38.layer.identifier.node.md) | All |Ready for review |
+| [A.33.IR38.layer.authority.url.node](A.33.IR38.layer.authority.url.node.md) | All | Ready for review |
+| [A.34.IR46.style.node](A.34.IR46.style.node.md) | All | Ready for review |
 | [A.35.IR39.harmonised.layer.name](A.35.IR39.harmonised.layer.name.md) | All | Ready for review |
 | [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | All | Ready for review |
 | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Ready for review |

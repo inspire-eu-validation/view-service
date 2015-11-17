@@ -51,9 +51,9 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 26     | Responsible party role | [A.21.IR26.contactposition.node](A.21.IR26.contactposition.node.md) | |
 | 27     | Point of contact with name and email | [A.22.IR27.IR28.metadata.pointofcontact.node](A.22.IR27.IR28.metadata.pointofcontact.node.md) | |
 | 28     | Point of contact in ext. capabilities | [A.22.IR27.IR28.metadata.pointofcontact.node](A.22.IR27.IR28.metadata.pointofcontact.node.md) | |
-| 29     | Metadata date | [A.24.IR29.metadata.date.node]([A.24.IR29.metadata.date.node.md) | |
+| 29     | Metadata date | [A.24.IR29.metadata.date.node](A.24.IR29.metadata.date.node.md) | |
 | 30     | GetCapabilities operation | [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md) | |
-| 31     | GetMap with PNG of GIF | [A.26.IR31.getmap.format.node]([A.26.IR31.getmap.format.node.md) | |
+| 31     | GetMap with PNG of GIF | [A.26.IR31.getmap.format.node](A.26.IR31.getmap.format.node.md) | |
 | 32     | Layer metadata | [A.28](A.28.IR33.layer.title.node.md), [A.29](A.29.IR34.layer.abstract.node.md), [A.30](A.30.IR35.layer.keywordlist.node.md), [A.31](A.31.IR36.layer.bbox.node.md), [A.32](A.32.IR38.layer.identifier.node.md), [A.33](A.33.IR38.layer.authority.url.node.md), [A.34](A.34.IR46.style.node.md), [A.35](A.35.IR39.harmonized.layer.name.md), [A.36](A.36.IR40.etrs89.irts.crs.md), [A.37](A.37.IR42.inspire.default.style.md), [A.38](A.38.IR45.IR47.style.legend.url.md) | |
 | 33     | Harmonised layer title | [A.28.IR33.layer.title.node](A.28.IR33.layer.title.node.md) | |
 | 34     | Layer abstract | [A.29.IR34.layer.abstract.node](A.29.IR34.layer.abstract.node.md) | |

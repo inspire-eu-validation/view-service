@@ -55,13 +55,13 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 30     | GetCapabilities operation | [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md) | |
 | 31     | GetMap with PNG of GIF | [A.26.IR31.getmap.format.node](A.26.IR31.getmap.format.node.md) | |
 | 32     | Layer metadata | [A.28](A.28.IR33.layer.title.node.md), [A.29](A.29.IR34.layer.abstract.node.md), [A.30](A.30.IR35.layer.keywordlist.node.md), [A.31](A.31.IR36.layer.bbox.node.md), [A.32](A.32.IR38.layer.identifier.node.md), [A.33](A.33.IR38.layer.authority.url.node.md), [A.34](A.34.IR46.style.node.md), [A.35](A.35.IR39.harmonized.layer.name.md), [A.36](A.36.IR40.etrs89.irts.crs.md), [A.37](A.37.IR42.inspire.default.style.md), [A.38](A.38.IR45.IR47.style.legend.url.md) | |
-| 33     | Harmonised layer title | [A.28.IR33.layer.title.node](A.28.IR33.layer.title.node.md) | |
+| 33     | Harmonized layer title | [A.28.IR33.layer.title.node](A.28.IR33.layer.title.node.md) | |
 | 34     | Layer abstract | [A.29.IR34.layer.abstract.node](A.29.IR34.layer.abstract.node.md) | |
 | 35     | Additional layer keywords | [A.30.IR35.layer.keywordlist.node](A.30.IR35.layer.keywordlist.node.md) | |
 | 36     | Layer Bounding Box | [A.31.IR36.layer.bbox.node](A.31.IR36.layer.bbox.node.md) | |
 | 37     | Unique Resource Indentifier (layer origin) | Not testable | |
 | 38     | AuthorityURL & Indentifier | [A.32.IR38.layer.identifier.node](A.32.IR38.layer.identifier.node.md), [A.33.IR38.layer.authority.url.node](A.33.IR38.layer.authority.url.node.md) | |
-| 39     | Harmonised layer name | [A.35.IR39.harmonised.layer.name](A.35.IR39.harmonised.layer.name.md) | [IR IOP](#ref_IR_IOP), Article 14 |
+| 39     | Harmonised layer name | [A.35.IR39.harmonized.layer.name](A.35.IR39.harmonized.layer.name.md) | [IR IOP](#ref_IR_IOP), Article 14 |
 | 40     | Coordinate Reference Systems | [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | |
 | 41     | Style composed of title and identifier | [A.34.IR46.style.node](A.34.IR46.style.node.md) | |
 | 42     | inspire_common:default style | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | |
@@ -167,7 +167,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [A.32.IR38.layer.identifier.node](A.32.IR38.layer.identifier.node.md) | All |Ready for review |
 | [A.33.IR38.layer.authority.url.node](A.33.IR38.layer.authority.url.node.md) | All | Ready for review |
 | [A.34.IR46.style.node](A.34.IR46.style.node.md) | All | Ready for review |
-| [A.35.IR39.harmonised.layer.name](A.35.IR39.harmonised.layer.name.md) | All | Ready for review |
+| [A.35.IR39.harmonized.layer.name](A.35.IR39.harmonized.layer.name.md) | All | Ready for review |
 | [A.36.IR40.etrs89.irts.crs](A.36.IR40.etrs89.irts.crs.md) | All | Ready for review |
 | [A.37.IR42.inspire.default.style](A.37.IR42.inspire.default.style.md) | All | Ready for review |
 | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | All | Ready for review |

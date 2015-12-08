@@ -10,7 +10,7 @@
 
 For each [Layer](#layer):
 * Check if the text content of at least one of the [CRS elements](#crs) matches the CRS identifier of one of the ETRS89 based or ITRS based coordinate systems.
-* If no match is found, repeat the same test recursively with the [Parent layer](#parent_layer), if one exists, until a match is found or not parent layer is found.
+* If no match is found, repeat the same test recursively with the [Parent layer](#parent_layer), if one exists, until a match is found or no parent layer is found.
 * If CRS match is found, pass the test, otherwise fail the test.
 
 

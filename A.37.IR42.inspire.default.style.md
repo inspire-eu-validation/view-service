@@ -1,6 +1,6 @@
 # A.37.IR42.inspire.default.style
 
-**Purpose**: To make combining of layers from different INSPIRE data providers, the layers portraying
+**Purpose**: To make combining of layers from different INSPIRE data providers possible, the layers portraying
 harmonized particular INSPIRE datasets must be made available with the same harmonized INSPIRE rendering styles
 as specified in the Data Specification documents for each theme.
 

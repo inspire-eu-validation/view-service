@@ -8,7 +8,7 @@
 
 **Test method**
 
-* First check if the [ISO 19128 schema](http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd) is given in the service capabilities
+* First check if the [INSPIRE View Service 1.0 schema](http://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd) is given in the service capabilities
 * Then check that the GetCapabilities request result validates against this schema.
 
 **Reference (s)**: [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.2

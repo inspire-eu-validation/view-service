@@ -9,7 +9,11 @@
 
 **Test method**
 
-* First check if the metadata URL node exists in the ExtendedCapabilities section and validates against the [ISO metadata schema](http://www.isotc211.org/2005/gmd/gmd.xsd).
+* First check if the metadataURL node exists in the ExtendedCapabilities section. If yes:
+  * Resolve the URL.
+  * Verify that the response is an XML document with a root element csw:GetRecordByIdResponse or gmd:MD_Metadata.
+  * In case of a csw:GetRecordByIdResponse document, use the first gmd:MD_Metadata child element. Issue an error if there is no such element.
+  * Validate the gmd:MD_Metadata element against the [ISO metadata schema](http://www.isotc211.org/2005/gmd/gmd.xsd). Report errors.
 * If no metadata URL is given then all mandatory [ISO 19128 metadata elements](see [TG VS](README.md#ref_TG_VS), Table 3) must exist in the ExtendedCapabilities section.
 
 **Reference(s)**:

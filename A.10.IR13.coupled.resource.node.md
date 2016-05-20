@@ -8,8 +8,10 @@
 
 **Test method**
 
-* Check if there is a MetadataURL node for each layer.
-* If yes, check if the href in the OnlineResource node of the MetadataURL section is a valid link.
+* If there is a MetadataURL node for a layer:
+  * Resolve the URL in OnlineResource/@xlink:href of the MetadataURL section.
+  * Verify that the response is an XML document with a root element csw:GetRecordByIdResponse or gmd:MD_Metadata.
+  * In case of a csw:GetRecordByIdResponse document, use the first gmd:MD_Metadata child element. Issue an error if there is no such element.
 
 
 **Reference(s)**:

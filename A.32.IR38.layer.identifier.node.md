@@ -15,6 +15,7 @@
 * IR Annex III, Part A, Chapter 2.2.4
 
 **Notes**
+* Group layers with a name will fail the test. A TG update is required to support group layers properly.
 
 ## Contextual XPath references
 

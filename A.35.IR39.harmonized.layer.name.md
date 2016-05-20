@@ -8,7 +8,7 @@
 
 **Test method**
 
-The identifiers of the WMTS layers portraying INSPIRE datasets must be INSPIRE harmonised names. To determine if a layer is portraying an INSPIRE dataset, the metadata record describing the portrayed dataset must be available for validator.
+The identifiers of the WMS layers portraying INSPIRE datasets must be INSPIRE harmonised names. To determine if a layer is portraying an INSPIRE dataset, the metadata record describing the portrayed dataset must be available for validator.
 
 For each [Layer element](#layer) provided by the service according to it's Service Metadata:
 

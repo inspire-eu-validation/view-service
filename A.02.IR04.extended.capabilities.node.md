@@ -9,8 +9,10 @@
 
 **Test method**
 
-* First check if the service document contains the ExtendedCapabilities node.
-* Then check that the extended capabilities element validates against the INSPIRE schemas.
+* Check that the [ExtendedCapabilities](#ExtendedCapabilities) exists. If it does
+  * Validate the [ExtendedCapabilities](#ExtendedCapabilities) element and it's children according to the XML Schema definition for the WMS INSPIRE extendedCapabilities as defined in the http://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd
+  * If the validation passes, pass the test.
+* If no ExtendedCapabilities were found or validation fails, fail the test.
 
 **Reference (s)**: [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.1
 

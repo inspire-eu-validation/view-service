@@ -1,6 +1,6 @@
 # A.02.IR04.extended.capabilities.node
 
-**Purpose**: The metadata response parameters shall be provided through the service Capabilities, as defined in the WMS Standard ISO 19128, Section 7.2.4. These capabilities are mandatory and defined when a WMS is set up. They consist of service information, supported operations and parameters values. The extended capabilities section shall be used to fully comply with the INSPIRE View Service metadata requirements (see section 4.2.3.3.1).
+**Purpose**: The metadata response parameters shall be provided through the service Capabilities, as defined in the WMS Standard ISO 19128, Section 7.2.4. These capabilities are mandatory and defined when a WMS is set up. They consist of service information, supported operations and parameters values.
 
 **Prerequisites**
 

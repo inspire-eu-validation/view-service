@@ -6,6 +6,7 @@
 
 * Test for the existence of default element namespace.
 * Test for the existence of the namespaces for INSPIRE View Services inspire_vs and inspire_common.
+* [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md) must be passed
 
 **Test method**
 

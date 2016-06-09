@@ -1,6 +1,6 @@
 # A.04.IR06.metadataURL.node
 
-**Purpose**: The element within the extended INSPIRE capabilities of an ISO 19128 – WMS 1.3.0 wms:Capability element shall be used to reference the INSPIRE service metadata available through an INSPIRE Discovery Service. Mandatory ISO 19128 – WMS 1.3.0 metadata elements shall be mapped to INSPIRE metadata elements to implement a consistent interface.
+**Purpose**: The element within the extended INSPIRE capabilities of an ISO 19128 – WMS 1.3.0 wms:Capability element shall be used to reference the INSPIRE service metadata available through an INSPIRE Discovery Service. 
 
 **Prerequisites**
 

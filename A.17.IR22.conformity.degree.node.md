@@ -1,4 +1,4 @@
-# A.17.IR22.conformity.deegree.node
+# A.17.IR22.conformity.degree.node
 
 **Purpose**: The INSPIRE Metadata Regulation INS MD requires that metadata shall include information on the degree of conformity with the implementing rules provided in Art. 7.1 (Interoperability of spatial data sets and services) of the INSPIRE Directive Directive 2007/2/EC.
 

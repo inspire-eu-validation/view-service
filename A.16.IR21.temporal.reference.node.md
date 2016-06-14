@@ -9,7 +9,7 @@
 
 **Test method**
 
-* Check if there is a TemporalReference node in the ExtendedCapabilities section.
+* Check that if a [TemporalExtent](#TemporalExtent) element exists, that it is contained within the [TemporalReference](#TemporalReference) node of the [ExtendedCapabilities](#ExtendedCapabilities) section.
 
 
 **Reference(s)**:
@@ -23,5 +23,7 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-TemporalReference <a name="TemporalReference"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference
-ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities
+ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities
+TemporalReference <a name="TemporalReference"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference
+TemporalExtent <a name="TemporalExtent"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:TemporalExtent
+

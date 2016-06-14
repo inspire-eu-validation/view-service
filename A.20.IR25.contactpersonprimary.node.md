@@ -9,7 +9,7 @@
 
 **Test method**
 
-* Check if there is a ContactPersonPrimary node in the ContactInformation section.
+* Check if there is a [ContactOrganization](#ContactOrganization) node in the [ContactPersonPrimary](#ContactPersonPrimary) element of the [ContactInformation](#ContactInformation) section.
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.14
@@ -22,5 +22,6 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-ContactPersonPrimary <a name="ContactPersonPrimary"></a> | /WMS_Capabilities/Service/ContactInformation/ContactPersonPrimary
-ContactInformation <a name="ContactInformation"></a> | /WMS_Capabilities/Service/ContactInformation
+ContactInformation <a name="ContactInformation"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation
+ContactPersonPrimary <a name="ContactPersonPrimary"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation/wms:ContactPersonPrimary
+ContactOrganization <a name="ContactOrganization"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation/wms:ContactPersonPrimary/wms:ContactOrganization

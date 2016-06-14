@@ -8,7 +8,7 @@
 
 **Test method**
 
-* Check if there is a BoundingBox node in each Layer section for each CRS declared.
+* For each [CRS](#wmsCRS) that is listed for a specific [Layer](#Layer), check if there is a [BoundingBox](#BoundingBox) node in the same [Layer](#Layer) section with a corresponding attribute [@CRS](#CRS).
 
 **Reference(s)**:
 * IR Annex III, Part A, Chapter 2.2.4
@@ -22,6 +22,7 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-BoundingBox <a name="BoundingBox"></a> | /WMS_Capabilities/Capability/Layer/BoundingBox
-Layer <a name="Layer"></a> | /WMS_Capabilities/Capability/Layer
-CRS <a name="CRS"></a> | /WMS_Capabilities/Capability/Layer/BoundingBox/@CRS
+Layer <a name="Layer"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer
+CRS <a name="wmsCRS"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/wms:CRS
+BoundingBox <a name="BoundingBox"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/BoundingBox
+@CRS <a name="CRS"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/BoundingBox[@CRS]

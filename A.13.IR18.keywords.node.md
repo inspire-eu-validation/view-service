@@ -6,10 +6,12 @@
 
 * Test for the existence of default element namespace.
 * Test for the existence of the namespaces for INSPIRE View Services inspire_vs and inspire_common.
+* [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
 
 **Test method**
 
-* Check if there are a Keyword node and a MandatoryKeyword node in the ExtendedCapabilities section.
+* Check if there are a Keyword node and a MandatoryKeyword node in the ExtendedCapabilities section
+* Check that there exists at least one [MandatoryKeyword element](#ext-mandatory-keyword) containing one of the keywords listed in [IR MD](README.md#ref_IR_MD), Part D, 4.Classification of Spatial data Services (the lowerCamelCase terms in parenthesis).
 
 
 **Reference(s)**:

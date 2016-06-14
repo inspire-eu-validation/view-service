@@ -6,12 +6,13 @@
 
 * Test for the existence of default element namespace.
 * Test for the existence of the namespaces for INSPIRE View Services inspire_vs and inspire_common.
-* [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
+* [schema.validation](A.03.IR05.schema.validation.md)
+* No metadata URL is given in test case [metadataURL.node](A.04.IR06.metadataURL.node.md)
 
 **Test method**
 
-* Check if there are a Keyword node and a MandatoryKeyword node in the ExtendedCapabilities section
-* Check that there exists at least one [MandatoryKeyword element](#ext-mandatory-keyword) containing one of the keywords listed in [IR MD](README.md#ref_IR_MD), Part D, 4.Classification of Spatial data Services (the lowerCamelCase terms in parenthesis).
+* Check if there are a [Keyword](#Keyword) node and a [MandatoryKeyword](#MandatoryKeyword) node in the ExtendedCapabilities section
+* Check that there exists at least one [MandatoryKeyword](#MandatoryKeyword) element containing one of the keywords listed in [IR MD](README.md#ref_IR_MD), Part D, 4.Classification of Spatial data Services (the lowerCamelCase terms in parenthesis).
 
 
 **Reference(s)**:
@@ -25,6 +26,6 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Keyword <a name="Keyword"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:Keyword
-MandatoryKeyword <a name="MandatoryKeyword"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:MandatoryKeyword
-ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities
+Keyword <a name="Keyword"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:Keyword
+MandatoryKeyword <a name="MandatoryKeyword"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:MandatoryKeyword
+ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities

@@ -1,11 +1,12 @@
 # A.18.IR23.conformity.node
 
-**Purpose**: An extension shall be used to map this to an element within an element.
+**Purpose**: An extension shall be used to map this to an `<inspire_common:Conformity>` element within an ` <inspire_vs:ExtendedCapabilities>` element.
 
 **Prerequisites**
 
 * Test for the existence of default element namespace.
 * Test for the existence of the namespaces for INSPIRE View Services inspire_vs and inspire_common.
+* No metadata URL is given in test case [metadataURL.node](A.04.IR06.metadataURL.node.md)
 
 **Test method**
 

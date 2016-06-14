@@ -6,10 +6,11 @@
 
 * Test for the existence of default element namespace.
 * Test for the existence of the namespaces for INSPIRE View Services inspire_vs and inspire_common.
+* No metadata URL is given in test case [metadataURL.node](A.04.IR06.metadataURL.node.md)
 
 **Test method**
 
-* First check if there is a ResourceType node in the ExtendedCapabilities section
+* First check if there is a [ResourceType](#ResourceType) node in the [ExtendedCapabilities](#ExtendedCapabilities) section
 * If yes, check that it is set to 'service'.
 
 **Reference(s)**:
@@ -23,5 +24,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-ResourceType <a name="ResourceType"></a>   | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResourceType
-ExtendedCapabilities <a name="ExtendedCapabilities"></a>   | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities
+ResourceType <a name="ResourceType"></a>   | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResourceType
+ExtendedCapabilities <a name="ExtendedCapabilities"></a>   | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities

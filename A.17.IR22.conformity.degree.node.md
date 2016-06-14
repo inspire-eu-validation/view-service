@@ -6,11 +6,12 @@
 
 * Test for the existence of default element namespace.
 * Test for the existence of the namespaces for INSPIRE View Services inspire_vs and inspire_common.
+* No metadata URL is given in test case [metadataURL.node](A.04.IR06.metadataURL.node.md)
 
 **Test method**
 
-* Check if there is a Conformity node in the ExtendedCapabilities section.
-* If yes, check that it has a Deegree node with one of these values: notEvaluated, conformant, notConformant.
+* Check if there is a [Conformity](#Conformity) node in the [ExtendedCapabilities](#ExtendedCapabilities) section.
+* If yes, check that it has a [Deegree](#Degree) node with one of these values: notEvaluated, conformant, notConformant.
 
 
 **Reference(s)**:
@@ -24,6 +25,6 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Conformity <a name="Conformity"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:Conformity
-ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities
-Degree <a name="Degree"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:Conformity/inspire_common:Degree
+Conformity <a name="Conformity"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:Conformity
+ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities
+Degree <a name="Degree"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:Conformity/inspire_common:Degree

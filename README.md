@@ -59,7 +59,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 34     | Layer abstract | [A.29.IR34.layer.abstract.node](A.29.IR34.layer.abstract.node.md) | |
 | 35     | Additional layer keywords | [A.30.IR35.layer.keywordlist.node](A.30.IR35.layer.keywordlist.node.md) | |
 | 36     | Layer Bounding Box | [A.31.IR36.layer.bbox.node](A.31.IR36.layer.bbox.node.md) | |
-| 37     | Unique Resource Identifier (layer origin) | Not testable | |
+| 37     | Unique Resource Identifier (layer origin) | [A.32.IR38.layer.identifier.node](A.32.IR38.layer.identifier.node.md) | |
 | 38     | AuthorityURL & Identifier | [A.32.IR38.layer.identifier.node](A.32.IR38.layer.identifier.node.md), [A.33.IR38.layer.authority.url.node](A.33.IR38.layer.authority.url.node.md) | |
 | 39     | Harmonized layer name | [A.35.IR39.harmonized.layer.name](A.35.IR39.harmonized.layer.name.md) | [IR IOP](#ref_IR_IOP), Article 14 |
 | 40     | Coordinate Reference Systems | [A.36.IR40.etrs89.itrs.crs](A.36.IR40.etrs89.itrs.crs.md) | |
@@ -71,7 +71,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 46     | Style by wms:Style element | [A.34.IR46.style.node](A.34.IR37.style.node.md) | |
 | 47     | Layer legend by LegendURL element | [A.38.IR45.IR47.style.legend.url](A.38.IR45.IR47.style.legend.url.md) | |
 | 48     | Layer Dimension elements | Not testable | |
-| 49     | Category layers | Not testable | |
+| 49     | Category layers | [category.layers.md](category.layers.md) | |
 | 50     | GetMap: VERSION parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 51     | GetMap: REQUEST parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 52     | GetMap: LAYERS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |

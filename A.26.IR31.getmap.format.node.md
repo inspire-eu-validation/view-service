@@ -8,9 +8,7 @@
 
 **Test method**
 
-* Check whether the GetCapabilities response includes a GetMap (XPATH) node
-
-* Check if there is a [GetMap](#GetMap) node in the [Request](#Request) section
+* Check if there is a [GetMap](#GetMap) node in the [Request](#Request) section of the GetCapabilities response.
 * If yes, check whether the GetMap node contains a [Format](#Format) element containing "image/png" and/or "image/gif".
 * If this is the case, make a GetMap request for the layer using a maximum allowed bounding box and either "image/png" or "image/gif" format and check that the returned image is encoded in the requested format. If both formats are listed by the GetMap operation metadata, two seperate requests shall be made. The test case passess when all GetMap requests return a layer encoded in the requested format.
 

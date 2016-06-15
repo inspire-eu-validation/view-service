@@ -36,7 +36,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 11     | ResourceType element | [A.08.IR11.resource.type.node](A.08.IR11.resource.type.node.md) | |
 | 12     | ResourceLocator element | [A.09.IR12.resource.locator.node](A.09.IR12.resource.locator.node.md) | |
 | 13     | MetadataURL for each layer | [A.10.IR13.coupled.resource.node](A.10.IR13.coupled.resource.node.md) | |
-| 14     | MetadataURL resolvable to MD record | [A.11.IR14.metadata.record.node](A.11.IR14.metadata.record.node.md) | |
+| 14     | MetadataURL resolvable to MD record | [coupled.resource.node](A.10.IR13.coupled.resource.node.md) | |
 | 15     | SpatialDataServiceType element | [A.12.IR15.spatialdataservicetype.node](A.12.IR15.spatialdataservicetype.node.md) | |
 | 16     | Classification of Spatial Data Services keyword | [A.39.IR16.spatial.data.service.keyword.embedded.metadata](A.39.IR16.spatial.data.service.keyword.embedded.metadata.md) | |
 | 17     | Additional keywords | Not testable | |

@@ -5,6 +5,7 @@
 **Prerequisites**
 
 * [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
+* [A.10.IR13.coupled.resource.node](A.10.IR13.coupled.resource.node.md)
 
 **Test method**
 
@@ -14,8 +15,7 @@ For each [Layer element](#layer) provided by the service according to it's Servi
 
 * For each [MetadataURL element](#metadata) of the layer as `metadata`:
   * Check that `metadata` contains an [OnlineResource element](#onlineresource). If yes,
-    * Check that [OnlineResource element](#onlineresource) contains a non-empty [href attribute](#href_attr). If it does,
-      * Check that the href attribute value is a valid URL and fetch the document it refers to. If not valid URL or the document cannot be fetched mark this layer as failed. If a document fetch is successful:  
+    * Check that [OnlineResource element](#onlineresource) contains a non-empty [href attribute](#href_attr). If it does, fetch the document it refers to. If the document cannot be fetched mark this layer as failed. If a document fetch is successful:  
         * Check that the fetched document contains is a valid INSPIRE metadata record for a dataset at it's document root. If yes, then
           * Check if the [Specification](#specification) contains one of the official translations of the names of [IR IOP](README.md#ref_IR_IOP) and that the value of [Pass](#pass) equals "true".
         * If no valid INSPIRE dataset metadata record is found or [Specification](#specification) condition above is not met, mark this layer skipped as a non-harmonised or non-INSPIRE layer. Otherwise:

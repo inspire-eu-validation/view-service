@@ -6,8 +6,8 @@
 
 **Test method**
 
-* For ISO 19128: First check if the [INSPIRE View Service 1.0 schema](http://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd) is given in the service capabilities. Then check that the GetCapabilities request result validates against this schema.
-* For WMTS 1.0.0: First check if the [INSPIRE View Service 1.0 schema](http://inspire.ec.europa.eu/schemas/inspire_vs_ows11/1.0/inspire_vs_ows_11.xsd) is given in the service capabilities. Then check that the GetCapabilities request result validates against this schema plus the [WMTS 1.0.0 schema](http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd).
+* For ISO 19128: Check, if the [INSPIRE View Service 1.0 schema](http://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd) is referenced in the service capabilities. Then check that the GetCapabilities request result validates against this schema.
+* For WMTS 1.0.0: Check, if the [INSPIRE View Service 1.0 schema](http://inspire.ec.europa.eu/schemas/inspire_vs_ows11/1.0/inspire_vs_ows_11.xsd) is referenced in the service capabilities. Then check that the GetCapabilities request result validates against this schema plus the [WMTS 1.0.0 schema](http://schemas.opengis.net/wmts/1.0/wmtsGetCapabilities_response.xsd).
 
 **Reference (s)**: 
 

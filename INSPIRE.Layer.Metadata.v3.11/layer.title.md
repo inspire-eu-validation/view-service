@@ -1,10 +1,10 @@
-# A.28.IR33.layer.title.node
+# layer.title
 
-**Purpose**: Layer title is mapped with wms:Title. The harmonised title of a layer for an INSPIRE spatial data theme is defined by INS DS and shall be subject to multilingualism (translations shall appear in each mono-lingual capabilities localised documents).
+**Purpose**: Layer title is mapped with the corresponding Title element in the Capabilities. The harmonised title of a layer for an INSPIRE spatial data theme is defined by INS DS and shall be subject to multilingualism (translations shall appear in each mono-lingual capabilities localised documents).
 
 **Prerequisites**
 
-* Test for the existence of default element namespace.
+* [schema.valid](schema.valid.md)
 
 **Test method**
 
@@ -13,6 +13,7 @@ For each [Layer element](#Layer) provided by the service according to it's Servi
 * Check that the [Title element](#Title) is a non-empty character string. If so, pass the test.
 
 **Reference(s)**:
+
 * [TG VS](../README.md#ref_TG_VS), Chapter 4.2.3.3.4.1, Requirement 33
 * [TG VS](../README.md#ref_TG_VS), Chapter 5.2.3.3.4.1, Requirement 85
 

@@ -1,11 +1,10 @@
-# layer.abstract.node
+# layer.abstract
 
 **Purpose**: The layer must be described in a language and terms the users are expected to understand.
 
 **Prerequisites**
 
-* Test for the existence of default element namespace.
-* Test for the schema validity of the ServiceMetadata document has been passed.
+* [schema.valid](schema.valid.md)
 
 **Test method**
 
@@ -14,6 +13,7 @@ For each [Layer element](#Layer) provided by the service according to it's Servi
 * Check that the [Abstract element](#Abstract) is a non-empty character string. If so, pass the test.
 
 **Reference(s)**:
+
 * [TG VS](../README.md#ref_TG_VS), Chapter 4.2.3.3.4.2, Requirement 34
 * [TG VS](../README.md#ref_TG_VS), Chapter 5.2.3.3.4.2, Requirement 86
 
@@ -30,5 +30,5 @@ Abbreviation                                     |  XPath expression												
 ------------------------------------------------ | ---------------------------------------------------------------	| ---------------------------------------------------------------
 Layer <a name="Layer"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer | ISO 19128
 						   | /wmts:Capabilities/wmts:Contents/wmts:Layer | WMTS 1.0.0
-Abstract <a name="Abstract"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/Abstract | ISO 19128
+Abstract <a name="Abstract"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/wms:Abstract | ISO 19128
 								 | /wmts:Capabilities/wmts:Contents/wmts:Layer/ows:Abstract | WMTS 1.0.0

@@ -1,12 +1,11 @@
-# style.legend.url
+# layer.style.legend
 
-**Purpose**: Legend is required for explaining the data visualization used for each layer. If the legend contains
-language-specific elements, localized legends shall be made available in each localized capabilities document.
+**Purpose**: Legend is required for explaining the data visualization used for each layer. If the legend contains language-specific elements, localized legends shall be made available in each localized capabilities document.
 
 **Prerequisites**
 
-* [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
-* [A.34.IR46.style.node](A.34.IR46.style.node.md)
+* [schema.valid](schema.valid.md)
+* [layer.style](layer.style.md)
 
 **Test method**
 For each [Layer](#Layer) element provided by the service according to it's Service Metadata:
@@ -17,7 +16,7 @@ For each [Layer](#Layer) element provided by the service according to it's Servi
     * If the [Format](#format) equals 'image/gif' or 'image/png':
       * the downloaded resource must be a valid image of these image formats correspondingly. If it is, pass the test. If not, fail the test for this Style.
     * Otherwise, pass the test for this Style.
-  * Otherwise, fail the test for this Style
+  * Otherwise, fail the test for this Style.
 
 **Reference(s)**
 

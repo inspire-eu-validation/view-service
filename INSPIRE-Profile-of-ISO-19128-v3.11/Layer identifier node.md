@@ -1,4 +1,4 @@
-# A.32.IR38.layer.identifier.node
+# Layer identifier node
 
 **Purpose**: To be able to map the concept of a responsible body/codeSpace and local identifier/code to ISO 19128), AuthorityURL and Identifier elements shall be used. The authority name and explanatory URL shall be defined in a separate AuthorityURL element, which may be defined once and inherited by subsidiary layers. Identifiers themselves are not inherited.
 
@@ -13,7 +13,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.4.5
-* IR Annex III, Part A, Chapter 2.2.4
+
+**Test type:** Automated
 
 **Notes**
 * Group layers with a name will fail the test. A TG update is required to support group layers properly.

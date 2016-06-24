@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Validate Schema](Validate Schema.md)
+* [Schema validation](Schema validation.md)
 
 **Test method**
 

@@ -1,4 +1,4 @@
-# A.07.IR10.title.abstract
+# Check Title and Abstract
 
 **Purpose**: A View Service must contain a non-empty Title and Abstract to fulfill the INSPIRE Metadata requirements for Resource Title, Resource Abstract and Spatial Resolution.
 
@@ -13,6 +13,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Requirement 10, Chapter 4.2.3.3.1
+
+**Test type:** Automated
 
 **Notes**
 

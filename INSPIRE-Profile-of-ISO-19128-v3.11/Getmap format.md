@@ -1,4 +1,4 @@
-# A.26.IR31.getmap.format.node
+# Getmap format
 
 **Purpose**: GetMap operation metadata shall be mapped to the wms:GetMap element in the GetCapabilities response. Either PNG or GIF format (without LZW compression) with transparency shall be supported by the View service INS NS, Annex III, Part B. Furthermore, when a layer is requested in one of the supported formats, the response should be encoded in this format.
 
@@ -14,6 +14,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.2.2
+
+**Test type:** Automated
 
 **Notes**
 

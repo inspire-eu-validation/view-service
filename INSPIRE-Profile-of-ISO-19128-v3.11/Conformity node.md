@@ -1,19 +1,21 @@
-# A.24.IR29.metadata.data.node
+# Check Conformity node
 
-**Purpose**: As the Metadata Date is not supported by ISO 19128 – WMS 1.3.0, an extension shall be used to map this to an element within an element. The date shall be expressed in conformity with the INS MD.
+**Purpose**: An extension shall be used to map this to an `<inspire_common:Conformity>` element within an ` <inspire_vs:ExtendedCapabilities>` element.
 
 **Prerequisites**
 
 * Test for the existence of default element namespace.
 * Test for the existence of the namespaces for INSPIRE View Services inspire_vs and inspire_common.
-* No metadata URL is given in test case [metadataURL.node](A.04.IR06.metadataURL.node.md)
+* No metadata URL is given in test case [MetadataURL reference INSPIRE service metadata](MetadataURL reference INSPIRE service metadata.md)
 
 **Test method**
 
-* Check if there is a MetadataDate node in the ExtendedCapabilities section.
+* Check if there is a Conformity node in the ExtendedCapabilities section.
 
 **Reference(s)**:
-* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.16
+* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.11
+
+**Test type:** Automated
 
 **Notes**
 
@@ -23,5 +25,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-MetadataDate <a name="MetadataDate"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataDate
+Conformity <a name="Conformity"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:Conformity
 ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities

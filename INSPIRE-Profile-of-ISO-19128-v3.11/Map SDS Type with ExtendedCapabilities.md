@@ -1,4 +1,4 @@
-# A.15.IR15.spatialdataservicetype.node
+# Map SDS Type with ExtendedCapabilities
 
 **Purpose**: For the Spatial Data Service Type as defined by the INSPIRE Metadata Regulation INS MD (‘view’) an extension shall be used to map this to an element within an element. For an INSPIRE View Service the Spatial Data Service Type shall have a fixed value “view” according to INSPIRE Metadata Regulation INS MD Part 3.
 
@@ -6,7 +6,7 @@
 
 * Test for the existence of default element namespace.
 * Test for the existence of the namespaces for INSPIRE View Services inspire_vs and inspire_common.
-* No metadata URL is given in test case [metadataURL.node](A.04.IR06.metadataURL.node.md)
+* No metadata URL is given in test case [MetadataURL reference INSPIRE service metadata](MetadataURL reference INSPIRE service metadata.md)
 
 **Test method**
 
@@ -16,6 +16,8 @@
 
 **Reference(s)**: 
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.6
+
+**Test type:** Automated
 
 **Notes**
 

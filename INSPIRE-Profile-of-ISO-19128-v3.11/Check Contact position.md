@@ -1,4 +1,4 @@
-# A.21.IR26.contactposition.node
+# Check Contact position
 
 **Purpose**: The value domain of the Responsible Party role shall comply with the INSPIRE Metadata Regulation INS MD, Part D6. The Responsible Party Role shall be mapped to the wms:ContactPosition of the wms:ContactInformation element
 
@@ -13,6 +13,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.14
+
+**Test type:** Automated
 
 **Notes**
 

@@ -1,11 +1,11 @@
-# A.35.IR39.harmonized.layer.name
+# Harmonised layer name
 
 **Purpose**: It must be unambiguous to find out which of the layers provided by the service visualize the INSPIRE spatial data sets given in the Data Specifications for each INSPIRE theme. These layers must be named according to the INSPIRE Harmonised layer names defined in [IR IOP](README.md#ref_IR_IOP)
 
 **Prerequisites**
 
-* [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
-* [A.10.IR13.coupled.resource.node](A.10.IR13.coupled.resource.node.md)
+* [Schema validation](Schema validation.md)
+* [Map Coupled Resource metadata](Map Coupled Resource metadata.md)
 
 **Test method**
 

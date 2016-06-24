@@ -1,10 +1,10 @@
-# A.36.IR40.etrs89.itrs.crs
+# etrs89 or itrs crs
 
 **Purpose**: All INSPIRE spatial datasets must be provided at using at least one geographical coordinate system based on either ETRS89 (for datasets within continental Europe) or ITRS (outside continental Europe).
 
 **Prerequisites**
 
-* [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
+* [Schema validation](Schema validation.md)
 
 **Test method**
 

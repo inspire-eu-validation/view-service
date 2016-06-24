@@ -56,7 +56,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 
 | Identifier                                                                          | Status   |
 | ----------------------------------------------------------------------------------- | -------- |
-| [Validate Schema](Validate Schema.md) | Ready for review |
+| [Schema validation](Schema validation.md) | Ready for review |
 | [Map Coupled Resource metadata](Map Coupled Resource metadata.md) | Ready for review |
 | [Check Extended Capabilities](Check Extended Capabilities.md) | Ready for review |
 | [Check PNG-GIF image format](Check PNG-GIF image format.md) | Ready for review |

@@ -1,4 +1,4 @@
-# A.04.IR06.metadataURL.node
+# MetadataURL reference INSPIRE service metadata
 
 **Purpose**: The `<inspire_common:MetadataURL>` element within the extended INSPIRE capabilities of an ISO 19128 – WMS 1.3.0 `wms:Capability` element shall be used to reference the INSPIRE service metadata available through an INSPIRE Discovery Service. 
 
@@ -17,7 +17,7 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1
-* IR Annex III, Part A, Chapter 2.2.1
+
 
 **Notes**
 

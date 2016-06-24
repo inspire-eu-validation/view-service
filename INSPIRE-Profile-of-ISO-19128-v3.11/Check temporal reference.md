@@ -1,4 +1,4 @@
-# A.16.IR21.temporal.reference.node
+# Check temporal reference
 
 **Purpose**: As the Temporal Reference is not directly supported by ISO 19128 – WMS 1.3.0 an extension shall be used to map this to an element within an element.
 
@@ -14,6 +14,9 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.9
+
+
+**Test type:** Automated
 
 **Notes**
 

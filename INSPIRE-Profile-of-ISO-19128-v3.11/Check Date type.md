@@ -1,4 +1,4 @@
-# A.15.IR20.dates.node
+# Check Date type
 
 **Purpose**: To be compliant with the INSPIRE Metadata Regulation INS MD and with ISO 19115 one of following dates shall be used: date of publication, date of last revision, or the date of creation. Date of last revision is preferred. The date shall be expressed in conformity with the INS MD.
 
@@ -14,6 +14,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.9
+
+**Test type:** Automated
 
 **Notes**
 

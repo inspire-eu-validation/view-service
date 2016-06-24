@@ -1,4 +1,4 @@
-# A.13.IR18.keywords.node
+# Check keyword node
 
 **Purpose**: The keywords shall be mapped to the capabilities extension and within an element.
 
@@ -6,8 +6,8 @@
 
 * Test for the existence of default element namespace.
 * Test for the existence of the namespaces for INSPIRE View Services inspire_vs and inspire_common.
-* [schema.validation](A.03.IR05.schema.validation.md)
-* No metadata URL is given in test case [metadataURL.node](A.04.IR06.metadataURL.node.md)
+* [Schema validation](Schema validation.md)
+* No metadata URL is given in test case [MetadataURL reference INSPIRE service metadata](MetadataURL reference INSPIRE service metadata.md)
 
 **Test method**
 
@@ -17,6 +17,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.7
+
+**Test type:** Automated
 
 **Notes**
 

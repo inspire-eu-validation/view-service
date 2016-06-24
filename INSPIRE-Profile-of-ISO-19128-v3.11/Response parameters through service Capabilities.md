@@ -1,4 +1,4 @@
-# A.02.IR04.extended.capabilities.node
+# Response parameters through service Capabilities
 
 **Purpose**: The metadata response parameters shall be provided through the service Capabilities, as defined in the WMS Standard ISO 19128, Section 7.2.4. These capabilities are mandatory and defined when a WMS is set up. They consist of service information, supported operations and parameters values.
 
@@ -16,6 +16,8 @@
 * If no ExtendedCapabilities were found or validation fails, fail the test.
 
 **Reference (s)**: [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.1
+
+**Test type:**  Automated
 
 **Notes**
 

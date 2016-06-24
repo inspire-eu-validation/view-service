@@ -1,4 +1,4 @@
-# A.31.IR36.layer.bbox.node
+# Check bbox in layer
 
 **Purpose**: This Layer metadata element shall be mapped to the wms:BoundingBox element. The minimum bounding rectangle of the area covered by the Layer in all supported CRS shall be given.
 
@@ -11,8 +11,9 @@
 * For each [CRS](#wmsCRS) that is listed for a specific [Layer](#Layer), check if there is a [BoundingBox](#BoundingBox) node in the same [Layer](#Layer) section with a corresponding attribute [@CRS](#CRS).
 
 **Reference(s)**:
-* IR Annex III, Part A, Chapter 2.2.4
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.4.4
+
+**Test type:** Automated
 
 **Notes**
 

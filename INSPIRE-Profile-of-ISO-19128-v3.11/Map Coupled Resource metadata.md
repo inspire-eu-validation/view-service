@@ -1,4 +1,4 @@
-# A.10.IR13.coupled.resource.node
+# Map Coupled Resource metadata
 
 **Purpose**: Coupled Resource shall be mapped to the `MetadataURL` elements of the Layer elements of the service capabilities. If linkage to the data sets or series on which the service operates are available, then the linkage to these resources shall be provided as stated by the INSPIRE Metadata Technical Guidance INS MDTG.
 
@@ -16,6 +16,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.5
+
+**Test type:** Automated
 
 **Notes**
 

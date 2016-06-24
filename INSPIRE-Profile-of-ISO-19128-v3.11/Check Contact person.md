@@ -1,4 +1,4 @@
-# A.20.IR25.contactpersonprimary.node
+# Check Contact person
 
 **Purpose**: Responsible Party as described in the INSPIRE Metadata Regulation INS MD shall be mapped to the wms:ContactOrganization element of the wms:ContactPersonPrimary within the wms:ContactInformation element.
 
@@ -13,6 +13,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.14
+
+**Test type:** Automated
 
 **Notes**
 

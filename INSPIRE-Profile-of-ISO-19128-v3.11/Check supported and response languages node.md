@@ -1,4 +1,5 @@
-# A.06.IR08.language.node
+# Check supported and response languages node
+ 
 
 **Purpose**: Regardless of the scenario chosen to be implemented, a language
 section shall be added in the extended capability of the service to fulfil the language requirements of
@@ -15,7 +16,9 @@ the Network Services Regulation [INS NS]
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1
-* IR Annex III, Part A, Chapter 2.2.3
+
+
+**Test type:** Automated
 
 **Notes**
 

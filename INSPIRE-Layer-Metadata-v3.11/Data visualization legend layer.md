@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Validate Schema](Validate Schema.md)
+* [Schema validation](Schema validation.md)
 * [Layer style name](Layer style name.md)
 
 **Test method**

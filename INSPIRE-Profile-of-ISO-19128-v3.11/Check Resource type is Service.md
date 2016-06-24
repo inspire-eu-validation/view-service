@@ -1,4 +1,4 @@
-# A.08.IR11.resource.type.node
+# Check Resource type is Service
 
 **Purpose**: Within the scope defined by the INSPIRE directive the value of the Resource Type shall be fixed to service for spatial data services. As the Resource Type is not supported by ISO 19128 – WMS 1.3.0, an extension shall be used to map this to an element within an element.
 
@@ -15,6 +15,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.3
+
+**Test type:** Automated
 
 **Notes**
 

@@ -1,4 +1,4 @@
-# A.30.IR35.layer.keywordlist.node
+# Check Keywordlist
 
 **Purpose**: Keywords shall be mapped to the wms:KeywordList element.
 
@@ -12,6 +12,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.4.3
+
+**Test type:** Automated
 
 **Notes**
 

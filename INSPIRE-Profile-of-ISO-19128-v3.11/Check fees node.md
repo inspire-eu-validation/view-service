@@ -1,4 +1,4 @@
-# A.19.IR24.fees.node
+# Check fees node
 
 **Purpose**: Metadata concerning to conditions for access and use shall be mapped to the wms:Fees element of the capabilities. If no conditions apply to the access and use of the resource, "no conditions apply" shall be used. If conditions are unknown "conditions unknown" shall be used.
 
@@ -14,6 +14,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.12
+
+**Test type:** Automated
 
 **Notes**
 

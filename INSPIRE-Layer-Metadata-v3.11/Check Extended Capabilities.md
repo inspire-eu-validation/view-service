@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Validate Schema](Validate Schema.md)
+* [Schema validation](Schema validation.md)
 
 **Test method**
 
@@ -15,9 +15,7 @@
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 6
 * [TG VS](README.md#ref_TG_VS), Chapter 5.2.3.3.1
 
-**Test type**
-
-Automated
+**Test type:** Automated
 
 **Notes**
 

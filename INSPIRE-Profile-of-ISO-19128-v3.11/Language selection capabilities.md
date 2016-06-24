@@ -1,19 +1,19 @@
-# A.40.IR67.IR68.language.affects.capabilities
+# Language selection capabilities
 
 **Purpose**: The user must be able to select one of the supported languages.
 This language selection must be reflected in the provided capabilities document.
 
 **Prerequisites**
 
-* [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md)
-* [A.06.IR08.language.node](A.06.IR08.language.node.md)
+* [Schema validation](Schema validation.md)
+* [Check supported and response languages node](Check supported and response languages node.md)
 
 **Test method**
 
 * Let the value of [GetCapabilities OnlineResource](#getcap-href) be ```getcapabilities-url```.
 * For each [SupportedLanguage codes](#supported-languages) as ```lang-code```:
   * Create a GetCapabilities HTTP request by adding the parameters ```SERVICE=WMS```, ```REQUEST=GetCapabilities```, ```VERSION=1.3.0``` and ```LANGUAGE=``` + ```lang-code``` to the ```getcapabilities-url```
-  * Execute the request. If the returned resource can be parsed as a valid XML document and if the document passes tests [A.03.IR05.schema.validation](A.03.IR05.schema.validation.md) and [A.06.IR08.language.node](A.06.IR08.language.node.md):
+  * Execute the request. If the returned resource can be parsed as a valid XML document and if the document passes tests [Schema validation](Schema validation.md) and [Check supported and response languages node](Check supported and response languages node.md):
     * Check that the [ResponseLanguage code](#response-language) equals the ```lang-code```. If it does not, fail the test for this language.
   * Otherwise fail the test.
 * If the test for any of the languages failed, fail the test. Otherwise pass the test.

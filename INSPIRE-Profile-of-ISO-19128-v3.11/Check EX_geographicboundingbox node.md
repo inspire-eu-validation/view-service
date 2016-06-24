@@ -1,4 +1,4 @@
-# A.14.IR19.geographicboundingbox.node
+#  Check EX_geographicboundingbox node
 
 **Purpose**: Geographic Bounding Box shall be mapped to the EX_GeographicBoundingBox element of Layer elements.
 
@@ -14,6 +14,8 @@
 
 **Reference(s)**:
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1.7
+
+**Test type:** Automated
 
 **Notes**
 

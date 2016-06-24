@@ -11,7 +11,7 @@
 * Let the value of [GetCapabilities OnlineResource](#getcap-href) be ```getcapabilities-url```.
 * For each [SupportedLanguage codes](#supported-languages) as ```lang-code```:
   * Create a GetCapabilities HTTP request by adding the parameters ```SERVICE=WMS``` (ISO 19128) or ```SERVICE=WMTS``` (for WMTS 1.0.0), ```REQUEST=GetCapabilities```, ```ACCEPTVERSIONS=1.3.0``` (for ISO 19128) or ```ACCEPTVERSIONS=1.0.0``` (for WMTS 1.0.0) and ```LANGUAGE=``` + ```lang-code``` to the ```getcapabilities-url```
-  * Execute the request. If the returned resource can be parsed as a well-formed XML document and if the document passes tests [Validate Schema](Validate Schema.md) and [languages](languages.md):
+  * Execute the request. If the returned resource can be parsed as a well-formed XML document and if the document passes tests [Schema validation](Schema validation.md) and [languages](languages.md):
     * Check that the [ResponseLanguage](#response-language) equals the ```lang-code```. If it does not, fail the test for this language.
   * Otherwise fail the test.
 * If the test for any of the languages failed, fail the test. Otherwise pass the test.

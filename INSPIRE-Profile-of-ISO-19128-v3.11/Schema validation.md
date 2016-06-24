@@ -1,4 +1,4 @@
-# A.03.IR05.schema.validation
+# Schema validation
 
 **Purpose**: The operation for implementing INSPIRE Get View Service Metadata operation is the GetCapabilities operation. The parameters defined within the ISO 19128 standard shall be used to convey relevant information in order to get the expected responses as described in INS NS, Annex III, Section 2.2 of the Regulation on INSPIRE Network Services.
 
@@ -12,6 +12,8 @@
 * Then check that the GetCapabilities request result validates against this schema.
 
 **Reference (s)**: [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.2
+
+**Test type:** Automated
 
 **Notes**
 

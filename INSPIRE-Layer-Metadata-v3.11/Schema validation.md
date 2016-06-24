@@ -1,4 +1,4 @@
-# Validate Schema
+# Schema validation
 
 **Purpose**: The operation for implementing INSPIRE Get View Service Metadata operation is the GetCapabilities operation. The parameters defined within the ISO 19128 / WMTS 1.0.0 standard shall be used to convey relevant information in order to get the expected responses as described in INS NS, Annex III, Section 2.2 of the Regulation on INSPIRE Network Services.
 

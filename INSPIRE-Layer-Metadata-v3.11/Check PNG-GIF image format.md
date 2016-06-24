@@ -1,10 +1,10 @@
-# image.format
+# Check PNG-GIF image format
 
 **Purpose**: Either PNG or GIF format (without LZW compression) with transparency shall be supported by the View service INS NS, Annex III, Part B. Furthermore, when a layer is requested in one of the supported formats, the response should be encoded in this format.
 
 **Prerequisites**
 
-* [schema.valid](schema.valid.md)
+* [Validate Schema](Validate Schema.md)
 
 **Test method**
 
@@ -17,6 +17,10 @@
 
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.2.2, Requirement 31
 * [TG VS](README.md#ref_TG_VS), Chapter 5.2.3.3.2.2, Requirement 82
+
+**Test type**
+
+Automated
 
 **Notes**
 

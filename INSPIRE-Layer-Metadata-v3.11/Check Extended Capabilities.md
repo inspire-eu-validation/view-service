@@ -1,10 +1,10 @@
-# extended.capabilities
+# Check Extended Capabilities
 
 **Purpose**: The metadata response parameters shall be provided through the service Capabilities. These capabilities are mandatory and defined when a WMS or WMTS is set up. They consist of service information, supported operations and parameters values. INSPIRE requires additional metadata (extended capabilities).
 
 **Prerequisites**
 
-* [schema.valid](schema.valid.md)
+* [Validate Schema](Validate Schema.md)
 
 **Test method**
 
@@ -14,6 +14,10 @@
 
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 6
 * [TG VS](README.md#ref_TG_VS), Chapter 5.2.3.3.1
+
+**Test type**
+
+Automated
 
 **Notes**
 

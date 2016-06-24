@@ -1,10 +1,10 @@
-# layer.bbox
+# Minimum geographic bbox
 
 **Purpose**: This Layer metadata element shall be mapped to the corresponding element. The minimum bounding rectangle of the area covered by the Layer in all supported CRS shall be given to the extent this is supported by the view service.
 
 **Prerequisites**
 
-* [schema.valid](schema.valid.md)
+* [Validate Schema](Validate Schema.md)
 
 **Test method**
 
@@ -15,9 +15,11 @@ For each [Layer element](#layer) provided by the service according to it's Servi
 
 **Reference(s)**:
 
-* IR Annex III, Part A, Chapter 2.2.4
+
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.4.4
 * [TG VS](README.md#ref_TG_VS), chapter 5.2.3.3.4.4
+
+**Test type**: Automated
 
 **Notes**
 

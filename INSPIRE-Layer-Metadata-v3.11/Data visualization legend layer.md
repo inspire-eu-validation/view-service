@@ -1,11 +1,11 @@
-# layer.style.legend
+# Data visualization legend layer
 
 **Purpose**: Legend is required for explaining the data visualization used for each layer. If the legend contains language-specific elements, localized legends shall be made available in each localized capabilities document.
 
 **Prerequisites**
 
-* [schema.valid](schema.valid.md)
-* [layer.style](layer.style.md)
+* [Validate Schema](Validate Schema.md)
+* [Layer style name](Layer style name.md)
 
 **Test method**
 For each [Layer](#Layer) element provided by the service according to it's Service Metadata:

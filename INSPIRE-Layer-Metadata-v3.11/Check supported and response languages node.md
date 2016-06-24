@@ -1,10 +1,10 @@
-# languages.node
+# Check supported and response languages node
 
 **Purpose**: A language section shall be added in the extended capabilities of the service to fulfil the language requirements of the Network Services Regulation [INS NS]
 
 **Prerequisites**
 
-* [extended.capabilities](extended.capabilities.md)
+* [Check Extended Capabilities](Check Extended Capabilities.md)
 
 **Test method**
 
@@ -14,7 +14,9 @@
 
 * [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.3.1
 * [TG VS](README.md#ref_TG_VS), Chapter 5.2.3.3.1
-* IR Annex III, Part A, Chapter 2.2.3
+* [TG VS](README.md#ref_TG_VS), Chapter 4.2.3.1
+
+**Test type**:Automated
 
 **Notes**
 

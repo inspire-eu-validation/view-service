@@ -1,11 +1,11 @@
-# layer.name
+# Harmonised layer name
 
-**Purpose**: It must be unambiguous to find out which of the layers provided by the service visualize the INSPIRE spatial data sets given in the Data Specifications for each INSPIRE theme. These layers must be named according to the INSPIRE Harmonised layer names defined in [IR IOP](README.md#ref_IR_IOP).
+**Purpose**: It must be unambiguous to find out which of the layers provided by the service visualize the INSPIRE spatial data sets given in the Data Specifications for each INSPIRE theme. These layers must be named according to the INSPIRE Harmonised layer names defined in [TG VS](README.md#ref_TG_VS).
 
 **Prerequisites**
 
-* [schema.valid](schema.valid.md)
-* [coupled.resource](coupled.resource.md)
+* [Validate Schema](Validate Schema.md)
+* [Map Coupled Resource metadata](Map Coupled Resource metadata.md)
 
 **Test method**
 
@@ -15,16 +15,15 @@ For each [layer](#layer) provided by the service according to it's Service Metad
   * The URL in [href](#href) resolves.
   * Verify that the response is an XML document with a root element csw:GetRecordByIdResponse or gmd:MD_Metadata.
   * In case of a csw:GetRecordByIdResponse document, check that there is exactly one gmd:MD_Metadata element in the document. Issue an error if there is no such element.
-  * Check if the [Specification](#specification) contains one of the official translations of the names of [IR IOP](README.md#ref_IR_IOP) and that the value of [Pass](#pass) equals "true".
-  * Check that the trimmed string content of the [Name element](#name) matches one the harmonised layer names given in [IR IOP](README.md#ref_IR_IOP) or it's amendments.
+  * Check if the [Specification](#specification) contains one of the official translations of the names of [TG VS](README.md#ref_TG_VS) and that the value of [Pass](#pass) equals "true".
+  * Check that the trimmed string content of the [Name element](#name) matches one the harmonised layer names given in [TG VS](README.md#ref_TG_VS) or it's amendments.
 * If in the end each of the layers is either skipped or passed, the test passes.
 * If there are more than one layer with the [Metadata element](#metadata) pointing to the same INSPIRE metadata record, the [Identifier](#identifier) of only one of them needs to match one of the harmonised layer names in order for the test to pass for all of those layers.
 
 **Reference(s)**
 
-* [IR IOP](README.md#ref_IR_IOP) Article 14
 * [TG VS](README.md#ref_TG_VS), chapters 4.2.3.3.4.6, Requirement 39
-* [TG VS](README.md#ref_TG_VS), chapters 5.2.3.3.4.5 and 5.2.3.3.4.6, Requriement 84
+* [TG VS](README.md#ref_TG_VS), chapters 5.2.3.3.4.5 and 5.2.3.3.4.6, Requirement 84
 
 
 **Test type**: Automated

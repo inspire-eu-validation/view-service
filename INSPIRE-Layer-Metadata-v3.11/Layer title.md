@@ -1,10 +1,10 @@
-# layer.title
+# Layer title
 
 **Purpose**: Layer title is mapped with the corresponding Title element in the Capabilities. The harmonised title of a layer for an INSPIRE spatial data theme is defined by INS DS and shall be subject to multilingualism (translations shall appear in each mono-lingual capabilities localised documents).
 
 **Prerequisites**
 
-* [schema.valid](schema.valid.md)
+* [Validate Schema](Validate Schema.md)
 
 **Test method**
 
@@ -16,6 +16,10 @@ For each [Layer element](#Layer) provided by the service according to it's Servi
 
 * [TG VS](../README.md#ref_TG_VS), Chapter 4.2.3.3.4.1, Requirement 33
 * [TG VS](../README.md#ref_TG_VS), Chapter 5.2.3.3.4.1, Requirement 85
+
+**Test type**
+
+Automated
 
 **Notes**
 

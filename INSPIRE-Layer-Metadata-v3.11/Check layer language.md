@@ -1,10 +1,10 @@
-# layer.abstract
+# Check layer language
 
 **Purpose**: The layer must be described in a language and terms the users are expected to understand.
 
 **Prerequisites**
 
-* [schema.valid](schema.valid.md)
+* [Validate Schema](Validate Schema.md)
 
 **Test method**
 
@@ -17,6 +17,9 @@ For each [Layer element](#Layer) provided by the service according to it's Servi
 * [TG VS](../README.md#ref_TG_VS), Chapter 4.2.3.3.4.2, Requirement 34
 * [TG VS](../README.md#ref_TG_VS), Chapter 5.2.3.3.4.2, Requirement 86
 
+**Test type**
+
+Automated
 
 **Notes**
 

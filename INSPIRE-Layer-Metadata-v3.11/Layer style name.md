@@ -1,10 +1,10 @@
-# layer.style
+# Layer style name
 
 **Purpose**: Each layer must include at least one style according to the both the ISO 19128 and WMTS specification. To be easily identifiable each style must include a human-readable name and a unique identifier for that style to be used in requests.
 
 **Prerequisites**
 
-* [schema.valid](schema.valid.md)
+* [Validate Schema](Validate Schema.md)
 
 **Test method**
 
@@ -17,7 +17,8 @@ For each [Layer element](#Layer) provided by the service according to it's Servi
 * [TG VS](../README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 41
 * [TG VS](../README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 46
 * [TG VS](../README.md#ref_TG_VS), Chapter 5.2.3.3.4.8, Requirement 90
-* IR Annex III, Part A, Chapter 2.2.4
+
+**Test type**: Automated
 
 **Notes**
 

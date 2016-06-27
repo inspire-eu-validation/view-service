@@ -24,5 +24,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-service Capabilities <a name="service Capabilities"></a>   | /WMS_Capabilities/@xsi:schemaLocation
-GetCapabilities request <a name="GetCapabilities request"></a>   | /WMS_Capabilities/Capability/Request/GetCapabilities/DCPType/HTTP/Get/OnlineResource/@xlink:href
+service Capabilities <a name="service Capabilities"></a>   | /wms:WMS_Capabilities/@xsi:schemaLocation
+GetCapabilities request <a name="GetCapabilities request"></a>   | /wms:WMS_Capabilities/wms:Capability/wms:Request/wms:GetCapabilities/wms:DCPType/wms:HTTP/wms:Get/wms:OnlineResource[@xlink:href]

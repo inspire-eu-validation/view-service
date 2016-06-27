@@ -34,7 +34,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | IR 83 | Link View Service operation metadata | n/a                 |                                            |
 | IR 87 | Keywords                             | Not testable beyond WMTS spec. requirements           | Annex III, Part A, 2.2.4 |
 | IR 89 | Use ETRS & ITRS CRSes                | Not testable |  Annex III, Part B, 1.  |
-| IR 92 | GetTile request parameters           | WMTS tests for GetTile, [A.10.IR92.gettile.language](A.10.IR92.gettile.language.md) | Annex III, Part A, 3.1.1.  |
+| IR 92 | GetTile request parameters           | WMTS tests for GetTile, [GetTile operation](GetTile operation.md) | Annex III, Part A, 3.1.1.  |
 
 ## Tests
 
@@ -83,8 +83,8 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | WMTS.A.3.5.10 Correct Format (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | WMTS.A.3.5.11 Size (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | WMTS.A.3.5.12 Transparent color (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final
-| [A.10.IR92.gettile.language](A.10.IR92.gettile.language.md) | IR | Yes | Ready for review
-| [A.11.IR89.etrs89.itrs.crs](A.11.IR89.etrs89.itrs.crs.md) | IR | Yes | Added during review
+| [GetTile operation](GetTile operation.md) | IR | Yes | Ready for review
+| [etrs89 or itrs crs](etrs89 or itrs crs.md) | IR | Yes | Added during review
 
 ## Open issues
 

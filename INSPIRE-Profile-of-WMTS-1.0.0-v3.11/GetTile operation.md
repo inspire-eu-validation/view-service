@@ -1,4 +1,4 @@
-# A.10.IR92.gettile.language
+# GetTile operation
 
 **Purpose**: The GetTile operation must support all languages declared in the GetCapabilities
 
@@ -19,7 +19,8 @@ response.
   * Create a GetTile operation for the first layer listed in the capabilities document using the maximum allowed bounding box, either "image/png" or "image/gif" format (depending on which is supported), and the `language` as the value of the LANGUAGE request parameter.
   * Verify that an image in the requested image format is returned with HTTP status code 200.
 
-**Reference(s)**: [TG VS](README.md#ref_TG_VS), chapter 5.2.4.1
+**Reference(s)**: 
+*[TG VS](README.md#ref_TG_VS), chapter 5.2.4.1
 
 **Test type**: Automated
 

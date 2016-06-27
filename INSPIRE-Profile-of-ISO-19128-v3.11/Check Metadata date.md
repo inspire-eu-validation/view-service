@@ -25,5 +25,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-MetadataDate <a name="MetadataDate"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataDate
-ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities
+MetadataDate <a name="MetadataDate"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataDate
+ExtendedCapabilities <a name="ExtendedCapabilities"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities

@@ -25,5 +25,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Fees <a name="Fees"></a> | /WMS_Capabilities/Service/Fees
-Service <a name="Service"></a> | /WMS_Capabilities/Service
+Fees <a name="Fees"></a> | /wms:WMS_Capabilities/wms:Service/wms:Fees
+Service <a name="Service"></a> | /wms:WMS_Capabilities/wms:Service

@@ -23,5 +23,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-KeywordList <a name="KeywordList"></a> | /WMS_Capabilities/Capability/Layer/KeywordList
-Layer <a name="Layer"></a> | /WMS_Capabilities/Capability/Layer
+KeywordList <a name="KeywordList"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/wms:KeywordList
+Layer <a name="Layer"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer

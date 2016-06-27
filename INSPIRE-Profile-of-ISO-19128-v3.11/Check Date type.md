@@ -25,7 +25,7 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-DateOfCreation <a name="DateOfCreation"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfCreation
-DateOfPublication <a name="DateOfPublication"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfPublication
-DateOfLastRevision <a name="DateOfLastRevision"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfLastRevision
-TemporalReference <a name="TemporalReference"></a> | /WMS_Capabilities/Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference
+DateOfCreation <a name="DateOfCreation"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfCreation
+DateOfPublication <a name="DateOfPublication"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfPublication
+DateOfLastRevision <a name="DateOfLastRevision"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfLastRevision
+TemporalReference <a name="TemporalReference"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference

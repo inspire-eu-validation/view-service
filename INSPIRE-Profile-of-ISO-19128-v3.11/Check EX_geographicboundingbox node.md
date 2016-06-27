@@ -25,6 +25,6 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-EX_GeographicBoundingBox <a name="EX_GeographicBoundingBox"></a> | /WMS_Capabilities/Capability/Layer/EX_GeographicBoundingBox
-Layer <a name="Layer"></a> | /WMS_Capabilities/Capability/Layer
-Capabilities <a name="Capabilities"></a> | /WMS_Capabilities/Capability
+EX_GeographicBoundingBox <a name="EX_GeographicBoundingBox"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/wms:EX_GeographicBoundingBox
+Layer <a name="Layer"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer
+Capabilities <a name="Capabilities"></a> | /wms:WMS_Capabilities/wms:Capability

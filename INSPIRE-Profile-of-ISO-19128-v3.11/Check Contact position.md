@@ -24,5 +24,5 @@ The namespace prefixes used as described in [README.md](README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-ContactPosition <a name="ContactPosition"></a> | /WMS_Capabilities/Service/ContactInformation/ContactPosition
-ContactInformation <a name="ContactInformation"></a> | /WMS_Capabilities/Service/ContactInformation
+ContactPosition <a name="ContactPosition"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation/wms:ContactPosition
+ContactInformation <a name="ContactInformation"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation

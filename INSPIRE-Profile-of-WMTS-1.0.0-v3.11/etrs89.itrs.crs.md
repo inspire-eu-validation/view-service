@@ -1,4 +1,4 @@
-# A.11.IR89.etrs89.itrs.crs
+# etrs89.itrs.crs
 
 **Purpose**: All INSPIRE spatial datasets must be provided at using at least one geographical coordinate system based on either ETRS89 (for datasets within continental Europe) or ITRS (outside continental Europe).
 

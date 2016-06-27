@@ -1,4 +1,4 @@
-# A.10.IR92.gettile.language
+# gettile.language
 
 **Purpose**: The GetTile operation must support all languages declared in the GetCapabilities
 

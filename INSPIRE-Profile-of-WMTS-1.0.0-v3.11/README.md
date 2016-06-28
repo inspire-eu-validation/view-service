@@ -26,15 +26,20 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | IR 74 | Scope: WMTS 1.0 + INSPIRE extensions |  n/a                               |                              |
 | IR 75 | WMTS GetCapabilities, GetTile       |  All included OGC WMTS tests       |  n/a                             |
 | IR 76 | Link View Service                    |  n/a                               |                              |
-| IR 77 | Common request parameters            |  WMTS common request parameter tests, [A.01.IR77.language.param](A.01.IR77.language.param.md)  | Annex III, Part A, 2.1.1. & 3.1.1. |
+| IR 77 | Common request parameters            |  WMTS common request parameter tests  | Annex III, Part A, 2.1.1. & 3.1.1. |
 | IR 78 | Service metadata content             |  WMTS GetCapabilities tests, most of the tests in this suite   |
 | IR 80 | Link View Service                    |  n/a                |                                             |
 | IR 81 | GetCapabilities operation metadata   | WMTS.A.3.2.2        |                                            |
 | IR 82 | GetTile operation metadata           | WMTS.A.3.2.2        |                                             |
 | IR 83 | Link View Service operation metadata | n/a                 |                                            |
 | IR 87 | Keywords                             | Not testable beyond WMTS spec. requirements           | Annex III, Part A, 2.2.4 |
+<<<<<<< HEAD
 | IR 89 | Use ETRS & ITRS CRSes                | Not testable |  Annex III, Part B, 1.  |
-| IR 92 | GetTile request parameters           | WMTS tests for GetTile, [A.10.IR92.gettile.language](A.10.IR92.gettile.language.md) | Annex III, Part A, 3.1.1.  |
+| IR 92 | GetTile request parameters           | WMTS tests for GetTile, [GetTile operation](GetTile operation.md) | Annex III, Part A, 3.1.1.  |
+=======
+| IR 89 | Use ETRS & ITRS CRSes                | [etrs89.itrs.crs](etrs89.itrs.crs.md) |  Annex III, Part B, 1.  |
+| IR 92 | GetTile request parameters           | WMTS tests for GetTile, [gettile.language](gettile.language.md) | Annex III, Part A, 3.1.1.  |
+>>>>>>> 1ad0d9afa5deb4a256d4c63395ea5c1f140d56de
 
 ## Tests
 
@@ -83,8 +88,13 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | WMTS.A.3.5.10 Correct Format (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | WMTS.A.3.5.11 Size (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | WMTS.A.3.5.12 Transparent color (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final
-| [A.10.IR92.gettile.language](A.10.IR92.gettile.language.md) | IR | Yes | Ready for review
-| [A.11.IR89.etrs89.itrs.crs](A.11.IR89.etrs89.itrs.crs.md) | IR | Yes | Added during review
+<<<<<<< HEAD
+| [GetTile operation](GetTile operation.md) | IR | Yes | Ready for review
+| [etrs89 or itrs crs](etrs89 or itrs crs.md) | IR | Yes | Added during review
+=======
+| [gettile.language](gettile.language.md) | IR | Yes | Ready for review
+| [etrs89.itrs.crs](etrs89.itrs.crs.md) | IR | Yes | Added during review
+>>>>>>> 1ad0d9afa5deb4a256d4c63395ea5c1f140d56de
 
 ## Open issues
 

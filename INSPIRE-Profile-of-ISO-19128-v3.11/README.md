@@ -112,11 +112,7 @@ the WMS Capabilities document's `inspire_vs:ExtendedCapabilities` element:
 
 If none of them is found, the scenario 1 must be selected for the validation.
 
-<<<<<<< HEAD
 The the case of scenario 1, the the metadata record referred to by the `inspire_common:MetadataUrl` element must also pass the service scenario of the test suite [ATS Metadata](http://inspire.ec.europa.eu/id/ats/metadata/3.1).
-=======
-The the case of scenario 1, the the metadata record referred to by the `inspire_common:MetadataUrl` element must also pass the service scenario of the test suite [ats-metadata](inspire.ec.europa.eu/id/ats/ats-metadata/3.1).
->>>>>>> ae43c64466d9348070be3354c7d42201ab5168e5
 
 ## Tests
 

@@ -25,27 +25,27 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 
 | Req#   | Description                          | Covered by test(s)                 | IR reference(s)                  |
 | ------ | ------------------------------------ | ---------------------------------- | -------------------------------- |
-| 6      | Extended capabilities element exists | [Check Extended Capabilities](Check Extended Capabilities.md) | |
-| 13     | Coupled Resources | [Map Coupled Resource metadata](Map Coupled Resource metadata.md) | |
-| 14     | MetadataURL is provided | [Map Coupled Resource metadata](Map Coupled Resource metadata.md) | |
-| 31     | Supported image formats for GetMap | [Check PNG-GIF image format](Check PNG-GIF image format.md) | |
-| 33     | Layer contains title (WMS) | [Layer title](Layer title.md) | |
-| 34     | Abstract to describe layer (WMS) | [Check layer language](Check layer language.md) | |
-| 36     | Geographic Bounding Box for WMS | [Minimum geographic bbox](Minimum geographic bbox.md) | IR Annex III, Part A, Chapter 2.2.4 |
-| 39     | Layer name | [Harmonised layer name](Harmonised layer name.md) | IR IOP Article 14 |
-| 41     | Layer style contains title and identifier | [Layer style name](Layer style name.md) | IR Annex III, Part A, Chapter 2.2.4 |
+| 6      | Extended capabilities element exists | [Extended Capabilities](extended-capabilities.md) | |
+| 13     | Coupled Resources | [Map Coupled Resource metadata](map-coupled-resource-metadata.md) | |
+| 14     | MetadataURL is provided | [Map Coupled Resource metadata](map-coupled-resource-metadata.md) | |
+| 31     | Supported image formats for GetMap | [PNG-GIF image format](png-gif image format.md) | |
+| 33     | Layer contains title (wms) | [layer title](layer-title.md) | |
+| 34     | Abstract to describe layer (wms) | [layer language](layer-language.md) | |
+| 36     | Geographic Bounding Box for WMS | [Minimum geographic bbox](minimum-geographic-bbox.md) | IR Annex III, Part A, Chapter 2.2.4 |
+| 39     | Layer name | [Harmonised layer name](harmonised-layer-name.md) | IR IOP Article 14 |
+| 41     | Layer style contains title and identifier | [Layer style name](layer-style-name.md) | IR Annex III, Part A, Chapter 2.2.4 |
 | 45     | A legend is provided for layers |[Data visualization legend layer](Data visualization legend layer)  | |
-| 46     | Layer style are mapped correctly (WMS) | [Layer style name](Layer style name.md) | IR Annex III, Part A, Chapter 2.2.4 |
+| 46     | Layer style are mapped correctly (wms) | [layer style name](layer-style-name.md) | IR Annex III, Part A, Chapter 2.2.4 |
 | 47     | Internationalized layer legends | [Data visualization legend layer](Data visualization legend layer)  | |
-| 66     | Supported languages | [Check supported and response languages node](Check supported and response languages node.md) | IR Annex III, Part A, Chapter 2.2.3 |
-| 79     | Link to metadata description | [Map Coupled Resource metadata](Map Coupled Resource metadata.md) | |
-| 82     | Supported image formats for GetTile | [Check PNG-GIF image format](Check PNG-GIF image format.md) | |
-| 84     | Layer name | [Harmonised layer name](Harmonised layer name.md) | IR IOP Article 14 |
-| 85     | Layer contains title (WMTS) | [Layer title](Layer title.md) | |
-| 86     | Abstract to describe layer (WMTS) | [Check layer language](Check layer language.md) | |
-| 88     | Geographic Bounding Box for WMTS | [Minimum geographic bbox](Minimum geographic bbox.md) | IR Annex III, Part A, Chapter 2.2.4 |
-| 90     | Layer style are mapped correctly (WMTS) | [Layer style name](Layer style name.md) | IR Annex III, Part A, Chapter 2.2.4 |
-| 91     | A legend is provided for layers | [Data visualization legend layer](Data visualization legend layer.md) | |
+| 66     | Supported languages | [Supported and response languages node](supported-and-response-languages-node.md) | IR Annex III, Part A, Chapter 2.2.3 |
+| 79     | Link to metadata description | [Map Coupled Resource metadata](map-coupled-resource-metadata.md) | |
+| 82     | Supported image formats for GetTile | [PNG-GIF image format](png-gif image format.md) | |
+| 84     | Layer name | [Harmonised layer name](harmonised-layer-name.md) | IR IOP Article 14 |
+| 85     | Layer contains title (wmts) | [layer title](layer-title.md) | |
+| 86     | Abstract to describe layer (wmts) | [layer language](layer-language.md) | |
+| 88     | Geographic Bounding Box for WMTS | [Minimum geographic bbox](minimum-geographic-bbox.md) | IR Annex III, Part A, Chapter 2.2.4 |
+| 90     | Layer style are mapped correctly (wmts) | [layer style name](layer-style-name.md) | IR Annex III, Part A, Chapter 2.2.4 |
+| 91     | A legend is provided for layers | [Data visualization legend layer](data-visualization-legend-layer.md) | |
 
 
 ## Tests
@@ -56,18 +56,18 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 
 | Identifier                                                                          | Status   |
 | ----------------------------------------------------------------------------------- | -------- |
-| [Schema validation](Schema validation.md) | Ready for review |
-| [Map Coupled Resource metadata](Map Coupled Resource metadata.md) | Ready for review |
-| [Check Extended Capabilities](Check Extended Capabilities.md) | Ready for review |
-| [Check PNG-GIF image format](Check PNG-GIF image format.md) | Ready for review |
-| [Select language capabilities](Select language capabilities.md) | Ready for review |
-| [Check supported and response languages node](Check supported and response languages node.md) | Ready for review |
-| [Check layer language](Check layer language.md) | Ready for review |
-| [Minimum geographic bbox](Minimum geographic bbox.md) | Ready for review |
-| [Harmonised layer name](Harmonised layer name.md) | Ready for review |
+| [Schema validation](schema-validation.md) | Ready for review |
+| [Map Coupled Resource metadata](map-coupled-resource-metadata.md) | Ready for review |
+| [Extended Capabilities](extended-capabilities.md) | Ready for review |
+| [PNG-GIF image format](png-gif image format.md) | Ready for review |
+| [Select language capabilities](select-language-capabilities.md) | Ready for review |
+| [Supported and response languages node](supported-and-response-languages-node.md) | Ready for review |
+| [Layer language](layer-language.md) | Ready for review |
+| [Minimum geographic bbox](minimum-geographic-bbox.md) | Ready for review |
+| [Harmonised layer name](harmonised-layer-name.md) | Ready for review |
 | [Data visualization legend layer](Data visualization legend layer) | Ready for review |
-| [Layer style name](Layer style name.md) | Ready for review |
-| [Layer title](Layer title.md) | Ready for review |
+| [Layer style name](layer-style-name.md) | Ready for review |
+| [Layer title](layer-title.md) | Ready for review |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 

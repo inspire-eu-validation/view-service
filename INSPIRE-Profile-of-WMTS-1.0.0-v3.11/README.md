@@ -33,7 +33,6 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | IR 82 | GetTile operation metadata           | WMTS.A.3.2.2        |                                             |
 | IR 83 | Link View Service operation metadata | n/a                 |                                            |
 | IR 87 | Keywords                             | Not testable beyond WMTS spec. requirements           | Annex III, Part A, 2.2.4 |
-<<<<<<< HEAD
 | IR 89 | Use ETRS & ITRS CRSes                | Not testable |  Annex III, Part B, 1.  |
 | IR 92 | GetTile request parameters           | WMTS tests for GetTile, [GetTile operation](gettile-operation.md) | Annex III, Part A, 3.1.1.  |
 

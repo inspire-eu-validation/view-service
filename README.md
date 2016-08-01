@@ -1,7 +1,5 @@
 # Abstract Test Suite: INSPIRE View Services Technical Guidance (DRAFT)
 
-*NOTE: Rename repository from "ats-view-wms" to "view-service".*
-
 The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |

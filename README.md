@@ -1,4 +1,4 @@
-# Abstract Test Suite: INSPIRE View Services Technical Guidance (DRAFT)
+# Abstract Test Suite: INSPIRE View Services Technical Guidance
 
 The specification specifies the following conformance classes:
 

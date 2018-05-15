@@ -55,8 +55,8 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 11     | ResourceType element | [Resource type is Service](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/resource-type-is-service) | |
 | 12     | ResourceLocator element | [Resource Locator](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/resource-locator) | |
 | 15     | SpatialDataServiceType element | [Map SDS Type with ExtendedCapabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-sds-type-with-extendedcapabilities) | |
-| 16     | Classification of Spatial Data Services keyword | | |
-| 17     | Additional keywords | Not testable | |
+| 16     | Classification of Spatial Data Services keyword | [Keyword node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keyword-node) | |
+| 17     | Additional keywords | [Keyword list](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keywordlist) | |
 | 18     | MD keywords | [Keyword node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keyword-node) | |
 | 19     | Geographic Bounding Box | [EX_geographicboundingbox node](ex_geographicboundingbox node.md) | |
 | 20     | Temporal reference dates | [Date type](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/date-type) | |
@@ -79,7 +79,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 42     | inspire_common:default style | [Inspire default styles](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/inspire-default-styles) | |
 | 43     | GCM fallback style | [Review default styles](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/review-default-style) | |
 | 44     | inspire_common:default is the default layer Style | [Review default styles](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/review-default-style) | |
-| 48     | Layer Dimension elements | Not testable | |
+| 48     | Layer Dimension elements | [Dimension](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/dimension) | |
 | 49     | Category layers | [Category Layers.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/category-layers) | |
 | 50     | GetMap: VERSION parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 51     | GetMap: REQUEST parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |

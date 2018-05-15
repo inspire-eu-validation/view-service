@@ -21,7 +21,7 @@
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
 
-Abbreviation                                               |  XPath expression
+Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-service capabilities <a name="service Capabilities"></a>   | /wms:WMS_Capabilities/@xsi:schemaLocation
-GetCapabilities request <a name="GetCapabilities request"></a>   | /wms:WMS_Capabilities/wms:Capability/wms:Request/wms:GetCapabilities/wms:DCPType/wms:HTTP/wms:Get/wms:OnlineResource[@xlink:href]
+service capabilities <a name="service Capabilities"></a>   | ./@xsi:schemaLocation
+GetCapabilities request <a name="GetCapabilities request"></a>   | ./wms:Capability/wms:Request/wms:GetCapabilities/wms:DCPType/wms:HTTP/wms:Get/wms:OnlineResource[@xlink:href]

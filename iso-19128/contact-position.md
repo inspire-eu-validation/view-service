@@ -13,7 +13,8 @@
 
 **Reference(s)**:
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.14
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.14, Requirement 26
+
 
 **Test type**: Automated
 
@@ -23,7 +24,7 @@
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
 
-Abbreviation                                               |  XPath expression
+Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-ContactPosition <a name="ContactPosition"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation/wms:ContactPosition
-ContactInformation <a name="ContactInformation"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation
+ContactPosition <a name="ContactPosition"></a> | ./wms:Service/wms:ContactInformation/wms:ContactPosition
+ContactInformation <a name="ContactInformation"></a> | ./wms:Service/wms:ContactInformation/wms:ContactPositionequals/text() equals ('resourceProvider' or 'custodian' or 'owner' or 'user' or 'distributor' or 'originator' or 'pointOfContact' or 'principalInvestigator' or 'processor' or 'publisher' or 'author')

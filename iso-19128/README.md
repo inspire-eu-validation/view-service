@@ -54,6 +54,8 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 10     | Mapping of service metadata elements | [Title and Abstract](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/title-and-abstract), [resource type is service](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/resource-type-is-service), [resource locator](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/resource-locator), [map coupled resource metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-coupled-resource-metadata), [map sds type with extendedcapabilitie](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-sds-type-with-extendedcapabilities), [keyword node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keyword-node), [ex_geographicboundingbox node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/geographic-bounding-box), [date type](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/date-type), [temporal reference](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/temporal-reference), [degree of conformity](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/degree-of-conformity), [conformity node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/conformity-node), [fees node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/fees-node), [contact person](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/contact-person), [contact position](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/contact-position), [point of contact details](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/point-of-contact-details), [metadata date](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/metadata-date) | [IR MD](#ref_IR_MD), Part B |
 | 11     | ResourceType element | [Resource type is Service](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/resource-type-is-service) | |
 | 12     | ResourceLocator element | [Resource Locator](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/resource-locator) | |
+| 13     | Coupled Resource | [Map coupled resource metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-coupled-resource-metadata) | |
+| 14     | Coupled Resource | [Map coupled resource metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-coupled-resource-metadata) | |
 | 15     | SpatialDataServiceType element | [Map SDS Type with ExtendedCapabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-sds-type-with-extendedcapabilities) | |
 | 16     | Classification of Spatial Data Services keyword | [Keyword node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keyword-node) | |
 | 17     | Additional keywords | [Keyword list](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keywordlist) | |
@@ -71,14 +73,23 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 29     | Metadata date | [Metadata date](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/metadata-date) | |
 | 30     | GetCapabilities operation | [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/schema-validation) | |
 | 30     | GetMap Operation | [Getmap format](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/getmap-format) | |
+| 31     | Supported image formats for GetMap | [PNG-GIF image format](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/png-gif-image-format) | |
 | 32     | Layer metadata | [Title and Abstract](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/title-and-abstract), [keywordlist](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keywordlist), [Bounding box in layer](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/bbox-in-layer), [layer identifier node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/layer-identifier-node), [harmonised layer name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/harmonised-layer-name), [etrs89 or itrs crs](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/etrs89-or-itrs-crs), [inspire default styles](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/inspire-default-styles) | |
+| 33     | Layer contains title (wms) | [layer title](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-title) | |
+| 34     | Abstract to describe layer (wms) | [layer language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-language) | |
 | 35     | Additional layer keywords | [Keywordlist](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keywordlist) | |
+| 36     | Geographic Bounding Box for WMS | [Minimum geographic bbox](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/minimum-geographic-bbox) | IR Annex III, Part A, Chapter 2.2.4 |
 | 37     | Unique Resource Identifier (layer origin) | [layer identifier node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/layer-identifier-node) | |
 | 38     | AuthorityURL & Identifier | [Layer identifier node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/layer-identifier-node) | |
+| 39     | Layer name | [Harmonised layer name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/harmonised-layer-name) | IR IOP Article 14 |
 | 40     | Coordinate Reference Systems | [etrs89 or itrs crs](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/etrs89-or-itrs-crs) | |
+| 41     | Layer style contains title and identifier | [Layer style name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-style-name) | IR Annex III, Part A, Chapter 2.2.4 |
 | 42     | inspire_common:default style | [Inspire default styles](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/inspire-default-styles) | |
 | 43     | GCM fallback style | [Review default styles](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/review-default-style) | |
 | 44     | inspire_common:default is the default layer Style | [Review default styles](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/review-default-style) | |
+| 45     | A legend is provided for layers |[Data visualization legend layer](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/data-visualization-legend-layer)  | |
+| 46     | Layer style are mapped correctly (wms) | [layer style name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-style-name) | IR Annex III, Part A, Chapter 2.2.4 |
+| 47     | Internationalized layer legends | [Data visualization legend layer](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/data-visualization-legend-layer)  | |
 | 48     | Layer Dimension elements | [Dimension](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/dimension) | |
 | 49     | Category layers | [Category Layers.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/category-layers) | |
 | 50     | GetMap: VERSION parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
@@ -97,6 +108,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 63     | Cascaded layers to include "cascaded" attribute | [Review cascading view services](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/cascading-view-services) | |
 | 64     | The value of the "cascaded" attribute indicates cascading level | [Review cascading view services](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/cascading-view-services) | |
 | 65     | Transparency & background for collated layers | [Review cascading view services](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/cascading-view-services) | |
+| 66     | Supported languages | [Supported and response languages node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/supported-and-response-languages-node) | IR Annex III, Part A, Chapter 2.2.3 |
 | 67     | Client may select the language | [Language selection capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/language-selection-capabilities) | |
 | 68     | GetCapabilities: LANGUAGE parameter | [Language selection capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/language-selection-capabilities) | |
 | 69     | GetCapabilities: default language | [Default language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/default-language) | |
@@ -149,28 +161,37 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [Conformity node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/conformity-node) | 2 only | ready for review |
 | [Contact person](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/contact-person) | all | ready for review |
 | [Contact position](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/contact-position) | all | ready for review |
+| [Data visualization legend layer](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/data-visualization-legend-layer) | Ready for review |
 | [Date type](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/date-type) | 2 only | ready for review |
 | [Default language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/default-language) | all | ready for review |
 | [Degree of conformity](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/degree-of-conformity) | 2 only | ready for review |
 | [ETRS89 or ITRS CRS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/etrs89-or-itrs-crs) | all | ready for review |
+| [Extended Capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/extended-capabilities) | Ready for review |
 | [Fees node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/fees-node) | all | ready for review |
 | [Geographic bounding box](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/geographic-bounding-box) | all | ready for review |
 | [GetMap format](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/getmap-format) | all | ready for review |
+| [Harmonised layer name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/harmonised-layer-name) | Ready for review |
 | [INSPIRE default styles](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/inspire-default-styles) | all | ready for review |
 | [Keyword node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keyword-node) | 2 only | ready for review |
 | [Keyword list](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/keywordlist) | all | ready for review |
 | [Language selection capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/language-selection-capabilities) | all | ready for review |
 | [Layer identifier node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/layer-identifier-node) | all | ready for review |
+| [Layer language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-language) | Ready for review |
+| [Layer style name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-style-name) | Ready for review |
+| [Layer title](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-title) | Ready for review |
 | [Language support for rendered text](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/linguistic-labels) | all | ready for review |
 | [Map coupled resource metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-coupled-resource-metadata) | all | ready for review |
 | [Map SDS type with ExtendedCapabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-sds-type-with-extendedcapabilities) | 2 only | ready for review |
 | [Metadata date](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/metadata-date) | 2 only | ready for review |
 | [MetadataURL reference INSPIRE service metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/metadataurl-reference-inspire-service-metadata) | 1 only | ready for review |
+| [Minimum geographic bbox](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/minimum-geographic-bbox) | Ready for review |
+| [PNG-GIF image format](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/png-gif-image-format) | Ready for review |
 | [Point-of-contact details](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/point-of-contact-details) | 2 only | ready for review |
 | [Resource locator](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/resource-locator) | 2 only | ready for review |
 | [Resource type is service](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/resource-type-is-service) | 2 only | ready for review |
 | [Review cascading view services](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/cascading-view-services) | all | ready for review |
 | [Review default styles](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/review-default-style) | all | ready for review |
+| [Select language capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/select-language-capabilities) | Ready for review |
 | [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/schema-validation) | all | ready for review |
 | [Supported and response languages node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/supported-and-response-languages-node) | all | ready for review |
 | [Temporal reference](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/temporal-reference) | 2 only | ready for review |

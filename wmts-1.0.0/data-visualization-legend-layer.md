@@ -35,5 +35,5 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 Abbreviation                                               |  XPath expression (relative to Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Style <a name="Style"></a> | ./wmts:Contents/wmts:Layer/wmts:Style
-HREF attribute <a name="href"></a> | /wmts:Contents/wmts:Layer/wmts:Style/wmts:Style/wmts:LegendURL[@xlink:href]
-Format <a name="format"></a> | ./wmts:Contents/wmts:Layer/wmts:Style/wmts:Style/wmts:LegendURL[@format]
+HREF attribute <a name="href"></a> | /wmts:Contents/wmts:Layer/wmts:Style/wmts:LegendURL[@xlink:href]
+Format <a name="format"></a> | ./wmts:Contents/wmts:Layer/wmts:Style/wmts:LegendURL[@format]

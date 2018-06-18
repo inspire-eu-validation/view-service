@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/schema-validation)
+* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/schema-validation)
 
 **Test method**
 
@@ -16,8 +16,7 @@ For each [Layer element](#layer) provided by the service according to it's Servi
 **Reference(s)**:
 
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/README#ref_TG_VS), Chapter 4.2.3.3.4.4
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/README#ref_TG_VS), chapter 5.2.3.3.4.4
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/README#ref_TG_VS) 5.2.3.3.4.4, Requirement 88
 
 **Test type**: Automated
 
@@ -25,15 +24,10 @@ For each [Layer element](#layer) provided by the service according to it's Servi
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/README#namespaces).
 
-Abbreviation                                     |  XPath expression												|  Parameter  value
------------------------------------------------- | ---------------------------------------------------------------	| ---------------------------------------------------------------
-Layer <a name="Layer"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer | ISO 19128
-                           | /wmts:Capabilities/wmts:Contents/wmts:Layer | WMTS 1.0.0
-CRS <a name="wmsCRS"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/wms:CRS | ISO 19128
-BoundingBox <a name="BoundingBox"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/BoundingBox | ISO 19128
-@CRS <a name="CRS"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/BoundingBox[@CRS] | ISO 19128
-WGS84BoundingBox <a name="wgs84bbox"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer/ows:WGS84BoundingBox | WMTS 1.0.0
-LowerCorner <a name="lowerCorner"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer/ows:WGS84BoundingBox/ows:LowerCorner | WMTS 1.0.0
-UpperCorner <a name="upperCorner"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer/ows:WGS84BoundingBox/ows:UpperCorner | WMTS 1.0.0
+Abbreviation                                               |  XPath expression (relative to Capabilities)
+---------------------------------------------------------- | -------------------------------------------------------------------------
+CRS <a name="wmsCRS"></a> | ./wmts:Contents/wmts:Layer/wms:CRS
+BoundingBox <a name="BoundingBox"></a> | ./wmts:Contents/wmts:Layer/BoundingBox
+@CRS <a name="CRS"></a> | ./wmts:Contents/wmts:Layer/BoundingBox[@CRS]

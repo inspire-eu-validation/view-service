@@ -28,5 +28,5 @@ The namespace prefixes used as described in [README.md](http://inspire.ec.europa
 
 Abbreviation                                               |  XPath expression (relative to Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Title <a name="Title"></a> | ./wms:Capability/wms:Layer/wms:Title
+Title <a name="Title"></a> | ./wmts:Contents/wmts:Layer/wms:Title
 

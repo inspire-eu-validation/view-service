@@ -48,13 +48,19 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | IR 76 | Link View Service                    |  n/a                               |                              |
 | IR 77 | Common request parameters            |  WMTS common request parameter tests  | Annex III, Part A, 2.1.1. & 3.1.1. |
 | IR 78 | Service metadata content             |  WMTS GetCapabilities tests, most of the tests in this suite   |
+| IR 79 | Coupled Resource             |  [Map coupled resource metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/map-coupled-resource-metadata)   |
 | IR 80 | Link View Service                    |  n/a                |                                             |
 | IR 81 | GetCapabilities operation metadata   | WMTS.A.3.2.2        |                                            |
-| IR 82 | GetTile operation metadata           | WMTS.A.3.2.2        |                                             |
+| IR 82 | GetTile operation metadata           | [GetTile operation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/gettile-languages), [PNG-GIF image format](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/png-gif-image-format)        |                                             |
 | IR 83 | Link View Service operation metadata | n/a                 |                                            |
+| IR 84 | Harmonised layer name | [Harmonised Layer Name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/harmonised-layer-name) |
+| IR 85 | Layer Title | [Layer Title](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-title) |
+| IR 86 | Layer Language | [Layer Language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-language) |
 | IR 87 | Keywords                             | not testable           | Annex III, Part A, 2.2.4 |
-| IR 89 | Use ETRS & ITRS CRSes                | [ETRS89 or ITRS coordinate reference system](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/etrs89-or-itrs-crs) |  Annex III, Part B, 1.  |
-| IR 92 | GetTile request parameters           | WMTS tests for GetTile, [GetTile language support](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/gettile-languages) | Annex III, Part A, 3.1.1.  |
+| IR 88 | Minimum Geographic Bbox | [Minimum Geographic Bbox](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/minimum-geographic-bbox) |
+| IR 89 | Use ETRS & ITRS CRSes                | [ETRS89 or ITRS coordinate reference system](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/etrs89-or-itrs-crs) |  Annex III, Part B, 1.  |
+| IR 90 | Layer StyleName           | [Layer Style Name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-style-name) | Annex III, Part A, 3.1.1.  |
+| IR 92 | GetTile request parameters           | WMTS tests for GetTile, [GetTile language support](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/gettile-languages) | Annex III, Part A, 3.1.1.  |
 
 Note: Requirements marked as "not testable" should be reconsidered in a revision of the technical guidance" 
 
@@ -106,7 +112,17 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | WMTS.A.3.5.11 Size (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | WMTS.A.3.5.12 Transparent color (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final
 | [GetTile operation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/gettile-languages) | IR | Yes | Ready for review
-| [etrs89 or itrs crs](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/etrs89-or-itrs-crs) | IR | Yes | Added during review
+| [etrs89 or itrs crs](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/etrs89-or-itrs-crs) | IR | Yes | Ready for review
+| [Map coupled resource metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/map-coupled-resource-metadata)   | IR | Yes | Ready for review
+| [GetTile operation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/gettile-languages)| IR | Yes | Ready for review
+| [PNG-GIF image format](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/png-gif-image-format)| IR | Yes | Ready for review
+| [Harmonised Layer Name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/harmonised-layer-name)| IR | Yes | Ready for review
+| [Layer Title](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-title)| IR | Yes | Ready for review
+| [Layer Language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-language)| IR | Yes | Ready for review
+| [Minimum Geographic Bbox](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/minimum-geographic-bbox)| IR | Yes | Ready for review
+| [ETRS89 or ITRS coordinate reference system](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/etrs89-or-itrs-crs)| IR | Yes | Ready for review
+| [Layer Style Name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-style-name)| IR | Yes | Ready for review
+| [GetTile language support](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/gettile-languages)| IR | Yes | Ready for review
 
 ## Open issues
 

@@ -8,10 +8,10 @@
 
 **Test method**
 
-* Check if there is a KeywordList node in each Layer section.
+* Check if there is a [KeywordList](#KeywordList) node in each Layer section.
 
 **Reference(s)**:
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.4.3
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.4.3, Requirement 17,35
 
 **Test type**: Automated
 
@@ -21,7 +21,6 @@
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
 
-Abbreviation                                               |  XPath expression
+Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-KeywordList <a name="KeywordList"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer/wms:KeywordList
-Layer <a name="Layer"></a> | /wms:WMS_Capabilities/wms:Capability/wms:Layer
+KeywordList <a name="KeywordList"></a> | ./wms:Capability/wms:Layer/wms:KeywordList

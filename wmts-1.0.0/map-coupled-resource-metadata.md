@@ -1,10 +1,12 @@
 # Map Coupled Resource metadata
 
-**Purpose**: Coupled Resource shall be mapped to the `MetadataURL` elements of the Layer elements of the service capabilities. If linkage to the data sets or series on which the service operates are available, then the linkage to these resources shall be provided as stated by the INSPIRE Metadata Technical Guidance INS MDTG.
+**Purpose**: Coupled Resource shall be mapped to the `MetadataURL` elements of the Layer elements of the service capabilities. 
+If linkage to the data sets or series on which the service operates are available, then the linkage to these resources shall 
+be provided as stated by the INSPIRE Metadata Technical Guidance INS MDTG.
 
 **Prerequisites**
 
-* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/schema-validation)
+* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/schema-validation)
 
 **Test method**
 
@@ -13,7 +15,7 @@
   * In case of a csw:GetRecordByIdResponse document, use the first [gmd:MD_Metadata](#Metadata) child element. Issue an error if there is no such element.
 
 **Reference(s)**:
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.5, Requirement 10,13,14
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/README#ref_TG_VS), Chapter 5.2.3.1, Requirement 79
 
 **Test type**: Automated
 
@@ -21,7 +23,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/README#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

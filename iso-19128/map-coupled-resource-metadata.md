@@ -9,11 +9,11 @@
 **Test method**
 
 * If there is a MetadataURL node for a layer:
-  * Verify that the response to a HTTP GET request of the URL in [OnlineResource/@xlink:href](#OnlineResource) of the MetadataURL section is an XML document with a root element csw:GetRecordByIdResponse or gmd:MD_Metadata.
-  * In case of a csw:GetRecordByIdResponse document, use the first [gmd:MD_Metadata](#Metadata) child element. Issue an error if there is no such element.
+  * Verify that the response to a HTTP GET request of the URL in OnlineResource/@xlink:href of the MetadataURL section is an XML document with a root element csw:GetRecordByIdResponse or gmd:MD_Metadata.
+  * In case of a csw:GetRecordByIdResponse document, use the first gmd:MD_Metadata child element. Issue an error if there is no such element.
 
 **Reference(s)**:
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.5, Requirement 10,13,14
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.5
 
 **Test type**: Automated
 
@@ -23,8 +23,8 @@
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-MetadataURL <a name="MetadataURL"></a>   | ./wms:Capability/wms:Layer/MetadataURL
-OnlineResource/@xlink:href <a name="OnlineResource"></a>   | ./wms:Capability/wms:Layer/MetadataURL/Format/OnlineResource[@xlink:href='http://www.w3.org/1999/xlink']
-Metadata <a name="Metadata"></a>  | gmd:MD_Metadata/gmd:distributionInfo/\*/gmd:transferOptions/gmd:MD_DigitalTransferOptions/ \*/gmd:CI_OnlineResource[1]
+MetadataURL <a name="MetadataURL"></a>   | /wms:WMS_Capabilities/wms:Capability/wms:Layer/MetadataURL
+OnlineResource/@xlink:href <a name="OnlineResource/@xlink:href"></a>   | /wms:WMS_Capabilities/wms:Capability/wms:Layer/MetadataURL/Format/OnlineResource/@xlink:href
+xlink | http://www.w3.org/1999/xlink

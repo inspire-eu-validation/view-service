@@ -10,7 +10,7 @@ Review maps for each harmonized layer to verify that the rendering used the spec
 
 **Reference(s)**: 
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirements 43, 44.
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Requirements 43, 44.
 
 **Test type**: Manual
 

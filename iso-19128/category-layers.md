@@ -14,7 +14,7 @@ portraying all of the nested layers can be requested at once.
 
 **Reference(s)**:
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.4.11,  Requirement 49
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.4.11, Requirement 49
 
 **Test type**: Automated
 
@@ -26,8 +26,8 @@ The second part of the requirement, stating that "If a metadata description of t
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Layer <a name="Layer"></a>   | ./wms:Capability/wms:Layer/wms:Layer
-Group Layer <a name="GroupLayer"></a>   | ./wms:Capability/wms:Layer
-Name <a name="Name"></a>   | ./wms:Capability/wms:Layer/wms:Name
+Layer <a name="Layer"></a>   | /wms:WMS_Capabilities/wms:Capability/wms:Layer/wms:Layer
+Group Layer <a name="GroupLayer"></a>   | /wms:WMS_Capabilities/wms:Capability/wms:Layer
+Name <a name="Name"></a>   | /wms:WMS_Capabilities/wms:Capability/wms:Layer/wms:Name

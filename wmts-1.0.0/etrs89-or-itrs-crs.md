@@ -13,7 +13,7 @@ For each [layer](#layer):
 
 **Reference(s)**:
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/README#ref_TG_VS) 5.2.3.3.4.7, Requirement 89
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/README#ref_TG_VS), chapter 5.2.3.3.4.7, requirement 89
 
 **Test type**: Manual
 
@@ -23,11 +23,11 @@ This test is manual until a machine-readable "whitelist" register of the accepta
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/README#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to Capabilities)
+Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Layer <a name="layer"></a> | ./wmts:Contents/wmts:Layer
-TileMatrixSetLink <a name="TileMatrixSetLink"/> | ./wmts:Contents/wmts:Layer/wmts:TileMatrixSetLink/wmts:TileMatrixSet
-TileMatrixSet <a name="TileMatrixSet"/> | ./wmts:Contents/wmts:TileMatrixSet/ows:Identifier
-SupportedCRS element <a name="crs"></a> | ./wmts:Contents/wmts:TileMatrixSet/ows:SupportedCRS
+Layer <a name="layer"></a> | /wmts:Capabilities/wmts:Contents/wmts:Layer
+TileMatrixSetLink <a name="TileMatrixSetLink"/> | /wmts:Capabilities/wmts:Contents/wmts:Layer/wmts:TileMatrixSetLink/wmts:TileMatrixSet
+TileMatrixSet <a name="TileMatrixSet"/> | /wmts:Capabilities/wmts:Contents/wmts:TileMatrixSet/ows:Identifier
+SupportedCRS element <a name="crs"></a> | /wmts:Capabilities/wmts:Contents/wmts:TileMatrixSet/ows:SupportedCRS

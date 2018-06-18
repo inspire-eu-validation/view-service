@@ -14,7 +14,7 @@ The supported languages are not layer specific, so it's sufficient to the test w
 
 **Reference(s)**: 
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/README#ref_TG_VS), Requirement 92
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/README#ref_TG_VS), Requirement 92
 
 **Test type**: Automated
 
@@ -22,8 +22,8 @@ The supported languages are not layer specific, so it's sufficient to the test w
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/README#namespaces).
+The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/README#namespaces).
 
-Abbreviation                                               | XPath expression (relative to Capabilities)
+Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-supported languages <a name="supportedLanguages"></a>   | ./ows:OperationsMetadata/inspire_vs:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:SupportedLanguage
+supported languages <a name="supportedLanguages"></a>   | /wmts:Capabilities/ows:OperationsMetadata/inspire_vs:ExtendedCapabilities/inspire_common:SupportedLanguages/inspire_common:SupportedLanguage

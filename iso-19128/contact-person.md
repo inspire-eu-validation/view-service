@@ -12,8 +12,7 @@
 
 **Reference(s)**:
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.14, Requirement 25
-
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.14
 
 **Test type**: Automated
 
@@ -23,8 +22,8 @@
 
 The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-ContactInformation <a name="ContactInformation"></a> | ./wms:Service/wms:ContactInformation
-ContactPersonPrimary <a name="ContactPersonPrimary"></a> | ./wms:Service/wms:ContactInformation/wms:ContactPersonPrimary
-ContactOrganization <a name="ContactOrganization"></a> | ./wms:Service/wms:ContactInformation/wms:ContactPersonPrimary/wms:ContactOrganization
+ContactInformation <a name="ContactInformation"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation
+ContactPersonPrimary <a name="ContactPersonPrimary"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation/wms:ContactPersonPrimary
+ContactOrganization <a name="ContactOrganization"></a> | /wms:WMS_Capabilities/wms:Service/wms:ContactInformation/wms:ContactPersonPrimary/wms:ContactOrganization

@@ -29,4 +29,11 @@ n/a
 
 ## TG Requirement coverage
 
-TODO conformance class to be specified
+Based on requirement of the compliance with the Quality of Service as defined in Annex I of the NS regulation:
+
+| Req#   | Description                          | Covered by test(s)                 | IR reference(s)                  |
+| ------ | ------------------------------------ | ---------------------------------- | -------------------------------- |
+| 1      | Performance: For a 470 Kilobytes image (e.g. 800x600 pixels with a colour depth of 8 bits), the response time for sending the initial response to a Get Map Request to a view service shall be maximum 5 seconds in normal situation     | n/a                                | n/a                              |
+| 2      | Capacity: The minimum number of served simultaneous service requests to a view service according to the performance quality of service shall be 20 per second.    | n/a                                | n/a                              |
+| 3      | Availability: The probability of a Network Service to be available shall be 99% of the time.     | n/a                                | n/a                              |
+

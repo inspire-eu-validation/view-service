@@ -8,7 +8,8 @@
 
 **Test method**
 
-* Check if there is a ContactPosition node in the ContactInformation section
+* This test only applies to [Scenario 2](#scenario-2). Otherwise the test case is skipped.
+* Check if there is a [ContactPosition](#ContactPosition) node in the [ContactInformation](#ContactInformation) section
 * If yes, check if that it has one of the values: resourceProvider, custodian, owner, user, distributor, originator, pointOfContact, principalInvestigator, processor, publisher, author.
 
 **Reference(s)**:
@@ -28,3 +29,4 @@ Abbreviation                                               |  XPath expression (
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 ContactPosition <a name="ContactPosition"></a> | ./wms:Service/wms:ContactInformation/wms:ContactPosition
 ContactInformation <a name="ContactInformation"></a> | ./wms:Service/wms:ContactInformation/wms:ContactPositionequals/text() equals ('resourceProvider' or 'custodian' or 'owner' or 'user' or 'distributor' or 'originator' or 'pointOfContact' or 'principalInvestigator' or 'processor' or 'publisher' or 'author')
+Scenario 2 <a name="scenario-2"/> | ./wms:Capability/inspire_vs:ExtendedCapabilities[inspire_common:ResourceLocator or inspire_common:ResourceType or inspire_common:TemporalReference or inspire_common:Conformity or inspire_common:MetadataPointOfContact or inspire_common:MetadataDate or inspire_common:SpatialDataServiceType or inspire_common:MandatoryKeyword or inspire_common:Keyword]

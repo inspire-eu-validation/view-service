@@ -13,7 +13,7 @@
   * In case of a csw:GetRecordByIdResponse document, use the first [gmd:MD_Metadata](#Metadata) child element. Issue an error if there is no such element.
 
 **Reference(s)**:
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.5, Requirement 10,13,14
+* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.5, Requirement 13,14
 
 **Test type**: Automated
 

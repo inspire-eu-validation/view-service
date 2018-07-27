@@ -97,7 +97,8 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 52     | GetMap: LAYERS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 53     | GetMap: STYLES parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 54     | GetMap: CRS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 55     | GetMap: BBOX parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
+| 55     | GetMap: BBOX parameter | OGC WMS 1.3.0. A
+TS: A.1.2.4 GetMap response | |
 | 56     | GetMap: WIDTH & HEIGHT parameters | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 57     | GetMap: FORMAT parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 58     | GetMap: TRANSPARENT parameter | OGC WMS ATS: 1.3.0. A.1.2.4 GetMap response | |
@@ -113,9 +114,9 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 68     | GetCapabilities: LANGUAGE parameter | [Language selection capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/language-selection-capabilities) | |
 | 69     | GetCapabilities: default language | [Default language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/default-language) | |
 | 70     | ResponseLanguage element | [Language selection capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/language-selection-capabilities) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 71     | SupportedLanguages and DefaultLanguage elements | [Supported and response languages node](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/supported-and-response-languages-node) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 72     | ExtendedCapabilities XML Schema | [Response parameters through service Capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/response-parameters-through-service-capabilities) | |
-| 73     | GetMap: Portrayal requiring localized rendering | [Language support for rendered text](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/linguistic-labels) | |
+| 71     | SupportedLanguages and DefaultLanguage elements | [Default language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/default-language) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
+| 72     | ExtendedCapabilities XML Schema | [Extenden capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/extended-capabilities) | |
+| 73     | GetMap: Portrayal requiring localized rendering | [Default language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/default-language) | |
 
 Note: Requirements marked as "not testable" should be reconsidered in a revision of the technical guidance" 
 
@@ -179,7 +180,6 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [Layer language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-language) | Ready for review |
 | [Layer style name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-style-name) | Ready for review |
 | [Layer title](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/layer-title) | Ready for review |
-| [Language support for rendered text](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/linguistic-labels) | all | ready for review |
 | [Map coupled resource metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-coupled-resource-metadata) | all | ready for review |
 | [Map SDS type with ExtendedCapabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/map-sds-type-with-extendedcapabilities) | 2 only | ready for review |
 | [Metadata date](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/metadata-date) | 2 only | ready for review |

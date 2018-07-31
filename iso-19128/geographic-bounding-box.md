@@ -5,9 +5,11 @@
 **Prerequisites**
 
 * [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/schema-validation)
+* [Extended Capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/extended-capabilities)
 
 **Test method**
 
+This test only applies to [scenario 2](#scenario-2). Otherwise the test case is skipped.
 * Check if there is a EX_GeographicBoundingBox node in each Layer section of the Capabilities section.
 
 **Reference(s)**:

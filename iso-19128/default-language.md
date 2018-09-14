@@ -1,7 +1,7 @@
 # Default language
 
 **Purpose**: The default language for the service must be provided in order the user to be able to know which
-language can be expected to be used if the capabilities document when no language is explicitly requested.
+language can be expected to be used if the capabilities document when no language is explicitly requested. 
 
 **Prerequisites**
 

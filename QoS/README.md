@@ -4,8 +4,9 @@ This conformance class is part of the [Abstract Test Suite for the INSPIRE View 
 
 ## Standardization target type
 
-OGC web service (WMS 1.3.0)
-OGC web service (WMTS 1.0.0) 
+OGC web service WMS 1.3.0
+
+OGC web service WMTS 1.0.0
 
 ## Dependencies
 

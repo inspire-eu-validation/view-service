@@ -16,7 +16,7 @@ and the background parameter (BGCOLOR) for all layers  set to the same colour.
     
 **Reference(s)**: 
 
-* [TG VS](./README#ref_TG_VS), Chapter 4.2.5.3, Requirements 62, 63, 64
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.5.3, Requirements 62, 63, 64
 
 **Test type**: Manual
 

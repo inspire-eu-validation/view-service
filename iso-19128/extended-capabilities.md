@@ -5,7 +5,7 @@ These capabilities are mandatory and defined when a WMS is set up. They consist 
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
+* [Schema validation](./schema-validation.md)
 
 **Test method**
 
@@ -16,7 +16,7 @@ These capabilities are mandatory and defined when a WMS is set up. They consist 
 
 **Reference (s)**: 
 
-* [TG VS](./README#ref_TG_VS), Chapter 4.3.1, Requirement 72
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.3.1, Requirement 72
 
 **Test type**: Automated
 
@@ -25,7 +25,7 @@ These capabilities are mandatory and defined when a WMS is set up. They consist 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

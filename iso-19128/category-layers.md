@@ -5,7 +5,7 @@ portraying all of the nested layers can be requested at once.
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
+* [Schema validation](./schema-validation.md)
 
 **Test method**
 
@@ -14,17 +14,17 @@ portraying all of the nested layers can be requested at once.
 
 **Reference(s)**:
 
-* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.4.11,  Requirement 49
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.11,  Requirement 49
 
 **Test type**: Automated
 
 **Notes**
 
-The second part of the requirement, stating that "If a metadata description of this category composition exists then the MetadataURL for the Category Layer shall be provided." is covered by test case [Map Coupled Resource metadata](./map-coupled-resource-metadata).
+The second part of the requirement, stating that "If a metadata description of this category composition exists then the MetadataURL for the Category Layer shall be provided." is covered by test case [Map Coupled Resource metadata](./map-coupled-resource-metadata.md).
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

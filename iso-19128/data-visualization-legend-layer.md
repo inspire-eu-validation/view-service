@@ -4,8 +4,8 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
-* [Layer style name](./layer-style-name)
+* [Schema validation](./schema-validation.md)
+* [Layer style name](./layer-style-name.md)
 
 **Test method**
 For each [Layer](#Layer) element provided by the service according to it's Service Metadata:
@@ -20,8 +20,8 @@ For each [Layer](#Layer) element provided by the service according to it's Servi
 
 **Reference(s)**
 
-* [TG VS](./README#ref_TG_VS), chapter 4.2.3.3.4.8, Requirement 45
-* [TG VS](./README#ref_TG_VS), chapter 4.2.3.3.4.9, Requirement 47
+* [TG VS](./README.md#ref_TG_VS), chapter 4.2.3.3.4.8, Requirement 45
+* [TG VS](./README.md#ref_TG_VS), chapter 4.2.3.3.4.9, Requirement 47
 
 **Test type**: Automated
 
@@ -31,7 +31,7 @@ For each [Layer](#Layer) element provided by the service according to it's Servi
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

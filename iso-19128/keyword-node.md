@@ -4,19 +4,19 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
-* [Extended Capabilities](./extended-capabilities)
+* [Schema validation](./schema-validation.md)
+* [Extended Capabilities](./extended-capabilities.md)
 
 **Test method**
 
 This test only applies to [scenario 2](#scenario-2). Otherwise the test case is skipped.
 
 * Check if there are a [Keyword](#Keyword) node and a [MandatoryKeyword](#MandatoryKeyword) node in the ExtendedCapabilities section
-* Check that there exists at least one keyword element containing one of the keywords listed in [INS MD](./README#ref_INS_MD) COMMISSION REGULATION (EC) No 1205/2008 of 3 December 2008, Part D, 4.Classification of Spatial data Services (the lowerCamelCase terms in parenthesis).
+* Check that there exists at least one keyword element containing one of the keywords listed in [INS MD](./README.md#ref_INS_MD) COMMISSION REGULATION (EC) No 1205/2008 of 3 December 2008, Part D, 4.Classification of Spatial data Services (the lowerCamelCase terms in parenthesis).
 
 **Reference(s)**:
-* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.1.7, Requirement 16, 18
-* [INS MD](./README#ref_INS_MD), Part D.4 Classification of spatial Data Services
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.7, Requirement 16, 18
+* [INS MD](./README.md#ref_INS_MD), Part D.4 Classification of spatial Data Services
 
 **Test type**: Automated
 
@@ -24,7 +24,7 @@ This test only applies to [scenario 2](#scenario-2). Otherwise the test case is 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

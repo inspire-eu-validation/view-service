@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
+* [Schema validation](./schema-validation.md)
 
 **Test method**
 
@@ -12,7 +12,7 @@
 * Check whether each [Identifier](#Identifier) node has been declared in an [AuthorityURL](#AuthorityURL) node of the layer itself or its parent layer by heritage by comparing the [@authority](#authority) attribute of the [Identifier](#Identifier) element with the [@name](#AuthorityURLName) attribute of the [AuthorityURL](#AuthorityURL) element.
 
 **Reference(s)**:
-* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.4.5, Req 37, 38
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.5, Req 37, 38
 
 **Test type**: Automated
 
@@ -21,7 +21,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

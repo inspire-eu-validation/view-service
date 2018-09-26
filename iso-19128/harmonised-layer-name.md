@@ -4,8 +4,8 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
-* [Map Coupled Resource metadata](./map-coupled-resource-metadata)
+* [Schema validation](./schema-validation.md)
+* [Map Coupled Resource metadata](./map-coupled-resource-metadata.md)
 
 **Test method**
 
@@ -14,14 +14,14 @@ For each [layer](#layer) provided by the service according to it's Service Metad
 * If there are one or more [MetadataURL](#MetadataURL) for the layer, check that at least one meets the following conditions.
   * Verify that the response to a HTTP GET request of the URL in [href](#href) is an XML document with a root element csw:GetRecordByIdResponse or gmd:MD_Metadata.
   * In case of a csw:GetRecordByIdResponse document, check that there is exactly one gmd:MD_Metadata element in the document. Issue an error if there is no such element.
-  * Check if the [Specification](#specification) contains one of the official translations of the names of [TG VS](./README#ref_TG_VS) and that the value of [Pass](#pass) equals "true".
-  * Check that the trimmed string content of the [Name element](#name) matches one the harmonised layer names given in [TG VS](./README#ref_TG_VS) or it's amendments.
+  * Check if the [Specification](#specification) contains one of the official translations of the names of [TG VS](./README.md#ref_TG_VS) and that the value of [Pass](#pass) equals "true".
+  * Check that the trimmed string content of the [Name element](#name) matches one the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or it's amendments.
 * If in the end each of the layers is either skipped or passed, the test passes.
 * If there are more than one layer with the [Metadata element](#metadata) pointing to the same INSPIRE metadata record, the [Identifier](#identifier) of only one of them needs to match one of the harmonised layer names in order for the test to pass for all of those layers.
 
 **Reference(s)**
 
-* [TG VS](./README#ref_TG_VS), chapters 4.2.3.3.4.6, Requirement 39
+* [TG VS](./README.md#ref_TG_VS), chapters 4.2.3.3.4.6, Requirement 39
 
 
 **Test type**: Automated
@@ -36,7 +36,7 @@ Note 3: It's assumed that there may be layers providing portrayals for both the 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------

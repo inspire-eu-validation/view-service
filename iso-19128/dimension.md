@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
+* [Schema validation](./schema-validation.md)
 
 **Test method**
 
@@ -17,7 +17,7 @@
   * If yes, unit names should be taken from the Unified Code for Units of Measure (UCUM) if UCUM has an appropriate entry. When UCUM is used, the mandatory units attribute shall be an appropriate entry from the UCUM “name” column
 
 **Reference(s)**:
-* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.4.10, Requirement 48
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.10, Requirement 48
 
 **Test type**: Automated
 
@@ -25,7 +25,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

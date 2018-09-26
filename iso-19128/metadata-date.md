@@ -4,8 +4,8 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
-* [Extended Capabilities](./extended-capabilities)
+* [Schema validation](./schema-validation.md)
+* [Extended Capabilities](./extended-capabilities.md)
 
 **Test method**
 
@@ -14,7 +14,7 @@ This test only applies to [scenario 2](#scenario-2). Otherwise the test case is 
 Check if there is a MetadataDate node in the ExtendedCapabilities section.
 
 **Reference(s)**:
-* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.1.16, Requirement 29
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.16, Requirement 29
 
 **Test type**: Automated
 
@@ -22,7 +22,7 @@ Check if there is a MetadataDate node in the ExtendedCapabilities section.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

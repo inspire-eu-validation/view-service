@@ -44,55 +44,55 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | Req#   | Description                          | Covered by test(s)                 | IR reference(s)                  |
 | ------ | ------------------------------------ | ---------------------------------- | -------------------------------- |
 | 1      | Scoping: ISO 19128 + INSPIRE ext.    | n/a                                | n/a                              |
-| 2      | WMS basic conformance class          | OGC WMS 1.3.0. A.1.2 Basic WMS Server, [Schema validation](./schema-validation)  | n/a  |
+| 2      | WMS basic conformance class          | OGC WMS 1.3.0. A.1.2 Basic WMS Server, [Schema validation](./schema-validation.md)  | n/a  |
 | 3      | GetCapabilities, GetMap              | OGC WMS 1.3.0. "WMS basic" CC ATS  | n/a |
-| 4      | INSPIRE ExtendedCapabilities         | [Response parameters through service Capabilities](./response-parameters-through-service-capabilities) | n/a |
+| 4      | INSPIRE ExtendedCapabilities         | [Response parameters through service Capabilities](./response-parameters-through-service-capabilities.md) | n/a |
 | 5      | GetCapabilities request parameters   | OGC WMS 1.3.0. "WMS basic" CC ATS,  | [IR NS](#ref_IR_NS), Annex III, Chapter 2.1.1 |
 | 6      | MetadataURL references INSPIRE service metadata | [MetadataURL reference INSPIRE service metadata](./metadataurl-reference-inspire-service-metadata) |n/a |
 | 7      | Use WMS + INSPIRE extended capabilities  | Test bound to specific requirements | n/a |
-| 8      | Language section in Extended capabilities |[Supported and response languages node](./supported-and-response-languages-node) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 9      | View Service Metadata in Discovery Service | [View service metadata published in an INSPIRE discovery service](./in-discovery-service) |  [IR NS](#ref_IR_NS), Annex III, Chapter 4. |
-| 10     | Mapping of service metadata elements | [Title and Abstract](./title-and-abstract), [resource type is service](./resource-type-is-service), [resource locator](./resource-locator), [map coupled resource metadata](./map-coupled-resource-metadata), [map sds type with extendedcapabilities](./map-sds-type-with-extendedcapabilities), [keyword node](./keyword-node), [ex_geographicboundingbox node](./geographic-bounding-box), [date type](./date-type), [temporal reference](./temporal-reference), [degree of conformity](./degree-of-conformity), [fees node](./fees-node), [contact person](./contact-person), [contact position](./contact-position), [point of contact details](./point-of-contact-details), [metadata date](./metadata-date) | [IR MD](#ref_IR_MD), Part B |
-| 11     | ResourceType element | [Resource type is Service](./resource-type-is-service) | |
-| 12     | ResourceLocator element | [Resource Locator](./resource-locator) | |
-| 13     | Coupled Resource | [Map coupled resource metadata](./map-coupled-resource-metadata) | |
-| 14     | Coupled Resource | [Map coupled resource metadata](./map-coupled-resource-metadata) | |
-| 15     | SpatialDataServiceType element | [Map SDS Type with ExtendedCapabilities](./map-sds-type-with-extendedcapabilities) | |
-| 16     | Classification of Spatial Data Services keyword | [Keyword node](./keyword-node) | |
-| 17     | Additional keywords | [Keyword list](./keywordlist) | |
-| 18     | MD keywords | [Keyword node](./keyword-node) | |
+| 8      | Language section in Extended capabilities |[Supported and response languages node](./supported-and-response-languages-node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
+| 9      | View Service Metadata in Discovery Service | [View service metadata published in an INSPIRE discovery service](./in-discovery-service.md) |  [IR NS](#ref_IR_NS), Annex III, Chapter 4. |
+| 10     | Mapping of service metadata elements | [Title and Abstract](./title-and-abstract.md), [resource type is service](./resource-type-is-service.md), [resource locator](./resource-locator.md), [map coupled resource metadata](./map-coupled-resource-metadata.md), [map sds type with extendedcapabilities](./map-sds-type-with-extendedcapabilities.md), [keyword node](./keyword-node.md), [ex_geographicboundingbox node](./geographic-bounding-box.md), [date type](./date-type.md), [temporal reference](./temporal-reference.md), [degree of conformity](./degree-of-conformity.md), [fees node](./fees-node.md), [contact person](./contact-person.md), [contact position](./contact-position.md), [point of contact details](./point-of-contact-details.md), [metadata date](./metadata-date.md) | [IR MD](#ref_IR_MD), Part B |
+| 11     | ResourceType element | [Resource type is Service](./resource-type-is-service.md) | |
+| 12     | ResourceLocator element | [Resource Locator](./resource-locator.md) | |
+| 13     | Coupled Resource | [Map coupled resource metadata](./map-coupled-resource-metadata.md) | |
+| 14     | Coupled Resource | [Map coupled resource metadata](./map-coupled-resource-metadata.md) | |
+| 15     | SpatialDataServiceType element | [Map SDS Type with ExtendedCapabilities](./map-sds-type-with-extendedcapabilities.md) | |
+| 16     | Classification of Spatial Data Services keyword | [Keyword node](./keyword-node.md) | |
+| 17     | Additional keywords | [Keyword list](./keywordlist.md) | |
+| 18     | MD keywords | [Keyword node](./keyword-node.md) | |
 | 19     | Geographic Bounding Box | [EX_geographicboundingbox node](ex_geographicboundingbox node.md) | |
-| 20     | Temporal reference dates | [Date type](./date-type) | |
-| 21     | TemporalReference element | [Temporal reference](./temporal-reference) | |
-| 22     | Degree of conformity | [Degree of conformity](./degree-of-conformity) | |
-| 23     | Conformity | [Degree of conformity](./degree-of-conformity) | |
-| 24     | Conditions of access and use  | [Fees node](./fees-node) | |
-| 25     | Responsible party |  [Contact persone](./contact-person) | |
-| 26     | Responsible party role | [Contact position](./contact-position) | |
-| 27     | Point of contact with name and email | [Point of contact details](./point-of-contact-details) | |
-| 28     | Point of contact in ext. capabilities | [Point of contact details](./point-of-contact-details) | |
-| 29     | Metadata date | [Metadata date](./metadata-date) | |
-| 30     | GetCapabilities operation | [Schema validation](./schema-validation) | |
-| 30     | GetMap Operation | [Getmap format](./getmap-format) | |
-| 31     | Supported image formats for GetMap | [PNG-GIF image format](./png-gif-image-format) | |
-| 32     | Layer metadata | [Title and Abstract](./title-and-abstract), [keywordlist](./keywordlist), [Bounding box in layer](./bbox-in-layer), [layer identifier node](./layer-identifier-node), [harmonised layer name](./harmonised-layer-name), [etrs89 or itrs crs](./etrs89-or-itrs-crs), [inspire default styles](./inspire-default-styles) | |
-| 33     | Layer contains title (wms) | [layer title](./layer-title) | |
-| 34     | Abstract to describe layer (wms) | [layer language](./layer-language) | |
-| 35     | Additional layer keywords | [Keywordlist](./keywordlist) | |
-| 36     | Geographic Bounding Box for WMS | [Minimum geographic bbox](./minimum-geographic-bbox) | IR Annex III, Part A, Chapter 2.2.4 |
-| 37     | Unique Resource Identifier (layer origin) | [layer identifier node](./layer-identifier-node) | |
-| 38     | AuthorityURL & Identifier | [Layer identifier node](./layer-identifier-node) | |
-| 39     | Layer name | [Harmonised layer name](./harmonised-layer-name) | IR IOP Article 14 |
-| 40     | Coordinate Reference Systems | [etrs89 or itrs crs](./etrs89-or-itrs-crs) | |
-| 41     | Layer style contains title and identifier | [Layer style name](./layer-style-name) | IR Annex III, Part A, Chapter 2.2.4 |
-| 42     | inspire_common:default style | [Inspire default styles](./inspire-default-styles) | |
-| 43     | GCM fallback style | [Review default styles](./review-default-style) | |
-| 44     | inspire_common:default is the default layer Style | [Review default styles](./review-default-style) | |
-| 45     | A legend is provided for layers |[Data visualization legend layer](./data-visualization-legend-layer)  | |
-| 46     | Layer style are mapped correctly (wms) | [layer style name](./layer-style-name) | IR Annex III, Part A, Chapter 2.2.4 |
-| 47     | Internationalized layer legends | [Data visualization legend layer](./data-visualization-legend-layer)  | |
-| 48     | Layer Dimension elements | [Dimension](./dimension) | |
-| 49     | Category layers | [Category Layers.md](./category-layers) | |
+| 20     | Temporal reference dates | [Date type](./date-type.md) | |
+| 21     | TemporalReference element | [Temporal reference](./temporal-reference.md) | |
+| 22     | Degree of conformity | [Degree of conformity](./degree-of-conformity.md) | |
+| 23     | Conformity | [Degree of conformity](./degree-of-conformity.md) | |
+| 24     | Conditions of access and use  | [Fees node](./fees-node.md) | |
+| 25     | Responsible party |  [Contact persone](./contact-person.md) | |
+| 26     | Responsible party role | [Contact position](./contact-position.md) | |
+| 27     | Point of contact with name and email | [Point of contact details](./point-of-contact-details.md) | |
+| 28     | Point of contact in ext. capabilities | [Point of contact details](./point-of-contact-details.md) | |
+| 29     | Metadata date | [Metadata date](./metadata-date.md) | |
+| 30     | GetCapabilities operation | [Schema validation](./schema-validation.md) | |
+| 30     | GetMap Operation | [Getmap format](./getmap-format.md) | |
+| 31     | Supported image formats for GetMap | [PNG-GIF image format](./png-gif-image-format.md) | |
+| 32     | Layer metadata | [Title and Abstract](./title-and-abstract.md), [keywordlist](./keywordlist.md), [Bounding box in layer](./bbox-in-layer.md), [layer identifier node](./layer-identifier-node.md), [harmonised layer name](./harmonised-layer-name.md), [etrs89 or itrs crs](./etrs89-or-itrs-crs.md), [inspire default styles](./inspire-default-styles.md) | |
+| 33     | Layer contains title (wms) | [layer title](./layer-title.md) | |
+| 34     | Abstract to describe layer (wms) | [layer language](./layer-language.md) | |
+| 35     | Additional layer keywords | [Keywordlist](./keywordlist.md) | |
+| 36     | Geographic Bounding Box for WMS | [Minimum geographic bbox](./minimum-geographic-bbox.md) | IR Annex III, Part A, Chapter 2.2.4 |
+| 37     | Unique Resource Identifier (layer origin) | [layer identifier node](./layer-identifier-node.md) | |
+| 38     | AuthorityURL & Identifier | [Layer identifier node](./layer-identifier-node.md) | |
+| 39     | Layer name | [Harmonised layer name](./harmonised-layer-name.md) | IR IOP Article 14 |
+| 40     | Coordinate Reference Systems | [etrs89 or itrs crs](./etrs89-or-itrs-crs.md) | |
+| 41     | Layer style contains title and identifier | [Layer style name](./layer-style-name.md) | IR Annex III, Part A, Chapter 2.2.4 |
+| 42     | inspire_common:default style | [Inspire default styles](./inspire-default-styles.md) | |
+| 43     | GCM fallback style | [Review default styles](./review-default-style.md) | |
+| 44     | inspire_common:default is the default layer Style | [Review default styles](./review-default-style.md) | |
+| 45     | A legend is provided for layers |[Data visualization legend layer](./data-visualization-legend-layer.md)  | |
+| 46     | Layer style are mapped correctly (wms) | [layer style name](./layer-style-name.md) | IR Annex III, Part A, Chapter 2.2.4 |
+| 47     | Internationalized layer legends | [Data visualization legend layer](./data-visualization-legend-layer.md)  | |
+| 48     | Layer Dimension elements | [Dimension](./dimension.md) | |
+| 49     | Category layers | [Category Layers.md](./category-layers.md) | |
 | 50     | GetMap: VERSION parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 51     | GetMap: REQUEST parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 52     | GetMap: LAYERS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
@@ -103,20 +103,20 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 57     | GetMap: FORMAT parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
 | 58     | GetMap: TRANSPARENT parameter | OGC WMS ATS: 1.3.0. A.1.2.4 GetMap response | |
 | 59     | GetMap: EXCEPTIONS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 60     | Link View Service: scoping | [View service metadata published in an INSPIRE discovery service](./in-discovery-service) | |
-| 61     | Service metadata in Discovery Service |  [View service metadata published in an INSPIRE discovery service](./in-discovery-service) | |
-| 62     | Cascading layers in collated capabilities | [Review cascading view services](./cascading-view-services) | |
-| 63     | Cascaded layers to include "cascaded" attribute | [Review cascading view services](./cascading-view-services) | |
-| 64     | The value of the "cascaded" attribute indicates cascading level | [Review cascading view services](./cascading-view-services) | |
-| 65     | Transparency & background for collated layers | [Review cascading view services](./cascading-view-services) | |
-| 66     | Supported languages | [Supported and response languages node](./supported-and-response-languages-node) | IR Annex III, Part A, Chapter 2.2.3 |
-| 67     | Client may select the language | [Language selection capabilities](./language-selection-capabilities) | |
-| 68     | GetCapabilities: LANGUAGE parameter | [Default language](./default-language) | |
-| 69     | GetCapabilities: default language | [Default language](./default-language) | |
-| 70     | ResponseLanguage element | [Default language](./default-language) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 71     | SupportedLanguages and DefaultLanguage elements | [Default language](./default-language) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 72     | ExtendedCapabilities XML Schema | [Extended capabilities](./extended-capabilities) | |
-| 73     | GetMap: Portrayal requiring localized rendering | [Default language](./default-language) | |
+| 60     | Link View Service: scoping | [View service metadata published in an INSPIRE discovery service](./in-discovery-service.md) | |
+| 61     | Service metadata in Discovery Service |  [View service metadata published in an INSPIRE discovery service](./in-discovery-service.md) | |
+| 62     | Cascading layers in collated capabilities | [Review cascading view services](./cascading-view-services.md) | |
+| 63     | Cascaded layers to include "cascaded" attribute | [Review cascading view services](./cascading-view-services.md) | |
+| 64     | The value of the "cascaded" attribute indicates cascading level | [Review cascading view services](./cascading-view-services.md) | |
+| 65     | Transparency & background for collated layers | [Review cascading view services](./cascading-view-services.md) | |
+| 66     | Supported languages | [Supported and response languages node](./supported-and-response-languages-node.md) | IR Annex III, Part A, Chapter 2.2.3 |
+| 67     | Client may select the language | [Language selection capabilities](./language-selection-capabilities.md) | |
+| 68     | GetCapabilities: LANGUAGE parameter | [Default language](./default-language.md) | |
+| 69     | GetCapabilities: default language | [Default language](./default-language.md) | |
+| 70     | ResponseLanguage element | [Default language](./default-language.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
+| 71     | SupportedLanguages and DefaultLanguage elements | [Default language](./default-language.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
+| 72     | ExtendedCapabilities XML Schema | [Extended capabilities](./extended-capabilities.md) | |
+| 73     | GetMap: Portrayal requiring localized rendering | [Default language](./default-language.md) | |
 
 Note: Requirements marked as "not testable" should be reconsidered in a revision of the technical guidance" 
 
@@ -157,45 +157,45 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | WMS.A.1.2.2 Request parameter rules | all | final |
 | WMS.A.1.2.3 GetCapabilities response | all | final |
 | WMS.A.1.2.4 GetMap response | all | final |
-| [Bounding box in layer](./bbox-in-layer) | all | ready for review |
-| [Category layers](./category-layers) | all | ready for review |
-| [Contact person](./contact-person) | all | ready for review |
-| [Contact position](./contact-position) | all | ready for review |
-| [Data visualization legend layer](./data-visualization-legend-layer) | Ready for review |
-| [Date type](./date-type) | 2 only | ready for review |
-| [Default language](./default-language) | all | ready for review |
-| [Degree of conformity](./degree-of-conformity) | 2 only | ready for review |
-| [ETRS89 or ITRS CRS](./etrs89-or-itrs-crs) | all | ready for review |
-| [Extended Capabilities](./extended-capabilities) | Ready for review |
-| [Fees node](./fees-node) | all | ready for review |
-| [Geographic bounding box](./geographic-bounding-box) | all | ready for review |
-| [GetMap format](./getmap-format) | all | ready for review |
-| [Harmonised layer name](./harmonised-layer-name) | Ready for review |
-| [INSPIRE default styles](./inspire-default-styles) | all | ready for review |
-| [Keyword node](./keyword-node) | 2 only | ready for review |
-| [Keyword list](./keywordlist) | all | ready for review |
-| [Language selection capabilities](./language-selection-capabilities) | all | ready for review |
-| [Layer identifier node](./layer-identifier-node) | all | ready for review |
-| [Layer language](./layer-language) | Ready for review |
-| [Layer style name](./layer-style-name) | Ready for review |
-| [Layer title](./layer-title) | Ready for review |
-| [Map coupled resource metadata](./map-coupled-resource-metadata) | all | ready for review |
-| [Map SDS type with ExtendedCapabilities](./map-sds-type-with-extendedcapabilities) | 2 only | ready for review |
-| [Metadata date](./metadata-date) | 2 only | ready for review |
-| [MetadataURL reference INSPIRE service metadata](./metadataurl-reference-inspire-service-metadata) | 1 only | ready for review |
-| [Minimum geographic bbox](./minimum-geographic-bbox) | Ready for review |
-| [PNG-GIF image format](./png-gif-image-format) | Ready for review |
-| [Point-of-contact details](./point-of-contact-details) | 2 only | ready for review |
-| [Resource locator](./resource-locator) | 2 only | ready for review |
-| [Resource type is service](./resource-type-is-service) | 2 only | ready for review |
-| [Review cascading view services](./cascading-view-services) | all | ready for review |
-| [Review default styles](./review-default-style) | all | ready for review |
-| [Select language capabilities](./select-language-capabilities) | Ready for review |
-| [Schema validation](./schema-validation) | all | ready for review |
-| [Supported and response languages node](./supported-and-response-languages-node) | all | ready for review |
-| [Temporal reference](./temporal-reference) | 2 only | ready for review |
-| [Title and abstract](./title-and-abstract) | all | ready for review |
-| [View service metadata published in an INSPIRE discovery service](./in-discovery-service) | all | ready for review |
+| [Bounding box in layer](./bbox-in-layer.md) | all | ready for review |
+| [Category layers](./category-layers.md) | all | ready for review |
+| [Contact person](./contact-person.md) | all | ready for review |
+| [Contact position](./contact-position.md) | all | ready for review |
+| [Data visualization legend layer](./data-visualization-legend-layer.md) | Ready for review |
+| [Date type](./date-type.md) | 2 only | ready for review |
+| [Default language](./default-language.md) | all | ready for review |
+| [Degree of conformity](./degree-of-conformity.md) | 2 only | ready for review |
+| [ETRS89 or ITRS CRS](./etrs89-or-itrs-crs.md) | all | ready for review |
+| [Extended Capabilities](./extended-capabilities.md) | Ready for review |
+| [Fees node](./fees-node.md) | all | ready for review |
+| [Geographic bounding box](./geographic-bounding-box.md) | all | ready for review |
+| [GetMap format](./getmap-format.md) | all | ready for review |
+| [Harmonised layer name](./harmonised-layer-name.md) | Ready for review |
+| [INSPIRE default styles](./inspire-default-styles.md) | all | ready for review |
+| [Keyword node](./keyword-node.md) | 2 only | ready for review |
+| [Keyword list](./keywordlist.md) | all | ready for review |
+| [Language selection capabilities](./language-selection-capabilities.md) | all | ready for review |
+| [Layer identifier node](./layer-identifier-node.md) | all | ready for review |
+| [Layer language](./layer-language.md) | Ready for review |
+| [Layer style name](./layer-style-name.md) | Ready for review |
+| [Layer title](./layer-title.md) | Ready for review |
+| [Map coupled resource metadata](./map-coupled-resource-metadata.md) | all | ready for review |
+| [Map SDS type with ExtendedCapabilities](./map-sds-type-with-extendedcapabilities.md) | 2 only | ready for review |
+| [Metadata date](./metadata-date.md) | 2 only | ready for review |
+| [MetadataURL reference INSPIRE service metadata](./metadataurl-reference-inspire-service-metadata.md) | 1 only | ready for review |
+| [Minimum geographic bbox](./minimum-geographic-bbox.md) | Ready for review |
+| [PNG-GIF image format](./png-gif-image-format.md) | Ready for review |
+| [Point-of-contact details](./point-of-contact-details.md) | 2 only | ready for review |
+| [Resource locator](./resource-locator.md) | 2 only | ready for review |
+| [Resource type is service](./resource-type-is-service.md) | 2 only | ready for review |
+| [Review cascading view services](./cascading-view-services.md) | all | ready for review |
+| [Review default styles](./review-default-style.md) | all | ready for review |
+| [Select language capabilities](./select-language-capabilities.md) | Ready for review |
+| [Schema validation](./schema-validation.md) | all | ready for review |
+| [Supported and response languages node](./supported-and-response-languages-node.md) | all | ready for review |
+| [Temporal reference](./temporal-reference.md) | 2 only | ready for review |
+| [Title and abstract](./title-and-abstract.md) | all | ready for review |
+| [View service metadata published in an INSPIRE discovery service](./in-discovery-service.md) | all | ready for review |
 
 ## Open issues
 

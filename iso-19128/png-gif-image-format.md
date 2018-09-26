@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
+* [Schema validation](./schema-validation.md)
 
 **Test method**
 
@@ -14,7 +14,7 @@
 
 **Reference(s)**:
 
-* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.2.2, Requirement 31
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.2.2, Requirement 31
 
 
 **Test type**: Automated
@@ -23,7 +23,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

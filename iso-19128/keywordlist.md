@@ -4,18 +4,18 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
-* [Keyword node](./keyword-node)
+* [Schema validation](./schema-validation.md)
+* [Keyword node](./keyword-node.md)
 
 **Test method**
 
-* Check, in case of spatial data services, if it is provided at least one keyword from the "Classification of spatial data Services" (Part D.4 from [INS MD](./README#ref_INS_MD)).
+* Check, in case of spatial data services, if it is provided at least one keyword from the "Classification of spatial data Services" (Part D.4 from [INS MD](./README.md#ref_INS_MD)).
 * Check, in case additional keywords are provided, if they are mapped with a [KeywordList](#KeywordList) element.
 * Check if the referenced vocabulary is mapped to the 'vocabulary' attribute of the [Keyword](#Keyword) element.
 
 **Reference(s)**:
-* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.4.3, Requirement 17,35
-* [INS MD](./README#ref_INS_MD), Part D.4 Classification of spatial Data Services
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.3, Requirement 17,35
+* [INS MD](./README.md#ref_INS_MD), Part D.4 Classification of spatial Data Services
 
 **Test type**: Automated
 
@@ -23,7 +23,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

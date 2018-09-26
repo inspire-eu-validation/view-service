@@ -4,8 +4,8 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
-* [Extended Capabilities](./extended-capabilities)
+* [Schema validation](./schema-validation.md)
+* [Extended Capabilities](./extended-capabilities.md)
 
 **Test method**
 
@@ -15,7 +15,7 @@ Check, if there is either a DateOfCreation node, a DateOfPublication node or a D
 
 **Reference(s)**:
 
-* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.1.9, Requirement 20
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.9, Requirement 20
 
 **Test type**: Automated
 
@@ -23,7 +23,7 @@ Check, if there is either a DateOfCreation node, a DateOfPublication node or a D
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities/wms:Capability)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

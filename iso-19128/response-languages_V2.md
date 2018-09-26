@@ -1,6 +1,6 @@
-# Default language
+# Response language
 
-**Purpose**: The default language for the service must be provided in order the user to be able to know which language can be expected to be used if the capabilities document when no language is explicitly requested. 
+**Purpose**: The response language shall be included into Extended Capabilities. Depending on the requested language the value 
 
 **Prerequisites**
 
@@ -21,7 +21,7 @@
   * Create a GetCapabilities HTTP request by adding the parameters SERVICE=WMS, REQUEST=GetCapabilities, VERSION=1.3.0 and LANGUAGE=```unsupported-lang``` to the ```getcapabilities-url```. 
     * The language to be requested is included in the 'LANGUAGE' parameter of the request.
     * The LANGUAGE parameter values ar based on [ISO 639-2/B alpha 3 codes](https://www.loc.gov/standards/iso639-2/php/code_list.php).
-  * Execute the request. If the returned resource can be parsed as a valid XML document and if the document passes tests [Schema validation](./schema-validation.md) and [supported and response languages node](./supported-and-response-languages-node.md):
+  * Execute the request. If the returned resource can be parsed as a valid XML document and if the document passes tests [Schema validation](./schema-validation.md) and [supported and response languages node](./supported-and-response-languages-node):
     * Check that [response language](#response-language) correspond to the service [default language code](#default-language). If it does not, fail the test for this language.
 
 

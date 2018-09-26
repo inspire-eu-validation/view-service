@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Schema validation](./schema-validation)
+* [Schema validation](./schema-validation.md)
 
 **Test method**
 
@@ -14,7 +14,7 @@ For each Layer element provided:
 * Check that the character strings of the [Identifier elements](#Identifier) for each Style element are unique within the style.
 
 **Reference(s)**:
-* [TG VS](./README#ref_TG_VS) 4.2.3.3.4.8, Requirement 41, 46
+* [TG VS](./README.md#ref_TG_VS) 4.2.3.3.4.8, Requirement 41, 46
 
 **Test type**: Automated
 
@@ -22,7 +22,7 @@ For each Layer element provided:
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README#namespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

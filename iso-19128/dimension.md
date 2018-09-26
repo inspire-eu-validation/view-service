@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/schema-validation)
+* [Schema validation](./schema-validation)
 
 **Test method**
 
@@ -12,14 +12,12 @@
 * In other cases a map can defines by other params of dimensions, for example time and elevation, [Dimension](#dimension) and must be used the wms:Dimension element according to [INS NS]:
 
 * @name --> The [name](#name) of the field in the DB that contains the dimension values.
-* @units --> [Units](#units) of dimensional axis. If the dimensional quantity has no units use the null string.
-
-
-
-* If yes, check that it has one of the values: "no conditions apply" or "conditions unknown".
+* @units --> [Units](#units) of dimensional axis. 
+  * If the dimensional quantity has no units use the null string.
+  * If yes, unit names should be taken from the Unified Code for Units of Measure (UCUM) if UCUM has an appropriate entry. When UCUM is used, the mandatory units attribute shall be an appropriate entry from the UCUM “name” column
 
 **Reference(s)**:
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/README#ref_TG_VS), Chapter 4.2.3.3.4.10, Requirement 48
+* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.4.10, Requirement 48
 
 **Test type**: Automated
 
@@ -27,7 +25,7 @@
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

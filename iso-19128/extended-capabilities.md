@@ -5,17 +5,18 @@ These capabilities are mandatory and defined when a WMS is set up. They consist 
 
 **Prerequisites**
 
-* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/schema-validation)
+* [Schema validation](./schema-validation)
 
 **Test method**
 
 * Check that the [ExtendedCapabilities](#extendedCapabilities) exist. If yes:
   * Validate the [ExtendedCapabilities](#ExtendedCapabilities) element and it's children according to the XML Schema definition for the INSPIRE Extended Capabilities as defined in the http://inspire.ec.europa.eu/schemas/inspire_vs/1.0/inspire_vs.xsd
+
 * If no ExtendedCapabilities were found or validation fails, fail the test.
 
 **Reference (s)**: 
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/README#ref_TG_VS), Chapter 4.3.1, Requirement 72
+* [TG VS](./README#ref_TG_VS), Chapter 4.3.1, Requirement 72
 
 **Test type**: Automated
 
@@ -24,7 +25,7 @@ These capabilities are mandatory and defined when a WMS is set up. They consist 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

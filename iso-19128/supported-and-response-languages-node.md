@@ -1,13 +1,11 @@
 # Supported and response languages node
  
-**Purpose**: Regardless of the scenario chosen to be implemented, a language
-section shall be added in the extended capability of the service to fulfil the language requirements of
-the Network Services Regulation [INS NS]
+**Purpose**: Regardless of the scenario chosen to be implemented, a language section shall be added in the extended capability of the service to fulfill the language requirements of the Network Services Regulation [INS NS]
 
 **Prerequisites**
 
-* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/schema-validation)
-* [Extended Capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/extended-capabilities)
+* [Schema validation](./schema-validation)
+* [Extended Capabilities](./extended-capabilities)
 
 **Test method**
 
@@ -15,7 +13,7 @@ the Network Services Regulation [INS NS]
 
 **Reference(s)**:
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 66
+* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 66
 
 **Test type**: Automated
 
@@ -23,7 +21,7 @@ the Network Services Regulation [INS NS]
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/schema-validation)
+* [Schema validation](./schema-validation)
 
 **Test method**
 
@@ -12,7 +12,7 @@ For each Layer element provided check that the [Title element](#Title) is a non-
 
 **Reference(s)**:
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/README#ref_TG_VS), Chapter 4.2.3.3.4.1, Requirement 33
+* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.4.1, Requirement 33
 
 **Test type**
 
@@ -24,7 +24,7 @@ The validation of the correctness of the translated title is not done due to it'
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

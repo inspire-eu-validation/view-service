@@ -4,8 +4,8 @@
 
 **Prerequisites**
 
-* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/schema-validation)
-* [Extended Capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/extended-capabilities)
+* [Schema validation](./schema-validation)
+* [Extended Capabilities](./extended-capabilities)
 
 **Test method**
 
@@ -15,7 +15,7 @@ Check that if a [TemporalExtent](#TemporalExtent) element exists, that it is con
 
 
 **Reference(s)**:
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.9, Requirement 21
+* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.1.9, Requirement 21
 
 **Test type**: Automated
 
@@ -23,11 +23,11 @@ Check that if a [TemporalExtent](#TemporalExtent) element exists, that it is con
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Scenario 2 <a name="scenario-2"/> | ./wms:Capability/inspire_vs:ExtendedCapabilities[inspire_common:ResourceLocator or 
+Scenario 2 <a name="scenario-2"></a> | ./wms:Capability/inspire_vs:ExtendedCapabilities[inspire_common:ResourceLocator or 
 inspire_common:ResourceType or inspire_common:TemporalReference or inspire_common:Conformity or inspire_common:MetadataPointOfContact or 
 inspire_common:MetadataDate or inspire_common:SpatialDataServiceType or inspire_common:MandatoryKeyword or inspire_common:Keyword]
 TemporalReference <a name="TemporalReference"></a> | ./wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference

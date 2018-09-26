@@ -4,7 +4,7 @@
 
 **Prerequisites**
 
-* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/schema-validation)
+* [Schema validation](./schema-validation)
 
 **Test method**
 
@@ -12,7 +12,7 @@ For each Layer element check that the [Abstract element](#Abstract) is a non-emp
 
 **Reference(s)**:
 
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/README#ref_TG_VS), Chapter 4.2.3.3.4.2, Requirement 34
+* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.4.2, Requirement 34
 
 **Test type**: Automated
 
@@ -22,7 +22,7 @@ This a the description of the layer (a portrayal), not the same thing as the met
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/layer-metadata/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

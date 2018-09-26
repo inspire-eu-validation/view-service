@@ -1,12 +1,11 @@
 # Point of contact details
 
-**Purpose**: INSPIRE is more demanding than ISO 19115 by mandating both the name of the organisation, and a contact e-mail address. The role of the responsible party serving as a metadata point of contact is out of scope of the Metadata Regulation INS MD,
-but this property is mandated by ISO 19115. Its value shall be defaulted to 'OptionOfContact'.
+**Purpose**: INSPIRE is more demanding than ISO 19115 by mandating both the name of the organisation, and a contact e-mail address. The role of the responsible party serving as a metadata point of contact is out of scope of the Metadata Regulation INS MD, but this property is mandated by ISO 19115. Its value shall be defaulted to 'OptionOfContact'.
 
 **Prerequisites**
 
-* [Schema validation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/schema-validation)
-* [Extended Capabilities](http://inspire.ec.europa.eu/id/ats/view-service/3.11/ISO-19128/extended-capabilities)
+* [Schema validation](./schema-validation)
+* [Extended Capabilities](./extended-capabilities)
 
 **Test method**
 
@@ -16,7 +15,7 @@ This test only applies to [scenario 2](#scenario-2). Otherwise the test case is 
   * Check if there is a [OrganisationName](#OrganisationName) node and a EmailAddress node in the MetadataPointOfContact section.
 
 **Reference(s)**:
-* [TG VS](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#ref_TG_VS), Chapter 4.2.3.3.1.15, Requirements 27, 28
+* [TG VS](./README#ref_TG_VS), Chapter 4.2.3.3.1.15, Requirements 27, 28
 
 
 **Test type**: Automated
@@ -25,7 +24,7 @@ This test only applies to [scenario 2](#scenario-2). Otherwise the test case is 
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128/README#namespaces).
+The namespace prefixes used as described in [README.md](./README#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------

@@ -18,7 +18,7 @@ Test that the VERSION paramater in GetMap operation is mandatory.
 
 * Send a GetMap request with '1.3.0' value for VERSION parameter and all the other mandatory parameters.
 
-    * Check that the service response is a correct document.
+    * Check that the service response is successful.
 
 **Reference(s)**:
 

@@ -18,7 +18,7 @@ Test that the REQUEST paramater in GetMap operation is mandatory.
 
 * Send a request with 'GetMap' value for REQUEST parameter and all the other mandatory parameters.
 
-    * Check that the service response is a correct document.
+    * Check that the service response is successful.
 
 **Reference(s)**:
 

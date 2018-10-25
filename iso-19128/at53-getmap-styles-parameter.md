@@ -18,15 +18,15 @@ Test that the STYLES paramater in GetMap operation is mandatory.
 
 * Send a GetMap request with a valid value for STYLES parameter and all the other mandatory parameters.
 
-    * Check that the service response is a correct document.
+    * Check that the service response is successful.
 
 * Send a GetMap request with a list of valid INSPIRE styles separated by commas value for STYLES parameter and all the other mandatory parameters.
 
-    * Check that the service response is a correct document.
+    * Check that the service response is successful.
 
 * Send a GetMap request with a null value for STYLES parameter (STYLES=) and all the other mandatory parameters.
 
-    * Check that the service response is a correct document.
+    * Check that the service response is successful.
 
 **Reference(s)**:
 

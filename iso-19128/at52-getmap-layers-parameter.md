@@ -18,11 +18,11 @@ Test that the LAYERS paramater in GetMap operation is mandatory.
 
 * Send a GetMap request with a valid layer value for LAYERS parameter and all the other mandatory parameters.
 
-    * Check that the service response is a correct document.
+    * Check that the service response is successful.
 
 * Send a GetMap request with a valid list of layers separated by commas value for LAYERS parameter and all the other mandatory parameters.
 
-    * Check that the service response is a correct document.
+    * Check that the service response is successful.
 
 **Reference(s)**:
 

@@ -1,4 +1,4 @@
-# 
+# GetMap Layers Parameter
 
 **Purpose**: 
 
@@ -10,7 +10,7 @@
 
 **Reference(s)**:
 
-* [TG VS](./README.md#ref_TG_VS), Requirement 
+* [TG VS](./README.md#ref_TG_VS), requirement 52
 
 **Test type**: Automated
 

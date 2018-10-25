@@ -1,4 +1,4 @@
-# 
+# GetMap Exceptions
 
 **Purpose**: 
 
@@ -10,7 +10,7 @@
 
 **Reference(s)**:
 
-* [TG VS](./README.md#ref_TG_VS), Requirement 
+* [TG VS](./README.md#ref_TG_VS), requirement 59
 
 **Test type**: Automated
 

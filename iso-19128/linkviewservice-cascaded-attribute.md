@@ -1,4 +1,4 @@
-# GetMap Width and Height Parameter
+# LinkViewService Cascaded Attribute
 
 **Purpose**: 
 
@@ -10,7 +10,7 @@
 
 **Reference(s)**:
 
-* [TG VS](./README.md#ref_TG_VS), requirement 56
+* [TG VS](./README.md#ref_TG_VS), requirement 63
 
 **Test type**: Automated
 

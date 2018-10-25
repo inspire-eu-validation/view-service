@@ -9,10 +9,15 @@ Test that the REQUEST paramater in GetMap operation is mandatory.
 **Test method**
 
 * Send a request without REQUEST parameter and all the other mandatory parameters.
+
     * Check that the service notify the missing parameter.
+
 * Send a request with an invalid REQUEST parameter and all the other mandatory parameters.
+
     * Check that the service notify the invalid parameter value.
+
 * Send a request with 'GetMap' value for REQUEST parameter and all the other mandatory parameters.
+
     * Check that the service response is a correct document.
 
 **Reference(s)**:

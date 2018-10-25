@@ -9,10 +9,15 @@ Test that the VERSION paramater in GetMap operation is mandatory.
 **Test method**
 
 * Send a GetMap request without VERSION parameter and all the other mandatory parameters.
+
     * Check that the service notify the missing parameter.
+
 * Send a GetMap request with an invalid VERSION parameter and all the other mandatory parameters.
+
     * Check that the service notify the invalid parameter value.
+
 * Send a GetMap request with '1.3.0' value for VERSION parameter and all the other mandatory parameters.
+
     * Check that the service response is a correct document.
 
 **Reference(s)**:

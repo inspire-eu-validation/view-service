@@ -1,12 +1,32 @@
 # GetMap Styles Parameter
 
-**Purpose**: 
+**Purpose**
+
+Test that the STYLES paramater in GetMap operation is mandatory.
 
 **Prerequisites**
 
 **Test method**
 
+* Send a GetMap request without STYLES parameter and all the other mandatory parameters.
 
+    * Check that the service notify the missing parameter.
+
+* Send a GetMap request with an invalid STYLES parameter and all the other mandatory parameters.
+
+    * Check that the service notify the invalid parameter value.
+
+* Send a GetMap request with a valid value for STYLES parameter and all the other mandatory parameters.
+
+    * Check that the service response is a correct document.
+
+* Send a GetMap request with a list of valid INSPIRE styles separated by commas value for STYLES parameter and all the other mandatory parameters.
+
+    * Check that the service response is a correct document.
+
+* Send a GetMap request with a null value for STYLES parameter (STYLES=) and all the other mandatory parameters.
+
+    * Check that the service response is a correct document.
 
 **Reference(s)**:
 

@@ -1,12 +1,24 @@
 # GetMap Width and Height Parameter
 
-**Purpose**: 
+**Purpose**
+
+Test that the WIDTH and HEIGHT paramaters in GetMap operation are mandatory.
 
 **Prerequisites**
 
 **Test method**
 
+* Send a GetMap request without WIDTH and HEIGHT parameters and all the other mandatory parameters.
 
+    * Check that the service notify the missing parameters.
+
+* Send a GetMap request with an invalid WIDTH and HEIGHT parameters and all the other mandatory parameters.
+
+    * Check that the service notify the invalid parameters value.
+
+* Send a GetMap request with valid integer values for WIDTH and HEIGHT parameters and all the other mandatory parameters.
+
+    * Check that the service response is a correct document.
 
 **Reference(s)**:
 

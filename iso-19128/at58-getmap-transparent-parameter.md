@@ -1,12 +1,24 @@
 # GetMap Transparent Parameter
 
-**Purpose**: 
+**Purpose**:
+
+Test that the service accepts the optional parameter TRANSPARENT.
 
 **Prerequisites**
 
 **Test method**
 
+* Send a GetMap request without TRANSPARENT parameter and all the other mandatory parameters.
 
+    * Check that the service response is successful.
+
+* Send a GetMap request with an invalid TRANSPARENT parameter and all the other mandatory parameters.
+
+    * Check that the service notify the invalid parameter value.
+
+* Send a GetMap request with a valid TRANSPARENT parameter and all the other mandatory parameters.
+
+    * Check that the service response is successful.
 
 **Reference(s)**:
 

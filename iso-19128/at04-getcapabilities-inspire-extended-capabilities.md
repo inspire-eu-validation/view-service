@@ -1,3 +1,4 @@
+
 # INSPIRE ExtendedCapabilities
 
 **Purpose**: Test that...

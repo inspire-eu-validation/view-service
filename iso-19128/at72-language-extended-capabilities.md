@@ -1,12 +1,14 @@
 # Language Extended Capabilities
 
-**Purpose**: 
+**Purpose**:
+
+Test that the Extended Capabilities section is valid according with the INSPIRE online schema repository.
 
 **Prerequisites**
 
 **Test method**
 
-
+* Check that the capabilities document is schema valid.
 
 **Reference(s)**:
 

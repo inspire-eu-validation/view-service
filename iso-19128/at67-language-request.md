@@ -1,6 +1,8 @@
 # Language Request
 
-**Purpose**: 
+**Purpose**:
+
+Test that the service capabilities changes depending on the requested language.
 
 **Prerequisites**
 
@@ -12,9 +14,11 @@
 
 * [TG VS](./README.md#ref_TG_VS), requirement 67
 
-**Test type**: Automated
+**Test type**: None
 
 **Notes**
+
+This requirement is satisfied when requirements 68, 69 and 70 are satisfied.
 
 **Contextual XPath references**
 

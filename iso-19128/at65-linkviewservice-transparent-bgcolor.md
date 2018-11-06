@@ -1,12 +1,18 @@
 # LinkViewService Transparent BGColor
 
-**Purpose**: 
+**Purpose**:
+
+Test the TRANSPARENT and BGCOLOR parameter values for cascading view services.
 
 **Prerequisites**
 
 **Test method**
 
+* If cascaded layers exists,
 
+    * The TRANSPARENT parameter of all layers shall be true.
+
+    * The BGCOLOR parameter of all layers shall be the same.
 
 **Reference(s)**:
 

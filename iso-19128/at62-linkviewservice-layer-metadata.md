@@ -1,12 +1,16 @@
 # LinkViewService Layer Metadata
 
-**Purpose**: 
+**Purpose**:
+
+Test that the cascaded layer metadata is included as in the original view service.
 
 **Prerequisites**
 
 **Test method**
 
+* For every cascaded layer,
 
+    * Check that the layer's metadata is provided as in the original view service.
 
 **Reference(s)**:
 

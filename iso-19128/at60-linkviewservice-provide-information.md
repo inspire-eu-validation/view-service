@@ -2,6 +2,8 @@
 
 **Purpose**: 
 
+Test that Link View Service Operation is implemented correctly.
+
 **Prerequisites**
 
 **Test method**
@@ -12,9 +14,11 @@
 
 * [TG VS](./README.md#ref_TG_VS), requirement 60
 
-**Test type**: Automated
+**Test type**: None
 
 **Notes**
+
+This requirement is satisfied when requirements 62, 63, 64 and 65 are satisfied.
 
 **Contextual XPath references**
 

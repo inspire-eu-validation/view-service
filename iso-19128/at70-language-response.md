@@ -1,12 +1,26 @@
 # Language Response
 
-**Purpose**: 
+**Purpose**:
+
+Test that the service Language Response changes according with the request.
 
 **Prerequisites**
 
 **Test method**
 
+* Send a GetCapabilities request without LANGUAGE parameter.
 
+    * Check that the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
+
+* Send a GetCapabilities request with an invalid LANGUAGE parameter.
+
+    * Check that the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
+
+* For each [Supported Language](#supportedLanguage),
+
+    * Send a GetCapabilities request with a supported language parameter.
+
+        * Check that the [Response Language](#responseLanguage) is the same as the requested one.
 
 **Reference(s)**:
 
@@ -20,5 +34,9 @@
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Supported Languages <a name="supportedLanguages"></a> | inspire_common:SupportedLanguages
+Default Language <a name="defaultLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
+Supported Language <a name="supportedLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:SupportedLanguage/inspire_common:Language
+Response Language <a name="responseLanguage"></a> | inspire_common:ResponseLanguage/inspire_common:Language

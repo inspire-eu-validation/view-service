@@ -1,6 +1,8 @@
 # Language Rendered Text
 
-**Purpose**: 
+**Purpose**:
+
+Test that the service provide the resources in specific language.
 
 **Prerequisites**
 
@@ -12,9 +14,11 @@
 
 * [TG VS](./README.md#ref_TG_VS), requirement 73
 
-**Test type**: Automated
+**Test type**: None
 
 **Notes**
+
+This requirement does not have an automatic test due to the nature of its content.
 
 **Contextual XPath references**
 

@@ -1,12 +1,16 @@
 # LinkViewService Cascaded Increment
 
-**Purpose**: 
+**Purpose**:
+
+Test that the cascaded layer value is correct.
 
 **Prerequisites**
 
 **Test method**
 
+* For every cascaded layer,
 
+    * The 'cascaded' attribute of the layer is an integer number incremented by 1.
 
 **Reference(s)**:
 

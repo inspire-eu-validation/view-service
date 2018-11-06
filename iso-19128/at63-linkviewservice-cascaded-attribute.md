@@ -2,11 +2,15 @@
 
 **Purpose**: 
 
+Test that the cascaded layers have the attribute 'cascaded'.
+
 **Prerequisites**
 
 **Test method**
 
+* For every cascaded layer,
 
+    * Check that the layer has an attibute 'cascaded'.
 
 **Reference(s)**:
 

@@ -2,6 +2,8 @@
 
 **Purpose**: 
 
+Test that the service provide a list of supported languages.
+
 **Prerequisites**
 
 **Test method**
@@ -12,13 +14,18 @@
 
 * [TG VS](./README.md#ref_TG_VS), requirement 66
 
-**Test type**: Automated
+**Test type**: None
 
 **Notes**
+
+This requirement is satisfied when requirement 71 is satisfied.
 
 **Contextual XPath references**
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Supported Languages <a name="supportedLanguages"></a> | inspire_common:SupportedLanguages
+Default Language <a name="defaultLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
+Supported Language <a name="supportedLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:SupportedLanguage/inspire_common:Language

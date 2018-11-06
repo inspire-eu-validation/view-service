@@ -2,17 +2,21 @@
 
 **Purpose**: 
 
+Test that cascaded layers provide a valid metadata through a Discovery Service.
+
 **Prerequisites**
 
 **Test method**
 
+* For every cascaded layer,
 
+    * Check that a url pointing to a metadata in a Discovery Service is provided
 
 **Reference(s)**:
 
 * [TG VS](./README.md#ref_TG_VS), requirement 61
 
-**Test type**: Automated
+**Test type**: Automatic
 
 **Notes**
 

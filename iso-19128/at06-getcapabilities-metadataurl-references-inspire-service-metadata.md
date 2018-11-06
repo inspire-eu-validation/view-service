@@ -10,7 +10,7 @@ This test only applies to [scenario 1](#scenario-1). Otherwise the test case is 
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if the [MetadataURL](#metadataURL) element mapped into the extended capabilities section into the Capability element is used to reference the INSPIRE service metadata available through an INSPIRE Discovery Service.
+  * Check if the [MetadataURL](#metadataURL) element mapped into the extended capabilities section within the Capability element is used to reference the INSPIRE service metadata available through an INSPIRE Discovery Service.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 6

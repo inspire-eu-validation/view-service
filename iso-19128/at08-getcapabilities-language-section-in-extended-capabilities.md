@@ -5,10 +5,12 @@
 **Prerequisites**
 
 **Test method**
-* Send...
-  * Check that...
 
-**Reference(s)**:
+* Send a getCapabilities request to the service endpoint. Into the response:
+
+  * Check if there is a [SupportedLanguages](#SupportedLanguage) node and a [ResponseLanguage](#ResponseLanguage) node in the ExtendedCapabilities section.
+
+**Reference(s)**
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 8
 
 **Test type**: Automated
@@ -21,4 +23,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Example <a name="example"></a> | ./wms:Service/wms:Example
+SupportedLanguage <a name="SupportedLanguage"></a>   | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:SupportedLanguages
+ResponseLanguage <a name="ResponseLanguage"></a>   | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResponseLanguage

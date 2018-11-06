@@ -1,12 +1,17 @@
 # GetCapabilities request parameters
 
-**Purpose**: Test that...
+**Purpose**: Test that the GetCapabilities operation is supported implementing the Get View Service Metadata.
 
 **Prerequisites**
 
 **Test method**
-* Send...
-  * Check that...
+
+* Check if the GetCapabilities operation is suported for the View Service.
+  * Send a request to the service endpoint with the following mandatory parameters and fixed values:
+    * SERVICE=WMS
+    * REQUEST=GetCapabilities
+
+    * Check that a valid response is obtained.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.2, Requirement 5
@@ -21,4 +26,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Example <a name="example"></a> | ./wms:Service/wms:Example
+

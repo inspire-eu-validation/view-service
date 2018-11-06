@@ -30,5 +30,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Dimension <a name="dimension"></a> | wms:Capability/wms:Layer/wms:Dimension
-Name <a name="name"></a> | ./wms:Service/*/wms:Layer/wms:Dimension[1]/@name
-Units <a name="units"></a> | ./wms:Service/*/wms:Layer/wms:Dimension[1]/@units
+Name <a name="name"></a> | wms:Capability/*/wms:Layer/wms:Dimension[1]/@name
+Units <a name="units"></a> | wms:Capability/*/wms:Layer/wms:Dimension[1]/@units

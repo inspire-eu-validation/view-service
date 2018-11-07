@@ -1,6 +1,6 @@
-# Layer Style
+# Layer Style Title and Name
 
-**Purpose**: Test that each style has a human-readable name mapped to Title element and a unique identifier  mapped to Name element.
+**Purpose**: Test that each style has a human-readable name mapped to Title element and a unique identifier mapped to Name element.
 
 **Prerequisites**
 
@@ -17,7 +17,7 @@
       * Check if the [unique identifier](#name) is unique within the style elements of the layer.
 
 **Reference(s)**:
-* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 41, 46
+* [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 46
 
 **Test type**: Automated
 

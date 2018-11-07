@@ -12,7 +12,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
   * Check if there is a [ContactOrganization](#ContactOrganization) node in the [ContactPersonPrimary](#ContactPersonPrimary) element of the [ContactInformation](#ContactInformation) section.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.14, Requirement 25
 
 **Test type**: Automated

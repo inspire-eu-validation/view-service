@@ -12,7 +12,7 @@
 
     * Check if a legend is provided in the [LegendURL](#legend) element.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8 and 4.2.3.3.4.9, Requirement 45, 47
 
 **Test type**: Automated

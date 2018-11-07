@@ -6,7 +6,7 @@
 
 **Test method**
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4, Requirement 32
 
 **Test type**: None

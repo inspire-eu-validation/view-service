@@ -12,7 +12,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
   * Check if is provided at least one [Fees](#Fees) node defining the conditions for access and use. 
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.12, Requirement 24
 
 **Test type**: Automated

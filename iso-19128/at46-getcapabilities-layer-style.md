@@ -16,7 +16,7 @@
     * Check if the Unique Identifier is mapped to the [Name](#name) element.
       * Check if the [unique identifier](#name) is unique within the style elements of the layer.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 41, 46
 
 **Test type**: Automated

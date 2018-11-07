@@ -15,7 +15,7 @@
 
     * Check if each subsidary layer has an [Identifier](#Identifier) element with an "authority" attribute matching with the AuthorityURL name declared in the parent layer or in the layer itself. The Identifier element must contain a unique identifier.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.5, Requirement 38
 
 **Test type**: Automated

@@ -16,7 +16,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
   * In any other case the test fails.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.3, Requirement 11
 * [INS MD](./README.md#ref_INS_MD), Part D.1
 

@@ -12,7 +12,7 @@
 
     * Check that it contains a [Title](#title) element and it is a non-empty free text.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.1, Requirement 33
 
 **Test type**: Automated

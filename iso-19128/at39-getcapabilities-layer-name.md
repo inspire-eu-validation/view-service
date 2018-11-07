@@ -24,7 +24,7 @@
 
 
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.6, Requirement 39
 * [IR IOP](./README.md#ref_IR_IOP), Article 14
 

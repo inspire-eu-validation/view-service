@@ -15,7 +15,7 @@
       * Check if sending a HTTP/GET request to the GetRecorById of the Discovery Service, a valid response is returned.
       * Check if a direct link is provided to the ISO19139 metadata document.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.5, Requirement 14
 
 **Test type**: Automated

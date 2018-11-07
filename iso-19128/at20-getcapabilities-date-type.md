@@ -12,7 +12,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
   * Check if is provided at least one [DateOfPublication](#DateOfPublication), [DateOfLastRevision](#DateOfLastRevision) or [DateOfCreation](#DateOfCreation) element within inspire_vs:ExtendedCapabilities section.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.9, Requirement 20
 
 **Test type**: Automated

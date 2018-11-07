@@ -14,7 +14,7 @@
 
       * Check that the element has an attribute "name" defining the name of the dimension and "units" attributes defining the units of the measure. 
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.10, Requirement 48
 
 **Test type**: Automated

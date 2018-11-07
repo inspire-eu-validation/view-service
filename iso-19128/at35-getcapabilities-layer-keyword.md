@@ -12,7 +12,7 @@
 
     * Check that [Keyword](#Keyword) elements are mapped to the [KeywordList](#KeywordList) element.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.3, Requirement 35
 
 **Test type**: Automated

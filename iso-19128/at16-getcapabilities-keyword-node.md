@@ -12,7 +12,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
   * Check if is provided at least one [Keyword](#keyword) element with a keyword from the "Classification of Spatial data Services" (Part D.4)
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.7, Requirement 16
 * [INS MD](./README.md#ref_INS_MD), Classification of Spatial data Services, Part D.4
 

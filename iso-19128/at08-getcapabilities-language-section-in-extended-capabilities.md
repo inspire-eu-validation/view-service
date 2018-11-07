@@ -10,7 +10,7 @@
 
   * Check if there is a [SupportedLanguages](#SupportedLanguage) node and a [ResponseLanguage](#ResponseLanguage) node in the ExtendedCapabilities section.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 8
 
 **Test type**: Automated

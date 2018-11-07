@@ -13,7 +13,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
   * Check if there is a [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) node in each Layer section of the Capabilities section.
   * Check if the EX_GeographicBoundingBox element is defined by the sub-elements: [westBoundLongitude](#westBoundLongitude), [eastBoundLongitude](#eastBoundLongitude), [southBoundLatitude](#southBoundLatitude) and [northBoundLatitude](#northBoundLatitude)
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.8, Requirement 19
 
 **Test type**: Automated

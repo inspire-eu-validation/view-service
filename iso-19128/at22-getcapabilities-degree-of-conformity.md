@@ -11,7 +11,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
   * Check that is given a [Deegree](#Degree) node with one of these values: notEvaluated, conformant, notConformant.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.11, Requirement 22
 * [INSPIRE](./README.md#ref_INSPIRE), Art. 7.1 (Interoperability of spatial data sets and services)
 

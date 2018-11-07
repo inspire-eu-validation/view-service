@@ -12,7 +12,7 @@
 
     * Check if it is provided at least a default style for each theme. Style unique identifier value must be inspire_common:DEFAULT.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 42
 
 **Test type**: Automated

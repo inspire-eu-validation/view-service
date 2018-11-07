@@ -13,7 +13,7 @@
     * Check if the minimum bounding rectagle of the area covered by the layer is mapped to the [BoundingBox](#BoundingBox) element in all supported CRS.
 
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.4, Requirement 36
 
 **Test type**: Automated

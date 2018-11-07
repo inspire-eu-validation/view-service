@@ -12,7 +12,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
   * Check if is provided a [MetadataPointOfContact](#MetadataPointOfContact) element into the ExtendedCapabilities section.
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.15, Requirement 28
 
 **Test type**: Automated

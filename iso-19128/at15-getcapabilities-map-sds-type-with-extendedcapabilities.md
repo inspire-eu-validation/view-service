@@ -14,7 +14,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
   * Check that the [SpatialDataServiceType](#SpatialDataServiceType) element has a fixed value equal to 'view' as defined in [INS MD Part 3].
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.6, Requirement 15
 * [INS MD](./README.md#ref_INS_MD), Part 3
 

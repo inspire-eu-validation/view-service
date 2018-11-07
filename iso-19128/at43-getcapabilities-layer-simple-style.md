@@ -11,7 +11,7 @@
   * Curve: black solid line, 1 pixel
   * Surface: black solid line, 1 pixel, grey fill
 
-**Reference(s)**
+**Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 43
 
 **Test type**: Manual

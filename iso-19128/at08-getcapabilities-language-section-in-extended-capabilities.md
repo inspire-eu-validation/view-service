@@ -1,6 +1,6 @@
 # Language section in Extended Capabilities
 
-**Purpose**: Test that...
+**Purpose**: Test that a language section is provided to fulfil the language requirements.
 
 **Prerequisites**
 
@@ -23,5 +23,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-SupportedLanguage <a name="SupportedLanguage"></a>   | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:SupportedLanguages
-ResponseLanguage <a name="ResponseLanguage"></a>   | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResponseLanguage
+SupportedLanguage <a name="SupportedLanguage"></a>   | wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:SupportedLanguages
+ResponseLanguage <a name="ResponseLanguage"></a>   | wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResponseLanguage

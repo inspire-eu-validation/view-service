@@ -28,4 +28,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-BoundingBox <a name="BoundingBox"></a> | wms:Capability/wms:Layer/wms:BoundingBox
+BoundingBox <a name="BoundingBox"></a> | wms:Capability/*/wms:Layer/wms:BoundingBox

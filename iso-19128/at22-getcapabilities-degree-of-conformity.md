@@ -5,7 +5,7 @@
 **Prerequisites**
 
 **Test method**
-This test only applies to [scenario 2](#scenario-2). Otherwise the test case is skipped.
+This test only applies to [scenario 2](./README.md#scenarios). Otherwise the test case is skipped.
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 

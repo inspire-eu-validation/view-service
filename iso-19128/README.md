@@ -120,7 +120,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 
 Note: Requirements marked as "not testable" should be reconsidered in a revision of the technical guidance" 
 
-## Two scenarios for providing the service metadata
+## Two scenarios for providing the service metadata <a name="scenarios"></a>
 
 The [TG VS](#ref_TG_VS) gives two options (scenarios) for providing the service metadata in the Capabilities document of the WMS services:
 

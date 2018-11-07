@@ -29,4 +29,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Abstract <a name="abstract"></a> | wms:Capability/wms:Layer/wms:Abstract
+Abstract <a name="abstract"></a> | wms:Capability/*/wms:Layer/wms:Abstract

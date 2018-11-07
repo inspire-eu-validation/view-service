@@ -40,4 +40,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Name <a name="name"></a> | wms:Capability/wms:Layer/wms:Name
+Name <a name="name"></a> | wms:Capability/*/wms:Layer/wms:Name

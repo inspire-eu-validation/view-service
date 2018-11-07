@@ -1,12 +1,12 @@
 # MetadataURL references INSPIRE service metadata
 
-**Purpose**: Test that...
+**Purpose**: Test that metadata is referenced through the MetadataURL element within the ExtendedCapabilities section.
 
 **Prerequisites**
 
 **Test method**
 
-This test only applies to [scenario 1](#scenario-1). Otherwise the test case is skipped.
+This test only applies to [scenario 1](./README.md#scenarios). Otherwise the test case is skipped.
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 

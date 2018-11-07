@@ -1,6 +1,6 @@
 # Mapping of service metadata elements
 
-**Purpose**: Test that 
+**Purpose**: Test that Title, Abstract and AccessConstraints elements are provided.
 
 **Prerequisites**
 
@@ -12,7 +12,7 @@
 
   * Check if an [Abstract](#abstract) element is provided and is not empty.
 
-  * Check if at least one [AccessConstraints](accessConstraints) element is provided
+  * Check if at least one [AccessConstraints](accessConstraints) element is provided.
 
 **Reference(s)**
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 10

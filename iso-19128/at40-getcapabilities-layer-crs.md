@@ -31,4 +31,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-CRS <a name="crs"></a> | wms:Capability/wms:Layer/wms:CRS
+CRS <a name="crs"></a> | wms:Capability/*/wms:Layer/wms:CRS

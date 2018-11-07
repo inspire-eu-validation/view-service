@@ -1,6 +1,6 @@
 # Layer Unique Resource Identifier
 
-**Purpose**: Test that
+**Purpose**: Test that...
 
 **Prerequisites**
 

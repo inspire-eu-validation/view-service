@@ -1,6 +1,6 @@
 # Conformance class: INSPIRE Profile of ISO 19128 (DRAFT)
 
-This conformance class is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](../../).
+This conformance class is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service/3.11).
 
 ## Standardization target type
 
@@ -50,77 +50,77 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 5      | GetCapabilities request parameters   | OGC WMS 1.3.0. "WMS basic" CC ATS,  | [IR NS](#ref_IR_NS), Annex III, Chapter 2.1.1 |
 | 6      | MetadataURL references INSPIRE service metadata | [MetadataURL reference INSPIRE service metadata](./metadataurl-reference-inspire-service-metadata) |n/a |
 | 7      | Use WMS + INSPIRE extended capabilities  | Test bound to specific requirements | n/a |
-| 8      | Language section in Extended capabilities |[Supported and response languages node](./supported-and-response-languages-node.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 9      | View Service Metadata in Discovery Service | [View service metadata published in an INSPIRE discovery service](./in-discovery-service.md) |  [IR NS](#ref_IR_NS), Annex III, Chapter 4. |
-| 10     | Mapping of service metadata elements | [Title and Abstract](./title-and-abstract.md), [resource type is service](./resource-type-is-service.md), [resource locator](./resource-locator.md), [map coupled resource metadata](./map-coupled-resource-metadata.md), [map sds type with extendedcapabilities](./map-sds-type-with-extendedcapabilities.md), [keyword node](./keyword-node.md), [ex_geographicboundingbox node](./geographic-bounding-box.md), [date type](./date-type.md), [temporal reference](./temporal-reference.md), [degree of conformity](./degree-of-conformity.md), [fees node](./fees-node.md), [contact person](./contact-person.md), [contact position](./contact-position.md), [point of contact details](./point-of-contact-details.md), [metadata date](./metadata-date.md) | [IR MD](#ref_IR_MD), Part B |
-| 11     | ResourceType element | [Resource type is Service](./resource-type-is-service.md) | |
-| 12     | ResourceLocator element | [Resource Locator](./resource-locator.md) | |
-| 13     | Coupled Resource | [Map coupled resource metadata](./map-coupled-resource-metadata.md) | |
-| 14     | Coupled Resource | [Map coupled resource metadata](./map-coupled-resource-metadata.md) | |
-| 15     | SpatialDataServiceType element | [Map SDS Type with ExtendedCapabilities](./map-sds-type-with-extendedcapabilities.md) | |
-| 16     | Classification of Spatial Data Services keyword | [Keyword node](./keyword-node.md) | |
-| 17     | Additional keywords | [Keyword list](./keywordlist.md) | |
-| 18     | MD keywords | [Keyword node](./keyword-node.md) | |
-| 19     | Geographic Bounding Box | [EX_geographicboundingbox node](ex_geographicboundingbox node.md) | |
-| 20     | Temporal reference dates | [Date type](./date-type.md) | |
-| 21     | TemporalReference element | [Temporal reference](./temporal-reference.md) | |
-| 22     | Degree of conformity | [Degree of conformity](./degree-of-conformity.md) | |
-| 23     | Conformity | [Degree of conformity](./degree-of-conformity.md) | |
-| 24     | Conditions of access and use  | [Fees node](./fees-node.md) | |
-| 25     | Responsible party |  [Contact persone](./contact-person.md) | |
-| 26     | Responsible party role | [Contact position](./contact-position.md) | |
-| 27     | Point of contact with name and email | [Point of contact details](./point-of-contact-details.md) | |
-| 28     | Point of contact in ext. capabilities | [Point of contact details](./point-of-contact-details.md) | |
-| 29     | Metadata date | [Metadata date](./metadata-date.md) | |
-| 30     | GetCapabilities operation | [Schema validation](./schema-validation.md) | |
-| 30     | GetMap Operation | [Getmap format](./getmap-format.md) | |
-| 31     | Supported image formats for GetMap | [PNG-GIF image format](./png-gif-image-format.md) | |
-| 32     | Layer metadata | [Title and Abstract](./title-and-abstract.md), [keywordlist](./keywordlist.md), [Bounding box in layer](./bbox-in-layer.md), [layer identifier node](./layer-identifier-node.md), [harmonised layer name](./harmonised-layer-name.md), [etrs89 or itrs crs](./etrs89-or-itrs-crs.md), [inspire default styles](./inspire-default-styles.md) | |
-| 33     | Layer contains title (wms) | [layer title](./layer-title.md) | |
-| 34     | Abstract to describe layer (wms) | [layer language](./layer-language.md) | |
-| 35     | Additional layer keywords | [Keywordlist](./keywordlist.md) | |
-| 36     | Geographic Bounding Box for WMS | [Minimum geographic bbox](./minimum-geographic-bbox.md) | IR Annex III, Part A, Chapter 2.2.4 |
-| 37     | Unique Resource Identifier (layer origin) | [layer identifier node](./layer-identifier-node.md) | |
-| 38     | AuthorityURL & Identifier | [Layer identifier node](./layer-identifier-node.md) | |
-| 39     | Layer name | [Harmonised layer name](./harmonised-layer-name.md) | IR IOP Article 14 |
-| 40     | Coordinate Reference Systems | [etrs89 or itrs crs](./etrs89-or-itrs-crs.md) | |
-| 41     | Layer style contains title and identifier | [Layer style name](./layer-style-name.md) | IR Annex III, Part A, Chapter 2.2.4 |
-| 42     | inspire_common:default style | [Inspire default styles](./inspire-default-styles.md) | |
-| 43     | GCM fallback style | [Review default styles](./review-default-style.md) | |
-| 44     | inspire_common:default is the default layer Style | [Review default styles](./review-default-style.md) | |
-| 45     | A legend is provided for layers |[Data visualization legend layer](./data-visualization-legend-layer.md)  | |
-| 46     | Layer style are mapped correctly (wms) | [layer style name](./layer-style-name.md) | IR Annex III, Part A, Chapter 2.2.4 |
-| 47     | Internationalized layer legends | [Data visualization legend layer](./data-visualization-legend-layer.md)  | |
-| 48     | Layer Dimension elements | [Dimension](./dimension.md) | |
-| 49     | Category layers | [Category Layers.md](./category-layers.md) | |
-| 50     | GetMap: VERSION parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 51     | GetMap: REQUEST parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 52     | GetMap: LAYERS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 53     | GetMap: STYLES parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 54     | GetMap: CRS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 55     | GetMap: BBOX parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 56     | GetMap: WIDTH & HEIGHT parameters | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 57     | GetMap: FORMAT parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 58     | GetMap: TRANSPARENT parameter | OGC WMS ATS: 1.3.0. A.1.2.4 GetMap response | |
-| 59     | GetMap: EXCEPTIONS parameter | OGC WMS 1.3.0. ATS: A.1.2.4 GetMap response | |
-| 60     | Link View Service: scoping | [View service metadata published in an INSPIRE discovery service](./in-discovery-service.md) | |
-| 61     | Service metadata in Discovery Service |  [View service metadata published in an INSPIRE discovery service](./in-discovery-service.md) | |
-| 62     | Cascading layers in collated capabilities | [Review cascading view services](./cascading-view-services.md) | |
-| 63     | Cascaded layers to include "cascaded" attribute | [Review cascading view services](./cascading-view-services.md) | |
-| 64     | The value of the "cascaded" attribute indicates cascading level | [Review cascading view services](./cascading-view-services.md) | |
-| 65     | Transparency & background for collated layers | [Review cascading view services](./cascading-view-services.md) | |
-| 66     | Supported languages | [Supported and response languages node](./supported-and-response-languages-node.md) | IR Annex III, Part A, Chapter 2.2.3 |
-| 67     | Client may select the language | [Language selection capabilities](./language-selection-capabilities.md) | |
-| 68     | GetCapabilities: LANGUAGE parameter | [Default language](./default-language.md) | |
-| 69     | GetCapabilities: default language | [Default language](./default-language.md) | |
-| 70     | ResponseLanguage element | [Default language](./default-language.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 71     | SupportedLanguages and DefaultLanguage elements | [Default language](./default-language.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 72     | ExtendedCapabilities XML Schema | [Extended capabilities](./extended-capabilities.md) | |
-| 73     | GetMap: Portrayal requiring localized rendering | [Default language](./default-language.md) | |
+| 8      |  | [](./.md) | |
+| 9      |  | [](./.md) | |
+| 10     |  | [](./.md) | |
+| 11     |  | [](./.md) | |
+| 12     |  | [](./.md) | |
+| 13     |  | [](./.md) | |
+| 14     |  | [](./.md) | |
+| 15     |  | [](./.md) | |
+| 16     |  | [](./.md) | |
+| 17     |  | [](./.md) | |
+| 18     |  | [](./.md) | |
+| 19     |  | [](./.md) | |
+| 20     |  | [](./.md) | |
+| 21     |  | [](./.md) | |
+| 22     |  | [](./.md) | |
+| 23     |  | [](./.md) | |
+| 24     |  | [](./.md) | |
+| 25     |  | [](./.md) | |
+| 26     |  | [](./.md) | |
+| 27     |  | [](./.md) | |
+| 28     |  | [](./.md) | |
+| 29     |  | [](./.md) | |
+| 30     |  | [](./.md) | |
+| 30     |  | [](./.md) | |
+| 31     |  | [](./.md) | |
+| 32     |  | [](./.md) | |
+| 33     |  | [](./.md) | |
+| 34     |  | [](./.md) | |
+| 35     |  | [](./.md) | |
+| 36     |  | [](./.md) | |
+| 37     |  | [](./.md) | |
+| 38     |  | [](./.md) | |
+| 39     |  | [](./.md) | |
+| 40     |  | [](./.md) | |
+| 41     |  | [](./.md) | |
+| 42     |  | [](./.md) | |
+| 43     |  | [](./.md) | |
+| 44     |  | [](./.md) | |
+| 45     |  | [](./.md) | |
+| 46     |  | [](./.md) | |
+| 47     |  | [](./.md) | |
+| 48     |  | [](./.md) | |
+| 49     |  | [](./.md) | |
+| 50     | GetMap Version Parameter | [at50-getmap-version-parameter](./at50-getmap-version-parameter.md) | |
+| 51     | GetMap Request Parameter | [at51-getmap-request-parameter](./at51-getmap-request-parameter.md) | |
+| 52     | GetMap Layers Parameter | [at52-getmap-layers-parameter](./at52-getmap-layers-parameter.md) | |
+| 53     | GetMap Styles Parameter | [at53-getmap-styles-parameter](./at53-getmap-styles-parameter.md) | |
+| 54     | GetMap CRS Parameter | [at54-getmap-crs-parameter](./at54-getmap-crs-parameter.md) | |
+| 55     | GetMap BBOX Parameter | [at55-getmap-bbox-parameter](./at55-getmap-bbox-parameter.md) | |
+| 56     | GetMap Width and Height Parameter | [at56-getmap-width-height-parameter](./at56-getmap-width-height-parameter.md) | |
+| 57     | GetMap Format Parameter | [at57-getmap-format-parameter](./at57-getmap-format-parameter.md) | |
+| 58     | GetMap Transparent Parameter | [at58-getmap-transparent-parameter](./at58-getmap-transparent-parameter.md) | |
+| 59     | GetMap Exceptions | [at59-getmap-exceptions](./at59-getmap-exceptions.md) | |
+| 60     | LinkViewService Provide Information | [at60-linkviewservice-provide-information](./at60-linkviewservice-provide-information.md) | |
+| 61     | LinkViewService Discover | [at61-linkviewservice-discover](./at61-linkviewservice-discover.md) | |
+| 62     | LinkViewService Layer Metadata | [at62-linkviewservice-layer-metadata](./at62-linkviewservice-layer-metadata.md) | |
+| 63     | LinkViewService Cascaded Attribute | [at63-linkviewservice-cascaded-attribute](./at63-linkviewservice-cascaded-attribute.md) | |
+| 64     | LinkViewService Cascaded Increment | [at64-linkviewservice-cascaded-increment](./at64-linkviewservice-cascaded-increment.md) | |
+| 65     | LinkViewService Transparent BGColor | [at65-linkviewservice-transparent-bgcolor](./at65-linkviewservice-transparent-bgcolor.md) | |
+| 66     | Language List | [at66-language-list](./at66-language-list.md) | |
+| 67     | Language Request | [at67-language-request](./at67-language-request.md) | |
+| 68     | Language Parameter | [at68-language-parameter](./at68-language-parameter.md) | |
+| 69     | Language Default | [at69-language-default](./at69-language-default.md) | |
+| 70     | Language Response | [at70-language-response](./at70-language-response.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
+| 71     | Language Supported | [at71-language-supported](./at71-language-supported.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
+| 72     | Language Extended Capabilities | [language-extended-capabilities](./at72-language-extended-capabilities.md) | |
+| 73     | Language Rendered Text | [language-rendered-text](./at73-language-rendered-text.md) | |
 
 Note: Requirements marked as "not testable" should be reconsidered in a revision of the technical guidance" 
 
-## Two scenarios for providing the service metadata <a name="scenarios"></a>
+## <a name="scenarios"></a> Two scenarios for providing the service metadata
 
 The [TG VS](#ref_TG_VS) gives two options (scenarios) for providing the service metadata in the Capabilities document of the WMS services:
 

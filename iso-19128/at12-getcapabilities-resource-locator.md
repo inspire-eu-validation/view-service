@@ -27,4 +27,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-ResourceLocator <a name="ResourceLocator"></a>      |   wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResourceLocator/
+ResourceLocator <a name="ResourceLocator"></a>      |   wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResourceLocator

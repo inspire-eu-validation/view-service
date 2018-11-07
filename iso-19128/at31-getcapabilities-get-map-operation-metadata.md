@@ -1,4 +1,4 @@
-# View Service Metadata in Discovery Service
+# GetMap Operation Metadata
 
 **Purpose**: Test that the GetMap metadata is mapped to the wms:GetMap element and that either PNG or GIF format (without LZW compression) with transparency is supported.
 

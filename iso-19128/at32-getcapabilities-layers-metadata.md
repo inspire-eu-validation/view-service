@@ -1,4 +1,4 @@
-# View Service Metadata in Discovery Service
+# Layers Metadata
 
 **Purpose**: Test that the layer description shall use elements defined for the service capabilities in the [ISO 19128] standard.
 

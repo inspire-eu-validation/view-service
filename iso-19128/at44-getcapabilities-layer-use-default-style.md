@@ -1,4 +1,4 @@
-# Layer Style
+# Layer Use Default Style
 
 **Purpose**: Test that if no style is specified in the getMap request, the inspire_common:DEFAULT style is used in layer rendering.
 

@@ -65,7 +65,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 20     | Date type | [at20-getcapabilities-date-type](./at20-getcapabilities-date-type.md) |
 | 21     | Temporal reference | [at21-getcapabilities-temporal-reference](./at21-getcapabilities-temporal-reference.md) |
 | 22     | Degree of conformity | [at22-getcapabilities-degree-of-conformity](./at22-getcapabilities-degree-of-conformity.md) |
-| 23     | Conformity | [at23-conformity](./at23-conformity.md) |
+| 23     | Conformity | [at23-getcapabilities-conformity](./at23-getcapabilities-conformity.md) |
 | 24     | Fees node | [at24-getcapabilities-fees-node](./at24-getcapabilities-fees-node.md) |
 | 25     | Contanct Organization | [at25-getcapabilities-contact-organization](./at25-getcapabilities-contact-organization.md) |
 | 26     | Contact Position | [at26-getcapabilities-contact-position](./at26-getcapabilities-contact-position.md) |
@@ -171,7 +171,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at20-getcapabilities-date-type](./at20-getcapabilities-date-type.md) | 2 only | ready for review |
 | [at21-getcapabilities-temporal-reference](./at21-getcapabilities-temporal-reference.md) | 2 only | ready for review |
 | [at22-getcapabilities-degree-of-conformity](./at22-getcapabilities-degree-of-conformity.md) | 2 only | ready for review |
-| [at23-conformity](./at23-conformity.md) | 2 only | ready for review |
+| [at23-getcapabilities-conformity](./at23-getcapabilities-conformity.md) | 2 only | ready for review |
 | [at24-getcapabilities-fees-node](./at24-getcapabilities-fees-node.md) | 2 only | ready for review |
 | [at25-getcapabilities-contact-organization](./at25-getcapabilities-contact-organization.md) | 2 only | ready for review |
 | [at26-getcapabilities-contact-position](./at26-getcapabilities-contact-position.md) | 2 only | ready for review |

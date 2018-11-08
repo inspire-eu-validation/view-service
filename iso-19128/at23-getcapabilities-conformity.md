@@ -1,6 +1,6 @@
 # Conformity
 
-**Purpose**: Test that is provided a Conformity element into the Extended Cpabilities section.
+**Purpose**: Test that is provided a Conformity element into the Extended Capabilities section.
 
 **Prerequisites**
 

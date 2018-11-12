@@ -7,14 +7,14 @@
 **Test method**
 
 * Send a getCapabilities request to the service endpoint. Into the response:
-
-  * Check that the layer styles are mapped into the [Style](#style) element. 
   
   * For each wms:Style element:
 
     * Check if a human-readable name is mapped to the [Title](#title) element.
+
     * Check if the Unique Identifier is mapped to the [Name](#name) element.
-      * Check if the [unique identifier](#name) is unique within the style elements of the layer.
+
+      * Check if the [Name](#name) is unique within the style elements of the layer.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 41, 46

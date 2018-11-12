@@ -35,4 +35,3 @@ Abbreviation                                               |  XPath expression (
 Supported Languages <a name="supportedLanguages"></a> | inspire_common:SupportedLanguages
 Default Language <a name="defaultLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
 Supported Language <a name="supportedLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:SupportedLanguage/inspire_common:Language
-Response Language <a name="responseLanguage"></a> | inspire_common:ResponseLanguage/inspire_common:Language

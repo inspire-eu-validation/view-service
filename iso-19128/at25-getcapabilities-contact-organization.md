@@ -1,4 +1,4 @@
-# Contanct Organization
+# Contact Organization
 
 **Purpose**: Test that the responsible party information is mapped to the wms:ContactOrganization element of the wms:ContactPersonPrimary within the wms:ContactInformation element.
 

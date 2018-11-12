@@ -10,10 +10,10 @@
 
   * For each wms:Layer element:
 
-    * Check if is provided a [Name](#name) element and it is a non-empty free text.
+    * Check if is provided a [Layer Name](#layerName) element and it is a non-empty free text.
 
     * Check if harmonished name of the layer comply with the Layer requirements of the [IR IOP, Article 14]. 
-      * [Name](#name) element value must start by one of the themes name:
+      * [Layer Name](#layerName) element value must start by one of the themes name:
         * GN.GeographicalNames
         * AU.AdministrativeUnit
         * AD.Address
@@ -40,4 +40,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Name <a name="name"></a> | wms:Capability/*/wms:Layer/wms:Name
+Layer Name <a name="layerName"></a> | wms:Capability/*/wms:Layer/wms:Name

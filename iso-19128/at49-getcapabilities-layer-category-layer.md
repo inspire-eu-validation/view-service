@@ -10,7 +10,7 @@
 
   * Check if exists a [Layer](#layer) element with nested sub-layers. If true,
 
-    * Check that the [Category Layer](#categoryLayer) contains a [Name](#name) element.
+    * Check that the [Category Layer](#categoryLayer) contains a [Layer Name](#layerName) element.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.11, Requirement 49
@@ -29,4 +29,4 @@ Abbreviation                                               |  XPath expression (
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Layer <a name="layer"></a>   | wms:Capability/wms:Layer/wms:Layer
 Category Layer <a name="categoryLayer"></a>   | wms:Capability/wms:Layer
-Name <a name="name"></a>   | wms:Capability/wms:Layer/wms:Name
+Name Name <a name="layerName"></a>   | wms:Capability/wms:Layer/wms:Name

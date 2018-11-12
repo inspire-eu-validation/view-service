@@ -12,7 +12,7 @@
 
     * Check if exists a [Dimension](#dimension) element. If yes,
 
-      * Check that the element has an attribute "name" defining the name of the dimension and "units" attributes defining the units of the measure. 
+      * Check that the element has an attribute [Dimension Name](#dimensionName) defining the name of the dimension and [Dimension Units](#dimensionUnits) attributes defining the units of the measure. 
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.10, Requirement 48
@@ -30,5 +30,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Dimension <a name="dimension"></a> | wms:Capability/wms:Layer/wms:Dimension
-Name <a name="name"></a> | wms:Capability/*/wms:Layer/wms:Dimension[1]/@name
-Units <a name="units"></a> | wms:Capability/*/wms:Layer/wms:Dimension[1]/@units
+Name <a name="dimensionName"></a> | wms:Capability/*/wms:Layer/wms:Dimension[1]/@name
+Units <a name="dimensionUnits"></a> | wms:Capability/*/wms:Layer/wms:Dimension[1]/@units

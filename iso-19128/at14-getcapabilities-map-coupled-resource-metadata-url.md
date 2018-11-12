@@ -8,11 +8,14 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
   
-  * If there is a MetadataURL node for a layer:
-    * Check if the MetadataURL element is populated with a URL that allows access to unambiguous metadata record. The URL must be encoded into the "xlink:href" attribute of an [OnlineResource](#OnlineResource) element.
+  * If there is a [MetadataURL](#metadataURL) node for a layer:
+
+    * Check if the MetadataURL element is populated with a URL that allows access to unambiguous metadata record. The URL must be encoded into the "xlink:href" attribute of an [OnlineResource](#onlineResource) element.
     
     * One of the following checks must be passed:
+
       * Check if sending a HTTP/GET request to the GetRecorById of the Discovery Service, a valid response is returned.
+
       * Check if a direct link is provided to the ISO19139 metadata document.
 
 **Reference(s)**:
@@ -28,6 +31,7 @@ The multiplicity of this element is 0 or more.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-OnlineResource/@xlink:href <a name="OnlineResource"></a>   |    wms:Capability/wms:Layer/MetadataURL/OnlineResource/@xlink:href
+MetadataURL <a name="metadataURL"></a>  |  wms:Capability/*/wms:Layer/MetadataURL
+OnlineResource/@xlink:href <a name="onlineResource"></a>  |  wms:Capability/wms:Layer/MetadataURL/OnlineResource/@xlink:href

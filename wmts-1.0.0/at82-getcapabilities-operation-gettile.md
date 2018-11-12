@@ -27,6 +27,8 @@
 
 **Notes**
 
+The multiplicity of Operation element is 2 or more.
+
 **Contextual XPath references**
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).

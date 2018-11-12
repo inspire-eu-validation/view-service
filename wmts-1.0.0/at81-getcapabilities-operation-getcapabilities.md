@@ -17,7 +17,7 @@
 
 **Notes**
 
-The multiplicity of this element is 1.
+The multiplicity of Operation element is 2 or more.
 
 **Contextual XPath references**
 

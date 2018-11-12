@@ -13,16 +13,7 @@
     * Check if is provided a [Layer Name](#layerName) element and it is a non-empty free text.
 
     * Check if harmonished name of the layer comply with the Layer requirements of the [IR IOP, Article 14]. 
-      * [Layer Name](#layerName) element value must start by one of the themes name:
-        * GN.GeographicalNames
-        * AU.AdministrativeUnit
-        * AD.Address
-        * CP.CadastralParcel
-        * TN.RoadTransportNetwork.RoadArea
-        * HY.Network
-        * PS.ProtectedSite
-
-
+      * [Layer Name](#layerName) element value must match with one of the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or it's amendments.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.6, Requirement 39

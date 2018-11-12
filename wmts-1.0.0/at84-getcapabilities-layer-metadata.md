@@ -12,7 +12,7 @@ The Unique Resource Identifier and Name INSPIRE metedata elements are mapped to 
 
   * Check if an [Identifier](#identifier) element is given and it is a non-empty free text.
 
-      * [Identifier](#identifier) element value must be one of the harmonished layer name included into the INSPIRE layer register (http://inspire.ec.europa.eu/layer/layer.en.xml).
+      * [Identifier](#identifier)  element value must match with one of the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or it's amendments.
 
   * Check if each identifier value is unique for each of the layers included in the GetCapabilities response.
 

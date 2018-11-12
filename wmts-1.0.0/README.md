@@ -41,28 +41,27 @@ TG MD <a name="ref_TG_MD"></a>   | [Technical Guidance for the implementation of
 
 Based on requirement numbering in [TG VS](#ref_TG_VS).
 
-| Req#  | Description                          | Covered by test(s)                 | IR reference(s)                  |
-| ----- | ------------------------------------ | ---------------------------------- | -------------------------------- |
-| IR 74 | Scope: WMTS 1.0 + INSPIRE extensions |  n/a                               |                              |
-| IR 75 | WMTS GetCapabilities, GetTile       |  All included OGC WMTS tests       |  n/a                             |
-| IR 76 | Link View Service                    |  n/a                               |                              |
-| IR 77 | Common request parameters            |  WMTS common request parameter tests  | Annex III, Part A, 2.1.1. & 3.1.1. |
-| IR 78 | Service metadata content             |  WMTS GetCapabilities tests, most of the tests in this suite   |
-| IR 79 | Coupled Resource             |  [Map coupled resource metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/map-coupled-resource-metadata)   |
-| IR 80 | Link View Service                    |  n/a                |                                             |
-| IR 81 | GetCapabilities operation metadata   | WMTS.A.3.2.2        |                                            |
-| IR 82 | GetTile operation metadata           | [GetTile operation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/gettile-languages), [PNG-GIF image format](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/png-gif-image-format)        |                                             |
-| IR 83 | Link View Service operation metadata | n/a                 |                                            |
-| IR 84 | Harmonised layer name | [Harmonised Layer Name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/harmonised-layer-name) |
-| IR 85 | Layer Title | [Layer Title](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-title) |
-| IR 86 | Layer Language | [Layer Language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-language) |
-| IR 87 | Keywords                             | not testable           | Annex III, Part A, 2.2.4 |
-| IR 88 | Minimum Geographic Bbox | [Minimum Geographic Bbox](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/minimum-geographic-bbox) |
-| IR 89 | Use ETRS & ITRS CRSes                | [ETRS89 or ITRS coordinate reference system](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/etrs89-or-itrs-crs) |  Annex III, Part B, 1.  |
-| IR 90 | Layer StyleName           | [Layer Style Name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-style-name) | Annex III, Part A, 3.1.1.  |
-| IR 92 | GetTile request parameters           | WMTS tests for GetTile, [GetTile language support](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/gettile-languages) | Annex III, Part A, 3.1.1.  |
-
-Note: Requirements marked as "not testable" should be reconsidered in a revision of the technical guidance" 
+| Req#  | Description                          | Covered by test(s)                 |
+| ----- | ------------------------------------ | ---------------------------------- |
+| IR 74 | WMTS XML schema validation | [at74-wmts-schema-validation](./at74-wmts-schema-validation.md)
+| IR 75 | Implemented Operations | [at75-implemented-operations](./at75-implemented-operations.md)
+| IR 76 | Link View Service Operation | [at76-link-view-service-operation](./at76-link-view-service-operation.md)
+| IR 77 | Common request parameters | [at77-common-request-parameters](./at77-common-request-parameters.md)
+| IR 78 | Get View Service Matadata | [at78-getcapabilities-get-view-service-metadata](./at78-getcapabilities-get-view-service-metadata.md)
+| IR 79 | Layer Metadata | [at79-getcapabilities-layer-metadata](./at79-getcapabilities-layer-metadata.md)
+| IR 80 | Link View Service | [at80-getcapabilities-link-view-service](./at80-getcapabilities-link-view-service.md)
+| IR 81 | Operation GetCapabilities | [at81-getcapabilities-operation-getcapabilities](./at81-getcapabilities-operation-getcapabilities.md)
+| IR 82 | Operation GetTile | [at82-getcapabilities-operation-gettile](./at82-getcapabilities-operation-gettile.md)
+| IR 83 | Operation Discover Metadata | [at83-getcapabilities-operation-discovermetadata](./at83-getcapabilities-operation-discovermetadata.md)
+| IR 84 | Layer Metadata | [at84-getcapabilities-layer-metadata](./at84-getcapabilities-layer-metadata.md)
+| IR 85 | Layer Resource Title | [at85-getcapabilities-layer-title](./at85-getcapabilities-layer-title.md)
+| IR 86 | Layer Abstract | [at86-getcapabilities-layer-abstract](./at86-getcapabilities-layer-abstract.md)
+| IR 87 | Layer Keywords | [at87-getcapabilities-layer-keyword](./at87-getcapabilities-layer-keyword.md)
+| IR 88 | Layer Geographic Bounding Box | [at88-getcapabilities-layer-geographic-bounding-box](./at88-getcapabilities-layer-geographic-bounding-box.md)
+| IR 89 | ETRS89 or ITRS coordinate reference system | [at89-getcapabilities-etrs89-itrs-crs](./at89-getcapabilities-etrs89-itrs-crs.md)
+| IR 90 | Layer Style Title and Identifier | [at90-getcapabilities-layer-style](./at90-getcapabilities-layer-style.md)
+| IR 91 | Layer Style Legend URL | [at91-getcapabilities-layer-legend-url](./at91-getcapabilities-layer-legend-url.md)
+| IR 92 | GetTile Operation | [at92-gettile-gettile-operation](./at92-gettile-gettile-operation.md)
 
 ## Tests
 
@@ -111,18 +110,25 @@ This Conformance Class contains the tests in the table below. The test with "WMT
 | WMTS.A.3.5.10 Correct Format (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | WMTS.A.3.5.11 Size (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
 | WMTS.A.3.5.12 Transparent color (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final
-| [GetTile operation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/gettile-languages) | IR | Yes | Ready for review
-| [etrs89 or itrs crs](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0/etrs89-or-itrs-crs) | IR | Yes | Ready for review
-| [Map coupled resource metadata](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/map-coupled-resource-metadata)   | IR | Yes | Ready for review
-| [GetTile operation](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/gettile-languages)| IR | Yes | Ready for review
-| [PNG-GIF image format](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/png-gif-image-format)| IR | Yes | Ready for review
-| [Harmonised Layer Name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/harmonised-layer-name)| IR | Yes | Ready for review
-| [Layer Title](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-title)| IR | Yes | Ready for review
-| [Layer Language](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-language)| IR | Yes | Ready for review
-| [Minimum Geographic Bbox](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/minimum-geographic-bbox)| IR | Yes | Ready for review
-| [ETRS89 or ITRS coordinate reference system](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/etrs89-or-itrs-crs)| IR | Yes | Ready for review
-| [Layer Style Name](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/layer-style-name)| IR | Yes | Ready for review
-| [GetTile language support](http://inspire.ec.europa.eu/id/ats/view-service/3.11/WMTS/gettile-languages)| IR | Yes | Ready for review
+| [at74-wmts-schema-validation](./at74-wmts-schema-validation.md) | IR | Yes | Ready for review
+| [at75-implemented-operations](./at75-implemented-operations.md) | IR | Yes | Ready for review
+| [at76-link-view-service-operation](./at76-link-view-service-operation.md) | IR | Yes | Ready for review
+| [at77-common-request-parameters](./at77-common-request-parameters.md) | IR | Yes | Ready for review
+| [at78-getcapabilities-get-view-service-metadata](./at78-getcapabilities-get-view-service-metadata.md) | IR | Yes | Ready for review
+| [at79-getcapabilities-layer-metadata](./at79-getcapabilities-layer-metadata.md) | IR | Yes | Ready for review
+| [at80-getcapabilities-link-view-service](./at80-getcapabilities-link-view-service.md) | IR | Yes | Ready for review
+| [at81-getcapabilities-operation-getcapabilities](./at81-getcapabilities-operation-getcapabilities.md) | IR | Yes | Ready for review
+| [at82-getcapabilities-operation-gettile](./at82-getcapabilities-operation-gettile.md) | IR | Yes | Ready for review
+| [at83-getcapabilities-operation-discovermetadata](./at83-getcapabilities-operation-discovermetadata.md) | IR | Yes | Ready for review
+| [at84-getcapabilities-layer-metadata](./at84-getcapabilities-layer-metadata.md) | IR | Yes | Ready for review
+| [at85-getcapabilities-layer-title](./at85-getcapabilities-layer-title.md) | IR | Yes | Ready for review
+| [at86-getcapabilities-layer-abstract](./at86-getcapabilities-layer-abstract.md) | IR | Yes | Ready for review
+| [at87-getcapabilities-layer-keyword](./at87-getcapabilities-layer-keyword.md) | IR | Yes | Ready for review
+| [at88-getcapabilities-layer-geographic-bounding-box](./at88-getcapabilities-layer-geographic-bounding-box.md) | IR | Yes | Ready for review
+| [at89-getcapabilities-etrs89-itrs-crs](./at89-getcapabilities-etrs89-itrs-crs.md) | IR | Yes | Ready for review
+| [at90-getcapabilities-layer-style](./at90-getcapabilities-layer-style.md) | IR | Yes | Ready for review
+| [at91-getcapabilities-layer-legend-url](./at91-getcapabilities-layer-legend-url.md) | IR | Yes | Ready for review
+| [at92-gettile-gettile-operation](./at92-gettile-gettile-operation.md) | IR | Yes | Ready for review
 
 ## Open issues
 

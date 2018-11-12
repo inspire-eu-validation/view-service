@@ -65,70 +65,30 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 
 ## Tests
 
-This Conformance Class contains the tests in the table below. The test with "WMTS" prefix refer to the OGC WMTS 1.0.0 specification ATS (Annex A).
+This Conformance Class contains the tests in the table below. 
+Besides with these tests, this Conformance Class must be compliant with the tests defined in the OGC WMTS 1.0.0 specification ATS (Annex A).
 
-| Identifier                                                                                | Origin | Mechanical | Status   |
+| Identifier                                                                                | Origin | Type | Status   |
 | ----------------------------------------------------------------------------------------- | ------ | ---------- | -------- |
-| WMTS.A.3.1.2 Accept HTTP GET and POST transferred operation requests (All operations)     | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.1.3 Handle KVP-encoded operation requests (All operations) | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.1.4 Handle SOAP-encoded operation requests (All operations) 	        | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.1.5 Handle HTTP GET RESTful -encoded operation requests (All operations) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.1.6 KVP and SOAP HTTP response status code (All operations)                  | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.2.1 Accept HTTP GET transferred operation requests (GetCapabilities) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.2.2  GetCapabilities operation response (GetCapabilities)                   | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.2.3 Version negotiation (GetCapabilities)                   | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.2.4 Format selection (GetCapabilities)	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.2.5 Handling updateSequence parameter (GetCapabilities) 	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.2.6 Section selection (GetCapabilities)                   | OGC  WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.3.1 Accept HTTP GET transferred operation requests (ServiceMetadata resource)	                    | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.4.1 XML well formated (ServiceMetadata response)      | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.4.2 XML references the normative schema (ServiceMetadata response)     | OGC WMTS 1.0.0     | Yes        | Final    |
-| WMTS.A.3.4.3 XML validates against the schema (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.4 OnLineResource is an only resource prefix (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.5 XML format for GetCapabilities (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.6 ows:Constraint GetEncoding (ServiceMetadata response)]     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.7 ows:Constraint PostEncoding (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.8 Layer identifiers (ServiceMetadata response)    | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.9 Layer LegendURL are correct resources (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.10 Layer LegendURL correct Format (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.11 Layer LegendURL correct sizes (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.12 Layer TileMatrixSet is valid (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.13 TileMatrixSet Identifier (ServiceMetadata response)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.14 TileMatrix Identifier (ServiceMetadata response)    | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.15 TileMatrixSet ScaleDenominators (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.16 TileMatrixSet WellKnownScaleSet (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.4.17 Theme LayerRef is valid (ServiceMetadata response)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.1 Layer (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.2 ResourceURL template (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.3 TileMatrixSet (GetTile)    | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.4 TileMatrix (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.5 TileRow and TileCol (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.6 Incorrect Style (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.7 Tile incorrect dimension value (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.8 Tile dimension default and current (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.9 Incorrect Format (GetTile)     | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.10 Correct Format (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.11 Size (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final    |
-| WMTS.A.3.5.12 Transparent color (GetTile)      | OGC WMTS 1.0.0      | Yes        | Final
-| [at74-wmts-schema-validation](./at74-wmts-schema-validation.md) | IR | Yes | Ready for review
-| [at75-implemented-operations](./at75-implemented-operations.md) | IR | Yes | Ready for review
-| [at76-link-view-service-operation](./at76-link-view-service-operation.md) | IR | Yes | Ready for review
-| [at77-common-request-parameters](./at77-common-request-parameters.md) | IR | Yes | Ready for review
-| [at78-getcapabilities-get-view-service-metadata](./at78-getcapabilities-get-view-service-metadata.md) | IR | Yes | Ready for review
-| [at79-getcapabilities-layer-metadata](./at79-getcapabilities-layer-metadata.md) | IR | Yes | Ready for review
-| [at80-getcapabilities-link-view-service](./at80-getcapabilities-link-view-service.md) | IR | Yes | Ready for review
-| [at81-getcapabilities-operation-getcapabilities](./at81-getcapabilities-operation-getcapabilities.md) | IR | Yes | Ready for review
-| [at82-getcapabilities-operation-gettile](./at82-getcapabilities-operation-gettile.md) | IR | Yes | Ready for review
-| [at83-getcapabilities-operation-discovermetadata](./at83-getcapabilities-operation-discovermetadata.md) | IR | Yes | Ready for review
-| [at84-getcapabilities-layer-metadata](./at84-getcapabilities-layer-metadata.md) | IR | Yes | Ready for review
-| [at85-getcapabilities-layer-title](./at85-getcapabilities-layer-title.md) | IR | Yes | Ready for review
-| [at86-getcapabilities-layer-abstract](./at86-getcapabilities-layer-abstract.md) | IR | Yes | Ready for review
-| [at87-getcapabilities-layer-keyword](./at87-getcapabilities-layer-keyword.md) | IR | Yes | Ready for review
-| [at88-getcapabilities-layer-geographic-bounding-box](./at88-getcapabilities-layer-geographic-bounding-box.md) | IR | Yes | Ready for review
-| [at89-getcapabilities-etrs89-itrs-crs](./at89-getcapabilities-etrs89-itrs-crs.md) | IR | Yes | Ready for review
-| [at90-getcapabilities-layer-style](./at90-getcapabilities-layer-style.md) | IR | Yes | Ready for review
-| [at91-getcapabilities-layer-legend-url](./at91-getcapabilities-layer-legend-url.md) | IR | Yes | Ready for review
-| [at92-gettile-gettile-operation](./at92-gettile-gettile-operation.md) | IR | Yes | Ready for review
+| [at74-wmts-schema-validation](./at74-wmts-schema-validation.md) | IR | Automated | Ready for review
+| [at75-implemented-operations](./at75-implemented-operations.md) | IR | Automated | Ready for review
+| [at76-link-view-service-operation](./at76-link-view-service-operation.md) | IR | None | Ready for review
+| [at77-common-request-parameters](./at77-common-request-parameters.md) | IR | Automated | Ready for review
+| [at78-getcapabilities-get-view-service-metadata](./at78-getcapabilities-get-view-service-metadata.md) | IR | Automated | Ready for review
+| [at79-getcapabilities-layer-metadata](./at79-getcapabilities-layer-metadata.md) | IR | Automated | Ready for review
+| [at80-getcapabilities-link-view-service](./at80-getcapabilities-link-view-service.md) | IR | None | Ready for review
+| [at81-getcapabilities-operation-getcapabilities](./at81-getcapabilities-operation-getcapabilities.md) | IR | Automated | Ready for review
+| [at82-getcapabilities-operation-gettile](./at82-getcapabilities-operation-gettile.md) | IR | Automated | Ready for review
+| [at83-getcapabilities-operation-discovermetadata](./at83-getcapabilities-operation-discovermetadata.md) | IR | None | Ready for review
+| [at84-getcapabilities-layer-metadata](./at84-getcapabilities-layer-metadata.md) | IR | Automated | Ready for review
+| [at85-getcapabilities-layer-title](./at85-getcapabilities-layer-title.md) | IR | Automated | Ready for review
+| [at86-getcapabilities-layer-abstract](./at86-getcapabilities-layer-abstract.md) | IR | Automated | Ready for review
+| [at87-getcapabilities-layer-keyword](./at87-getcapabilities-layer-keyword.md) | IR | Automated | Ready for review
+| [at88-getcapabilities-layer-geographic-bounding-box](./at88-getcapabilities-layer-geographic-bounding-box.md) | IR | Automated | Ready for review
+| [at89-getcapabilities-etrs89-itrs-crs](./at89-getcapabilities-etrs89-itrs-crs.md) | IR | Manual | Ready for review
+| [at90-getcapabilities-layer-style](./at90-getcapabilities-layer-style.md) | IR | Automated | Ready for review
+| [at91-getcapabilities-layer-legend-url](./at91-getcapabilities-layer-legend-url.md) | IR | Automated | Ready for review
+| [at92-gettile-gettile-operation](./at92-gettile-gettile-operation.md) | IR | Automated | Ready for review
 
 ## Open issues
 

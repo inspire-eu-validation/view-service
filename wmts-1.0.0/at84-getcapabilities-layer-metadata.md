@@ -32,7 +32,7 @@ The Unique Resource Identifier and Name INSPIRE metedata elements are mapped to 
 
 The multiplicity of this element is 1 for each layer.
 
-The mapping between of the rest INSPIRE layer metadata elements and OGC WMTS elements is implemented in the Abstract Tests from [at85]() to [at91]().
+The mapping between of the rest INSPIRE layer metadata elements and OGC WMTS elements is implemented in the Abstract Tests from [at85](./at85-getcapabilities-layer-title.md) to [at91](./at91-getcapabilities-layer-legend-url.md).
 
 **Contextual XPath references**
 

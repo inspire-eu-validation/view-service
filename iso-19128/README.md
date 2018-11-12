@@ -41,81 +41,81 @@ An indirect dependency is another conformance class whose requirements must be m
 
 Based on requirement numbering in [TG VS](#ref_TG_VS).
 
-| Req#   | Description                          | Covered by test(s)                 | IR reference(s)                  |
-| ------ | ------------------------------------ | ---------------------------------- | -------------------------------- |
-| 1      | Scoping: ISO 19128 + INSPIRE ext.    | n/a                                | n/a                              |
-| 2      | WMS basic conformance class          | OGC WMS 1.3.0. A.1.2 Basic WMS Server | n/a  |
-| 3      | GetCapabilities, GetMap              | OGC WMS 1.3.0. "WMS basic" CC ATS  | n/a |
-| 4      | XML schema validation | [at04-getcapabilities-xml-schema-validation](./at04-getcapabilities-xml-schema-validation.md) | |
-| 5      | GetCapabilities request parameters | [at05-getcapabilities-get-capabilities-request-parameter](./at05-getcapabilities-get-capabilities-request-parameter.md) | |
-| 6      | MetadataURL references INSPIRE service metadata | [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) | |
-| 7      | Use WMS and INSPIRE extended capabilities | [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) | |
-| 8      | Language section in Extended Capabilities | [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) | |
-| 9      | View Service Metadata in Discovery Service | [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) | |
-| 10     | Mapping of service metadata elements | [at10-getcapabilities-title-and-abstract](./at10-getcapabilities-title-and-abstract.md) | |
-| 11     | Resource type is service | [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) | |
-| 12     | Resource locator | [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) | |
-| 13     | Map Coupled Resource metadata | [at13-getcapabilities-map-coupled-resource-metadata](./at13-getcapabilities-map-coupled-resource-metadata.md) | |
-| 14     | Map Coupled Resource metadata URL | [at14-getcapabilities-map-coupled-resource-metadata-url](./at14-getcapabilities-map-coupled-resource-metadata-url.md) | |
-| 15     | Map SDS Type with Extended Capabilities | [at15-getcapabilities-map-sds-type-with-extendedcapabilities](./at15-getcapabilities-map-sds-type-with-extendedcapabilities.md) | |
-| 16     | Keyword Node | [at16-getcapabilities-keyword-node](./at16-getcapabilities-keyword-node.md) | |
-| 17     | Keyword List | [at17-getcapabilities-keyword-list](./at17-getcapabilities-keyword-list.md) | |
-| 18     | Keyword within ExtendedCapabilities | [at18-getcapabilities-keyword-in-extendedcapabilities](./at18-getcapabilities-keyword-in-extendedcapabilities.md) | |
-| 19     | Geographic BoundingBox | [at19-getcapabilities-geographic-boundingbox](./at19-getcapabilities-geographic-boundingbox.md) | |
-| 20     | Date type | [at20-getcapabilities-date-type](./at20-getcapabilities-date-type.md) | |
-| 21     | Temporal reference | [at21-getcapabilities-temporal-reference](./at21-getcapabilities-temporal-reference.md) | |
-| 22     | Degree of conformity | [at22-getcapabilities-degree-of-conformity](./at22-getcapabilities-degree-of-conformity.md) | |
-| 23     | Conformity | [at23-conformity](./at23-conformity.md) | |
-| 24     | Fees node | [at24-getcapabilities-fees-node](./at24-getcapabilities-fees-node.md) | |
-| 25     | Contanct Organization | [at25-getcapabilities-contact-organization](./at25-getcapabilities-contact-organization.md) | |
-| 26     | Contact Position | [at26-getcapabilities-contact-position](./at26-getcapabilities-contact-position.md) | |
-| 27     | Point of Contact | [at27-getcapabilities-point-of-contact](./at27-getcapabilities-point-of-contact.md) | |
-| 28     | Point of Contact in Extended Capabilities | [at28-getcapabilities-point-of-contact-in-extendedcapabilities](./at28-getcapabilities-point-of-contact-in-extendedcapabilities.md) | |
-| 29     | Metadata Date | [at29-getcapabilities-metadata-date](./at29-getcapabilities-metadata-date.md) | |
-| 30     | GetCapabilities Operation Metadata | [at30-getcapabilities-getcapabilities-operation-metadata](./at30-getcapabilities-getcapabilities-operation-metadata.md) | |
-| 31     | GetMap Operation Metadata | [at31-getcapabilities-get-map-operation-metadata](./at31-getcapabilities-get-map-operation-metadata.md) | |
-| 32     | Layers Metadata | [at32-getcapabilities-layers-metadata](./at32-getcapabilities-layers-metadata.md) | |
-| 33     | Layer Title | [at33-getcapabilities-layer-title](./at33-getcapabilities-layer-title.md) | |
-| 34     | Layer Abstract | [at34-getcapabilities-layer-abstract](./at34-getcapabilities-layer-abstract.md) | |
-| 35     | Layer Keyword | [at35-getcapabilities-layer-keyword](./at35-getcapabilities-layer-keyword.md) | |
-| 36     | Layer Geographic Bounding Box | [at36-getcapabilities-layer-bounding-box](./at36-getcapabilities-layer-bounding-box.md) | |
-| 37     | Layer Unique Resource Identifier | [at37-getcapabilities-layer-unique-resource-identifier](./at37-getcapabilities-layer-unique-resource-identifier.md) | |
-| 38     | Layer Authority URL | [at38-getcapabilities-layer-authority-url](./at38-getcapabilities-layer-authority-url.md) | |
-| 39     | Layer Name | [at39-getcapabilities-layer-name](./at39-getcapabilities-layer-name.md) | |
-| 40     | Layer coordinate Reference system | [at40-getcapabilities-layer-crs](./at40-getcapabilities-layer-crs.md) | |
-| 41     |  | [at46-getcapabilities-layer-style](./at46-getcapabilities-layer-style.md) | |
-| 42     | Layer Default Style | [at42-getcapabilities-layer-default-style](./at42-getcapabilities-layer-default-style.md) | |
-| 43     | Layer Simple Style | [at43-getcapabilities-layer-simple-style](./at43-getcapabilities-layer-simple-style.md) | |
-| 44     | Layer Use Default Style | [at44-getcapabilities-layer-use-default-style](./at44-getcapabilities-layer-use-default-style.md) | |
-| 45     | Layer Style Legend | [at45-getcapabilities-layer-style-legend](./at45-getcapabilities-layer-style-legend.md) | |
-| 46     | Layer Style | [at46-getcapabilities-layer-style](./at46-getcapabilities-layer-style.md) | |
-| 47     |  | [at45-getcapabilities-layer-style-legend](./at45-getcapabilities-layer-style-legend.md) | |
-| 48     | Layer Dimension Pairs | [at48-getcapabilities-layer-dimension-pairs](./at48-getcapabilities-layer-dimension-pairs.md) | |
-| 49     | Layer Category Layer | [at49-getcapabilities-layer-category-layer](./at49-getcapabilities-layer-category-layer.md) | |
-| 50     | GetMap Version Parameter | [at50-getmap-version-parameter](./at50-getmap-version-parameter.md) | |
-| 51     | GetMap Request Parameter | [at51-getmap-request-parameter](./at51-getmap-request-parameter.md) | |
-| 52     | GetMap Layers Parameter | [at52-getmap-layers-parameter](./at52-getmap-layers-parameter.md) | |
-| 53     | GetMap Styles Parameter | [at53-getmap-styles-parameter](./at53-getmap-styles-parameter.md) | |
-| 54     | GetMap CRS Parameter | [at54-getmap-crs-parameter](./at54-getmap-crs-parameter.md) | |
-| 55     | GetMap BBOX Parameter | [at55-getmap-bbox-parameter](./at55-getmap-bbox-parameter.md) | |
-| 56     | GetMap Width and Height Parameter | [at56-getmap-width-height-parameter](./at56-getmap-width-height-parameter.md) | |
-| 57     | GetMap Format Parameter | [at57-getmap-format-parameter](./at57-getmap-format-parameter.md) | |
-| 58     | GetMap Transparent Parameter | [at58-getmap-transparent-parameter](./at58-getmap-transparent-parameter.md) | |
-| 59     | GetMap Exceptions | [at59-getmap-exceptions](./at59-getmap-exceptions.md) | |
-| 60     | LinkViewService Provide Information | [at60-linkviewservice-provide-information](./at60-linkviewservice-provide-information.md) | |
-| 61     | LinkViewService Discover | [at61-linkviewservice-discover](./at61-linkviewservice-discover.md) | |
-| 62     | LinkViewService Layer Metadata | [at62-linkviewservice-layer-metadata](./at62-linkviewservice-layer-metadata.md) | |
-| 63     | LinkViewService Cascaded Attribute | [at63-linkviewservice-cascaded-attribute](./at63-linkviewservice-cascaded-attribute.md) | |
-| 64     | LinkViewService Cascaded Increment | [at64-linkviewservice-cascaded-increment](./at64-linkviewservice-cascaded-increment.md) | |
-| 65     | LinkViewService Transparent BGColor | [at65-linkviewservice-transparent-bgcolor](./at65-linkviewservice-transparent-bgcolor.md) | |
-| 66     | Language List | [at66-language-list](./at66-language-list.md) | |
-| 67     | Language Request | [at67-language-request](./at67-language-request.md) | |
-| 68     | Language Parameter | [at68-language-parameter](./at68-language-parameter.md) | |
-| 69     | Language Default | [at69-language-default](./at69-language-default.md) | |
-| 70     | Language Response | [at70-language-response](./at70-language-response.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 71     | Language Supported | [at71-language-supported](./at71-language-supported.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 |
-| 72     | Language Extended Capabilities | [language-extended-capabilities](./at72-language-extended-capabilities.md) | |
-| 73     | Language Rendered Text | [language-rendered-text](./at73-language-rendered-text.md) | |
+| Req#   | Description                          | Covered by test(s)                 | 
+| ------ | ------------------------------------ | ---------------------------------- | 
+| 1      | Scoping: ISO 19128 + INSPIRE ext.    | n/a                                |
+| 2      | WMS basic conformance class          | OGC WMS 1.3.0. A.1.2 Basic WMS Server |
+| 3      | GetCapabilities, GetMap              | OGC WMS 1.3.0. "WMS basic" CC ATS  |
+| 4      | XML schema validation | [at04-getcapabilities-xml-schema-validation](./at04-getcapabilities-xml-schema-validation.md) |
+| 5      | GetCapabilities request parameters | [at05-getcapabilities-get-capabilities-request-parameter](./at05-getcapabilities-get-capabilities-request-parameter.md) |
+| 6      | MetadataURL references INSPIRE service metadata | [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) |
+| 7      | Use WMS and INSPIRE extended capabilities | [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) |
+| 8      | Language section in Extended Capabilities | [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) |
+| 9      | View Service Metadata in Discovery Service | [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) |
+| 10     | Mapping of service metadata elements | [at10-getcapabilities-title-and-abstract](./at10-getcapabilities-title-and-abstract.md) |
+| 11     | Resource type is service | [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) |
+| 12     | Resource locator | [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) |
+| 13     | Map Coupled Resource metadata | [at13-getcapabilities-map-coupled-resource-metadata](./at13-getcapabilities-map-coupled-resource-metadata.md) |
+| 14     | Map Coupled Resource metadata URL | [at14-getcapabilities-map-coupled-resource-metadata-url](./at14-getcapabilities-map-coupled-resource-metadata-url.md) |
+| 15     | Map SDS Type with Extended Capabilities | [at15-getcapabilities-map-sds-type-with-extendedcapabilities](./at15-getcapabilities-map-sds-type-with-extendedcapabilities.md) |
+| 16     | Keyword Node | [at16-getcapabilities-keyword-node](./at16-getcapabilities-keyword-node.md) |
+| 17     | Keyword List | [at17-getcapabilities-keyword-list](./at17-getcapabilities-keyword-list.md) |
+| 18     | Keyword within ExtendedCapabilities | [at18-getcapabilities-keyword-in-extendedcapabilities](./at18-getcapabilities-keyword-in-extendedcapabilities.md) |
+| 19     | Geographic BoundingBox | [at19-getcapabilities-geographic-boundingbox](./at19-getcapabilities-geographic-boundingbox.md) |
+| 20     | Date type | [at20-getcapabilities-date-type](./at20-getcapabilities-date-type.md) |
+| 21     | Temporal reference | [at21-getcapabilities-temporal-reference](./at21-getcapabilities-temporal-reference.md) |
+| 22     | Degree of conformity | [at22-getcapabilities-degree-of-conformity](./at22-getcapabilities-degree-of-conformity.md) |
+| 23     | Conformity | [at23-getcapabilities-conformity](./at23-getcapabilities-conformity.md) |
+| 24     | Fees node | [at24-getcapabilities-fees-node](./at24-getcapabilities-fees-node.md) |
+| 25     | Contanct Organization | [at25-getcapabilities-contact-organization](./at25-getcapabilities-contact-organization.md) |
+| 26     | Contact Position | [at26-getcapabilities-contact-position](./at26-getcapabilities-contact-position.md) |
+| 27     | Point of Contact | [at27-getcapabilities-point-of-contact](./at27-getcapabilities-point-of-contact.md) |
+| 28     | Point of Contact in Extended Capabilities | [at28-getcapabilities-point-of-contact-in-extendedcapabilities](./at28-getcapabilities-point-of-contact-in-extendedcapabilities.md) |
+| 29     | Metadata Date | [at29-getcapabilities-metadata-date](./at29-getcapabilities-metadata-date.md) |
+| 30     | GetCapabilities Operation Metadata | [at30-getcapabilities-getcapabilities-operation-metadata](./at30-getcapabilities-getcapabilities-operation-metadata.md) |
+| 31     | GetMap Operation Metadata | [at31-getcapabilities-get-map-operation-metadata](./at31-getcapabilities-get-map-operation-metadata.md) |
+| 32     | Layers Metadata | [at32-getcapabilities-layers-metadata](./at32-getcapabilities-layers-metadata.md) |
+| 33     | Layer Title | [at33-getcapabilities-layer-title](./at33-getcapabilities-layer-title.md) |
+| 34     | Layer Abstract | [at34-getcapabilities-layer-abstract](./at34-getcapabilities-layer-abstract.md) |
+| 35     | Layer Keyword | [at35-getcapabilities-layer-keyword](./at35-getcapabilities-layer-keyword.md) |
+| 36     | Layer Geographic Bounding Box | [at36-getcapabilities-layer-bounding-box](./at36-getcapabilities-layer-bounding-box.md) |
+| 37     | Layer Unique Resource Identifier | [at37-getcapabilities-layer-unique-resource-identifier](./at37-getcapabilities-layer-unique-resource-identifier.md) |
+| 38     | Layer Authority URL | [at38-getcapabilities-layer-authority-url](./at38-getcapabilities-layer-authority-url.md) |
+| 39     | Layer Name | [at39-getcapabilities-layer-name](./at39-getcapabilities-layer-name.md) |
+| 40     | Layer Coordinate Reference System | [at40-getcapabilities-layer-crs](./at40-getcapabilities-layer-crs.md) |
+| 41     | Layer Style | [at41-getcapabilities-layer-style](./at41-getcapabilities-layer-style.md) |
+| 42     | Layer Default Style | [at42-getcapabilities-layer-default-style](./at42-getcapabilities-layer-default-style.md) |
+| 43     | Layer Simple Style | [at43-getcapabilities-layer-simple-style](./at43-getcapabilities-layer-simple-style.md) |
+| 44     | Layer Use Default Style | [at44-getcapabilities-layer-use-default-style](./at44-getcapabilities-layer-use-default-style-title-and-name.md) |
+| 45     | Layer Style Legend | [at45-getcapabilities-layer-style-legend](./at45-getcapabilities-layer-style-legend.md) |
+| 46     | Layer Style Title and Name | [at46-getcapabilities-layer-style-title-and-name](./at46-getcapabilities-layer-style.md) |
+| 47     | Layer Style Legend URL | [at47-getcapabilities-layer-style-legend-url](./at47-getcapabilities-layer-style-legend-url.md) |
+| 48     | Layer Dimension Pairs | [at48-getcapabilities-layer-dimension-pairs](./at48-getcapabilities-layer-dimension-pairs.md) |
+| 49     | Layer Category Layer | [at49-getcapabilities-layer-category-layer](./at49-getcapabilities-layer-category-layer.md) |
+| 50     | GetMap Version Parameter | [at50-getmap-version-parameter](./at50-getmap-version-parameter.md) |
+| 51     | GetMap Request Parameter | [at51-getmap-request-parameter](./at51-getmap-request-parameter.md) |
+| 52     | GetMap Layers Parameter | [at52-getmap-layers-parameter](./at52-getmap-layers-parameter.md) |
+| 53     | GetMap Styles Parameter | [at53-getmap-styles-parameter](./at53-getmap-styles-parameter.md) |
+| 54     | GetMap CRS Parameter | [at54-getmap-crs-parameter](./at54-getmap-crs-parameter.md) |
+| 55     | GetMap BBOX Parameter | [at55-getmap-bbox-parameter](./at55-getmap-bbox-parameter.md) |
+| 56     | GetMap Width and Height Parameter | [at56-getmap-width-height-parameter](./at56-getmap-width-height-parameter.md) |
+| 57     | GetMap Format Parameter | [at57-getmap-format-parameter](./at57-getmap-format-parameter.md) |
+| 58     | GetMap Transparent Parameter | [at58-getmap-transparent-parameter](./at58-getmap-transparent-parameter.md) |
+| 59     | GetMap Exceptions | [at59-getmap-exceptions](./at59-getmap-exceptions.md) |
+| 60     | LinkViewService Provide Information | [at60-linkviewservice-provide-information](./at60-linkviewservice-provide-information.md) |
+| 61     | LinkViewService Discover | [at61-linkviewservice-discover](./at61-linkviewservice-discover.md) |
+| 62     | LinkViewService Layer Metadata | [at62-linkviewservice-layer-metadata](./at62-linkviewservice-layer-metadata.md) |
+| 63     | LinkViewService Cascaded Attribute | [at63-linkviewservice-cascaded-attribute](./at63-linkviewservice-cascaded-attribute.md) |
+| 64     | LinkViewService Cascaded Increment | [at64-linkviewservice-cascaded-increment](./at64-linkviewservice-cascaded-increment.md) |
+| 65     | LinkViewService Transparent BGColor | [at65-linkviewservice-transparent-bgcolor](./at65-linkviewservice-transparent-bgcolor.md) |
+| 66     | Language List | [at66-language-list](./at66-language-list.md) |
+| 67     | Language Request | [at67-language-request](./at67-language-request.md) |
+| 68     | Language Parameter | [at68-language-parameter](./at68-language-parameter.md) |
+| 69     | Language Default | [at69-language-default](./at69-language-default.md) |
+| 70     | Language Response | [at70-language-response](./at70-language-response.md) |
+| 71     | Language Supported | [at71-language-supported](./at71-language-supported.md) |
+| 72     | Language Extended Capabilities | [at72-language-extended-capabilities](./at72-language-extended-capabilities.md) |
+| 73     | Language Rendered Text | [at73-language-rendered-text](./at73-language-rendered-text.md) |
 
 Note: Requirements marked as "not testable" should be reconsidered in a revision of the technical guidance" 
 
@@ -152,76 +152,76 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 
 | Identifier                                                                          | Scenario(s) | Status   |
 | ----------------------------------------------------------------------------------- | -------- | -------- |
-| [at04-getcapabilities-xml-schema-validation](./at04-getcapabilities-xml-schema-validation.md) | | ready for review |
-| [at05-getcapabilities-get-capabilities-request-parameter](./at05-getcapabilities-get-capabilities-request-parameter.md) | | ready for review |
-| [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) | | ready for review |
-| [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) | | ready for review |
-| [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) | | ready for review |
-| [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) | | ready for review |
-| [at10-getcapabilities-title-and-abstract](./at10-getcapabilities-title-and-abstract.md) | | ready for review |
-| [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) | | ready for review |
-| [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) | | ready for review |
-| [at13-getcapabilities-map-coupled-resource-metadata](./at13-getcapabilities-map-coupled-resource-metadata.md) | | ready for review |
-| [at14-getcapabilities-map-coupled-resource-metadata-url](./at14-getcapabilities-map-coupled-resource-metadata-url.md) | | ready for review |
-| [at15-getcapabilities-map-sds-type-with-extendedcapabilities](./at15-getcapabilities-map-sds-type-with-extendedcapabilities.md) | | ready for review |
-| [at16-getcapabilities-keyword-node](./at16-getcapabilities-keyword-node.md) | | ready for review |
-| [at17-getcapabilities-keyword-list](./at17-getcapabilities-keyword-list.md) | | ready for review |
-| [at18-getcapabilities-keyword-in-extendedcapabilities](./at18-getcapabilities-keyword-in-extendedcapabilities.md) | | ready for review |
-| [at19-getcapabilities-geographic-boundingbox](./at19-getcapabilities-geographic-boundingbox.md) | | ready for review |
-| [at20-getcapabilities-date-type](./at20-getcapabilities-date-type.md) | | ready for review |
-| [at21-getcapabilities-temporal-reference](./at21-getcapabilities-temporal-reference.md) | | ready for review |
-| [at22-getcapabilities-degree-of-conformity](./at22-getcapabilities-degree-of-conformity.md) | | ready for review |
-| [at23-conformity](./at23-conformity.md) | | ready for review |
-| [at24-getcapabilities-fees-node](./at24-getcapabilities-fees-node.md) | | ready for review |
-| [at25-getcapabilities-contact-organization](./at25-getcapabilities-contact-organization.md) | | ready for review |
-| [at26-getcapabilities-contact-position](./at26-getcapabilities-contact-position.md) | | ready for review |
-| [at27-getcapabilities-point-of-contact](./at27-getcapabilities-point-of-contact.md) | | ready for review |
-| [at28-getcapabilities-point-of-contact-in-extendedcapabilities](./at28-getcapabilities-point-of-contact-in-extendedcapabilities.md) | | ready for review |
-| [at29-getcapabilities-metadata-date](./at29-getcapabilities-metadata-date.md) | | ready for review |
-| [at30-getcapabilities-getcapabilities-operation-metadata](./at30-getcapabilities-getcapabilities-operation-metadata.md) | | ready for review |
-| [at31-getcapabilities-get-map-operation-metadata](./at31-getcapabilities-get-map-operation-metadata.md) | | ready for review |
-| [at32-getcapabilities-layers-metadata](./at32-getcapabilities-layers-metadata.md) | | ready for review |
-| [at33-getcapabilities-layer-title](./at33-getcapabilities-layer-title.md) | | ready for review |
-| [at34-getcapabilities-layer-abstract](./at34-getcapabilities-layer-abstract.md) | | ready for review |
-| [at35-getcapabilities-layer-keyword](./at35-getcapabilities-layer-keyword.md) | | ready for review |
-| [at36-getcapabilities-layer-bounding-box](./at36-getcapabilities-layer-bounding-box.md) | | ready for review |
-| [at37-getcapabilities-layer-unique-resource-identifier](./at37-getcapabilities-layer-unique-resource-identifier.md) | | ready for review |
-| [at38-getcapabilities-layer-authority-url](./at38-getcapabilities-layer-authority-url.md) | | ready for review |
-| [at39-getcapabilities-layer-name](./at39-getcapabilities-layer-name.md) | | ready for review |
-| [at40-getcapabilities-layer-crs](./at40-getcapabilities-layer-crs.md) | | ready for review |
-| [at46-getcapabilities-layer-style](./at46-getcapabilities-layer-style.md) | | ready for review |
-| [at42-getcapabilities-layer-default-style](./at42-getcapabilities-layer-default-style.md) | | ready for review |
-| [at43-getcapabilities-layer-simple-style](./at43-getcapabilities-layer-simple-style.md) | | ready for review |
-| [at44-getcapabilities-layer-use-default-style](./at44-getcapabilities-layer-use-default-style.md) | | ready for review |
-| [at45-getcapabilities-layer-style-legend](./at45-getcapabilities-layer-style-legend.md) | | ready for review |
-| [at46-getcapabilities-layer-style](./at46-getcapabilities-layer-style.md) | | ready for review |
-| [at45-getcapabilities-layer-style-legend](./at45-getcapabilities-layer-style-legend.md) | | ready for review |
-| [at48-getcapabilities-layer-dimension-pairs](./at48-getcapabilities-layer-dimension-pairs.md) | | ready for review |
-| [at49-getcapabilities-layer-category-layer](./at49-getcapabilities-layer-category-layer.md) | | ready for review |
-| [at50-getmap-version-parameter](./at50-getmap-version-parameter.md) | | ready for review |
-| [at51-getmap-request-parameter](./at51-getmap-request-parameter.md) | | ready for review |
-| [at52-getmap-layers-parameter](./at52-getmap-layers-parameter.md) | | ready for review |
-| [at53-getmap-styles-parameter](./at53-getmap-styles-parameter.md) | | ready for review |
-| [at54-getmap-crs-parameter](./at54-getmap-crs-parameter.md) | | ready for review |
-| [at55-getmap-bbox-parameter](./at55-getmap-bbox-parameter.md) | | ready for review |
-| [at56-getmap-width-height-parameter](./at56-getmap-width-height-parameter.md) | | ready for review |
-| [at57-getmap-format-parameter](./at57-getmap-format-parameter.md) | | ready for review |
-| [at58-getmap-transparent-parameter](./at58-getmap-transparent-parameter.md) | | ready for review |
-| [at59-getmap-exceptions](./at59-getmap-exceptions.md) | | ready for review |
-| [at60-linkviewservice-provide-information](./at60-linkviewservice-provide-information.md) | | ready for review |
-| [at61-linkviewservice-discover](./at61-linkviewservice-discover.md) | | ready for review |
-| [at62-linkviewservice-layer-metadata](./at62-linkviewservice-layer-metadata.md) | | ready for review |
-| [at63-linkviewservice-cascaded-attribute](./at63-linkviewservice-cascaded-attribute.md) | | ready for review |
-| [at64-linkviewservice-cascaded-increment](./at64-linkviewservice-cascaded-increment.md) | | ready for review |
-| [at65-linkviewservice-transparent-bgcolor](./at65-linkviewservice-transparent-bgcolor.md) | | ready for review |
-| [at66-language-list](./at66-language-list.md) | | ready for review |
-| [at67-language-request](./at67-language-request.md) | | ready for review |
-| [at68-language-parameter](./at68-language-parameter.md) | | ready for review |
-| [at69-language-default](./at69-language-default.md) | | ready for review |
-| [at70-language-response](./at70-language-response.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 | ready for review |
-| [at71-language-supported](./at71-language-supported.md) | [IR NS](#ref_IR_NS), Annex III, Chapter 2.2.3 | ready for review |
-| [language-extended-capabilities](./at72-language-extended-capabilities.md) | | ready for review |
-| [language-rendered-text](./at73-language-rendered-text.md) | | ready for review |
+| [at04-getcapabilities-xml-schema-validation](./at04-getcapabilities-xml-schema-validation.md) | all | ready for review |
+| [at05-getcapabilities-get-capabilities-request-parameter](./at05-getcapabilities-get-capabilities-request-parameter.md) | all | ready for review |
+| [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) | 1 only | ready for review |
+| [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) | 2 only | ready for review |
+| [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) | all | ready for review |
+| [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) | all | ready for review |
+| [at10-getcapabilities-title-and-abstract](./at10-getcapabilities-title-and-abstract.md) | all | ready for review |
+| [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) | 2 only | ready for review |
+| [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) | 2 only | ready for review |
+| [at13-getcapabilities-map-coupled-resource-metadata](./at13-getcapabilities-map-coupled-resource-metadata.md) | all | ready for review |
+| [at14-getcapabilities-map-coupled-resource-metadata-url](./at14-getcapabilities-map-coupled-resource-metadata-url.md) | all | ready for review |
+| [at15-getcapabilities-map-sds-type-with-extendedcapabilities](./at15-getcapabilities-map-sds-type-with-extendedcapabilities.md) | 2 only | ready for review |
+| [at16-getcapabilities-keyword-node](./at16-getcapabilities-keyword-node.md) | 2 only | ready for review |
+| [at17-getcapabilities-keyword-list](./at17-getcapabilities-keyword-list.md) | 2 only | ready for review |
+| [at18-getcapabilities-keyword-in-extendedcapabilities](./at18-getcapabilities-keyword-in-extendedcapabilities.md) | 2 only | ready for review |
+| [at19-getcapabilities-geographic-boundingbox](./at19-getcapabilities-geographic-boundingbox.md) | 2 only | ready for review |
+| [at20-getcapabilities-date-type](./at20-getcapabilities-date-type.md) | 2 only | ready for review |
+| [at21-getcapabilities-temporal-reference](./at21-getcapabilities-temporal-reference.md) | 2 only | ready for review |
+| [at22-getcapabilities-degree-of-conformity](./at22-getcapabilities-degree-of-conformity.md) | 2 only | ready for review |
+| [at23-getcapabilities-conformity](./at23-getcapabilities-conformity.md) | 2 only | ready for review |
+| [at24-getcapabilities-fees-node](./at24-getcapabilities-fees-node.md) | 2 only | ready for review |
+| [at25-getcapabilities-contact-organization](./at25-getcapabilities-contact-organization.md) | 2 only | ready for review |
+| [at26-getcapabilities-contact-position](./at26-getcapabilities-contact-position.md) | 2 only | ready for review |
+| [at27-getcapabilities-point-of-contact](./at27-getcapabilities-point-of-contact.md) | 2 only | ready for review |
+| [at28-getcapabilities-point-of-contact-in-extendedcapabilities](./at28-getcapabilities-point-of-contact-in-extendedcapabilities.md) | 2 only | ready for review |
+| [at29-getcapabilities-metadata-date](./at29-getcapabilities-metadata-date.md) | 2 only | ready for review |
+| [at30-getcapabilities-getcapabilities-operation-metadata](./at30-getcapabilities-getcapabilities-operation-metadata.md) | all | ready for review |
+| [at31-getcapabilities-get-map-operation-metadata](./at31-getcapabilities-get-map-operation-metadata.md) | all | ready for review |
+| [at32-getcapabilities-layers-metadata](./at32-getcapabilities-layers-metadata.md) | all | ready for review |
+| [at33-getcapabilities-layer-title](./at33-getcapabilities-layer-title.md) | all | ready for review |
+| [at34-getcapabilities-layer-abstract](./at34-getcapabilities-layer-abstract.md) | all | ready for review |
+| [at35-getcapabilities-layer-keyword](./at35-getcapabilities-layer-keyword.md) | all | ready for review |
+| [at36-getcapabilities-layer-bounding-box](./at36-getcapabilities-layer-bounding-box.md) | all | ready for review |
+| [at37-getcapabilities-layer-unique-resource-identifier](./at37-getcapabilities-layer-unique-resource-identifier.md) | all | ready for review |
+| [at38-getcapabilities-layer-authority-url](./at38-getcapabilities-layer-authority-url.md) | all | ready for review |
+| [at39-getcapabilities-layer-name](./at39-getcapabilities-layer-name.md) | all | ready for review |
+| [at40-getcapabilities-layer-crs](./at40-getcapabilities-layer-crs.md) | all | ready for review |
+| [at41-getcapabilities-layer-style](./at41-getcapabilities-layer-style.md) | all | ready for review |
+| [at42-getcapabilities-layer-default-style](./at42-getcapabilities-layer-default-style.md) | all | ready for review |
+| [at43-getcapabilities-layer-simple-style](./at43-getcapabilities-layer-simple-style.md) | all | ready for review |
+| [at44-getcapabilities-layer-use-default-style](./at44-getcapabilities-layer-use-default-style.md) | all | ready for review |
+| [at45-getcapabilities-layer-style-legend](./at45-getcapabilities-layer-style-legend.md) | all | ready for review |
+| [at46-getcapabilities-layer-style-title-and-name](./at46-getcapabilities-layer-style.md) | all | ready for review |
+| [at47-getcapabilities-layer-style-legend-url](./at47-getcapabilities-layer-style-legend-url.md) | all | ready for review |
+| [at48-getcapabilities-layer-dimension-pairs](./at48-getcapabilities-layer-dimension-pairs.md) | all | ready for review |
+| [at49-getcapabilities-layer-category-layer](./at49-getcapabilities-layer-category-layer.md) | all | ready for review |
+| [at50-getmap-version-parameter](./at50-getmap-version-parameter.md) | all | ready for review |
+| [at51-getmap-request-parameter](./at51-getmap-request-parameter.md) | all | ready for review |
+| [at52-getmap-layers-parameter](./at52-getmap-layers-parameter.md) | all | ready for review |
+| [at53-getmap-styles-parameter](./at53-getmap-styles-parameter.md) | all | ready for review |
+| [at54-getmap-crs-parameter](./at54-getmap-crs-parameter.md) | all | ready for review |
+| [at55-getmap-bbox-parameter](./at55-getmap-bbox-parameter.md) | all | ready for review |
+| [at56-getmap-width-height-parameter](./at56-getmap-width-height-parameter.md) | all | ready for review |
+| [at57-getmap-format-parameter](./at57-getmap-format-parameter.md) | all | ready for review |
+| [at58-getmap-transparent-parameter](./at58-getmap-transparent-parameter.md) | all | ready for review |
+| [at59-getmap-exceptions](./at59-getmap-exceptions.md) | all | ready for review |
+| [at60-linkviewservice-provide-information](./at60-linkviewservice-provide-information.md) | all | ready for review |
+| [at61-linkviewservice-discover](./at61-linkviewservice-discover.md) | all | ready for review |
+| [at62-linkviewservice-layer-metadata](./at62-linkviewservice-layer-metadata.md) | all | ready for review |
+| [at63-linkviewservice-cascaded-attribute](./at63-linkviewservice-cascaded-attribute.md) | all | ready for review |
+| [at64-linkviewservice-cascaded-increment](./at64-linkviewservice-cascaded-increment.md) | all | ready for review |
+| [at65-linkviewservice-transparent-bgcolor](./at65-linkviewservice-transparent-bgcolor.md) | all | ready for review |
+| [at66-language-list](./at66-language-list.md) | all | ready for review |
+| [at67-language-request](./at67-language-request.md) | all | ready for review |
+| [at68-language-parameter](./at68-language-parameter.md) | all | ready for review |
+| [at69-language-default](./at69-language-default.md) | all | ready for review |
+| [at70-language-response](./at70-language-response.md) | all | ready for review |
+| [at71-language-supported](./at71-language-supported.md) | all | ready for review |
+| [at72-language-extended-capabilities](./at72-language-extended-capabilities.md) | all | ready for review |
+| [at73-language-rendered-text](./at73-language-rendered-text.md) | all | ready for review |
 
 ## Open issues
 

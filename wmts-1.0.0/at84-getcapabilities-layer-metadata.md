@@ -12,14 +12,7 @@ The Unique Resource Identifier and Name INSPIRE metedata elements are mapped to 
 
   * Check if an [Identifier](#identifier) element is given and it is a non-empty free text.
 
-      * [Identifier](#identifier) element value must start by one of the themes name:
-        * GN.GeographicalNames
-        * AU.AdministrativeUnit
-        * AD.Address
-        * CP.CadastralParcel
-        * TN.RoadTransportNetwork.RoadArea
-        * HY.Network
-        * PS.ProtectedSite
+      * [Identifier](#identifier) element value must be one of the harmonished layer name included into the INSPIRE layer register (http://inspire.ec.europa.eu/layer/layer.en.xml).
 
   * Check if each identifier value is unique for each of the layers included in the GetCapabilities response.
 

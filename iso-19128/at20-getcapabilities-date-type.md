@@ -29,6 +29,6 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-DateOfPublication <a name="DateOfPublication"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:DateOfPublication
-DateOfLastRevision <a name="DateOfLastRevision"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:DateOfLastRevision
-DateOfCreation <a name="DateOfCreation"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:DateOfCreation
+DateOfPublication <a name="DateOfPublication"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfPublication
+DateOfLastRevision <a name="DateOfLastRevision"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfLastRevision
+DateOfCreation <a name="DateOfCreation"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfCreation

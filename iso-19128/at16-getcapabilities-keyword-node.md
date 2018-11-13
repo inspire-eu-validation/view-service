@@ -6,8 +6,6 @@
 
 **Test method**
 
-This test only applies to [scenario 2](./README.md#scenarios). Otherwise the test case is skipped.
-
 * Send a getCapabilities request to the service endpoint. Into the response:
 
   * Check if is provided at least one [Keyword](#keyword) element with a keyword from the "Classification of Spatial data Services" (Part D.4)

@@ -14,7 +14,7 @@
 
 **Notes**
 
-It is not possible to test automatically the availability of the of the linkage to the dataset or series on which the service operates.
+It is not possible to test automatically the availability of the linkage to the dataset or series on which the service operates.
 
 **Contextual XPath references**
 

@@ -10,7 +10,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is a [TemporalReference](#temporalReference) element within the inspire_vs:ExtendedCapabilities section.
+  * Check if there is at least one [TemporalReference](#temporalReference) element within the inspire_vs:ExtendedCapabilities section.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.9, Requirement 21

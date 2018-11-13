@@ -29,4 +29,4 @@ Abbreviation                                               |  XPath expression (
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Layer <a name="layer"></a>   | wms:Capability/wms:Layer/wms:Layer
 Category Layer <a name="categoryLayer"></a>   | wms:Capability/wms:Layer
-Name Name <a name="layerName"></a>   | wms:Capability/wms:Layer/wms:Name
+Layer Name <a name="layerName"></a>   | wms:Capability/wms:Layer/wms:Name

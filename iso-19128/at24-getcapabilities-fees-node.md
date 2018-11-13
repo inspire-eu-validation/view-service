@@ -6,8 +6,6 @@
 
 **Test method**
 
-This test only applies to [scenario 2](./README.md#scenarios). Otherwise the test case is skipped.
-
 * Send a getCapabilities request to the service endpoint. Into the response:
 
   * Check if is provided at least one [Fees](#Fees) node defining the conditions for access and use. 

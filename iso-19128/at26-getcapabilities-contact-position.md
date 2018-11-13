@@ -6,8 +6,6 @@
 
 **Test method**
 
-This test only applies to [scenario 2](./README.md#scenarios). Otherwise the test case is skipped.
-
 * Send a getCapabilities request to the service endpoint. Into the response:
 
   * Check if there is a [ContactPosition](#ContactPosition) node within the [ContactInformation](#ContactInformation) section. If yes,

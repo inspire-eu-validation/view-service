@@ -11,7 +11,7 @@
   * For each wms:Layer parent element:
 
     * Check if the [AuthorityURL](#AuthorityURL) element is given.
-    * Check if the identifier of the authority is included in the "name" attribute of the element and the explanatory URL is given as an [OnlineResource](#OnlineResource) within AuthorityURL element.
+    * Check if the identifier of the authority is included in the "name" attribute of the element and the explanatory URL is given as an [OnlineResource](#OnlineResource) within the AuthorityURL element.
 
     * Check if each subsidary layer has an [Identifier](#Identifier) element with an "authority" attribute matching with the AuthorityURL name declared in the parent layer or in the layer itself. The Identifier element must contain a unique identifier.
 

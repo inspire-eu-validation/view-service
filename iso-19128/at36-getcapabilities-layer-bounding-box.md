@@ -10,7 +10,9 @@
 
   * For each wms:Layer element:
 
-    * Check if the minimum bounding rectagle of the area covered by the layer is mapped to the [BoundingBox](#BoundingBox) element in all supported CRS.
+    * For each [CRS](#crs) listed in the [Layer](#layer), 
+    
+      * Check that there is a [BoundingBox](#BoundingBox) element in the same Layer section with the corresponding "CRS" attribute.
 
 
 **Reference(s)**:
@@ -29,3 +31,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 BoundingBox <a name="BoundingBox"></a> | wms:Capability/*/wms:Layer/wms:BoundingBox
+CRS <a name="crs"></a> | wms:Capability/wms:Layer/wms:CRS
+Layer <a name="layer"></a> | wms:Capability/wms:Layer

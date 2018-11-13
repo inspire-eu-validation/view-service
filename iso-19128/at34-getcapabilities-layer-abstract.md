@@ -10,7 +10,7 @@
 
   * For each wms:Layer element:
 
-    * Check that it contains an [Abstract](#abstract) element and it is a non-empty free text.
+    * Check that it contains an [Abstract](#abstract) element and it is a non-empty value.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.3, Requirement 34

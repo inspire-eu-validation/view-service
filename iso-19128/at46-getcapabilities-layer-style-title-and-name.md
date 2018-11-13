@@ -8,9 +8,9 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
   
-  * For each wms:Style element:
+  * For each wms:Style element in each wms:Layer element:
 
-    * Check if a human-readable name is mapped to the [Title](#title) element.
+    * Check if a human-readable name is mapped to the [Title](#title) element and it is a non-empty value.
 
     * Check if the Unique Identifier is mapped to the [Name](#name1) element.
 

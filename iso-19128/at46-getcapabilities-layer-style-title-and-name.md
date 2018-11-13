@@ -12,9 +12,9 @@
 
     * Check if a human-readable name is mapped to the [Title](#title) element.
 
-    * Check if the Unique Identifier is mapped to the [Name](#name) element.
+    * Check if the Unique Identifier is mapped to the [Name](#name1) element.
 
-      * Check if the [Name](#name) is unique within the style elements of the layer.
+      * Check if the [Name](#name1) is unique within the style elements of the layer.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 46
@@ -32,4 +32,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Title <a name="title"></a> | wms:Capability/wms:Layer/*/wms:Style/wms:Title
-Name <a name="name"></a> | wms:Capability/wms:Layer/*/wms:Style/wms:Name
+Name <a name="name1"></a> | wms:Capability/wms:Layer/*/wms:Style/wms:Name

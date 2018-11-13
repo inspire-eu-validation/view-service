@@ -1,4 +1,4 @@
-# Layer Category Layer
+# Category Layer
 
 **Purpose**: Test that if exist a category layer with nested sub-layers it contains a Name element.
 

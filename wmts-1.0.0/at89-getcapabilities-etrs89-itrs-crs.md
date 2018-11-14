@@ -10,7 +10,7 @@
 
   * For each Layer element:
 
-    * Check if the [TileMatrixSetLink](#TileMatrixSetLink) is the identifier of an TileMatrixSet.
+    * Check if the [TileMatrixSetLink](#TileMatrixSetLink) is the identifier of a [TileMatrixSet](#TileMatrixSet).
 
     * Check that the TileMatrixSet has either no [SupportedCRS](#SupportedCRS) element or one that matches the CRS identifier of one of the ETRS89 based or ITRS based coordinate systems.
 

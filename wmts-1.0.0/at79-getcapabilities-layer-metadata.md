@@ -16,7 +16,7 @@
         * A HTTP/GET call to the GetRecordById operation of the Discovery service using the identifier of the metadata document.
         * A direct link to the metadata document.
 
-      * Check that a valid response is retuned calling to the provided URL.
+      * Check that a valid response is returned calling to the provided URL.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.1, Requirement 79
@@ -33,4 +33,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Metadata <a name="metadata"></a> | Layer/ows:Metadata
+Metadata <a name="metadata"></a> | Contents/Layer/ows:Metadata

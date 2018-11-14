@@ -31,5 +31,6 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Style <a name="style"></a> | Contents/Layer/Style
 Title <a name="title"></a> | Contents/Layer/Style/ows:Title
 Identifier <a name="identifier"></a> | Contents/Layer/Style/ows:Identifier

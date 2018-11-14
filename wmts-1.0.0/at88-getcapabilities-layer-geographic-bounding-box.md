@@ -31,6 +31,6 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Bounding Box <a name="boundingBox"></a> | Contents/Layer/ows:WGS84BoundingBox
+WGS84BoundingBox <a name="boundingBox"></a> | Contents/Layer/ows:WGS84BoundingBox
 Lower corner <a name="lowerCorner"></a> | Contents/Layer/ows:WGS84BoundingBox/ows:LowerCorner
 Upper corner <a name="upperCorner"></a> | Contents/Layer/ows:WGS84BoundingBox/ows:UpperCorner

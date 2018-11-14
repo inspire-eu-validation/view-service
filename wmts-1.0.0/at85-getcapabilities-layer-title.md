@@ -10,7 +10,7 @@
 
   * For each Layer element:
 
-    * Check that it contains a [Title](#title) element and it is a non-empty free text.
+    * Check that it contains a [Title](#title) element and it has a non-empty value.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.3.4.1, Requirement 85

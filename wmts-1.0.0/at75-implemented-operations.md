@@ -1,6 +1,6 @@
 # Implemented Operations
 
-**Purpose**: Test that GetCapabilities opration and GetTile operation are implemented.
+**Purpose**: Test that GetCapabilities operation and GetTile operation are implemented.
 
 **Prerequisites**
 

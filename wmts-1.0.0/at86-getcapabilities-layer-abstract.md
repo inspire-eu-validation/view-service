@@ -10,7 +10,7 @@
 
   * For each Layer element:
 
-    * Check that it contains a [Abstract](#abstract) element and it is a non-empty free text.
+    * Check that it contains a [Abstract](#abstract) element and it has a non-empty value.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.3.4.2, Requirement 86

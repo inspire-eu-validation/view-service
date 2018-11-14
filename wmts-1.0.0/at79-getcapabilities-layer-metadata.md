@@ -10,13 +10,13 @@
 
     * For each Layer element:
 
-      * Check if a [Metadata](#metadata) element is provided.
+      * Check that a [Metadata](#metadata) element is provided.
 
-      * Check if this element is populated with an URL allowing access to an unambiguous metadata record. The URL must be:
+      * Check that this element is populated with an URL allowing access to an unambiguous metadata record. The URL must be:
         * A HTTP/GET call to the GetRecordById operation of the Discovery service using the identifier of the metadata document.
         * A direct link to the metadata document.
 
-      * Check if a valid response is retuned calling to the provided URL.
+      * Check that a valid response is retuned calling to the provided URL.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.1, Requirement 79

@@ -8,13 +8,13 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if [ServiceIdentification](#ServiceIdentification) and [ServiceProvider](#ServiceProvider) element is provided with the View Service Metadata.
+  * Check that [ServiceIdentification](#ServiceIdentification) and [ServiceProvider](#ServiceProvider) element is provided with the View Service Metadata.
 
-  * Check if [OperationsMetadata](#OperationsMetadata) element is provided with the Operations Metadata.
+  * Check that [OperationsMetadata](#OperationsMetadata) element is provided with the Operations Metadata.
 
-  * Check if [Contents](#Contents) element is provided with the Layer Metadata.
+  * Check that [Contents](#Contents) element is provided with the Layer Metadata.
 
-  * Check if [SupportedLanguages](#SupportedLanguages) and [ResponseLanguage](#ResponseLanguage) elements are provided.
+  * Check that [SupportedLanguages](#SupportedLanguages) and [ResponseLanguage](#ResponseLanguage) elements are provided.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.1, Requirement 78

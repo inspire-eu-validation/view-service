@@ -16,7 +16,7 @@
       * "image/png"
       * "image/gif"
 
-    * Send a GetTile request for the layer using either "image/png" or "image/gif" format according to the format values defined in the capabilities document for that layer. 
+    * Send a GetTile request for the layer using either "image/png" or "image/gif" format according to the format values defined in the capabilities document for that layer. If both formats are listed in the layer metadata, two seperate requests are made.
 
       * Check that the returned image is encoded in the requested format.
 

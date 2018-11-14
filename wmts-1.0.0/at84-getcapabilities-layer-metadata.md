@@ -6,7 +6,7 @@
 
 **Test method**
 
-The Unique Resource Identifier and Name INSPIRE metedata elements are mapped to the Identifier OGC WMTS standard element.
+The Unique Resource Identifier and Name INSPIRE metadata elements are mapped to the Identifier OGC WMTS standard element.
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 

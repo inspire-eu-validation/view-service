@@ -15,6 +15,8 @@
     * Check if harmonished name of the layer comply with the Layer requirements of the [IR IOP, Article 14]. 
       * [Layer Name](#layerName) element value must match with one of the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or its amendments.
 
+    * Check if [Layer Name](#layerName) is unique.
+
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.6, Requirement 39
 * [IR IOP](./README.md#ref_IR_IOP), Article 14

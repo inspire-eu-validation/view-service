@@ -8,7 +8,11 @@
 
 * Send a GetCapabilities request.
 
-  * If [MetadataUrl](#metadataUrl) exists,
+  * If scenario 1,
+  
+    * Check that [MetadataUrl](#metadataUrl) exists. Otherwise the test fails.
+
+  * Regardless of the scenario, if [MetadataUrl](#metadataUrl) exists,
 
     * Send a request to get the metadata document.
 
@@ -21,7 +25,7 @@
 
 **Notes**
 
-Limitations: The requirement in the technical guidance specify that the View Service Metadata shall be published in an INSPIRE Discovery Service. It is possible to check that if a [MetadataUrl](#metadataUrl) is provided in the capabilities document. However, this is element is mandatory only in the scenario 1.
+Limitations: The requirement in the technical guidance specify that the View Service Metadata shall be published in an INSPIRE Discovery Service. It is possible to check that a [MetadataUrl](#metadataUrl) is provided in the capabilities document. However, this element is mandatory only in the scenario 1.
 
 **Contextual XPath references**
 

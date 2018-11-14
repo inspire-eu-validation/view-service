@@ -10,7 +10,11 @@
 
   * For each wms:Style element:
 
-    * Check if a legend is provided in the [LegendURL](#legend) element.
+    * Check if a legend is provided in the [LegendURL](#legend) element and it has an 'OnlineResource' child element with an 'xlink:href' attribute.
+
+        * Send a request to the url pointing to the legend.
+
+            * Check that the reponse is a valid image.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8 and 4.2.3.3.4.9, Requirement 47

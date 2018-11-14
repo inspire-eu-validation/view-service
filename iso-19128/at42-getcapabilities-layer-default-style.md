@@ -10,7 +10,7 @@
 
   * For each wms:Layer element:
 
-    * Check if it is provided at least a default style for each theme. Style unique identifier value must be inspire_common:DEFAULT.
+    * Check if it is provided at least a default style for each theme. Style unique identifier mapped into [Name](#name1) value must be inspire_common:DEFAULT.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 42
@@ -27,4 +27,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Default Style <a name="defaultStyle"></a> | wms:Capability/wms:Layer/wms:Style/wms:Name
+Name <a name="name1"></a> | wms:Capability/wms:Layer/wms:Style/wms:Name

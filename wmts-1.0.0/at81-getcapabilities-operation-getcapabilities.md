@@ -25,4 +25,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Operation <a name="operation"></a> | ows:Operation
+Operation <a name="operation"></a> | ows:OperationsMetadata/ows:Operation

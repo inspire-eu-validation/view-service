@@ -15,7 +15,7 @@
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.7, Requirement 40
 
-**Test type**: Automated
+**Test type**: Automated/Manual
 
 **Notes**
 

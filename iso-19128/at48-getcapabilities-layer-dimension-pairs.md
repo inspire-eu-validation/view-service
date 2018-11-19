@@ -8,9 +8,9 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * For each wms:Layer element:
+  * For each [Layer](#layer) element:
 
-    * Check if exists a [Dimension](#dimension) element. If yes,
+    * Check if exists a [Dimension](#dimension) element. If yes, for each Dimension
 
       * Check that the element has an attribute [Dimension Name](#dimensionName) defining the name of the dimension and [Dimension Units](#dimensionUnits) attributes defining the units of the measure. 
 
@@ -29,6 +29,7 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Dimension <a name="dimension"></a> | wms:Capability/wms:Layer/wms:Dimension
-Name <a name="dimensionName"></a> | wms:Capability/*/wms:Layer/wms:Dimension[1]/@name
-Units <a name="dimensionUnits"></a> | wms:Capability/*/wms:Layer/wms:Dimension[1]/@units
+Layer <a name="layer"></a> | wms:Capability/*/wms:Layer
+Dimension <a name="dimension"></a> | wms:Capability/*/wms:Layer/wms:Dimension
+Name <a name="dimensionName"></a> | wms:Capability/*/wms:Layer/wms:Dimension/@name
+Units <a name="dimensionUnits"></a> | wms:Capability/*/wms:Layer/wms:Dimension/@units

@@ -7,8 +7,10 @@
 **Test method**
 
 * Send a getCapabilities request to the service endpoint. Into the response:
+
+  * Check that at least one [Style](#style) element exists in each [Layer](#layer).
   
-  * For each wms:Style element in each wms:Layer element:
+  * For each [Style](#style) element in each [Layer](#layer) element:
 
     * Check if a human-readable name is mapped to the [Title](#title) element and it is a non-empty value.
 
@@ -31,5 +33,7 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-Title <a name="title"></a> | wms:Capability/wms:Layer/*/wms:Style/wms:Title
-Name <a name="name1"></a> | wms:Capability/wms:Layer/*/wms:Style/wms:Name
+Layer <a name="layer"></a> | wms:Capability/*/wms:Layer
+Style <a name="style"></a> | wms:Capability/*/wms:Layer/wms:Style
+Title <a name="title"></a> | wms:Capability/*/wms:Layer/wms:Style/wms:Title
+Name <a name="name1"></a> | wms:Capability/*/wms:Layer/wms:Style/wms:Name

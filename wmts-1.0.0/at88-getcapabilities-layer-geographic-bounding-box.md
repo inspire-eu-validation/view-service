@@ -12,7 +12,7 @@
 
     * Check that a [WGS84BoundingBox](#boundingBox) element is given.
     * Check that it is composed by a [LowerCorner](#lowerCorner) and a [UpperCorner](#upperCorner).
-        * Check that each element containsa pair of coordinates in decimal degrees. Two numeric values, the first between -180 and 180, and the second between -90 and 90.
+        * Check that each element contains a pair of coordinates in decimal degrees. Two numeric values, the first between -180 and 180, and the second between -90 and 90.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.3.4.4, Requirement 88

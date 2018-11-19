@@ -10,11 +10,13 @@ The Unique Resource Identifier and Name INSPIRE metadata elements are mapped to 
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if an [Identifier](#identifier) element is given and it is a non-empty free text.
+  * For each Layer element:
 
-      * [Identifier](#identifier)  element value must match with one of the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or it's amendments.
+    * Check if an [Identifier](#identifier) element is given and it is a non-empty free text.
 
-  * Check if each identifier value is unique for each of the layers included in the GetCapabilities response.
+      * [Identifier](#identifier) element value must match with one of the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or it's amendments.
+
+    * Check if each identifier value is unique for each of the layers included in the GetCapabilities response.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.3.4, Requirement 84

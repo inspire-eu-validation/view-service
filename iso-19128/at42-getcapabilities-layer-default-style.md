@@ -1,6 +1,6 @@
 # Layer Default Style
 
-**Purpose**: Test that a inspire_common:DEFAULT style is given for each theme.
+**Purpose**: Test that a style is provided with the name of the default style defined in the INSPIRE Data Specification for the theme of the layer.
 
 **Prerequisites**
 
@@ -8,9 +8,13 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * For each wms:Layer element:
+  * For each Layer element:
 
-    * Check if it is provided at least a default style for each theme. Style unique identifier mapped into [Name](#name1) value must be inspire_common:DEFAULT.
+    If the INSPIRE Data Specification defines a default style for the harmonised layer,
+
+      * Check that the [Name](#name1) of one of the Style elements provided for the layer is equal to the name of the default style defined in the Data Specification.
+
+    If it is not defined a default style for that harmonised layer name in the Theme INSPIRE Data Specification, the test passes.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 42

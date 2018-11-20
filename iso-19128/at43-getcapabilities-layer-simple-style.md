@@ -6,10 +6,12 @@
 
 **Test method**
 
-* Check if the applied style match with:
-  * Point: grey square, 6 pixels
-  * Curve: black solid line, 1 pixel
-  * Surface: black solid line, 1 pixel, grey fill
+* For each wms:Layer element with no associated default style,
+  
+  * Check if the applied style match with:
+    * Point: grey square, 6 pixels
+    * Curve: black solid line, 1 pixel
+    * Surface: black solid line, 1 pixel, grey fill
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 43
@@ -18,7 +20,7 @@
 
 **Notes**
 
-This requirement does not have an automatic test due to the nature of its content.
+This implementation cannot be automated due to the nature of its content.
 
 **Contextual XPath references**
 

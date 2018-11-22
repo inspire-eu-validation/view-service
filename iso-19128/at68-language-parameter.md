@@ -14,6 +14,8 @@ Test that the service accepts the parameter LANGUAGE to request the capabilities
 
     * Check that the service accepts the LANGUAGE parameter and the [Response Language](#responseLanguage) is the same as the requested one.
 
+    * Check that Titles and Abstracts fields are the same as default ones.
+
 
 **Reference(s)**:
 

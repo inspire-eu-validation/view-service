@@ -8,15 +8,15 @@ Test that the Extended Capabilities section is valid according with the INSPIRE 
 
 **Test method**
 
-* Check that the capabilities document is schema valid.
-
 **Reference(s)**:
 
 * [TG VS](./README.md#ref_TG_VS), requirement 72
 
-**Test type**: Automated
+**Test type**: None
 
 **Notes**
+
+Schema validation is done in test for requirement 4.
 
 **Contextual XPath references**
 

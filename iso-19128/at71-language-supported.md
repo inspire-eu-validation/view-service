@@ -10,11 +10,13 @@ Test that the capabilities document contains the language elements with the corr
 
 * Send a GetCapabilities request
 
-    * Check that it exists exactly one [Supported Languages](#supportedLanguages) node
+    * Check that it exists exactly one [Supported Languages](#supportedLanguages) node.
 
-    * Check that it exists exactly one [Default Language](#defaultLanguage) node
+    * Check that it exists exactly one [Default Language](#defaultLanguage) node and its value is not empty.
 
-    * Check that it exists zero or more [Supported Language](#supportedLanguage) node
+    * Check that it exists zero or more [Supported Language](#supportedLanguage) node and the value of every supported language is not empty.
+
+    * Check that it exists exactly one [Response Language](#responseLanguage) node and its value is not empty.
 
 * If any of the checks fails, the test fails
 
@@ -35,3 +37,4 @@ Abbreviation                                               |  XPath expression (
 Supported Languages <a name="supportedLanguages"></a> | inspire_common:SupportedLanguages
 Default Language <a name="defaultLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
 Supported Language <a name="supportedLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:SupportedLanguage/inspire_common:Language
+Response Language <a name="responseLanguage"></a> | inspire_common:ResponseLanguage/inspire_common:Language

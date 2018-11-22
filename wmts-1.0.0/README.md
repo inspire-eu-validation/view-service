@@ -85,7 +85,7 @@ Besides with these tests, this Conformance Class must be compliant with the test
 | [at86-getcapabilities-layer-abstract](./at86-getcapabilities-layer-abstract.md) | IR | Automated | Ready for review
 | [at87-getcapabilities-layer-keyword](./at87-getcapabilities-layer-keyword.md) | IR | Automated | Ready for review
 | [at88-getcapabilities-layer-geographic-bounding-box](./at88-getcapabilities-layer-geographic-bounding-box.md) | IR | Automated | Ready for review
-| [at89-getcapabilities-etrs89-itrs-crs](./at89-getcapabilities-etrs89-itrs-crs.md) | IR | Manual | Ready for review
+| [at89-getcapabilities-etrs89-itrs-crs](./at89-getcapabilities-etrs89-itrs-crs.md) | IR | Automated/Manual | Ready for review
 | [at90-getcapabilities-layer-style](./at90-getcapabilities-layer-style.md) | IR | Automated | Ready for review
 | [at91-getcapabilities-layer-legend-url](./at91-getcapabilities-layer-legend-url.md) | IR | Automated | Ready for review
 | [at92-gettile-gettile-operation](./at92-gettile-gettile-operation.md) | IR | Automated | Ready for review

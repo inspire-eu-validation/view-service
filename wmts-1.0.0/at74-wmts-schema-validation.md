@@ -1,4 +1,3 @@
-
 # WMTS XML schema validation
 
 **Purpose**: Test that the XML capabilities document is WMTS schema valid.

@@ -1,4 +1,4 @@
-# Layer Metadata
+# Layer Metadata Element
 
 **Purpose**: Test that a Metadata element is provided for each Layer pointing to the metadata document.
 

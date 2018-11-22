@@ -28,6 +28,6 @@ The multiplicity of this element is 1.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 SpatialDataServiceType <a name="SpatialDataServiceType"></a>   | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:SpatialDataServiceType

@@ -35,7 +35,7 @@ For the AccessConstraints element, is recomended to use "None" value when any co
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Title <a name="title"></a> | wms:Service/wms:Title
 Abstract <a name="abstract"></a> | wms:Service/wms:Abstract

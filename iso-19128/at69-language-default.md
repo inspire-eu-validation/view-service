@@ -30,5 +30,5 @@ Abbreviation                                               |  XPath expression (
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Default Language <a name="defaultLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
 Response Language <a name="responseLanguage"></a> | inspire_common:ResponseLanguage/inspire_common:Language
-Title <a name="title"></a> | /WMS_Capabilities/Service/Title
-Abstract <a name="abstract"></a> | /WMS_Capabilities/Service/Abstract
+Title <a name="title"></a> | /wms:WMS_Capabilities/Service/Title
+Abstract <a name="abstract"></a> | /wms:WMS_Capabilities/Service/Abstract

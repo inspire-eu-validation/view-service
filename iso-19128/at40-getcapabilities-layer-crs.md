@@ -31,6 +31,6 @@ A geographical coordinate system based on ETRS89 must be used in continental Eur
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 CRS <a name="crs"></a> | wms:Capability/*/wms:Layer/wms:CRS

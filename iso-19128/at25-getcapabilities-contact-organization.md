@@ -23,7 +23,7 @@ The multiplicity of this element is 1 or more.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 ContactInformation <a name="ContactInformation"></a> | wms:Service/wms:ContactInformation
 ContactPersonPrimary <a name="ContactPersonPrimary"></a> | wms:Service/wms:ContactInformation/wms:ContactPersonPrimary

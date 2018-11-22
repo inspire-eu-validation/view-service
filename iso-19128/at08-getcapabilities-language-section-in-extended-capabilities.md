@@ -21,7 +21,7 @@
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 SupportedLanguage <a name="SupportedLanguage"></a>   | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:SupportedLanguages
 ResponseLanguage <a name="ResponseLanguage"></a>   | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResponseLanguage

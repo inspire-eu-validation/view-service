@@ -23,6 +23,6 @@ The multiplicity of this element is 1 in each Layer element.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 EX_GeographicBoundingBox <a name="EX_GeographicBoundingBox"></a> | wms:Capability/wms:Layer/wms:EX_GeographicBoundingBox

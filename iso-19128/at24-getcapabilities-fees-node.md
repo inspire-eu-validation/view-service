@@ -25,6 +25,6 @@ If no conditions apply to the access and use of the resource, "no conditions app
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Fees <a name="Fees"></a> | wms:Service/wms:Fees

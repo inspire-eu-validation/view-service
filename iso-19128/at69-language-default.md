@@ -10,8 +10,6 @@ Test that Titles and Abstracts are not affected when the LANGUAGE parameter is a
 
 * Send a GetCapabilities request without LANGUAGE parameter.
 
-    * Check that Titles and Abstracts fields are the same as default ones.
-
 * Send a GetCapabilities request with an invalid LANGUAGE parameter.
 
     * Check that Titles and Abstracts fields are the same as default ones.

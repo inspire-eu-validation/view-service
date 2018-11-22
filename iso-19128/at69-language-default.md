@@ -12,9 +12,7 @@ Test that Titles and Abstracts are not affected when the LANGUAGE parameter is a
 
 * Send a GetCapabilities request with an invalid LANGUAGE parameter.
 
-    * Check that the [Response Language](#responseLanguage) is the same as [Default Language](#defaultLanguage).
-
-    * Check that Titles and Abstracts fields are the same as default ones.
+    * Check that [Title](#title) and [Abstract](#abstract) elements are the same as default ones.
 
 **Reference(s)**:
 
@@ -32,3 +30,5 @@ Abbreviation                                               |  XPath expression (
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Default Language <a name="defaultLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
 Response Language <a name="responseLanguage"></a> | inspire_common:ResponseLanguage/inspire_common:Language
+Title <a name="title"></a> | /WMS_Capabilities/Service/Title
+Abstract <a name="abstract"></a> | /WMS_Capabilities/Service/Abstract

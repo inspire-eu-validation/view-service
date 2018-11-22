@@ -18,6 +18,8 @@ Test that the service Language Response changes according with the request.
 
 * For each [Supported Language](#supportedLanguage),
 
+    * Check that [Supported Language](#supportedLanguage) is accordance with ISO 639-2/B alpha 3.
+
     * Send a GetCapabilities request with a supported language parameter.
 
         * Check that the [Response Language](#responseLanguage) is the same as the requested one.

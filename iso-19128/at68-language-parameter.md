@@ -8,11 +8,12 @@ Test that the service accepts the parameter LANGUAGE to request the capabilities
 
 **Test method**
 
-* Send a GetCapabilities request with parameter LANGUAGE and value same as [Default Language](#defaultLanguage). The parameter shall be accordance with ISO 639-2/B alpha 3.
+* Send a GetCapabilities request with parameter LANGUAGE and value same as [Default Language](#defaultLanguage).
+
+    * Check that [Default Language](#defaultLanguage) is accordance with ISO 639-2/B alpha 3.
 
     * Check that the service accepts the LANGUAGE parameter and the [Response Language](#responseLanguage) is the same as the requested one.
 
-    * Check that Titles and Abstracts are affected by the LANGUAGE parameter.
 
 **Reference(s)**:
 

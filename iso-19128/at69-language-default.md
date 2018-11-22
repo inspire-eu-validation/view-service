@@ -12,6 +12,8 @@ Test that Titles and Abstracts are not affected when the LANGUAGE parameter is a
 
 * Send a GetCapabilities request with an invalid LANGUAGE parameter.
 
+    * Check that the [Response Language](#responseLanguage) is the same as [Default Language](#defaultLanguage).
+
     * Check that Titles and Abstracts fields are the same as default ones.
 
 **Reference(s)**:
@@ -28,3 +30,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Default Language <a name="defaultLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
+Response Language <a name="responseLanguage"></a> | inspire_common:ResponseLanguage/inspire_common:Language

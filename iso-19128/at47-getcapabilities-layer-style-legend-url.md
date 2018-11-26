@@ -29,6 +29,6 @@ The multiplicity of this element 1 for each style and each supported language.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 LegendURL <a name="legend"></a> | wms:Capability/wms:Layer/*/wms:Style/wms:LegendURL

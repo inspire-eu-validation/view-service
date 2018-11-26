@@ -19,6 +19,6 @@ The testing of the provision of the legend is implemented into the Abstract Test
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 LegendURL <a name="legend"></a> | wms:Capability/wms:Layer/*/wms:Style/wms:LegendURL

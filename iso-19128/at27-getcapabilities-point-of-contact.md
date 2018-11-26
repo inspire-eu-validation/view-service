@@ -25,7 +25,7 @@ The multiplicity of this element is 1 or more.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 OrganisationName <a name="OrganisationName"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataPointOfContact/inspire_common:OrganisationName
 EmailAddress <a name="EmailAddress"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataPointOfContact/inspire_common:EmailAddress

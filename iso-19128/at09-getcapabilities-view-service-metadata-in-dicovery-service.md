@@ -31,6 +31,6 @@ Limitations: The requirement in the technical guidance specify that the View Ser
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
  MetadataUrl <a name="metadataUrl"></a> | /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataUrl

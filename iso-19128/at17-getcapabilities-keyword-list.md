@@ -28,7 +28,7 @@ If the keyword value is originated from a controled vocabulary, the vocabulary i
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 KeywordList <a name="keywordList"></a> | wms:Service/wms:KeywordList
 Keyword <a name="keyword"></a> | wms:Service/wms:KeywordList/wms:Keyword

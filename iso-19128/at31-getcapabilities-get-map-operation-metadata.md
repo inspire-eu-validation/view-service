@@ -27,7 +27,7 @@ The multiplicity of this element is 1.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 GetMap <a name="GetMap"></a> | wms:Capability/wms:Request/wms:GetMap
 Format <a name="Format"></a> | wms:Capability/wms:Request/wms:GetMap[1]/wms:Format

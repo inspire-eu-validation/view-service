@@ -31,6 +31,6 @@ The multiplicity of this element is 1 for each layer.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Layer Name <a name="layerName"></a> | wms:Capability/*/wms:Layer/wms:Name

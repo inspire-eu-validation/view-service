@@ -32,5 +32,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities/wms:Capability/inspire_vs:ExtendedCapabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Default Language <a name="defaultLanguage"></a> | inspire_common:SupportedLanguages/inspire_common:DefaultLanguage/inspire_common:Language
-Title <a name="title"></a> | /WMS_Capabilities/Service/Title
-Abstract <a name="abstract"></a> | /WMS_Capabilities/Service/Abstract
+Title <a name="title"></a> | /wms:WMS_Capabilities/Service/Title
+Abstract <a name="abstract"></a> | /wms:WMS_Capabilities/Service/Abstract

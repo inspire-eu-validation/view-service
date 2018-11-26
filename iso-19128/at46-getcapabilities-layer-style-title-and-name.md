@@ -31,7 +31,7 @@ The multiplicity of both elements is 1 in each style.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Layer <a name="layer"></a> | wms:Capability/*/wms:Layer
 Style <a name="style"></a> | wms:Capability/*/wms:Layer/wms:Style

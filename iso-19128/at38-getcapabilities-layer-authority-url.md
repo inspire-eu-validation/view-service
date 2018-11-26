@@ -26,7 +26,7 @@
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 AuthorityURL <a name="AuthorityURL"></a> | wms:Capability/wms:Layer/AuthorityURL
 OnlineResource <a name="OnlineResource"></a> | wms:Capability/wms:Layer/AuthorityURL/OnlineResource

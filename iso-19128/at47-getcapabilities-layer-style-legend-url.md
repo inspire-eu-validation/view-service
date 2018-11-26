@@ -16,10 +16,12 @@
 
             * Check that the reponse is a valid image.
 
+* Check manually that the provided legend is in the correct language.
+
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8 and 4.2.3.3.4.9, Requirement 47
 
-**Test type**: Automated
+**Test type**: Automated / Manual
 
 **Notes**
 

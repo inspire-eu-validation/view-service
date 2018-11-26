@@ -88,7 +88,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 43     | Layer Simple Style | [at43-getcapabilities-layer-simple-style](./at43-getcapabilities-layer-simple-style.md) |
 | 44     | Layer Use Default Style | [at44-getcapabilities-layer-use-default-style](./at44-getcapabilities-layer-use-default-style.md) |
 | 45     | Layer Style Legend | [at45-getcapabilities-layer-style-legend](./at45-getcapabilities-layer-style-legend.md) |
-| 46     | Layer Style Title and Name | [at46-getcapabilities-layer-style-title-and-name](./at46-getcapabilities-layer-style.md) |
+| 46     | Layer Style Title and Name | [at46-getcapabilities-layer-style-title-and-name](./at46-getcapabilities-layer-style-title-and-name.md) |
 | 47     | Layer Style Legend URL | [at47-getcapabilities-layer-style-legend-url](./at47-getcapabilities-layer-style-legend-url.md) |
 | 48     | Layer Dimension Pairs | [at48-getcapabilities-layer-dimension-pairs](./at48-getcapabilities-layer-dimension-pairs.md) |
 | 49     | Layer Category Layer | [at49-getcapabilities-layer-category-layer](./at49-getcapabilities-layer-category-layer.md) |
@@ -194,7 +194,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at43-getcapabilities-layer-simple-style](./at43-getcapabilities-layer-simple-style.md) | all | Manual | ready for review |
 | [at44-getcapabilities-layer-use-default-style](./at44-getcapabilities-layer-use-default-style.md) | all | Manual | ready for review |
 | [at45-getcapabilities-layer-style-legend](./at45-getcapabilities-layer-style-legend.md) | all | None | ready for review |
-| [at46-getcapabilities-layer-style-title-and-name](./at46-getcapabilities-layer-style.md) | all | Automated | ready for review |
+| [at46-getcapabilities-layer-style-title-and-name](./at46-getcapabilities-layer-style-title-and-name.md) | all | Automated | ready for review |
 | [at47-getcapabilities-layer-style-legend-url](./at47-getcapabilities-layer-style-legend-url.md) | all | Automated | ready for review |
 | [at48-getcapabilities-layer-dimension-pairs](./at48-getcapabilities-layer-dimension-pairs.md) | all | Automated | ready for review |
 | [at49-getcapabilities-layer-category-layer](./at49-getcapabilities-layer-category-layer.md) | all | Automated | ready for review |

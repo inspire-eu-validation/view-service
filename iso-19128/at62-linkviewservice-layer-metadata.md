@@ -10,7 +10,9 @@ Test that the cascaded layer metadata is included as in the original view servic
 
 * For every cascaded layer,
 
-    * Check that the layer's metadata is provided as in the original view service.
+    * Send an http to request to [Layer Metadata URL](#layerMetadataUrl).
+
+        * Check that the response is a metadata document.
 
 **Reference(s)**:
 
@@ -26,3 +28,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Layer Metadata URL<a name="layerMetadataUrl"></a> | wms:Capability/*/wms:Layer/wms:MetadataURL/wms:OnlineResource/@xlink:href

@@ -1,6 +1,6 @@
 # Common Request Parameters
 
-**Purpose**: Test that common request parameters are impelmented for the View Service operations.
+**Purpose**: Test that common request parameters are implemented for the View Service operations.
 
 **Prerequisites**
 

@@ -8,17 +8,13 @@ Test that the service accepts the optional parameter EXCEPTIONS.
 
 **Test method**
 
-* Send a GetMap request without EXCEPTIONS parameter and all the other mandatory parameters.
+* Send a GetMap request without EXCEPTIONS parameter and wrong values for some mandatory parameters.
 
-    * Check that the service response is successful and the default EXCEPTIONS is XML.
+    * Check that the service response an exception in XML format.
 
-* Send a GetMap request with an invalid EXCEPTIONS parameter and all the other mandatory parameters.
+* Send a GetMap request with EXCEPTIONS parameter set to XML and wrong values for some mandatory parameters.
 
-    * Check that the service notify the invalid parameter value.
-
-* Send a GetMap request with a valid EXCEPTIONS parameter (INIMAGE or BLANK) and all the other mandatory parameters.
-
-    * Check that the service response is successful.
+    * Check that the service response an exception in XML format.
 
 **Reference(s)**:
 

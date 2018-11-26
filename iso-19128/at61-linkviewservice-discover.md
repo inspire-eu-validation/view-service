@@ -10,7 +10,7 @@ Test that cascaded layers provide a valid metadata through a Discovery Service.
 
 * For every cascaded layer,
 
-    * Check that a url pointing to a metadata in a Discovery Service is provided
+    * Check that [Online Resource](#onlineResource) is provided and it has an attribute 'xlink:href' with a non empty value.
 
 **Reference(s)**:
 
@@ -26,3 +26,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Online Resource <a name="onlineResource"></a> | wms:Capability/*/wms:Layer/wms:MetadataURL/wms:OnlineResource

@@ -10,7 +10,9 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is at least one [TemporalReference](#temporalReference) element within the inspire_vs:ExtendedCapabilities section.
+  * Check if there is at least one [Temporal Reference](#temporalReference) element within the inspire_vs:ExtendedCapabilities section.
+
+    * If [Temporal Extent](#temporalExtent) exists, check that it is contained within the [Temporal Reference](#temporalReference) node.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.9, Requirement 21
@@ -25,6 +27,7 @@ The multiplicity of this element is 1 or more.
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression (relative to wms:WMS_Capabilities)
+Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-TemporalReference <a name="temporalReference"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference
+Temporal Reference <a name="temporalReference"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference
+Temporal Extent <a name="temporalExtent"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:TemporalExtent

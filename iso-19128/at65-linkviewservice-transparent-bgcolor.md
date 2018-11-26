@@ -10,15 +10,13 @@ Test the TRANSPARENT and BGCOLOR parameter values for cascading view services.
 
 * If cascaded layers exists,
 
-    * The TRANSPARENT parameter of all layers shall be true.
-
-    * The BGCOLOR parameter of all layers shall be the same.
+    * Check manually that the TRANSPARENT parameter of all layers is true and BGCOLOR parameter of all layers is the same.
 
 **Reference(s)**:
 
 * [TG VS](./README.md#ref_TG_VS), requirement 65
 
-**Test type**: Automated
+**Test type**: Manual
 
 **Notes**
 

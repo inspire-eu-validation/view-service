@@ -8,15 +8,15 @@ Test that the cascaded layer value is correct.
 
 **Test method**
 
-* For every cascaded layer,
+* If cascaded layers exists,
 
-    * The 'cascaded' attribute of the layer is an integer number incremented by 1.
+    * Check manually that 'cascaded' attribute of cascaded layers is an integer number incremented by 1.
 
 **Reference(s)**:
 
 * [TG VS](./README.md#ref_TG_VS), requirement 64
 
-**Test type**: Automated
+**Test type**: Manual
 
 **Notes**
 

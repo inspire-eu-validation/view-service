@@ -8,15 +8,15 @@ Test that the cascaded layers have the attribute 'cascaded'.
 
 **Test method**
 
-* For every cascaded layer,
+* If cascaded layers exists,
 
-    * Check that the layer has an attibute 'cascaded'.
+    * Check manually that cascaded layers has a 'cascaded' attribute.
 
 **Reference(s)**:
 
 * [TG VS](./README.md#ref_TG_VS), requirement 63
 
-**Test type**: Automated
+**Test type**: Manual
 
 **Notes**
 

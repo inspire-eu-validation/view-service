@@ -8,7 +8,7 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is a [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) node in each Layer section of the Capabilities section.
+  * Check if there is exactly one [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) node in each named Layer element or inherited from a parent Layer.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.8, Requirement 19
@@ -17,7 +17,9 @@
 
 **Notes**
 
-The multiplicity of this element is 1 in each Layer element.
+The multiplicity of this element is 1 in each named Layer element stated explicitly or inherited from a parent Layer.
+
+A Layer that contains a Named child element is a 'named Layer'.
 
 **Contextual XPath references**
 

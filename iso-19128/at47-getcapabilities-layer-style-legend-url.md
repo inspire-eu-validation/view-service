@@ -8,9 +8,13 @@
 
 * Send one getCapabilities request to the service endpoint for each supported language. Each request has its corresponding language parameter. Into each response:
 
-  * For each wms:Style element:
+  * For each [Style](#style) element:
 
-    * Check if a legend is provided in the [LegendURL](#legend) element and it has an 'OnlineResource' child element with an 'xlink:href' attribute.
+    * Check if zero or one [LegendURL](#legend) element exists.
+
+    If a legend is provided,
+    
+    * Check if the node has an 'OnlineResource' child element with an 'xlink:href' attribute.
 
         * Send a request to the url pointing to the legend.
 
@@ -25,7 +29,7 @@
 
 **Notes**
 
-The multiplicity of this element 1 for each style and each supported language.
+The multiplicity of this element 0 or 1 for each style and each supported language.
 
 **Contextual XPath references**
 
@@ -33,4 +37,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-LegendURL <a name="legend"></a> | wms:Capability/wms:Layer/*/wms:Style/wms:LegendURL
+Style <a name="style"></a> | wms:Capability/*/wms:Layer/*/wms:Style
+LegendURL <a name="legend"></a> | wms:Capability/*/wms:Layer/wms:Style/wms:LegendURL

@@ -8,9 +8,9 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * For each wms:Layer element:
+  * For each [Layer](#layer) element:
 
-    * Check that it contains a [Title](#title) element and it is a non-empty value.
+    * Check that it contains exactly one [Title](#title) element and it is a non-empty value.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.1, Requirement 33
@@ -29,4 +29,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Layer <a name="layer"></a> | wms:Capability/*/wms:Layer
 Title <a name="title"></a> | wms:Capability/*/wms:Layer/wms:Title

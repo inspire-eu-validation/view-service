@@ -19,6 +19,8 @@
 
 It is not possible to check automatically the styling used in the image of the response.
 
+The Style parameter in GetMap is mandatory. To set an empty style the parameter has to be set like &STYLE= without any value.
+
 **Contextual XPath references**
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).

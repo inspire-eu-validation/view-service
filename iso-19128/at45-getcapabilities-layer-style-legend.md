@@ -21,4 +21,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-LegendURL <a name="legend"></a> | wms:Capability/wms:Layer/*/wms:Style/wms:LegendURL
+LegendURL <a name="legend"></a> | wms:Capability/*/wms:Layer/wms:Style/wms:LegendURL

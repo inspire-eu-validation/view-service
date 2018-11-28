@@ -8,15 +8,13 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check that at least one [Style](#style) element exists in each [Layer](#layer).
-  
   * For each [Style](#style) element in each [Layer](#layer) element:
 
-    * Check if a human-readable name is mapped to the [Title](#title) element and it is a non-empty value.
+    * Check if exactly one [Title](#title) element exists and it is a non-empty value.
 
-    * Check if the Unique Identifier is mapped to the [Name](#name1) element.
+    * Check if exactly one [Style Name](#styleName1) element exists and it is a non-emtpy value.
 
-      * Check if the [Name](#name1) is unique within the style elements of the layer.
+      * Check if the [Style Name](#styleName1) is unique within the style elements of the layer.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 46
@@ -25,7 +23,7 @@
 
 **Notes**
 
-The multiplicity of both elements is 1 in each style.
+The multiplicity of [Title](#title) and [Style Name](#styleName1) is 1 in each style.
 
 **Contextual XPath references**
 
@@ -36,4 +34,4 @@ Abbreviation                                               |  XPath expression (
 Layer <a name="layer"></a> | wms:Capability/*/wms:Layer
 Style <a name="style"></a> | wms:Capability/*/wms:Layer/wms:Style
 Title <a name="title"></a> | wms:Capability/*/wms:Layer/wms:Style/wms:Title
-Name <a name="name1"></a> | wms:Capability/*/wms:Layer/wms:Style/wms:Name
+Style Name <a name="styleName1"></a> | wms:Capability/*/wms:Layer/wms:Style/wms:Name

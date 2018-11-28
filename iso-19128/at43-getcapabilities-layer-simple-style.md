@@ -6,7 +6,7 @@
 
 **Test method**
 
-* For each wms:Layer element with no associated default style,
+* For each [Layer](#layer) element with no associated default style,
   
   * Check if the applied style match with:
     * Point: grey square, 6 pixels
@@ -28,4 +28,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-
+Layer <a name="layer"></a> | wms:Capability/*/wms:Layer

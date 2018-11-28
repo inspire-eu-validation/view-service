@@ -8,12 +8,21 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * For each wms:Layer parent element:
+* For each [AuthorityURL](#AuthorityURL) element
 
-    * Check if the [AuthorityURL](#AuthorityURL) element is given.
-    * Check if the identifier of the authority is included in the "name" attribute of the element and the explanatory URL is given as an [OnlineResource](#OnlineResource) within the AuthorityURL element.
+    * Check if the "name" attribute exists and the explanatory URL is given as an [OnlineResource](#OnlineResource) within the AuthorityURL element.
 
-    * Check if each subsidary layer has an [Identifier](#Identifier) element with an "authority" attribute matching with the AuthorityURL name declared in the parent layer or in the layer itself. The Identifier element must contain a unique identifier.
+* For each [Layer](#layer) element:
+
+    * For each [AuthorityURL](#AuthorityURL) element given in the node itself or in the parents layers elements.
+
+        * Check that authority name has not be defined previously.
+
+    * Check if the "authority" attribute of [Identifier](#Identifier) element matches with the [AuthorityURL](#AuthorityURL) name declared in the parents layers or in the layer itself.
+
+* For each [Identifier](#Identifier) element:
+    
+    * Check if the [Identifier](#Identifier) element is unique for its authority.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.5, Requirement 38
@@ -22,12 +31,17 @@
 
 **Notes**
 
+The multiplicity of [AuthorityURL](#AuthorityURL) is 0 or more.
+
+The multiplicity of [Identifier](#Identifier) is 0 or more.
+
 **Contextual XPath references**
 
 The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-AuthorityURL <a name="AuthorityURL"></a> | wms:Capability/wms:Layer/AuthorityURL
-OnlineResource <a name="OnlineResource"></a> | wms:Capability/wms:Layer/AuthorityURL/OnlineResource
+Layer <a name="layer"></a> | wms:Capability/*/wms:Layer
+AuthorityURL <a name="AuthorityURL"></a> | wms:Capability/*/wms:Layer/AuthorityURL
+OnlineResource <a name="OnlineResource"></a> | wms:Capability/*/wms:Layer/AuthorityURL/OnlineResource
 Identifier <a name="Identifier"></a> | wms:Capability/*/wms:Layer/wms:Identifier

@@ -15,7 +15,7 @@
 
 The multiplicity of the element Name is 1.
 
-This requirement is satisfied when [requirement](./at39-getcapabilities-layer-name.md) 39 does.
+This requirement is satisfied when [requirement 39](./at39-getcapabilities-layer-name.md) does.
 
 **Contextual XPath references**
 

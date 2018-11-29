@@ -8,9 +8,23 @@
 
 * Check if the GetCapabilities operation is suported for the View Service. For that:
 
-  * Send a request to the service endpoint with the following mandatory parameters and fixed values:
-    * SERVICE=WMS
-    * REQUEST=GetCapabilities
+  * Send a request to the service endpoint with the following mandatory parameters and fixed values: SERVICE=WMS, REQUEST=GetCapabilities
+
+    * Check if a valid response is obtained.
+
+  * Send a request to the service endpoint with the following mandatory parameters and fixed values: SERVICE=WMS
+
+    * Check if an exception is obtained.
+
+  * Send a request to the service endpoint with the following mandatory parameters and fixed values: SERVICE=WMS, REQUEST=wrong
+
+    * Check if an exception is obtained.
+
+  * Send a request to the service endpoint with the following mandatory parameters and fixed values: REQUEST=GetCapabilities
+
+    * Check if an exception is obtained.
+
+  * Send a request to the service endpoint with the following mandatory parameters and fixed values: SERVICE=wrong, REQUEST=GetCapabilities
 
     * Check if a valid response is obtained.
 

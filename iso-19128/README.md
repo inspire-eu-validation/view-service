@@ -159,7 +159,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at10-getcapabilities-title-and-abstract](./at10-getcapabilities-title-and-abstract.md) | all | Automated | ready for review |
 | [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) | 2 only | Automated | ready for review |
 | [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) | 2 only | Automated | ready for review |
-| [at13-getcapabilities-map-coupled-resource-metadata](./at13-getcapabilities-map-coupled-resource-metadata.md) | all | None | ready for review |
+| [at13-getcapabilities-map-coupled-resource-metadata](./at13-getcapabilities-map-coupled-resource-metadata.md) | all | Manual | ready for review |
 | [at14-getcapabilities-map-coupled-resource-metadata-url](./at14-getcapabilities-map-coupled-resource-metadata-url.md) | all | Automated | ready for review |
 | [at15-getcapabilities-map-sds-type-with-extendedcapabilities](./at15-getcapabilities-map-sds-type-with-extendedcapabilities.md) | 2 only | Automated | ready for review |
 | [at16-getcapabilities-keyword-node](./at16-getcapabilities-keyword-node.md) | 2 only | Automated | ready for review |

@@ -10,7 +10,7 @@
   
   * If there is a [MetadataURL](#metadataURL) node for a layer:
 
-    * Check if the MetadataURL element is populated with a URL that allows access to unambiguous metadata record. The URL must be encoded into the "xlink:href" attribute of an [OnlineResource](#onlineResource) element.
+    * Check if the MetadataURL element is populated with a URL that allows access to unambiguous metadata record. The URL must be encoded into the 'xlink:href' attribute of an [OnlineResource](#onlineResource) element.
     
     * One of the following checks must be passed:
 
@@ -34,4 +34,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 MetadataURL <a name="metadataURL"></a>  |  wms:Capability/*/wms:Layer/MetadataURL
-OnlineResource/@xlink:href <a name="onlineResource"></a>  |  wms:Capability/wms:Layer/MetadataURL/OnlineResource/@xlink:href
+OnlineResource <a name="onlineResource"></a>  |  wms:Capability/wms:Layer/MetadataURL/OnlineResource

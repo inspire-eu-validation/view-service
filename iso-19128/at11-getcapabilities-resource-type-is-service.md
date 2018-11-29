@@ -10,9 +10,9 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is a [ResourceType](#ResourceType) node into the inspire_vs:ExtendedCapabilities section. If true,
+  * Check if there is exactly one [ResourceType](#ResourceType) node into the [ExtendedCapabilities](#ExtendedCapabilities) section. If true,
 
-    * Check that the value is fixed to 'service'.
+    * Check that the value of the node is 'service'.
 
   * In any other case the test fails.
 
@@ -32,4 +32,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+ExtendedCapabilities <a name="ExtendedCapabilities"></a>      |   wms:Capability/inspire_vs:ExtendedCapabilities
 ResourceType <a name="ResourceType"></a>   |    wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:ResourceType

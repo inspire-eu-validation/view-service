@@ -143,6 +143,7 @@ The scenario 2 is selected only if at least one of the following elements exists
 If none of them is found, the scenario 1 must be selected for the validation.
 
 ![wms_scenarios](./wms_scenarios.png)
+
 Figure 1. Extended Capabilities for INSPIRE View Services. Source: [TG VS](#ref_TG_VS) pag. 20.
 
 The case of scenario 1, the metadata record referred to by the `inspire_common:MetadataUrl` element must also pass the service scenario of the test suite [ATS Metadata](http://inspire.ec.europa.eu/id/ats/metadata/3.1).

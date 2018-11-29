@@ -154,7 +154,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | ----------------------------------------------------------------------------------- | -------- | -------- |  -------- |
 | [at04-getcapabilities-xml-schema-validation](./at04-getcapabilities-xml-schema-validation.md) | all | Automated | ready for review |
 | [at05-getcapabilities-get-capabilities-request-parameter](./at05-getcapabilities-get-capabilities-request-parameter.md) | all | Automated | ready for review |
-| [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) | 1 only | Automated | ready for review |
+| [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) | 1 only | None | ready for review |
 | [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) | 2 only | None | ready for review |
 | [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) | all | Automated | ready for review |
 | [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) | all | Automated | ready for review |
@@ -188,16 +188,16 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at37-getcapabilities-layer-unique-resource-identifier](./at37-getcapabilities-layer-unique-resource-identifier.md) | all | None | ready for review |
 | [at38-getcapabilities-layer-authority-url](./at38-getcapabilities-layer-authority-url.md) | all | Automated | ready for review |
 | [at39-getcapabilities-layer-name](./at39-getcapabilities-layer-name.md) | all | Automated | ready for review |
-| [at40-getcapabilities-layer-crs](./at40-getcapabilities-layer-crs.md) | all | Automated | ready for review |
+| [at40-getcapabilities-layer-crs](./at40-getcapabilities-layer-crs.md) | all | Automated / Manual | ready for review |
 | [at41-getcapabilities-layer-style](./at41-getcapabilities-layer-style.md) | all | None | ready for review |
 | [at42-getcapabilities-layer-default-style](./at42-getcapabilities-layer-default-style.md) | all | Automated | ready for review |
 | [at43-getcapabilities-layer-simple-style](./at43-getcapabilities-layer-simple-style.md) | all | Manual | ready for review |
 | [at44-getcapabilities-layer-use-default-style](./at44-getcapabilities-layer-use-default-style.md) | all | Manual | ready for review |
 | [at45-getcapabilities-layer-style-legend](./at45-getcapabilities-layer-style-legend.md) | all | None | ready for review |
 | [at46-getcapabilities-layer-style-title-and-name](./at46-getcapabilities-layer-style-title-and-name.md) | all | Automated | ready for review |
-| [at47-getcapabilities-layer-style-legend-url](./at47-getcapabilities-layer-style-legend-url.md) | all | Automated | ready for review |
+| [at47-getcapabilities-layer-style-legend-url](./at47-getcapabilities-layer-style-legend-url.md) | all | Automated / Manual | ready for review |
 | [at48-getcapabilities-layer-dimension-pairs](./at48-getcapabilities-layer-dimension-pairs.md) | all | Automated | ready for review |
-| [at49-getcapabilities-layer-category-layer](./at49-getcapabilities-layer-category-layer.md) | all | Automated | ready for review |
+| [at49-getcapabilities-layer-category-layer](./at49-getcapabilities-layer-category-layer.md) | all | None | ready for review |
 | [at50-getmap-version-parameter](./at50-getmap-version-parameter.md) | all | Automated | ready for review |
 | [at51-getmap-request-parameter](./at51-getmap-request-parameter.md) | all | Automated | ready for review |
 | [at52-getmap-layers-parameter](./at52-getmap-layers-parameter.md) | all | Automated | ready for review |
@@ -211,16 +211,16 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at60-linkviewservice-provide-information](./at60-linkviewservice-provide-information.md) | all | None | ready for review |
 | [at61-linkviewservice-discover](./at61-linkviewservice-discover.md) | all | Automated | ready for review |
 | [at62-linkviewservice-layer-metadata](./at62-linkviewservice-layer-metadata.md) | all | Automated | ready for review |
-| [at63-linkviewservice-cascaded-attribute](./at63-linkviewservice-cascaded-attribute.md) | all | Automated | ready for review |
-| [at64-linkviewservice-cascaded-increment](./at64-linkviewservice-cascaded-increment.md) | all | Automated | ready for review |
-| [at65-linkviewservice-transparent-bgcolor](./at65-linkviewservice-transparent-bgcolor.md) | all | Automated | ready for review |
+| [at63-linkviewservice-cascaded-attribute](./at63-linkviewservice-cascaded-attribute.md) | all | Manual | ready for review |
+| [at64-linkviewservice-cascaded-increment](./at64-linkviewservice-cascaded-increment.md) | all | Manual | ready for review |
+| [at65-linkviewservice-transparent-bgcolor](./at65-linkviewservice-transparent-bgcolor.md) | all | Manual | ready for review |
 | [at66-language-list](./at66-language-list.md) | all | None | ready for review |
 | [at67-language-request](./at67-language-request.md) | all | None | ready for review |
 | [at68-language-parameter](./at68-language-parameter.md) | all | Automated | ready for review |
 | [at69-language-default](./at69-language-default.md) | all | Automated | ready for review |
 | [at70-language-response](./at70-language-response.md) | all | Automated | ready for review |
 | [at71-language-supported](./at71-language-supported.md) | all | Automated | ready for review |
-| [at72-language-extended-capabilities](./at72-language-extended-capabilities.md) | all | Automated | ready for review |
+| [at72-language-extended-capabilities](./at72-language-extended-capabilities.md) | all | None | ready for review |
 | [at73-language-rendered-text](./at73-language-rendered-text.md) | all | None | ready for review |
 
 ## Open issues

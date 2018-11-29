@@ -1,6 +1,6 @@
 # Conformance class: INSPIRE Profile of ISO 19128 (DRAFT)
 
-This conformance class is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service/3.11).
+The INSPIRE Profile of ISO 19128 conformance class is defined in the [Technical Guidance for the implementation of INSPIRE View Services 3.11](#ref_TG_VS) and it is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service/3.11).
 
 ## Standardization target type
 
@@ -15,14 +15,6 @@ A direct dependency is another conformance class whose requirements must be met 
 | Specification | Conformance class | Parameters | 
 | ------------- | ----------------- | ---------- |
 | [ISO 19128 / OGC WMS 1.3.0](#ref_WMS) | Basic WMS | n/a |
-
-### Indirect dependencies
-
-An indirect dependency is another conformance class whose requirements must be met by a related resource.
-
-| Specification | Conformance class | Related resource | Parameters |
-| ------------- | ----------------- | ---------------- | ---------- |
-| [Technical Guidance for the implementation of INSPIRE View Services 3.11](#ref_TG_VS) | [Layer metadata](.) | Capabilities document |  `service type` = `ISO 19128` |
  
 ## External document references
 

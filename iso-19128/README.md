@@ -142,7 +142,9 @@ The case of scenario 1, the metadata record referred to by the `inspire_common:M
 
 ## Tests
 
-This Conformance Class contains the following tests. The "scenario" column of the test table below indicates if the tests are to be applied in service metadata validation scenarios 1, 2 or all (see above).
+This Conformance Class contains the following tests. The "scenario" column of the test table below indicates if the tests are applied in scenarios 1, 2 or all (see above).
+
+The "type" column indicates whether a test is automated, manual, automated/manual or none. Tests that are manual or automated/manual require extra checks from the tester to decide if the view service satisfy the specific requirement.
 
 The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 specification](#ref_WMS) (Annex A).
 

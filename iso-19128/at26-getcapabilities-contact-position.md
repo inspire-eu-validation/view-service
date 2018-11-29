@@ -8,7 +8,8 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is a [ContactPosition](#ContactPosition) node within the [ContactInformation](#ContactInformation) section. If yes,
+  * Check if there is a [ContactPosition](#ContactPosition) node within the [ContactInformation](#ContactInformation) section. If it does,
+
     * Check if it has one of the following values: resourceProvider, custodian, owner, user, distributor, originator, pointOfContact, principalInvestigator, processor, publisher, author.
 
 **Reference(s)**:

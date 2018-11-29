@@ -10,12 +10,11 @@ Test that the service accepts the parameter LANGUAGE to request the capabilities
 
 * Send a GetCapabilities request without LANGUAGE parameter.
 
-    * Check that [Default Language](#defaultLanguage) is accordance with ISO 639-2/B alpha 3.
+    * Check if [Default Language](#defaultLanguage) is accordance with ISO 639-2/B alpha 3.
 
 * Send a GetCapabilities request with LANGUAGE parameter and value same as [Default Language](#defaultLanguage).
 
-    * Check that [Title](#title) and [Abstract](#abstract) elements are the same as default ones.
-
+    * Check if [Title](#title) and [Abstract](#abstract) elements are the same as default ones.
 
 **Reference(s)**:
 

@@ -8,8 +8,6 @@ Test that the service provide the resources in specific language.
 
 **Test method**
 
-
-
 **Reference(s)**:
 
 * [TG VS](./README.md#ref_TG_VS), requirement 73

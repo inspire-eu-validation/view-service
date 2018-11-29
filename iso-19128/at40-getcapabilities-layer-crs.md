@@ -10,7 +10,7 @@
 
   * For each named [Layer](#layer) element:
 
-    * Check that at least one [CRS](#crs) element is provided stated explicitly or inherited from a parent Layer.
+    * Check if at least one [CRS](#crs) element is provided stated explicitly or inherited from a parent Layer.
 
 * Check manually if a geographical coordinate system based on ETRS89 is used in continental Europe or ITRS outside continental Europe.
 

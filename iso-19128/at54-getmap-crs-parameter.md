@@ -10,15 +10,15 @@ Test that the CRS paramater in GetMap operation is mandatory.
 
 * Send a GetMap request without CRS parameter and all the other mandatory parameters.
 
-    * Check that the service notify the missing parameter.
+    * Check if the service notify the missing parameter.
 
-* Send a GetMap request with an invalid CRS parameter and all the other mandatory parameters.
+* Send a if request with an invalid CRS parameter and all the other mandatory parameters.
 
-    * Check that the service notify the invalid parameter value.
+    * Check if the service notify the invalid parameter value.
 
 * Send a GetMap request with a value from [INSPIRE](./README.md#ref_INSPIRE) for CRS parameter and all the other mandatory parameters.
 
-    * Check that the service response is successful.
+    * Check if the service response is successful.
 
 **Reference(s)**:
 

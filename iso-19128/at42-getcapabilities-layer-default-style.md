@@ -10,11 +10,11 @@
 
   * For each named [Layer](#layer) element:
 
-    If the INSPIRE Data Specification defines a default style for the harmonised layer,
+    * If the INSPIRE Data Specification defines a default style for the harmonised layer,
 
-      * Check that the [Style Name](#styleName1) of one of the [Style](#style) elements provided in the layer itself or inhereted from a parent layer is equal to the name of the default style defined in the Data Specification.
+      * Check if the [Style Name](#styleName1) of one of the [Style](#style) elements provided in the layer itself or inhereted from a parent layer is equal to the name of the default style defined in the Data Specification.
 
-    If a default style for that harmonised layer name is not defined in the Theme INSPIRE Data Specification, the test passes.
+    * Otherwise, a default style for that harmonised layer name is not defined in the Theme INSPIRE Data Specification, therefore the test passes.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 42

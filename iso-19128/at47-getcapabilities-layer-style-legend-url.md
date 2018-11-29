@@ -10,15 +10,13 @@
 
   * For each [Style](#style) element:
 
-    * Check if zero or one [LegendURL](#legend) element exists.
-
-    If a legend is provided,
+    * Check if zero or one [LegendURL](#legend) element exists. If a legend is provided,
     
-    * Check if the node has an 'OnlineResource' child element with an 'xlink:href' attribute.
+        * Check if the node has an 'OnlineResource' child element with an 'xlink:href' attribute.
 
-        * Send a request to the url pointing to the legend.
+            * Send a request to the url pointing to the legend.
 
-            * Check that the reponse is a valid image.
+                * Check that the reponse is a valid image.
 
 * Check manually that the provided legend is in the correct language.
 

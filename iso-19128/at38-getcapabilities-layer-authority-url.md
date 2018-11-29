@@ -16,7 +16,7 @@
 
     * For each [AuthorityURL](#AuthorityURL) element given in the node itself or in the parents layers elements.
 
-        * Check that authority name has not be defined previously.
+        * Check if authority name has not be defined previously.
 
     * Check if the "authority" attribute of [Identifier](#Identifier) element matches with the [AuthorityURL](#AuthorityURL) name declared in the parents layers or in the layer itself.
 

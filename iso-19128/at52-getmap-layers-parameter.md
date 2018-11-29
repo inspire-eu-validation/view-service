@@ -10,19 +10,19 @@ Test that the LAYERS paramater in GetMap operation is mandatory.
 
 * Send a GetMap request without LAYERS parameter and all the other mandatory parameters.
 
-    * Check that the service notify the missing parameter.
+    * Check if the service notify the missing parameter.
 
 * Send a GetMap request with an invalid LAYERS parameter and all the other mandatory parameters.
 
-    * Check that the service notify the invalid parameter value.
+    * Check if the service notify the invalid parameter value.
 
 * Send a GetMap request with a valid layer value for LAYERS parameter and all the other mandatory parameters.
 
-    * Check that the service response is successful.
+    * Check if the service response is successful.
 
 * Send a GetMap request with a valid list of layers separated by commas value for LAYERS parameter and all the other mandatory parameters.
 
-    * Check that the service response is successful.
+    * Check if the service response is successful.
 
 **Reference(s)**:
 

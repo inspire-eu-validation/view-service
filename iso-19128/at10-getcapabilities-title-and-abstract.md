@@ -8,9 +8,9 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if a [Title](#title) element is provided and is not empty.
+  * Check if exactly one [Title](#title) element is provided and it is not empty.
 
-  * Check if an [Abstract](#abstract) element is provided and is not empty.
+  * Check if exactly one [Abstract](#abstract) element is provided and it is not empty.
 
   * Check if at least one [AccessConstraints](#accessConstraints) element is provided.
 

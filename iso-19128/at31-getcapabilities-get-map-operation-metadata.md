@@ -8,9 +8,9 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is a [GetMap](#GetMap) node in the Request section of the GetCapabilities response. If yes,
+  * Check if there is exactly one [GetMap](#GetMap) node in the [Request](#Request) section of the GetCapabilities response. If it does,
 
-    * Check if the GetMap node contains a [Format](#Format) element containing "image/png" and/or "image/gif". If this is the case,
+    * Check if the GetMap node contains a [Format](#Format) element with values "image/png" and/or "image/gif".
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.2.2, Requirement 31
@@ -27,6 +27,6 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Request <a name="Request"></a> | wms:Capability/wms:Request
 GetMap <a name="GetMap"></a> | wms:Capability/wms:Request/wms:GetMap
-Format <a name="Format"></a> | wms:Capability/wms:Request/wms:GetMap[1]/wms:Format
-Format Encoded <a name="Encoded"></a> | wms:Capability/wms:Request/wms:GetMap[1]/wms:Format/text()
+Format <a name="Format"></a> | wms:Capability/wms:Request/wms:GetMap/wms:Format

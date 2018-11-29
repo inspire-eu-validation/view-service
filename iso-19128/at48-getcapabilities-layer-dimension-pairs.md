@@ -12,7 +12,7 @@
 
     * Check if exists a [Dimension](#dimension) element. If yes, for each Dimension
 
-      * Check that the element has an attribute [Dimension Name](#dimensionName) defining the name of the dimension and [Dimension Units](#dimensionUnits) attributes defining the units of the measure. 
+      * Check if [Dimension](#dimension) element has an attribute 'name' defining the name of the dimension and an attribute 'units' defining the units of the measure. 
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.10, Requirement 48
@@ -31,5 +31,3 @@ Abbreviation                                               |  XPath expression (
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 Layer <a name="layer"></a> | wms:Capability/*/wms:Layer
 Dimension <a name="dimension"></a> | wms:Capability/*/wms:Layer/wms:Dimension
-Name <a name="dimensionName"></a> | wms:Capability/*/wms:Layer/wms:Dimension/@name
-Units <a name="dimensionUnits"></a> | wms:Capability/*/wms:Layer/wms:Dimension/@units

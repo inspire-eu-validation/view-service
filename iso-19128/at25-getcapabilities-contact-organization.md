@@ -8,7 +8,7 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check that exactly one [ContactInformation](#ContactInformation) node exists.
+  * Check if exactly one [ContactInformation](#ContactInformation) node exists.
   
   * Check if there is a [ContactOrganization](#ContactOrganization) node in the [ContactPersonPrimary](#ContactPersonPrimary) element of the [ContactInformation](#ContactInformation) section.
 

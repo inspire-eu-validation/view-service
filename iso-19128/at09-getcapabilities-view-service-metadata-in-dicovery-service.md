@@ -10,13 +10,13 @@
 
   * If scenario 1,
   
-    * Check that [MetadataUrl](#metadataUrl) exists. Otherwise the test fails.
+    * Check if [MetadataUrl](#metadataUrl) element exists. Otherwise the test fails.
 
   * Regardless of the scenario, if [MetadataUrl](#metadataUrl) exists,
 
     * Send a request to get the metadata document.
 
-        * Check that the metadata document is correct.
+        * Check if the metadata document obtained is correct.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 9

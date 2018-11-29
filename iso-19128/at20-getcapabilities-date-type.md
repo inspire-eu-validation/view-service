@@ -10,7 +10,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if it is provided at least one [DateOfPublication](#DateOfPublication), [DateOfLastRevision](#DateOfLastRevision) or [DateOfCreation](#DateOfCreation) element within inspire_vs:ExtendedCapabilities section.
+  * Check if at least one [DateOfPublication](#DateOfPublication), [DateOfLastRevision](#DateOfLastRevision) or [DateOfCreation](#DateOfCreation) element is provided within [ExtendedCapabilities](#ExtendedCapabilities) section.
 
   * Check if the provided date is formated in YYYY-MM-DD.
 
@@ -31,6 +31,7 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+ExtendedCapabilities <a name="ExtendedCapabilities"></a> | wms:Capability/inspire_vs:ExtendedCapabilities
 DateOfPublication <a name="DateOfPublication"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfPublication
 DateOfLastRevision <a name="DateOfLastRevision"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfLastRevision
 DateOfCreation <a name="DateOfCreation"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:TemporalReference/inspire_common:DateOfCreation

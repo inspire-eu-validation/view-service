@@ -10,7 +10,7 @@
 
   * For each [Layer](#layer) element:
 
-    * Check if [KeywordList](#KeywordList) multiplicity is 0 or 1. If [Keyword](#Keyword) elements exists in [KeywordList](#KeywordList) node,
+    * Check if zero or one [KeywordList](#KeywordList) element exists. If [Keyword](#Keyword) elements exists in [KeywordList](#KeywordList) node,
 
         * Check [Keyword](#Keyword) is not empty.
 

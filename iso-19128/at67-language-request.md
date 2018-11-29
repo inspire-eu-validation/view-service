@@ -8,8 +8,6 @@ Test that the service capabilities changes depending on the requested language.
 
 **Test method**
 
-
-
 **Reference(s)**:
 
 * [TG VS](./README.md#ref_TG_VS), requirement 67

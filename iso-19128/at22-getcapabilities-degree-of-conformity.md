@@ -9,7 +9,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check that is given a [Degree](#Degree) node with one of these values: notEvaluated, conformant, notConformant.
+  * Check if exactly one [Degree](#Degree) node exists in the [ExtendedCapabilities](#ExtendedCapabilities) with one of these values: notEvaluated, conformant, notConformant.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.11, Requirement 22
@@ -27,4 +27,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+ExtendedCapabilities <a name="ExtendedCapabilities"></a> | wms:Capability/inspire_vs:ExtendedCapabilities
 Degree <a name="Degree"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:Conformity/inspire_common:Degree

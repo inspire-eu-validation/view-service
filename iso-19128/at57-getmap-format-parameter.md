@@ -10,11 +10,11 @@ Test that the FORMAT paramater in GetMap operation is mandatory.
 
 * Send a GetMap request without FORMAT parameter and all the other mandatory parameters.
 
-    * Check that the service notify the missing parameter.
+    * Check if the service notify the missing parameter.
 
 * Send a GetMap request with an invalid FORMAT parameter and all the other mandatory parameters.
 
-    * Check that the service notify the invalid parameter value.
+    * Check if the service notify the invalid parameter value.
 
 * Send a GetMap request with 'image/png' for FORMAT parameter and all the other mandatory parameters.
 

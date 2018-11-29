@@ -10,7 +10,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is a [SpatialDataServiceType](#SpatialDataServiceType) element into the ExtendedCapabilities section.
+  * Check if there is a [SpatialDataServiceType](#SpatialDataServiceType) element into the [ExtendedCapabilities](#ExtendedCapabilities) section.
 
   * Check that the [SpatialDataServiceType](#SpatialDataServiceType) element has a fixed value equal to 'view' as defined in [INS MD Part 3].
 
@@ -30,4 +30,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+ExtendedCapabilities <a name="ExtendedCapabilities"></a>      |   wms:Capability/inspire_vs:ExtendedCapabilities
 SpatialDataServiceType <a name="SpatialDataServiceType"></a>   | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:SpatialDataServiceType

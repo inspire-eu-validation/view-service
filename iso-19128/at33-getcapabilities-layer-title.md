@@ -10,7 +10,7 @@
 
   * For each [Layer](#layer) element:
 
-    * Check that it contains exactly one [Title](#title) element and it is a non-empty value.
+    * Check if it contains exactly one [Title](#title) element and its value is not empty.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.1, Requirement 33

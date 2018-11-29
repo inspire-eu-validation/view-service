@@ -12,7 +12,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
   * Check if there is exactly one [ResourceType](#ResourceType) node into the [ExtendedCapabilities](#ExtendedCapabilities) section. If true,
 
-    * Check that the value of the node is 'service'.
+    * Check that its value is 'service'.
 
   * In any other case the test fails.
 

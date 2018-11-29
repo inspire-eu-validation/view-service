@@ -10,7 +10,7 @@
   
   * If the metadata for a layer exists,
 
-    * Check that the url is provided in the 'xlink:href' attribute of an [OnlineResource](#onlineResource) element of the layer.
+    * Check if the url is provided in the 'xlink:href' attribute of an [OnlineResource](#onlineResource) element of the layer.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.5, Requirement 13
@@ -20,9 +20,7 @@
 
 **Notes**
 
-It is not possible to test automatically if the metadata of a layer exists.
-It is not possible to test automatically the availability of the linkage to the metadata of layer provided by the service.
-It is not possible to test automatically the availability of the linkage to the dataset or series on which the service operates.
+It is not possible to test automatically when a layer provided by the view service has a metadata file/record in any other service if it is not given explicitly.
 
 **Contextual XPath references**
 

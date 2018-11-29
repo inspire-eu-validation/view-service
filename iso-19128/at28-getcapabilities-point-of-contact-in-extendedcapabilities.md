@@ -10,7 +10,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if is provided a [MetadataPointOfContact](#MetadataPointOfContact) element into the ExtendedCapabilities section.
+  * Check if at least one [MetadataPointOfContact](#MetadataPointOfContact) element is provided into the [ExtendedCapabilities](#ExtendedCapabilities) section.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.15, Requirement 28
@@ -27,4 +27,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /wms:WMS_Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+ExtendedCapabilities <a name="ExtendedCapabilities"></a> | wms:Capability/inspire_vs:ExtendedCapabilities
 MetadataPointOfContact <a name="MetadataPointOfContact"></a> | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:MetadataPointOfContact

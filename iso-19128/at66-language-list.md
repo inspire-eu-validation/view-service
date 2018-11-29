@@ -8,8 +8,6 @@ Test that the service provide a list of supported languages.
 
 **Test method**
 
-
-
 **Reference(s)**:
 
 * [TG VS](./README.md#ref_TG_VS), requirement 66

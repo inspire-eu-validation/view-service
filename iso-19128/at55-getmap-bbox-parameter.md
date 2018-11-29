@@ -10,15 +10,15 @@ Test that the BBOX paramater in GetMap operation is mandatory.
 
 * Send a GetMap request without BBOX parameter and all the other mandatory parameters.
 
-    * Check that the service notify the missing parameter.
+    * Check if the service notify the missing parameter.
 
 * Send a GetMap request with an invalid BBOX parameter and all the other mandatory parameters.
 
-    * Check that the service notify the invalid parameter value.
+    * Check if the service notify the invalid parameter value.
 
 * Send a GetMap request with valid list of comma-separated real numbers ('minx,miny,maxx,maxy') for BBOX parameter and all the other mandatory parameters.
 
-    * Check that the service response is successful.
+    * Check if the service response is successful.
 
 **Reference(s)**:
 

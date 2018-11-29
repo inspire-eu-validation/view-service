@@ -10,13 +10,13 @@ Test that the capabilities document contains the language elements with the corr
 
 * Send a GetCapabilities request
 
-    * Check that it exists exactly one [Supported Languages](#supportedLanguages) node.
+    * Check if it exists exactly one [Supported Languages](#supportedLanguages) node.
 
-    * Check that it exists exactly one [Default Language](#defaultLanguage) node and its value is not empty.
+    * Check if it exists exactly one [Default Language](#defaultLanguage) node and its value is not empty.
 
-    * Check that it exists zero or more [Supported Language](#supportedLanguage) node and the value of every supported language is not empty.
+    * Check if it exists zero or more [Supported Language](#supportedLanguage) node and the value of every supported language is not empty.
 
-    * Check that it exists exactly one [Response Language](#responseLanguage) node and its value is not empty.
+    * Check if it exists exactly one [Response Language](#responseLanguage) node and its value is not empty.
 
 * If any of the checks fails, the test fails
 

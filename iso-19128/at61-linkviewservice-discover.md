@@ -16,7 +16,7 @@ Test that cascaded layers provide a valid metadata through a Discovery Service.
 
 * [TG VS](./README.md#ref_TG_VS), requirement 61
 
-**Test type**: Automatic
+**Test type**: Automated
 
 **Notes**
 

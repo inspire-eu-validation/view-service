@@ -10,10 +10,12 @@
 
   * Check if there is exactly one [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) node in each named Layer element or inherited from a parent Layer.
 
+* Check manually that [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) is the minimum bounding box for the data provided by the service.
+
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.8, Requirement 19
 
-**Test type**: Automated
+**Test type**: Automated / Manual
 
 **Notes**
 

@@ -155,7 +155,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) | 1 only | None | ready for review |
 | [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) | 2 only | None | ready for review |
 | [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) | all | Automated | ready for review |
-| [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) | all | Automated | ready for review |
+| [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) | all | Automated / Manual | ready for review |
 | [at10-getcapabilities-title-and-abstract](./at10-getcapabilities-title-and-abstract.md) | all | Automated | ready for review |
 | [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) | 2 only | Automated | ready for review |
 | [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) | 2 only | Automated | ready for review |
@@ -165,7 +165,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at16-getcapabilities-keyword-node](./at16-getcapabilities-keyword-node.md) | 2 only | Automated | ready for review |
 | [at17-getcapabilities-keyword-list](./at17-getcapabilities-keyword-list.md) | 2 only | Automated | ready for review |
 | [at18-getcapabilities-keyword-in-extendedcapabilities](./at18-getcapabilities-keyword-in-extendedcapabilities.md) | 2 only | Automated | ready for review |
-| [at19-getcapabilities-geographic-boundingbox](./at19-getcapabilities-geographic-boundingbox.md) | 2 only | Automated | ready for review |
+| [at19-getcapabilities-geographic-boundingbox](./at19-getcapabilities-geographic-boundingbox.md) | 2 only | Automated / Manual | ready for review |
 | [at20-getcapabilities-date-type](./at20-getcapabilities-date-type.md) | 2 only | Automated | ready for review |
 | [at21-getcapabilities-temporal-reference](./at21-getcapabilities-temporal-reference.md) | 2 only | Automated | ready for review |
 | [at22-getcapabilities-degree-of-conformity](./at22-getcapabilities-degree-of-conformity.md) | 2 only | Automated | ready for review |

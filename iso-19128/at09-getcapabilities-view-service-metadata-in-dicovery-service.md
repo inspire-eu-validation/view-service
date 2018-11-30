@@ -18,10 +18,14 @@
 
         * Check if the metadata document obtained is correct.
 
+  * If a metadata for the view service exists,
+
+    * Check manually that is referenced from [MetadataUrl](#metadataUrl) element.
+
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 9
 
-**Test type**: Automated
+**Test type**: Automated / Manual
 
 **Notes**
 

@@ -8,9 +8,9 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
   
-  * If the metadata for a layer exists,
+  * Check manually if the metadata for a layer exists. If it does,
 
-    * Check if the url is provided in the 'xlink:href' attribute of an [OnlineResource](#onlineResource) element of the layer.
+    * Check manually if the url of the layer's metadata is provided in the 'xlink:href' attribute of an [OnlineResource](#onlineResource) element of the layer.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.5, Requirement 13

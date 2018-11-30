@@ -8,11 +8,15 @@ Test that the service capabilities changes depending on the requested language.
 
 **Test method**
 
+* For each supported language,
+
+    * Check manually if the natural language fields of the response are in the requested language.
+
 **Reference(s)**:
 
 * [TG VS](./README.md#ref_TG_VS), requirement 67
 
-**Test type**: None
+**Test type**: Manual
 
 **Notes**
 

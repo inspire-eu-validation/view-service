@@ -213,7 +213,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at64-linkviewservice-cascaded-increment](./at64-linkviewservice-cascaded-increment.md) | all | Manual | ready for review |
 | [at65-linkviewservice-transparent-bgcolor](./at65-linkviewservice-transparent-bgcolor.md) | all | Manual | ready for review |
 | [at66-language-list](./at66-language-list.md) | all | None | ready for review |
-| [at67-language-request](./at67-language-request.md) | all | None | ready for review |
+| [at67-language-request](./at67-language-request.md) | all | Manual | ready for review |
 | [at68-language-parameter](./at68-language-parameter.md) | all | Automated | ready for review |
 | [at69-language-default](./at69-language-default.md) | all | Automated | ready for review |
 | [at70-language-response](./at70-language-response.md) | all | Automated | ready for review |

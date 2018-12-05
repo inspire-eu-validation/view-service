@@ -156,7 +156,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) | 2 only | None | ready for review |
 | [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) | all | Automated | ready for review |
 | [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) | all | Automated / Manual | ready for review |
-| at10-getcapabilities-mapping-of-service-metadata-elements](./at10-getcapabilities-mapping-of-service-metadata-elements.md) | all | Automated | ready for review |
+| [at10-getcapabilities-mapping-of-service-metadata-elements](./at10-getcapabilities-mapping-of-service-metadata-elements.md) | all | Automated | ready for review |
 | [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) | 2 only | Automated | ready for review |
 | [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) | 2 only | Automated | ready for review |
 | [at13-getcapabilities-map-coupled-resource-metadata](./at13-getcapabilities-map-coupled-resource-metadata.md) | all | Manual | ready for review |

@@ -15,7 +15,7 @@
 
 This test only applies to [scenario 2](./README.md#scenarios).
 
-The testing of the mapping between INSPIRE metadata elements and ISO 19128 WMS elements is implemented in the Abstract Tests from [at10](./at10-getcapabilities-title-and-abstract.md) to [at29](./at29-getcapabilities-metadata-date.md).
+The testing of the mapping between INSPIRE metadata elements and ISO 19128 WMS elements is implemented in the Abstract Tests from [at10](./at10-getcapabilities-mapping-of-service-metadata-elements.md) to [at29](./at29-getcapabilities-metadata-date.md).
 
 **Contextual XPath references**
 

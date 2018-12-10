@@ -12,7 +12,7 @@
 
     * If the INSPIRE Data Specification defines a default style for the harmonised layer,
 
-      * Check if the [Style Name](#styleName1) of one of the [Style](#style) elements provided in the layer itself or inhereted from a parent layer is equal to the name of the default style defined in the Data Specification.
+      * Check if the [Style Name](#styleName1) of one of the [Style](#style) elements provided in the layer itself or inherited from a parent layer is equal to the name of the default style defined in the Data Specification.
 
     * Otherwise, a default style for that harmonised layer name is not defined in the Theme INSPIRE Data Specification, therefore the test passes.
 

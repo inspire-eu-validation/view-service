@@ -6,7 +6,7 @@
 
 **Test method**
 
-* Check if the GetCapabilities operation is suported for the View Service. For that:
+* Check if the GetCapabilities operation is supported for the View Service. For that:
 
   * Send a request to the service endpoint with the following mandatory parameters and fixed values: SERVICE=WMS, REQUEST=GetCapabilities
 

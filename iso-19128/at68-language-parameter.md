@@ -2,7 +2,7 @@
 
 **Purpose**:
 
-Test that the service accepts the parameter LANGUAGE to request the capabilities document in an specific language.
+Test that the service accepts the parameter LANGUAGE to request the capabilities document in a specific language.
 
 **Prerequisites**
 

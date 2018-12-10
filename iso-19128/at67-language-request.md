@@ -20,7 +20,7 @@ Test that the service capabilities changes depending on the requested language.
 
 **Notes**
 
-This requirement is satisfied when requirements 68, 69 and 70 are satisfied.
+This requirement is satisfied when requirements [68](at68-language-parameter.md), [69](at69-language-default.md) and [70](at70-language-response.md) are satisfied.
 
 **Contextual XPath references**
 

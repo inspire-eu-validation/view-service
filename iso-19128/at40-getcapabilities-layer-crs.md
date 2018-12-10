@@ -27,7 +27,7 @@ A Layer that contains a Named child element is a 'named Layer'.
 
 This test cannot be fully implemented until a machine-readable "whitelist" register of the acceptable CRSes with their CRS identifiers and commonly used aliases ("label" and "URL" versions) is available. To implement the test, this kind of official list must be published.
 
-A geographical coordinate system based on ETRS89 must be used in continental Europe and ITRS outside continental Europe. But it is not possible to know automatically if the layer belongs to continental Europe or not to decide which crs shall be provided.
+A geographical coordinate system based on ETRS89 must be used in continental Europe and ITRS outside continental Europe. But it is not possible to know automatically if the layer belongs to continental Europe or not to decide which CRS shall be provided.
 
 **Contextual XPath references**
 

@@ -16,7 +16,7 @@ Test that Link View Service Operation is implemented correctly.
 
 **Notes**
 
-This requirement is satisfied when requirements 62, 63, 64 and 65 are satisfied.
+This requirement is satisfied when requirements [62](at62-linkviewservice-layer-metadata.md), [63](at63-linkviewservice-cascaded-attribute.md), [64](at64-linkviewservice-cascaded-increment.md) and [65](at65-linkviewservice-transparent-bgcolor.md) are satisfied.
 
 **Contextual XPath references**
 

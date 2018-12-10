@@ -12,7 +12,7 @@ Test that the CRS paramater in GetMap operation is mandatory.
 
     * Check if the service notify the missing parameter.
 
-* Send a if request with an invalid CRS parameter and all the other mandatory parameters.
+* Send a GetMap request with an invalid CRS parameter and all the other mandatory parameters.
 
     * Check if the service notify the invalid parameter value.
 

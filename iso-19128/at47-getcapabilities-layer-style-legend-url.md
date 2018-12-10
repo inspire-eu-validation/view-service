@@ -12,7 +12,7 @@
 
     * Check if zero or one [LegendURL](#legend) element exists. If a legend is provided,
     
-        * Check if the node has an 'OnlineResource' child element with an 'xlink:href' attribute.
+        * Check if the node has an 'OnlineResource' child element with a 'xlink:href' attribute.
 
             * Send a request to the url pointing to the legend.
 

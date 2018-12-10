@@ -16,7 +16,7 @@ Test that the service provide a list of supported languages.
 
 **Notes**
 
-This requirement is satisfied when requirement 71 is satisfied.
+This requirement is satisfied when requirement [71](at71-language-supported.md) is satisfied.
 
 **Contextual XPath references**
 

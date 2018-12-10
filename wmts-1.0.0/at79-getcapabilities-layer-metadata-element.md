@@ -10,13 +10,16 @@
 
     * For each Layer element:
 
-      * Check that a [Metadata](#metadata) element is provided.
+      If exists a [Metadata](#metadata) element:
 
-      * Check that this element is populated with an URL allowing access to an unambiguous metadata record. The URL must be:
+      * Check that this element is populated in the "xlink:href" attribute with an URL allowing access to an unambiguous metadata record. The URL must be:
         * A HTTP/GET call to the GetRecordById operation of the Discovery service using the identifier of the metadata document.
         * A direct link to the metadata document.
 
       * Check that a valid response is returned calling to the provided URL.
+        
+        In case of a csw:GetRecordByIdResponse document, 
+        * Check that exists a gmd:MD_Metadata child element.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.1, Requirement 79
@@ -25,7 +28,7 @@
 
 **Notes**
 
-The multiplicity of this element is 1 in each Layer element.
+The multiplicity of Metadata element is 0 or more in each Layer element.
 
 **Contextual XPath references**
 

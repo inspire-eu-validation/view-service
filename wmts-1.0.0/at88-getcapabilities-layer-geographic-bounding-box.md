@@ -8,7 +8,7 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * For each Layer element:
+  * For each [Layer](#layer) element:
 
     * Check that a [WGS84BoundingBox](#boundingBox) element is given.
     * Check that it is composed by a [LowerCorner](#lowerCorner) and a [UpperCorner](#upperCorner).
@@ -31,6 +31,7 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Layer <a name="layer"></a> | Contents/Layer
 WGS84BoundingBox <a name="boundingBox"></a> | Contents/Layer/ows:WGS84BoundingBox
 Lower corner <a name="lowerCorner"></a> | Contents/Layer/ows:WGS84BoundingBox/ows:LowerCorner
 Upper corner <a name="upperCorner"></a> | Contents/Layer/ows:WGS84BoundingBox/ows:UpperCorner

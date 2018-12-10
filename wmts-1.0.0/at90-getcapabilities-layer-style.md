@@ -1,6 +1,6 @@
-# Layer Style Title and Identifier
+# Layer Style Identifier and Title
 
-**Purpose**: Test that each style has a human-readable name mapped to Title element and a unique identifier mapped to Identifier element.
+**Purpose**: Test that each style has a unique identifier mapped to Identifier element and if a human-readable name is included, it is mapped to Title element.
 
 **Prerequisites**
 
@@ -10,11 +10,13 @@
 
   * Check that the layer styles are mapped into the [Style](#style) element. 
   
-  * For each wms:Style element:
+  * For each [Style](#style) element:
 
-    * Check if a human-readable name is mapped to the [Title](#title) element.
     * Check if the Unique Identifier is mapped to the [Identifier](#identifier) element.
       * Check if the [unique identifier](#identifier) is unique within the style elements of the layer.
+
+    If a human-readable name is mapped to [Title](#title) element:
+      * Check if [Title](#title) element has a non-empty value.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.3.4.8, Requirement 90
@@ -23,7 +25,8 @@
 
 **Notes**
 
-The multiplicity of both elements is 1 in each style.
+The multiplicity of the Identifier element is 1 in each style.
+The multiplicity of the Title element is 0 or more in each style.
 
 **Contextual XPath references**
 

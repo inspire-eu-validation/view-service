@@ -1,6 +1,6 @@
-# Layer Resource Title
+# Layer Title
 
-**Purpose**: Test that a Title element is provided for each layer with the harmonished title.
+**Purpose**: Test that Layer Title is mapped to Title element for each layer with the harmonished title. The harmonised title of a layer for an INSPIRE spatial data theme is defined in [Directive 2007/2/EC] and shall be subject to multilingualism.
 
 **Prerequisites**
 
@@ -8,9 +8,11 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * For each Layer element:
+  * For each [Layer](#layer) element:
 
-    * Check that it contains a [Title](#title) element and it has a non-empty value.
+    If a [Title](#title) element is provided:
+
+    * Check that it has a non-empty value.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.3.4.1, Requirement 85
@@ -19,9 +21,11 @@
 
 **Notes**
 
-The multiplicity of this element is 1 for each layer.
+The multiplicity of the Title element is 0 or 1 for each layer.
 
 The harmonished title of the layer shall be subject to multilingualism.
+
+The validation of the correctness of the translated title is not done due to it's complexity and the controversy over the usefulness of the harmonised layer titles.
 
 **Contextual XPath references**
 
@@ -29,4 +33,5 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Layer <a name="layer"></a> | Contents/Layer
 Title <a name="title"></a> | Contents/Layer/ows:Title

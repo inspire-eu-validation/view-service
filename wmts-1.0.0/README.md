@@ -48,20 +48,20 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | IR 76 | Link View Service Operation | [at76-link-view-service-operation](./at76-link-view-service-operation.md)
 | IR 77 | Common request parameters | [at77-common-request-parameters](./at77-common-request-parameters.md)
 | IR 78 | Get View Service Matadata | [at78-getcapabilities-get-view-service-metadata](./at78-getcapabilities-get-view-service-metadata.md)
-| IR 79 | Layer Metadata | [at79-getcapabilities-layer-metadata](./at79-getcapabilities-layer-metadata.md)
+| IR 79 | Layer Metadata Element | [at79-getcapabilities-layer-metadata](./at79-getcapabilities-layer-metadata.md)
 | IR 80 | Link View Service | [at80-getcapabilities-link-view-service](./at80-getcapabilities-link-view-service.md)
 | IR 81 | Operation GetCapabilities | [at81-getcapabilities-operation-getcapabilities](./at81-getcapabilities-operation-getcapabilities.md)
 | IR 82 | Operation GetTile | [at82-getcapabilities-operation-gettile](./at82-getcapabilities-operation-gettile.md)
 | IR 83 | Operation Discover Metadata | [at83-getcapabilities-operation-discovermetadata](./at83-getcapabilities-operation-discovermetadata.md)
 | IR 84 | Layer Metadata | [at84-getcapabilities-layer-metadata](./at84-getcapabilities-layer-metadata.md)
-| IR 85 | Layer Resource Title | [at85-getcapabilities-layer-title](./at85-getcapabilities-layer-title.md)
+| IR 85 | Layer Title | [at85-getcapabilities-layer-title](./at85-getcapabilities-layer-title.md)
 | IR 86 | Layer Abstract | [at86-getcapabilities-layer-abstract](./at86-getcapabilities-layer-abstract.md)
 | IR 87 | Layer Keywords | [at87-getcapabilities-layer-keyword](./at87-getcapabilities-layer-keyword.md)
 | IR 88 | Layer Geographic Bounding Box | [at88-getcapabilities-layer-geographic-bounding-box](./at88-getcapabilities-layer-geographic-bounding-box.md)
 | IR 89 | ETRS89 or ITRS coordinate reference system | [at89-getcapabilities-etrs89-itrs-crs](./at89-getcapabilities-etrs89-itrs-crs.md)
-| IR 90 | Layer Style Title and Identifier | [at90-getcapabilities-layer-style](./at90-getcapabilities-layer-style.md)
+| IR 90 | Layer Style Identifier and Title | [at90-getcapabilities-layer-style](./at90-getcapabilities-layer-style.md)
 | IR 91 | Layer Style Legend URL | [at91-getcapabilities-layer-legend-url](./at91-getcapabilities-layer-legend-url.md)
-| IR 92 | GetTile Operation | [at92-gettile-gettile-operation](./at92-gettile-gettile-operation.md)
+| IR 92 | GetTile Operation | [at92-gettile-operation](./at92-gettile-operation.md)
 
 ## Tests
 
@@ -71,24 +71,24 @@ Besides with these tests, this Conformance Class must be compliant with the test
 | Identifier                                                                                | Origin | Type | Status   |
 | ----------------------------------------------------------------------------------------- | ------ | ---------- | -------- |
 | [at74-wmts-schema-validation](./at74-wmts-schema-validation.md) | IR | Automated | Ready for review
-| [at75-implemented-operations](./at75-implemented-operations.md) | IR | Automated | Ready for review
+| [at75-implemented-operations](./at75-implemented-operations.md) | IR | Automated/Manual | Ready for review
 | [at76-link-view-service-operation](./at76-link-view-service-operation.md) | IR | None | Ready for review
-| [at77-common-request-parameters](./at77-common-request-parameters.md) | IR | Automated | Ready for review
+| [at77-common-request-parameters](./at77-common-request-parameters.md) | IR | Automated/Manual | Ready for review
 | [at78-getcapabilities-get-view-service-metadata](./at78-getcapabilities-get-view-service-metadata.md) | IR | Automated | Ready for review
 | [at79-getcapabilities-layer-metadata](./at79-getcapabilities-layer-metadata.md) | IR | Automated | Ready for review
 | [at80-getcapabilities-link-view-service](./at80-getcapabilities-link-view-service.md) | IR | None | Ready for review
 | [at81-getcapabilities-operation-getcapabilities](./at81-getcapabilities-operation-getcapabilities.md) | IR | Automated | Ready for review
-| [at82-getcapabilities-operation-gettile](./at82-getcapabilities-operation-gettile.md) | IR | Automated | Ready for review
+| [at82-getcapabilities-operation-gettile](./at82-getcapabilities-operation-gettile.md) | IR | Automated/Manual | Ready for review
 | [at83-getcapabilities-operation-discovermetadata](./at83-getcapabilities-operation-discovermetadata.md) | IR | None | Ready for review
 | [at84-getcapabilities-layer-metadata](./at84-getcapabilities-layer-metadata.md) | IR | Automated | Ready for review
 | [at85-getcapabilities-layer-title](./at85-getcapabilities-layer-title.md) | IR | Automated | Ready for review
-| [at86-getcapabilities-layer-abstract](./at86-getcapabilities-layer-abstract.md) | IR | Automated | Ready for review
+| [at86-getcapabilities-layer-abstract](./at86-getcapabilities-layer-abstract.md) | IR | Automated/Manual | Ready for review
 | [at87-getcapabilities-layer-keyword](./at87-getcapabilities-layer-keyword.md) | IR | Automated | Ready for review
 | [at88-getcapabilities-layer-geographic-bounding-box](./at88-getcapabilities-layer-geographic-bounding-box.md) | IR | Automated | Ready for review
 | [at89-getcapabilities-etrs89-itrs-crs](./at89-getcapabilities-etrs89-itrs-crs.md) | IR | Automated/Manual | Ready for review
 | [at90-getcapabilities-layer-style](./at90-getcapabilities-layer-style.md) | IR | Automated | Ready for review
-| [at91-getcapabilities-layer-legend-url](./at91-getcapabilities-layer-legend-url.md) | IR | Automated | Ready for review
-| [at92-gettile-gettile-operation](./at92-gettile-gettile-operation.md) | IR | Automated | Ready for review
+| [at91-getcapabilities-layer-legend-url](./at91-getcapabilities-layer-legend-url.md) | IR | Automated/Manual | Ready for review
+| [at92-gettile-operation](./at92-gettile-operation.md) | IR | Automated/Manual | Ready for review
 
 ## Open issues
 

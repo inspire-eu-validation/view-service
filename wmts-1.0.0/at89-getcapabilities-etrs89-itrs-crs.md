@@ -8,9 +8,9 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * For each Layer element:
+  * For each [Layer](#layer) element:
 
-    * Check if the [TileMatrixSetLink](#TileMatrixSetLink) is the identifier of a [TileMatrixSet](#TileMatrixSet).
+    * Check that the [TileMatrixSetLink](#TileMatrixSetLink) is the identifier of a [TileMatrixSet](#TileMatrixSet).
 
     * Check manually that the TileMatrixSet has either no [SupportedCRS](#SupportedCRS) element or one that matches the CRS identifier of one of the ETRS89 based or ITRS based coordinate systems.
 
@@ -31,6 +31,7 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression (relative to /Capabilities)
 ---------------------------------------------------------- | -------------------------------------------------------------------------
+Layer <a name="layer"></a> | Contents/Layer
 TileMatrixSetLink <a name="TileMatrixSetLink"></a> | Contents/Layer/TileMatrixSetLink
 TileMatrixSet <a name="TileMatrixSet"></a> | Contents/Layer/TileMatrixSet/ows:Identifier
 SupportedCRS <a name="SupportedCRS"></a> | Contents/Layer/TileMatrixSet/ows:SupportedCRS

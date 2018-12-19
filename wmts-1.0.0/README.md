@@ -70,7 +70,7 @@ Besides with these tests, this Conformance Class must be compliant with the test
 
 | Identifier                                                                                | Origin | Type | Status   |
 | ----------------------------------------------------------------------------------------- | ------ | ---------- | -------- |
-| [at74-wmts-schema-validation](./at74-wmts-schema-validation.md) | IR | Automated | Ready for review
+| [at74-wmts-schema-validation](./at74-wmts-schema-validation.md) | IR | None | Ready for review
 | [at75-implemented-operations](./at75-implemented-operations.md) | IR | Automated/Manual | Ready for review
 | [at76-link-view-service-operation](./at76-link-view-service-operation.md) | IR | None | Ready for review
 | [at77-common-request-parameters](./at77-common-request-parameters.md) | IR | Automated/Manual | Ready for review

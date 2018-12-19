@@ -23,7 +23,7 @@
 
 **Notes**
 
-The multiplicity of this element is 1 for harmonised layers with default style specified in the Data Specification. The style may be provided in the layer itself or inhereted from a parent layer.
+The multiplicity of this element is 1 for harmonised layers with default style specified in the Data Specification. The style may be provided in the layer itself or inherited from a parent layer.
 
 **Contextual XPath references**
 

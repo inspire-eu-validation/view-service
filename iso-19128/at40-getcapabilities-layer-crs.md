@@ -1,4 +1,4 @@
-# Layer coordinate Reference system
+# Layer Coordinates Reference System
 
 **Purpose**: Test that a supported CRS is provided based on ETRS89 for continental Europe and on ITRS outside continental Europe.
 

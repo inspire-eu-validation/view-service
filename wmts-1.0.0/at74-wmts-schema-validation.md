@@ -5,14 +5,11 @@
 **Prerequisites**
 
 **Test method**
-* Send a GetCapabilities request.
-
-    * Validate document against XML schema located in http://schemas.opengis.net/wmts/1.0/.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.1, Requirement 74
 
-**Test type**: Automated
+**Test type**: None
 
 **Notes**
 

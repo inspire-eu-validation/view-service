@@ -10,7 +10,7 @@
   
   * If there is a [MetadataURL](#metadataURL) node for a layer:
 
-    * Check if the MetadataURL element is populated with a URL that allows access to unambiguous metadata record. The URL must be encoded into the 'xlink:href' attribute of an [OnlineResource](#onlineResource) element.
+    * Check if [OnlineResource](#onlineResource) element has an 'xlink:href' attribute and its content is not empty.
     
     * One of the following checks must be passed:
 

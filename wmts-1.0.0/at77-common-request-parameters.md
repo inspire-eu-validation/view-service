@@ -56,6 +56,12 @@
 
     * Check if an exception is obtained.
 
+  * For each supported language:
+
+    * Send a request to the service endpoint with the following mandatory parameters and fixed values: SERVICE=WMTS, REQUEST=GetTile, LANGUAGE=supported_lang
+
+      * Check if a valid response is obtained.
+
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.1, Requirement 77
 

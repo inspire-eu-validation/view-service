@@ -8,7 +8,7 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check that [ServiceIdentification](#ServiceIdentification) and [ServiceProvider](#ServiceProvider) element is provided with the View Service Metadata.
+  * Check that [ServiceIdentification](#ServiceIdentification) and [ServiceProvider](#ServiceProvider) elements are provided within the View Service Metadata.
 
   * Check that [OperationsMetadata](#OperationsMetadata) element is provided with the Operations Metadata.
 

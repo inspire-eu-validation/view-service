@@ -1,6 +1,6 @@
 # Contact Position
 
-**Purpose**: Test that the responsible party role is mapped to the ContactPossition element within the ContactInformation section.
+**Purpose**: Test that the responsible party role is mapped to the ContactPosition element within the ContactInformation section.
 
 **Prerequisites**
 

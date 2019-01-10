@@ -10,11 +10,11 @@ Test that the WIDTH and HEIGHT paramaters in GetMap operation are mandatory.
 
 * Send a GetMap request without WIDTH and HEIGHT parameters and all the other mandatory parameters.
 
-    * Check if the service notify the missing parameters.
+    * Check if the service notifies the missing parameters.
 
 * Send a GetMap request with an invalid WIDTH and HEIGHT parameters and all the other mandatory parameters.
 
-    * Check if the service notify the invalid parameters value.
+    * Check if the service notifies the invalid parameters value.
 
 * Send a GetMap request with valid integer values for WIDTH and HEIGHT parameters and all the other mandatory parameters.
 

@@ -10,7 +10,7 @@ Test that cascaded layers provide a valid metadata through a Discovery Service.
 
 * For every cascaded layer,
 
-    * Check if [Online Resource](#onlineResource) is provided and it has an attribute 'xlink:href' with a non empty value.
+    * Check that [Online Resource](#onlineResource) is provided and it has an attribute 'xlink:href' with a non empty value.
 
 **Reference(s)**:
 

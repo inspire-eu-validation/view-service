@@ -10,19 +10,19 @@ Test that the service Language Response changes according with the request.
 
 * Send a GetCapabilities request without LANGUAGE parameter.
 
-    * Check if the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
+    * Check that the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
 
 * Send a GetCapabilities request with an invalid LANGUAGE parameter.
 
-    * Check if the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
+    * Check that the [Response Language](#responseLanguage) is the same as the [Default Language](#defaultLanguage).
 
 * For each [Supported Language](#supportedLanguage),
 
-    * Check if [Supported Language](#supportedLanguage) is accordance with ISO 639-2/B alpha 3.
+    * Check that [Supported Language](#supportedLanguage) is accordance with ISO 639-2/B alpha 3.
 
     * Send a GetCapabilities request with a supported language parameter.
 
-        * Check if the [Response Language](#responseLanguage) is the same as the requested one.
+        * Check that the [Response Language](#responseLanguage) is the same as the requested one.
 
 **Reference(s)**:
 

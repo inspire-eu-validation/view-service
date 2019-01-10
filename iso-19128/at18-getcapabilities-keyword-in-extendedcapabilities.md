@@ -10,7 +10,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if keywords are mapped into [Keyword](#keyword) and [MandatoryKeyword](#mandatoryKeyword) elements within the [ExtendedCapabilities](#ExtendedCapabilities) section. 
+  * Check that keywords are mapped into [Keyword](#keyword) and [MandatoryKeyword](#mandatoryKeyword) elements within the [ExtendedCapabilities](#ExtendedCapabilities) section. 
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.7, Requirement 18

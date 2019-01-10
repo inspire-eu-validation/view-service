@@ -12,11 +12,11 @@ The Unique Resource Identifier and Name INSPIRE metadata elements are mapped to 
 
   * For each [Layer](#layer) element:
 
-    * Check if an [Identifier](#identifier) element is given and it is a non-empty value.
+    * Check that an [Identifier](#identifier) element is given and it is a non-empty value.
 
       * [Identifier](#identifier) element value must match with one of the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or it's amendments.
 
-    * Check if each identifier value is unique for each of the layers included in the GetCapabilities response.
+    * Check that each identifier value is unique for each of the layers included in the GetCapabilities response.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.3.4, Requirement 84

@@ -10,13 +10,13 @@
   
   * If there is a [MetadataURL](#metadataURL) node for a layer:
 
-    * Check if [OnlineResource](#onlineResource) element has an 'xlink:href' attribute and its content is not empty.
+    * Check that [OnlineResource](#onlineResource) element has an 'xlink:href' attribute and its content is not empty.
     
     * One of the following checks must be passed:
 
-      * Check if sending a HTTP/GET request to the GetRecorById of the Discovery Service, a valid response is returned.
+      * Check that sending a HTTP/GET request to the GetRecorById of the Discovery Service, a valid response is returned.
 
-      * Check if a direct link is provided to the ISO19139 metadata document.
+      * Check that a direct link is provided to the ISO19139 metadata document.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.5, Requirement 14

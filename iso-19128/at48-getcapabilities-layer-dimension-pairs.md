@@ -10,9 +10,9 @@
 
   * For each [Layer](#layer) element:
 
-    * Check if exists a [Dimension](#dimension) element. If yes, for each Dimension
+    * Check that exists a [Dimension](#dimension) element. If yes, for each Dimension
 
-      * Check if [Dimension](#dimension) element has an attribute 'name' defining the name of the dimension and an attribute 'units' defining the units of the measure. 
+      * Check that [Dimension](#dimension) element has an attribute 'name' defining the name of the dimension and an attribute 'units' defining the units of the measure. 
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.10, Requirement 48

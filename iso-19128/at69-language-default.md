@@ -12,7 +12,7 @@ Test that Titles and Abstracts are not affected when the LANGUAGE parameter is a
 
 * Send a GetCapabilities request with an invalid LANGUAGE parameter.
 
-    * Check if [Title](#title) and [Abstract](#abstract) elements are the same as obtained in the first request.
+    * Check that [Title](#title) and [Abstract](#abstract) elements are the same as obtained in the first request.
 
 **Reference(s)**:
 

@@ -10,7 +10,7 @@
 
   * If there is more than 1 [Keyword](#keyword) element:
 
-    * Check if the [Keyword](#keyword) elements are included within a [KeywordList](#keywordList) element.
+    * Check that the [Keyword](#keyword) elements are included within a [KeywordList](#keywordList) element.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.7, Requirement 17

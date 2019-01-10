@@ -10,19 +10,19 @@
 
 * For each [AuthorityURL](#AuthorityURL) element
 
-    * Check if the "name" attribute exists and the explanatory URL is given as an [OnlineResource](#OnlineResource) within the AuthorityURL element.
+    * Check that the "name" attribute exists and the explanatory URL is given as an [OnlineResource](#OnlineResource) within the AuthorityURL element.
 
 * For each [Layer](#layer) element:
 
     * For each [AuthorityURL](#AuthorityURL) element given in the node itself or in the parents layers elements.
 
-        * Check if authority name has not be defined previously.
+        * Check that authority name has not be defined previously.
 
-    * Check if the "authority" attribute of [Identifier](#Identifier) element matches with the [AuthorityURL](#AuthorityURL) name declared in the parents layers or in the layer itself.
+    * Check that the "authority" attribute of [Identifier](#Identifier) element matches with the [AuthorityURL](#AuthorityURL) name declared in the parents layers or in the layer itself.
 
 * For each [Identifier](#Identifier) element:
     
-    * Check if the [Identifier](#Identifier) element is unique for its authority.
+    * Check that the [Identifier](#Identifier) element is unique for its authority.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.5, Requirement 38

@@ -12,7 +12,7 @@ Test that the cascaded layer metadata is included as in the original view servic
 
     * Send an http to request to [Layer Metadata URL](#layerMetadataUrl).
 
-        * Check if the response is a metadata document.
+        * Check that the response is a metadata document.
 
 **Reference(s)**:
 

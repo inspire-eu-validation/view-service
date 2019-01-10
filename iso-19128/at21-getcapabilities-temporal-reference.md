@@ -10,7 +10,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is at least one [Temporal Reference](#temporalReference) element within the [ExtendedCapabilities](#ExtendedCapabilities) section.
+  * Check that there is at least one [Temporal Reference](#temporalReference) element within the [ExtendedCapabilities](#ExtendedCapabilities) section.
 
     * If [Temporal Extent](#temporalExtent) exists, check that it is contained within the [Temporal Reference](#temporalReference) node.
 

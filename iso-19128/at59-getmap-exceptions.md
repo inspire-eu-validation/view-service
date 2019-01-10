@@ -10,11 +10,11 @@ Test that the service accepts the optional parameter EXCEPTIONS.
 
 * Send a GetMap request without EXCEPTIONS parameter and wrong values for some mandatory parameters.
 
-    * Check if the service response an exception in XML format.
+    * Check that the service response an exception in XML format.
 
 * Send a GetMap request with EXCEPTIONS parameter set to XML and wrong values for some mandatory parameters.
 
-    * Check if the service response an exception in XML format.
+    * Check that the service response an exception in XML format.
 
 **Reference(s)**:
 

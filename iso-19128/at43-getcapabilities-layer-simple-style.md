@@ -8,7 +8,7 @@
 
 * For each [Layer](#layer) element with no associated default style,
   
-  * Check if the applied style based on the geometry type match with:
+  * Check that the applied style based on the geometry type match with:
 
     * Point: grey square, 6 pixels
     * Curve: black solid line, 1 pixel

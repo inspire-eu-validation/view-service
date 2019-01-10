@@ -10,15 +10,15 @@
 
   * For each [Layer](#layer) element:
 
-    * Check if no [BoundingBox](#BoundingBox) elements in the layer refer to the same CRS.
+    * Check that no [BoundingBox](#BoundingBox) elements in the layer refer to the same CRS.
 
   * For each named [Layer](#layer) element:
 
-    * Check if at least one [BoundingBox](#BoundingBox) element exists in the layer itself or it is inherited from parent layers.
+    * Check that at least one [BoundingBox](#BoundingBox) element exists in the layer itself or it is inherited from parent layers.
 
     * For each [BoundingBox](#BoundingBox) in the layer,
 
-      * Check if the attribute 'CRS' of [BoundingBox](#BoundingBox) is defined in a [CRS](#crs) element of the layer itself or in a parent layer.
+      * Check that the attribute 'CRS' of [BoundingBox](#BoundingBox) is defined in a [CRS](#crs) element of the layer itself or in a parent layer.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.4, Requirement 36

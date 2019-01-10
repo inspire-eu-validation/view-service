@@ -9,7 +9,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if exactly one [Degree](#Degree) node exists in the [ExtendedCapabilities](#ExtendedCapabilities) with one of these values: notEvaluated, conformant, notConformant.
+  * Check that exactly one [Degree](#Degree) node exists in the [ExtendedCapabilities](#ExtendedCapabilities) with one of these values: notEvaluated, conformant, notConformant.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.11, Requirement 22

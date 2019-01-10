@@ -10,13 +10,13 @@
 
   * If scenario 1,
   
-    * Check if [MetadataUrl](#metadataUrl) element exists. Otherwise the test fails.
+    * Check that [MetadataUrl](#metadataUrl) element exists. Otherwise the test fails.
 
   * Regardless of the scenario, if [MetadataUrl](#metadataUrl) exists,
 
     * Send a request to get the metadata document.
 
-        * Check if the metadata document obtained is correct.
+        * Check that the metadata document obtained is correct.
 
   * If a metadata for the view service exists,
 

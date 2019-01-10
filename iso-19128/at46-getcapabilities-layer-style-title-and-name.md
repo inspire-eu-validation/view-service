@@ -10,11 +10,11 @@
 
   * For each [Style](#style) element in each [Layer](#layer) element:
 
-    * Check if exactly one [Title](#title) element exists and it is a non-empty value.
+    * Check that exactly one [Title](#title) element exists and it is a non-empty value.
 
-    * Check if exactly one [Style Name](#styleName1) element exists and it is a non-emtpy value.
+    * Check that exactly one [Style Name](#styleName1) element exists and it is a non-emtpy value.
 
-      * Check if the [Style Name](#styleName1) is unique within the style elements of the layer.
+      * Check that the [Style Name](#styleName1) is unique within the style elements of the layer.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 46

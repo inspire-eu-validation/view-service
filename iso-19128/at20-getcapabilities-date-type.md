@@ -10,9 +10,9 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if at least one [DateOfPublication](#DateOfPublication), [DateOfLastRevision](#DateOfLastRevision) or [DateOfCreation](#DateOfCreation) element is provided within [ExtendedCapabilities](#ExtendedCapabilities) section.
+  * Check that at least one [DateOfPublication](#DateOfPublication), [DateOfLastRevision](#DateOfLastRevision) or [DateOfCreation](#DateOfCreation) element is provided within [ExtendedCapabilities](#ExtendedCapabilities) section.
 
-  * Check if the provided date is formated in YYYY-MM-DD.
+  * Check that the provided date is formated in YYYY-MM-DD.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.9, Requirement 20

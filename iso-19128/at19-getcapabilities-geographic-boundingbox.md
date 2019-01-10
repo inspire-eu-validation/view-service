@@ -8,7 +8,7 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is exactly one [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) node in each named Layer element or inherited from a parent Layer.
+  * Check that there is exactly one [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) node in each named Layer element or inherited from a parent Layer.
 
 * Check manually that [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) is the minimum bounding box for the data provided by the service.
 

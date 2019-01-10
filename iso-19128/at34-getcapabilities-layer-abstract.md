@@ -10,9 +10,9 @@
 
   * For each [Layer](#layer) element:
 
-    * Check if zero or one [Abstract](#abstract) element exists. If it exists,
+    * Check that zero or one [Abstract](#abstract) element exists. If it exists,
     
-        * Check if its value is not empty.
+        * Check that its value is not empty.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.3, Requirement 34

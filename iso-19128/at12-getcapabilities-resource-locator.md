@@ -10,7 +10,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if a [Resource Locator](#ResourceLocator) element is provided within the [ExtendedCapabilities](#ExtendedCapabilities) element.
+  * Check that a [Resource Locator](#ResourceLocator) element is provided within the [ExtendedCapabilities](#ExtendedCapabilities) element.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.4, Requirement 12

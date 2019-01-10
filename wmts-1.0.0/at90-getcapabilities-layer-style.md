@@ -12,11 +12,11 @@
   
   * For each [Style](#style) element:
 
-    * Check if the Unique Identifier is mapped to the [Identifier](#identifier) element.
-      * Check if the [unique identifier](#identifier) is unique within the style elements of the layer.
+    * Check that the Unique Identifier is mapped to the [Identifier](#identifier) element.
+      * Check that the [unique identifier](#identifier) is unique within the style elements of the layer.
 
     If a human-readable name is mapped to [Title](#title) element:
-      * Check if [Title](#title) element has a non-empty value.
+      * Check that [Title](#title) element has a non-empty value.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.3.4.8, Requirement 90

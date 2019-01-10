@@ -8,7 +8,7 @@
 
 * Send a getMap request to the service endpoint with an empty STYLE parameter. In the respone:
 
-  * Check if the style used in the response is the default style defined for the requested layer.
+  * Check that the style used in the response is the default style defined for the requested layer.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.8, Requirement 44

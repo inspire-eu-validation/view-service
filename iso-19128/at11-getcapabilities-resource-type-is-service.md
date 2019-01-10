@@ -10,7 +10,7 @@ This test only applies to [scenario 2](./README.md#scenarios). Otherwise the tes
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is exactly one [ResourceType](#ResourceType) node into the [ExtendedCapabilities](#ExtendedCapabilities) section. If true,
+  * Check that there is exactly one [ResourceType](#ResourceType) node into the [ExtendedCapabilities](#ExtendedCapabilities) section. If true,
 
     * Check that its value is 'service'.
 

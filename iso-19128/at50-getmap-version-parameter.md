@@ -10,15 +10,15 @@ Test that the VERSION paramater in GetMap operation is mandatory.
 
 * Send a GetMap request without VERSION parameter and all the other mandatory parameters.
 
-    * Check if the service notifies the missing parameter.
+    * Check that the service notifies the missing parameter.
 
 * Send a GetMap request with an invalid VERSION parameter and all the other mandatory parameters.
 
-    * Check if the service notifies the invalid parameter value.
+    * Check that the service notifies the invalid parameter value.
 
 * Send a GetMap request with '1.3.0' value for VERSION parameter and all the other mandatory parameters.
 
-    * Check if the service response is successful.
+    * Check that the service response is successful.
 
 **Reference(s)**:
 

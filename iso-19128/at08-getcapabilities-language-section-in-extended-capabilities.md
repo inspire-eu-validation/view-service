@@ -8,7 +8,7 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is a [SupportedLanguages](#SupportedLanguage) node and a [ResponseLanguage](#ResponseLanguage) node in the ExtendedCapabilities section.
+  * Check that there is a [SupportedLanguages](#SupportedLanguage) node and a [ResponseLanguage](#ResponseLanguage) node in the ExtendedCapabilities section.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 8

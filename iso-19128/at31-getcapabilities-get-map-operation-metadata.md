@@ -8,9 +8,9 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if there is exactly one [GetMap](#GetMap) node in the [Request](#Request) section of the GetCapabilities response. If it does,
+  * Check that there is exactly one [GetMap](#GetMap) node in the [Request](#Request) section of the GetCapabilities response. If it does,
 
-    * Check if the GetMap node contains a [Format](#Format) element with values "image/png" and/or "image/gif".
+    * Check that the GetMap node contains a [Format](#Format) element with values "image/png" and/or "image/gif".
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.2.2, Requirement 31

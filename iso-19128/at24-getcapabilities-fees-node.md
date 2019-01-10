@@ -8,7 +8,7 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if at least one [Fees](#Fees) node is provided defining the conditions for access and use. 
+  * Check that at least one [Fees](#Fees) node is provided defining the conditions for access and use. 
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1.12, Requirement 24

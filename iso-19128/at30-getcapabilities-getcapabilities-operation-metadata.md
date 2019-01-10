@@ -8,7 +8,7 @@
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 
-  * Check if exactly one [GetCapabilities](#getCapabilities) element is provided within the [Request](#Request) element.
+  * Check that exactly one [GetCapabilities](#getCapabilities) element is provided within the [Request](#Request) element.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.2.1, Requirement 30

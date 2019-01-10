@@ -10,15 +10,15 @@ Test that the service accepts the optional parameter TRANSPARENT.
 
 * Send a GetMap request without TRANSPARENT parameter and all the other mandatory parameters.
 
-    * Check if the service response is successful.
+    * Check that the service response is successful.
 
 * Send a GetMap request with an invalid TRANSPARENT parameter and all the other mandatory parameters.
 
-    * Check if the service notifies the invalid parameter value.
+    * Check that the service notifies the invalid parameter value.
 
 * Send a GetMap request with a valid TRANSPARENT parameter and all the other mandatory parameters.
 
-    * Check if the service response is successful.
+    * Check that the service response is successful.
 
 **Reference(s)**:
 

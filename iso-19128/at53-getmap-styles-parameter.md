@@ -2,7 +2,7 @@
 
 **Purpose**
 
-Test that the STYLES paramater in GetMap operation is mandatory.
+Test that the STYLES parameter in GetMap operation is mandatory.
 
 **Prerequisites**
 

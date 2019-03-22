@@ -2,7 +2,7 @@
 
 **Purpose**
 
-Test that the CRS paramater in GetMap operation is mandatory.
+Test that the CRS parameter in GetMap operation is mandatory.
 
 **Prerequisites**
 

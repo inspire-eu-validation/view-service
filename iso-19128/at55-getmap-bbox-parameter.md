@@ -2,7 +2,7 @@
 
 **Purpose**
 
-Test that the BBOX paramater in GetMap operation is mandatory.
+Test that the BBOX parameter in GetMap operation is mandatory.
 
 **Prerequisites**
 

@@ -2,7 +2,7 @@
 
 **Purpose**
 
-Test that the LAYERS paramater in GetMap operation is mandatory.
+Test that the LAYERS parameter in GetMap operation is mandatory.
 
 **Prerequisites**
 

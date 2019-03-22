@@ -2,7 +2,7 @@
 
 **Purpose**
 
-Test that the VERSION paramater in GetMap operation is mandatory.
+Test that the VERSION parameter in GetMap operation is mandatory.
 
 **Prerequisites**
 

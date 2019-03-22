@@ -2,7 +2,7 @@
 
 **Purpose**
 
-Test that the REQUEST paramater in GetMap operation is mandatory.
+Test that the REQUEST parameter in GetMap operation is mandatory.
 
 **Prerequisites**
 

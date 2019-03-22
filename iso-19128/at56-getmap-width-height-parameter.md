@@ -2,7 +2,7 @@
 
 **Purpose**
 
-Test that the WIDTH and HEIGHT paramaters in GetMap operation are mandatory.
+Test that the WIDTH and HEIGHT parameters in GetMap operation are mandatory.
 
 **Prerequisites**
 

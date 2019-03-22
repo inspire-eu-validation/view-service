@@ -2,7 +2,7 @@
 
 **Purpose**
 
-Test that the FORMAT paramater in GetMap operation is mandatory.
+Test that the FORMAT parameter in GetMap operation is mandatory.
 
 **Prerequisites**
 

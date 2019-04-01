@@ -43,7 +43,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 6      | MetadataURL references INSPIRE service metadata | [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) |
 | 7      | Use WMS and INSPIRE extended capabilities | [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) |
 | 8      | Language section in Extended Capabilities | [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) |
-| 9      | View Service Metadata in Discovery Service | [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) |
+| 9      | View Service Metadata in Discovery Service | [at09-getcapabilities-view-service-metadata-in-discovery-service](./at09-getcapabilities-view-service-metadata-in-discovery-service.md) |
 | 10     | Mapping of service metadata elements | [at10-getcapabilities-mapping-of-service-metadata-elements](./at10-getcapabilities-mapping-of-service-metadata-elements.md) |
 | 11     | Resource type is service | [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) |
 | 12     | Resource locator | [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) |
@@ -155,7 +155,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) | 1 only | None | ready for review |
 | [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) | 2 only | None | ready for review |
 | [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) | all | Automated | ready for review |
-| [at09-getcapabilities-view-service-metadata-in-dicovery-service](./at09-getcapabilities-view-service-metadata-in-dicovery-service.md) | all | Automated / Manual | ready for review |
+| [at09-getcapabilities-view-service-metadata-in-discovery-service](./at09-getcapabilities-view-service-metadata-in-discovery-service.md) | all | Automated / Manual | ready for review |
 | [at10-getcapabilities-mapping-of-service-metadata-elements](./at10-getcapabilities-mapping-of-service-metadata-elements.md) | all | Automated | ready for review |
 | [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) | 2 only | Automated | ready for review |
 | [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) | 2 only | Automated | ready for review |

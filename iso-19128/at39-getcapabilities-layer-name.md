@@ -10,9 +10,9 @@
 
   * For each named [Layer](#layer) element:
 
-    * Check that is provided exactly one [Layer Name](#layerName) element and it has a non-empty value.
+    * Check that exactly one [Layer Name](#layerName) element is provided and it has a non-empty value.
 
-    * Check that [Layer Name](#layerName) element value match with one of the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or its amendments.
+    * Check that the value of the [Layer Name](#layerName) element matches one of the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or its amendments.
 
     * Check that [Layer Name](#layerName) is unique.
 

@@ -6,6 +6,8 @@
 
 **Test method**
 
+This test only applies to [scenario 2](./README.md#scenarios). Otherwise the test case is skipped.
+
 * Send a getCapabilities request to the service endpoint. Into the response:
 
   * Check that there is exactly one [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) node in each named Layer element or inherited from a parent Layer.

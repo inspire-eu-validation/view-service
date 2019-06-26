@@ -120,19 +120,9 @@ The [TG VS](#ref_TG_VS) gives two options (scenarios) for providing the service 
 
 The requirements considering including the mandatory INSPIRE metadata elements on the Capabilities document depends on which scenario the data provider has chosen to follow. Since there is no dedicated method in [TG VS](#ref_TG_VS) for the data provider to indicate which scenario has been chosen, the validator software must use the following logic to decide the appropriate set of tests to apply:
 
-The scenario 2 is selected only if at least one of the following elements exists in the WMS Capabilities document's `inspire_vs:ExtendedCapabilities` element:
+- If the <inspire_common:MetadataURL> element is present, we assume to be in Scenario 1.
+- If it is not present, we assume to be in Scenario 2.
 
-* `inspire_common:ResourceLocator`,
-* `inspire_common:ResourceType`,
-* `inspire_common:TemporalReference`,
-* `inspire_common:Conformity`,
-* `inspire_common:MetadataPointOfContact`,
-* `inspire_common:MetadataDate`,
-* `inspire_common:SpatialDataServiceType`,
-* `inspire_common:MandatoryKeyword`,
-* `inspire_common:Keyword`
-
-If none of them is found, the scenario 1 must be selected for the validation.
 
 ![wms_scenarios](./wms_scenarios.png)
 

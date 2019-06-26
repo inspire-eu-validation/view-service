@@ -4,9 +4,9 @@ The specification specifies the following conformance classes:
 
 | Conformance class | Standardization target |
 | ----------------- | ---------------------- |
-| [INSPIRE Profile of ISO 19128 / WMS 1.3.0](http://inspire.ec.europa.eu/id/ats/view-service/3.11/iso-19128) | OGC Web Service (WMS 1.3.0) |
-| [INSPIRE Quality of Service](http://inspire.ec.europa.eu/id/ats/view-service/3.11/QoS) | OGC Web Service (Quality of View Services) |
-| [INSPIRE Profile of WMTS 1.0.0](http://inspire.ec.europa.eu/id/ats/view-service/3.11/wmts-1.0.0) | OGC Web Service (WMTS 1.0.0) |
+| [INSPIRE Profile of WMS 1.3.0 / ISO 19128](./iso-19128/README.md) | OGC Web Service (WMS 1.3.0) |
+| [INSPIRE Quality of Service](./QoS/README.md) | OGC Web Service (Quality of View Services) |
+| [INSPIRE Profile of WMTS 1.0.0](./wmts-1.0.0/README.md) | OGC Web Service (WMTS 1.0.0) |
 
 ## Rules for HTTP requests
 

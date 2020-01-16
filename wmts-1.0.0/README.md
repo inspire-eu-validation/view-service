@@ -1,4 +1,4 @@
-# Conformance class: INSPIRE Profile of WMTS 1.0.0 (DRAFT)
+# Conformance class: INSPIRE Profile of WMTS 1.0.0
 
 This conformance class is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service/3.11).
 

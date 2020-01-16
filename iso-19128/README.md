@@ -1,4 +1,4 @@
-# Conformance class: INSPIRE Profile of ISO 19128 (DRAFT)
+# Conformance class: INSPIRE Profile of WMS 1.3.0 / ISO 19128
 
 The INSPIRE Profile of ISO 19128 conformance class is defined in the [Technical Guidance for the implementation of INSPIRE View Services 3.11](#ref_TG_VS) and it is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service/3.11).
 

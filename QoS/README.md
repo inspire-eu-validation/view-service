@@ -1,4 +1,4 @@
-# Conformance class: INSPIRE Quality of Service (PLACEHOLDER)
+# Conformance class: INSPIRE Quality of Service
 
 This conformance class is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service/3.11).
 

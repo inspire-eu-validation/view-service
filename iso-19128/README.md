@@ -1,6 +1,6 @@
 # Conformance class: INSPIRE Profile of WMS 1.3.0 / ISO 19128
 
-The INSPIRE Profile of ISO 19128 conformance class is defined in the [Technical Guidance for the implementation of INSPIRE View Services 3.11](#ref_TG_VS) and it is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service/3.11).
+The INSPIRE Profile of ISO 19128 conformance class is defined in the [Technical Guidance for the implementation of INSPIRE View Services 3.2.0](#ref_TG_VS) and it is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service/3.2.0).
 
 ## Standardization target type
 
@@ -21,10 +21,10 @@ A direct dependency is another conformance class whose requirements must be met 
 | Abbreviation | Document name                       |
 | ------------ | ----------------------------------- |
 | INSPIRE <a name="ref_INSPIRE"></a> | [Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=EN)
-| TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of INSPIRE View Services 3.11](http://inspire.jrc.ec.europa.eu/documents/Network_Services/TechnicalGuidance_ViewServices_v3.11.pdf)
+| TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of INSPIRE View Services 3.2.0](https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-view-services-1)
 | IR NS <a name="ref_IR_NS"></a>   | [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN)
 | IR MD <a name="ref_IR_MD"></a>   | [COMMISSION REGULATION (EC) No 1205/2008 of 3 December 2008 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards metadata](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:326:0012:0030:EN:PDF)
-| TG MD <a name="ref_TG_MD"></a> | [INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119](http://inspire.ec.europa.eu/documents/Metadata/MD_IR_and_ISO_20131029.pdf)
+| TG MD <a name="ref_TG_MD"></a> | [INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119](https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139)
 | IR IOP <a name="ref_IR_IOP"></a> | [COMMISSION REGULATION (EU) No 1089/2010 of 23 November 2010 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards interoperability of spatial data sets and services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L:2010:323:FULL&from=EN)
 | WMS <a name="ref_WMS"></a>     | [OpenGIS Web Map Service (WMS) Implementation Specification, version 1.3.0](http://portal.opengeospatial.org/files/?artifact_id=14416)
 | INS MD <a name="ref_INS_MD"></a> | [COMMISSION REGULATION (EC) No 1205/2008 of 3 December 2008 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards metadata](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32008R1205&qid=1537886135721&from=EN)
@@ -74,6 +74,7 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 37     | Layer Unique Resource Identifier | [at37-getcapabilities-layer-unique-resource-identifier](./at37-getcapabilities-layer-unique-resource-identifier.md) |
 | 38     | Layer Authority URL | [at38-getcapabilities-layer-authority-url](./at38-getcapabilities-layer-authority-url.md) |
 | 39     | Layer Name | [at39-getcapabilities-layer-name](./at39-getcapabilities-layer-name.md) |
+| 39 bis | Harmonised Layer Name | [at39bis-getcapabilities-harmonised-layer-name](./at39bis-getcapabilities-harmonised-layer-name.md) |
 | 40     | Layer Coordinate Reference System | [at40-getcapabilities-layer-crs](./at40-getcapabilities-layer-crs.md) |
 | 41     | Layer Style | [at41-getcapabilities-layer-style](./at41-getcapabilities-layer-style.md) |
 | 42     | Layer Default Style | [at42-getcapabilities-layer-default-style](./at42-getcapabilities-layer-default-style.md) |
@@ -176,6 +177,7 @@ The tests with a prefix "WMS" refer to the ATS included in the [OGC WMS 1.3.0 sp
 | [at37-getcapabilities-layer-unique-resource-identifier](./at37-getcapabilities-layer-unique-resource-identifier.md) | all | None | ready for review |
 | [at38-getcapabilities-layer-authority-url](./at38-getcapabilities-layer-authority-url.md) | all | Automated | ready for review |
 | [at39-getcapabilities-layer-name](./at39-getcapabilities-layer-name.md) | all | Automated | ready for review |
+| [at39bis-getcapabilities-harmonised-layer-name](./at39bis-getcapabilities-harmonised-layer-name.md) | all | Automated | ready for review |
 | [at40-getcapabilities-layer-crs](./at40-getcapabilities-layer-crs.md) | all | Automated / Manual | ready for review |
 | [at41-getcapabilities-layer-style](./at41-getcapabilities-layer-style.md) | all | None | ready for review |
 | [at42-getcapabilities-layer-default-style](./at42-getcapabilities-layer-default-style.md) | all | Automated | ready for review |

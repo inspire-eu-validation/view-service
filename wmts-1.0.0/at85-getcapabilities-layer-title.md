@@ -1,6 +1,6 @@
 # Layer Title
 
-**Purpose**: Test that Layer Title is mapped to Title element for each layer with the harmonished title. The harmonised title of a layer for an INSPIRE spatial data theme is defined in [Directive 2007/2/EC] and shall be subject to multilingualism.
+**Purpose**: Test that Layer Title is mapped to Title element for each layer, and for each harmonised layer according to [IR IOP](./README.md#ref_IR_IOP), the title is mapped to the harmonised title defined by [IR IOP](./README.md#ref_IR_IOP).
 
 **Prerequisites**
 
@@ -13,11 +13,14 @@
     If a [Title](#title) element is provided:
 
     * Check that it has a non-empty value.
+  
+  *  Check manually that for each harmonised layer according to [IR IOP](./README.md#ref_IR_IOP), the title is mapped to the harmonised title defined by [IR IOP](./README.md#ref_IR_IOP).
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 5.2.3.3.4.1, Requirement 85
+* [IR IOP](./README.md#ref_IR_IOP), Article 14
 
-**Test type**: Automated
+**Test type**: Automated + Manual
 
 **Notes**
 

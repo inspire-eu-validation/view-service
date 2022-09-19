@@ -6,17 +6,13 @@
 
 **Test method**
 
-* Send a getCapabilities request to the service endpoint. Into the response:
-
-  * Check that at least a [Layer](#layer) element with the value of the [Layer Name](#layerName) element that matches one of the harmonised layer names given in [IR IOP](./README.md#ref_IR_IOP) or its amendments, is present. The list of the harmonised layer names is available in the [INSPIRE layer register](https://inspire.ec.europa.eu/layer).
-
-  * If no harmonised layers are found, report a warning message indicating that if the WMS under test is related to a harmonized dataset at least a harmonised layer according to [IR IOP](./README.md#ref_IR_IOP) shall be present.
+  * Check manually that, if the WMS under test is related to a harmonized dataset, at least a [Layer](#layer) element with the value of the [Layer Name](#layerName) element that matches one of the harmonised layer names given in [IR IOP](./README.md#ref_IR_IOP) or its amendments, is present. The list of the harmonised layer names is available in the [INSPIRE layer register](https://inspire.ec.europa.eu/layer).
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.4.6, Requirement 39 bis
 * [IR IOP](./README.md#ref_IR_IOP), Article 14
 
-**Test type**: Automated + Manual (if required)
+**Test type**: Manual
 
 **Notes**
 

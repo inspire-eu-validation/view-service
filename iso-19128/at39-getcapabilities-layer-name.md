@@ -12,8 +12,6 @@
 
     * Check that exactly one [Layer Name](#layerName) element is provided and it has a non-empty value.
 
-    * Check that the value of the [Layer Name](#layerName) element matches one of the harmonised layer names given in [TG VS](./README.md#ref_TG_VS) or its amendments.
-
     * Check that [Layer Name](#layerName) is unique.
 
 **Reference(s)**:

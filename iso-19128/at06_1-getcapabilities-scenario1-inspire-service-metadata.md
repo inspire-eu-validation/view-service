@@ -12,10 +12,6 @@
     * Send a request to get the metadata document.
     * Check that the metadata document obtained is correct.
 
-  * Regardless of the scenario, if [MetadataUrl](#metadataUrl) exists,
-
-    * Send a request to get the metadata document.
-    * Check that the metadata document obtained is correct.
 
 **Reference(s)**:
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 6 - Section 1

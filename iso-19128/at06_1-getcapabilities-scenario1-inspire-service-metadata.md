@@ -4,6 +4,8 @@
 
 **Prerequisites**
 
+This test only applies to [Scenario 1](./README.md#scenarios). Otherwise the test case is skipped.
+
 **Test method**
 
 * Send a GetCapabilities request.

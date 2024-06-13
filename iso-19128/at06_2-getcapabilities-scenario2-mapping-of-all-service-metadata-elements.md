@@ -22,7 +22,7 @@ This test only applies to [Scenario 2](./README.md#scenarios). Otherwise, the te
 
     * the [OnlineResource](#onlineResource) element has an 'xlink:href' attribute, its content is not empty and one of the following checks is passed:
 
-      * a valid response is returned sending a HTTP/GET request to the GetRecorById of the Discovery Service, .
+      * a valid response is returned sending an HTTP/GET request to the GetRecorById of the Discovery Service,
 
       * a direct link is provided to the ISO19139 metadata document.
       
@@ -36,7 +36,7 @@ This test only applies to [Scenario 2](./README.md#scenarios). Otherwise, the te
   
     * check manually that "_if the service has an explicit geographic extent._" the [EX_GeographicBoundingBox](#EX_GeographicBoundingBox) element is mandatory.
 
-  * Check that at least one [DateOfPublication](#DateOfPublication), [DateOfLastRevision](#DateOfLastRevision) or [DateOfCreation](#DateOfCreation) element is provided and that the provided date is formated in YYYY-MM-DD.
+  * Check that at least one [DateOfPublication](#DateOfPublication), [DateOfLastRevision](#DateOfLastRevision) or [DateOfCreation](#DateOfCreation) element is provided and that the date provided is formatted in YYYY-MM-DD format.
 
   * Check that at least one [Conformity](#Conformity) element is provided with the declaration of conformity against the Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services - URI: http://data.europa.eu/eli/reg/2009/976. (Regulation name or URI shall be provided in the [Specification Title](#SpecificationTitle).)
 
@@ -88,7 +88,7 @@ As stated by the INSPIRE Metadata Technical Guidance [INS MDTG], it is not possi
 While this issue is being addressed by the standardisation community, spatial resolution restrictions for services shall be written in the Abstract as mandated by the Metadata Technical Guidance [INS MDTG]. Spatial Resolution restrictions at service metadata
 level shall be declaratively described in the wms:Abstract element.
 
-For the AccessConstraints element, is recomended to use "None" value when any constrainst is applied and when constraints are imposed may be used the codelists defined in [ISO 19115, Annex B – Data Dictionary, Section 5.24].
+For the AccessConstraints element, is recommended to use "None" value when any constraints is applied and when constraints are imposed may be used the codelists defined in [ISO 19115, Annex B – Data Dictionary, Section 5.24].
 
 **Contextual XPath references**
 

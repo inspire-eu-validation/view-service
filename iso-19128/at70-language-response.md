@@ -30,7 +30,7 @@ Automatic test:
      
 Manual test:
 
-* If the Extended Capabilities section, with information about the response/supported languages, is not provided it means that the default language of the service corresponds to the data set metadata default language.
+* If the Extended Capabilities section, with information about the response/supported languages, is not provided it means that the default language of the service corresponds to the data set metadata default language. Check manually that the service's default language is the same as the data set metadata default language (gmd:MD_Metadata/gmd:language/gmd:LanguageCode).
 
 **Reference(s)**:
 

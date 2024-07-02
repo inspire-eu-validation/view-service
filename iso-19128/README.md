@@ -1,6 +1,6 @@
 # Conformance class: INSPIRE Profile of WMS 1.3.0 / ISO 19128
 
-The INSPIRE Profile of ISO 19128 conformance class is defined in the [Technical Guidance for the implementation of INSPIRE View Services 3.2.0](#ref_TG_VS) and it is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service/3.2.0).
+The INSPIRE Profile of ISO 19128 conformance class is defined in the [Technical Guidance for the implementation of INSPIRE View Services](#ref_TG_VS) and it is part of the [Abstract Test Suite for the INSPIRE View Services Technical Guidance](http://inspire.ec.europa.eu/id/ats/view-service).
 
 ## Standardization target type
 
@@ -21,7 +21,7 @@ A direct dependency is another conformance class whose requirements must be met 
 | Abbreviation | Document name                       |
 | ------------ | ----------------------------------- |
 | INSPIRE <a name="ref_INSPIRE"></a> | [Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 establishing an Infrastructure for Spatial Information in the European Community (INSPIRE)](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=EN)
-| TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of INSPIRE View Services 3.2.0](https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-view-services-1)
+| TG VS <a name="ref_TG_VS"></a>   | [Technical Guidance for the implementation of INSPIRE View Services](https://inspire.ec.europa.eu/documents/technical-guidance-implementation-inspire-view-services-1)
 | IR NS <a name="ref_IR_NS"></a>   | [Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services](http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32009R0976&from=EN)
 | IR MD <a name="ref_IR_MD"></a>   | [COMMISSION REGULATION (EC) No 1205/2008 of 3 December 2008 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards metadata](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2008:326:0012:0030:EN:PDF)
 | TG MD <a name="ref_TG_MD"></a> | [INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119](https://inspire.ec.europa.eu/id/document/tg/metadata-iso19139)
@@ -40,30 +40,10 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 3      | GetCapabilities, GetMap              | OGC WMS 1.3.0. "WMS basic" CC ATS  |
 | 4      | XML schema validation | [at04-getcapabilities-xml-schema-validation](./at04-getcapabilities-xml-schema-validation.md) |
 | 5      | GetCapabilities request parameters | [at05-getcapabilities-get-capabilities-request-parameter](./at05-getcapabilities-get-capabilities-request-parameter.md) |
-| 6      | MetadataURL references INSPIRE service metadata | [at06-getcapabilities-metadataurl-references-inspire-service-metadata](./at06-getcapabilities-metadataurl-references-inspire-service-metadata.md) |
-| 7      | Use WMS and INSPIRE extended capabilities | [at07-getcapabilities-use-wms-inspire-extended-capabilities](./at07-getcapabilities-use-wms-inspire-extended-capabilities.md) |
+| 6 (1)  | Scenario 1 - MetadataURL references INSPIRE service metadata | [at06_1-getcapabilities-scenario1-inspire-service-metadata](./at06_1-getcapabilities-scenario1-inspire-service-metadata.md) |
+| 6 (2)  | Scenario 2 - Mapping of service metadata elements | [at06_2-getcapabilities-scenario2-mapping-of-all-service-metadata-elements](./at06_2-getcapabilities-scenario2-mapping-of-all-service-metadata-elements.md) |
+| 6 (3)  | Scenario 3 - Mapping of service metadata elements to the capabilities section | [at06_3-getcapabilities-scenario3-mapping-of-some-service-metadata-elements](./at06_3-getcapabilities-scenario3-mapping-of-some-service-metadata-elements.md) |
 | 8      | Language section in Extended Capabilities | [at08-getcapabilities-language-section-in-extended-capabilities](./at08-getcapabilities-language-section-in-extended-capabilities.md) |
-| 9      | View Service Metadata in Discovery Service | [at09-getcapabilities-view-service-metadata-in-discovery-service](./at09-getcapabilities-view-service-metadata-in-discovery-service.md) |
-| 10     | Mapping of service metadata elements | [at10-getcapabilities-mapping-of-service-metadata-elements](./at10-getcapabilities-mapping-of-service-metadata-elements.md) |
-| 11     | Resource type is service | [at11-getcapabilities-resource-type-is-service](./at11-getcapabilities-resource-type-is-service.md) |
-| 12     | Resource locator | [at12-getcapabilities-resource-locator](./at12-getcapabilities-resource-locator.md) |
-| 13     | Map Coupled Resource metadata | [at13-getcapabilities-map-coupled-resource-metadata](./at13-getcapabilities-map-coupled-resource-metadata.md) |
-| 14     | Map Coupled Resource metadata URL | [at14-getcapabilities-map-coupled-resource-metadata-url](./at14-getcapabilities-map-coupled-resource-metadata-url.md) |
-| 15     | Map SDS Type with Extended Capabilities | [at15-getcapabilities-map-sds-type-with-extendedcapabilities](./at15-getcapabilities-map-sds-type-with-extendedcapabilities.md) |
-| 16     | Keyword Node | [at16-getcapabilities-keyword-node](./at16-getcapabilities-keyword-node.md) |
-| 17     | Keyword List | [at17-getcapabilities-keyword-list](./at17-getcapabilities-keyword-list.md) |
-| 18     | Keyword within ExtendedCapabilities | [at18-getcapabilities-keyword-in-extendedcapabilities](./at18-getcapabilities-keyword-in-extendedcapabilities.md) |
-| 19     | Geographic BoundingBox | [at19-getcapabilities-geographic-boundingbox](./at19-getcapabilities-geographic-boundingbox.md) |
-| 20     | Date type | [at20-getcapabilities-date-type](./at20-getcapabilities-date-type.md) |
-| 21     | Temporal reference | [at21-getcapabilities-temporal-reference](./at21-getcapabilities-temporal-reference.md) |
-| 22     | Degree of conformity | [at22-getcapabilities-degree-of-conformity](./at22-getcapabilities-degree-of-conformity.md) |
-| 23     | Conformity | [at23-getcapabilities-conformity](./at23-getcapabilities-conformity.md) |
-| 24     | Fees node | [at24-getcapabilities-fees-node](./at24-getcapabilities-fees-node.md) |
-| 25     | Contanct Organization | [at25-getcapabilities-contact-organization](./at25-getcapabilities-contact-organization.md) |
-| 26     | Contact Position | [at26-getcapabilities-contact-position](./at26-getcapabilities-contact-position.md) |
-| 27     | Point of Contact | [at27-getcapabilities-point-of-contact](./at27-getcapabilities-point-of-contact.md) |
-| 28     | Point of Contact in Extended Capabilities | [at28-getcapabilities-point-of-contact-in-extendedcapabilities](./at28-getcapabilities-point-of-contact-in-extendedcapabilities.md) |
-| 29     | Metadata Date | [at29-getcapabilities-metadata-date](./at29-getcapabilities-metadata-date.md) |
 | 30     | GetCapabilities Operation Metadata | [at30-getcapabilities-getcapabilities-operation-metadata](./at30-getcapabilities-getcapabilities-operation-metadata.md) |
 | 31     | GetMap Operation Metadata | [at31-getcapabilities-get-map-operation-metadata](./at31-getcapabilities-get-map-operation-metadata.md) |
 | 32     | Layers Metadata | [at32-getcapabilities-layers-metadata](./at32-getcapabilities-layers-metadata.md) |
@@ -110,24 +90,26 @@ Based on requirement numbering in [TG VS](#ref_TG_VS).
 | 72     | Language Extended Capabilities | [at72-language-extended-capabilities](./at72-language-extended-capabilities.md) |
 | 73     | Language Rendered Text | [at73-language-rendered-text](./at73-language-rendered-text.md) |
 
-Note: Requirements marked as "not testable" should be reconsidered in a revision of the technical guidance" 
 
-## <a name="scenarios"></a> Two scenarios for providing the service metadata
+## <a name="scenarios"></a> Three scenarios for providing the service metadata
 
-The [TG VS](#ref_TG_VS) gives two options (scenarios) for providing the service metadata in the Capabilities document of the WMS services:
+The [TG VS](#ref_TG_VS) gives three options (scenarios) for providing the service metadata in the Capabilities document of the WMS services:
 
-1. INSPIRE network service metadata in a Discovery Service is referenced through an extended capability.
-2. Use (extended) capabilities to map all INSPIRE metadata elements to the WMS 1.3.0 elements.
+* Scenario 1: The View Service metadata elements are managed in an INSPIRE Discovery catalogue. The INSPIRE network service metadata record in a Discovery Service is referenced in the extended INSPIRE capabilities.
 
-The requirements considering including the mandatory INSPIRE metadata elements on the Capabilities document depends on which scenario the data provider has chosen to follow. Since there is no dedicated method in [TG VS](#ref_TG_VS) for the data provider to indicate which scenario has been chosen, the validator software must use the following logic to decide the appropriate set of tests to apply:
+* Scenario 2: The View Service metadata elements are fully mapped to [ISO 19128] – WMS 1.3.0 elements and elements in the INSPIRE extended capabilities.
 
-- If the <inspire_common:MetadataURL> element is present, we assume to be in Scenario 1.
-- If it is not present, we assume to be in Scenario 2.
+* Scenario 3: The View Service metadata elements are fully mapped to [ISO 19128] – WMS 1.3.0 elements without the use of any extended capabilities.
 
+Since there is no dedicated method in [TG VS](#ref_TG_VS) for the data provider to indicate which scenario has been chosen, the validator software must use the following logic to decide the appropriate set of tests to apply:
+
+- If the <inspire_common:MetadataURL> element is present as first element in the ExtendedCapabilities section, we assume to be in Scenario 1.
+- If the <inspire_common:ResourceLocator> element is present as first element in the ExtendedCapabilities section, we assume to be in Scenario 2.
+- If the ExtendedCapabilities section is not present, we assume to be in Scenario 3.
 
 ![wms_scenarios](./wms_scenarios.png)
 
-Figure 1. Extended Capabilities for INSPIRE View Services. Source: [TG VS](#ref_TG_VS) pag. 20.
+Figure 1. Extended Capabilities for INSPIRE View Services. Source: [TG VS](#ref_TG_VS).
 
 The case of scenario 1, the metadata record referred to by the `inspire_common:MetadataUrl` element must also pass the service scenario of the test suite [ATS Metadata](http://inspire.ec.europa.eu/id/ats/metadata/3.1).
 

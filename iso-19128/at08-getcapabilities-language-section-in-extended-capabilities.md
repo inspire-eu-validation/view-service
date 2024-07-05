@@ -1,10 +1,12 @@
 # Language section in Extended Capabilities
 
-**Purpose**: Test that a language section is provided to fulfil the language requirements.
+**Purpose**: Test that a language section is provided to fulfil the language requirements, if more than one language is supported.
 
 **Prerequisites**
 
 **Test method**
+
+This test only applies to [Scenario 1 and 2](./README.md#scenarios). Otherwise, the test case is skipped.
 
 * Send a getCapabilities request to the service endpoint. Into the response:
 

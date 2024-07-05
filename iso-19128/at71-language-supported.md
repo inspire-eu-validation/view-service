@@ -8,6 +8,8 @@ Test that the capabilities document contains the language elements with the corr
 
 **Test method**
 
+This test only applies to [Scenario 1 and 2](./README.md#scenarios). Otherwise, the test case is skipped.
+
 * Send a GetCapabilities request
 
     * Check that it exists exactly one [Supported Languages](#supportedLanguages) node.

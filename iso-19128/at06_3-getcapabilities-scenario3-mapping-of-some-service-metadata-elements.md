@@ -103,5 +103,3 @@ Fees <a name="Fees"></a>                                         | wms:Service/w
 Access Constraints <a name="accessConstraints"></a>              | wms:Service/wms:AccessConstraints
 ContactOrganization <a name="ContactOrganization"></a>           | wms:Service/wms:ContactInformation/wms:ContactPersonPrimary/wms:ContactOrganization
 ContactPosition <a name="ContactPosition"></a>                   | wms:Service/wms:ContactInformation/wms:ContactPosition
-
-SupportedLanguage <a name="SupportedLanguage"></a>               | wms:Capability/inspire_vs:ExtendedCapabilities/inspire_common:SupportedLanguages

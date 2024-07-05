@@ -80,7 +80,7 @@ Table 3a <a name="table3a"></a>: Mapping between INSPIRE metadata elements and [
 * [TG VS](./README.md#ref_TG_VS), Chapter 4.2.3.3.1, Requirement 6 - Section 2, Requirement 11
 * [INS MD](./README.md#ref_INS_MD), Part C - Table 2; Classification of Spatial data Services, Part D.4
 
-**Test type**: Automated
+**Test type**: Automated + Manual
 
 **Notes**
 
